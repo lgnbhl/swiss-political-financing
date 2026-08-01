@@ -1,0 +1,108 @@
+name: Publish app to felixluginbuhl.com
+
+# Copies the built page into the website repository, which is what actually
+# serves it: lgnbhl/lgnbhl.github.io, branch `main`, Pages source `/`, custom
+# domain felixluginbuhl.com. The app lands in `swiss-political-financing/` and is
+# live at https://felixluginbuhl.com/swiss-political-financing/.
+#
+# This workflow publishes the *committed* app/index.html; it does not rebuild.
+# The rebuild happens in update-data.yml after every scrape, and for hand edits
+# you run `Rscript app/build_site.R` before committing.
+#
+# The deployable site is three things: index.html, lib/ and data/. The CSS is
+# inlined at build time (components.R::app_css) and the favicon is a data URI,
+# so the only external references in the page are the lib/*.js bundles and the
+# CSV links on the data page -- and they are relative, with hash routing, so
+# serving from a subdirectory needs no base-path change.
+#
+# data/ is the reason the data page's download buttons are real rather than a
+# "not published yet" note. Serving the files from the same origin as the page is
+# what makes the browser honour `download` and save the CSV under its own name;
+# linking them out to raw.githubusercontent.com would open them in a tab instead.
+# The cost is ~25 MB of CSV carried in the website repository, rewritten on the
+# weeks the EFK data actually moves.
+
+on:
+  # The weekly scrape pushes with GITHUB_TOKEN, and such a push does NOT fire a
+  # `push` trigger. workflow_run is the trigger that does see it. It only fires
+  # when this file is on the default branch, and the name below must match
+  # update-data.yml's `name:` exactly.
+  workflow_run:
+    workflows: ["Update EFK political-financing data"]
+    types: [completed]
+  # Hand edits: after you rebuild locally and commit index.html.
+  push:
+    branches: [master]
+    paths:
+      - "app/index.html"
+      - "app/lib/**"
+      - ".github/workflows/publish.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: publish-website
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    # Never publish off a failed scrape. A no-op for the other two triggers.
+    if: >-
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      # After a scrape, master's tip: the rebuild is a commit update-data pushes
+      # on top of the one it started from, so the triggering run's head_sha is
+      # the page as it was *before* the refresh. The other triggers have no such
+      # commit-on-top, and the SHA the run was queued at is the right one.
+      - name: Checkout this repo
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'workflow_run' && 'master' || github.sha }}
+
+      # Note the branch names differ: this repo is `master`, the website `main`.
+      # WEBSITE_DEPLOY_TOKEN is a fine-grained PAT with Contents: read and write
+      # on lgnbhl/lgnbhl.github.io only.
+      - name: Checkout the website repo
+        uses: actions/checkout@v4
+        with:
+          repository: lgnbhl/lgnbhl.github.io
+          ref: main
+          token: ${{ secrets.WEBSITE_DEPLOY_TOKEN }}
+          path: website
+
+      # Delete-then-copy, not copy-over. The lib/ folders are version-stamped
+      # (lib/<pkg>-<version>/...), so a plain copy would leave every past version
+      # behind forever as the wrappers are upgraded -- and a table the pipeline
+      # stops writing would stay downloadable from data/ long after the page
+      # stopped listing it.
+      - name: Stage the site
+        run: |
+          rm -rf website/swiss-political-financing
+          mkdir -p website/swiss-political-financing
+          cp app/index.html website/swiss-political-financing/index.html
+          cp -r app/lib      website/swiss-political-financing/lib
+          cp -r data         website/swiss-political-financing/data
+
+      # The download buttons are built from a scan of data/, so a staging step
+      # that silently copied nothing would ship a page full of 404s. Checked here
+      # rather than trusted, because the failure is invisible on the site itself:
+      # the buttons look exactly the same either way.
+      - name: Check the data folder was staged
+        run: |
+          csv=$(find website/swiss-political-financing/data -name '*.csv' | wc -l)
+          echo "staged $csv CSV file(s)"
+          test "$csv" -gt 0
+
+      - name: Commit and push
+        working-directory: website
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add swiss-political-financing
+          if git diff --staged --quiet; then
+            echo "Site unchanged; nothing to publish."
+          else
+            git commit -m "swiss-political-financing: refresh app ($(date -u +%Y-%m-%d))"
+            git push
+          fi

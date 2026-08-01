@@ -1,0 +1,231 @@
+key,de,fr,it
+lang_name,Deutsch,Français,Italiano
+html_lang,de,fr,it
+app_title,Politikfinanzierung Schweiz,Financement de la politique suisse,Finanziamento della politica svizzera
+app_subtitle,Wer finanziert die Schweizer Politik?,Qui finance la politique suisse ?,Chi finanzia la politica svizzera?
+nav.home,Start,Accueil,Inizio
+nav.votes,Abstimmungen,Votations,Votazioni
+nav.elections,Wahlen,Élections,Elezioni
+nav.parties,Parteien,Partis,Partiti
+nav.donors,Zuwendende,Donateurs/trices,Donatori/trici
+nav.data,Daten,Données,Dati
+nav.menu,Menü öffnen,Ouvrir le menu,Apri il menu
+nav.label,Navigation,Navigation,Navigazione
+home.title,Wer bezahlt die Schweizer Politik?,Qui paie la politique suisse ?,Chi paga la politica svizzera?
+home.lead,"Diese Anwendung macht die offengelegte Finanzierung von Abstimmungs-kampagnen, Wahlkämpfen und Parteien durchsuchbar. Alle Zahlen stammen aus den Offenlegungen bei der Eidgenössischen Finanzkontrolle (EFK) und lassen sich in drei Sprachen erkunden und als CSV herunterladen.","Cette application rend consultable le financement déclaré des campagnes de votation, des campagnes électorales et des partis. Tous les chiffres proviennent des déclarations faites au Contrôle fédéral des finances (CDF) ; ils sont explorables en trois langues et téléchargeables en CSV.","Questa applicazione rende consultabile il finanziamento dichiarato di campagne di votazione, campagne elettorali e partiti. Tutte le cifre provengono dalle comunicazioni al Controllo federale delle finanze (CDF) e sono esplorabili in tre lingue e scaricabili in CSV."
+home.explore,"Vier Fragen, vier Einstiege","Quatre questions, quatre entrées","Quattro domande, quattro percorsi"
+home.cards.votes.title,Abstimmungen,Votations,Votazioni
+home.cards.votes.text,Wie viel Geld das Ja-Lager und das Nein-Lager für eine Vorlage offengelegt haben – und wer es beigesteuert hat.,Combien le camp du oui et le camp du non ont déclaré pour un objet – et qui a apporté cet argent.,Quanto hanno dichiarato il fronte del sì e quello del no per un oggetto – e chi ha versato quel denaro.
+home.cards.elections.title,Wahlen,Élections,Elezioni
+home.cards.elections.text,"Was für einen Wahlgang offengelegt wurde, aufgeschlüsselt nach Partei und Kanton der unterstützten Kandidaturen.","Ce qui a été déclaré pour un scrutin, ventilé par parti et par canton des candidatures soutenues.","Quanto è stato dichiarato per una tornata elettorale, suddiviso per partito e cantone delle candidature sostenute."
+home.cards.parties.title,Parteienfinanzierung,Financement des partis,Finanziamento dei partiti
+home.cards.parties.text,Woraus die Einnahmen jeder Partei in einem Kalenderjahr bestehen – und wer ihr Geld gibt.,De quoi se composent les recettes de chaque parti pour une année civile – et qui lui donne de l'argent.,Di cosa sono composte le entrate di ogni partito in un anno civile – e chi gli dà denaro.
+home.cards.donors.title,Zuwendende,Donateurs/trices,Donatori/trici
+home.cards.donors.text,"Wer am meisten gibt, an wen und für welche Vorlage oder Wahl.","Qui donne le plus, à qui, et pour quel objet ou quel scrutin.","Chi dà di più, a chi e per quale oggetto o tornata elettorale."
+home.latest.title,Die jüngste Vorlage,L'objet le plus récent,L'oggetto più recente
+home.latest.sub,"Offengelegte Einnahmen der beiden Lager, CHF","Recettes déclarées par les deux camps, CHF","Entrate dichiarate dai due fronti, CHF"
+home.latest.open,Diese Abstimmung öffnen,Ouvrir cette votation,Aprire questa votazione
+home.downloads_title,Der Datenkatalog,Le catalogue des données,Il catalogo dei dati
+home.downloads_text,"Welche konsolidierten Tabellen es gibt, was in ihnen steht und wie gross sie sind – pro Sprache ein vollständiger Datensatz.","Quelles tables consolidées existent, ce qu'elles contiennent et leur taille – un jeu de données complet par langue.","Quali tabelle consolidate esistono, cosa contengono e quanto sono grandi – un set di dati completo per lingua."
+home.downloads_link,Alle Tabellen ansehen,Voir toutes les tables,Vedere tutte le tabelle
+home.truth_title,Verbindlich ist die EFK,Le CDF fait foi,Fa fede il CDF
+home.truth_text,"Massgebend ist ausschliesslich die Website der Eidgenössischen Finanzkontrolle (EFK). Diese Anwendung liest die dort veröffentlichten Daten automatisch ein; dabei können Importfehler entstehen. Wenn Ihnen eine Abweichung auffällt, melden Sie sie uns bitte – wir korrigieren sie.","Seul le site du Contrôle fédéral des finances (CDF) fait foi. Cette application importe automatiquement les données qui y sont publiées, ce qui peut introduire des erreurs d'importation. Si vous constatez un écart, merci de nous le signaler – nous le corrigerons.","Fa fede esclusivamente il sito del Controllo federale delle finanze (CDF). Questa applicazione importa automaticamente i dati pubblicati, operazione che può introdurre errori di importazione. Se notate una discrepanza, segnalatecela: la correggeremo."
+home.truth_efk,Zur EFK-Website,Site du CDF,Sito del CDF
+home.truth_report,Fehler melden,Signaler une erreur,Segnalare un errore
+votes.title,Abstimmungen,Votations,Votazioni
+votes.lead,"Für jede Vorlage: was das Ja-Lager und das Nein-Lager an Einnahmen offengelegt haben, wer sie beigesteuert hat, und wie sich die Budgetzahlen zu den definitiven Zahlen verhalten.","Pour chaque objet : les recettes déclarées par le camp du oui et par le camp du non, qui les a apportées, et comment les montants budgétés se comparent aux montants finaux.","Per ogni oggetto: le entrate dichiarate dal fronte del sì e da quello del no, chi le ha versate e come si rapportano gli importi preventivati a quelli finali."
+votes.select,Vorlage wählen,Choisir un objet,Scegliere un oggetto
+votes.kpi_yes,Ja-Lager,Camp du oui,Fronte del sì
+votes.short_yes,Ja,Oui,Sì
+votes.short_no,Nein,Non,No
+votes.short_budget,Budget,budgété,preventivo
+votes.short_final,definitiv,final,finale
+votes.kpi_no,Nein-Lager,Camp du non,Fronte del no
+votes.kpi_gap,Verhältnis,Rapport,Rapporto
+votes.kpi_sub_camp,"offengelegte Einnahmen, CHF","recettes déclarées, CHF","entrate dichiarate, CHF"
+votes.gap_even,beide Lager etwa gleichauf,les deux camps à parité,i due fronti sono alla pari
+votes.gap_more_yes,mehr für das Ja-Lager,de plus pour le camp du oui,in più per il fronte del sì
+votes.gap_more_no,mehr für das Nein-Lager,de plus pour le camp du non,in più per il fronte del no
+votes.gap_one_sided,nur ein Lager hat offengelegt,un seul camp a déclaré,ha dichiarato un solo fronte
+votes.state_label,Stand der Meldung,État de la déclaration,Stato della comunicazione
+votes.state_budget,nur Budgetzahlen,montants budgétés seulement,solo importi preventivati
+votes.state_final,definitive Zahlen,montants finaux,importi finali
+votes.state_both,Budget und definitive Zahlen,budget et montants finaux,preventivo e importi finali
+votes.chart_camps,Offengelegte Einnahmen pro Lager,Recettes déclarées par camp,Entrate dichiarate per fronte
+votes.chart_camps_sub,"Ein Balken pro Lager und Meldung, gestapelt nach Komitee. Grau sind immer die Budgetzahlen, in der Lagerfarbe immer die definitiven. Ein Balken fehlt genau dann, wenn dazu nichts offengelegt wurde – eine Vorlage vor dem Urnengang zeigt deshalb nur Budgetzahlen. CHF.","Une barre par camp et par déclaration, empilée par comité. Le gris est toujours le montant budgété, la couleur du camp toujours le montant final. Une barre manque exactement quand rien n'a été déclaré pour elle : un objet avant le scrutin n'affiche donc que des montants budgétés. CHF.","Una barra per fronte e per comunicazione, impilata per comitato. Il grigio è sempre l'importo preventivato, il colore del fronte sempre quello finale. Una barra manca esattamente quando nulla è stato dichiarato: un oggetto prima del voto mostra quindi solo preventivi. CHF."
+votes.chart_donors,Wer die beiden Lager finanziert hat,Qui a financé chaque camp,Chi ha finanziato ciascun fronte
+votes.chart_donors_sub,"Grösste Zuwendende, eingefärbt nach Lager, CHF","Principaux donateurs/trices, couleur selon le camp, CHF","Principali donatori/trici, colore secondo il fronte, CHF"
+votes.other,Übrige,Autres,Altri
+votes.tbl_decl,Offenlegungen zu dieser Vorlage,Déclarations relatives à cet objet,Comunicazioni relative a questo oggetto
+votes.donations_here,Zuwendungen zu dieser Vorlage,Libéralités liées à cet objet,Liberalità legate a questo oggetto
+votes.joint_title,Gemeinsame Offenlegung,Déclaration commune,Comunicazione congiunta
+votes.joint_text,"Für diese und mindestens eine weitere Vorlage desselben Abstimmungstags haben Komitees eine gemeinsame Offenlegung eingereicht. Die EFK führt sie unter jeder betroffenen Vorlage, weshalb hier dieselben Beträge ein zweites Mal erscheinen. Wer diese Vorlagen addiert, zählt das Geld doppelt.","Pour cet objet et au moins un autre objet du même scrutin, des comités ont déposé une déclaration commune. Le CDF la rattache à chacun des objets concernés, d'où des montants qui apparaissent ici une seconde fois. Additionner ces objets compte donc cet argent deux fois.","Per questo oggetto e almeno un altro oggetto della stessa votazione i comitati hanno presentato una comunicazione comune. Il CDF la collega a ciascun oggetto interessato, per cui gli stessi importi compaiono qui una seconda volta. Sommare questi oggetti conta quindi il denaro due volte."
+elections.title,Wahlen,Élections,Elezioni
+elections.lead,"Für jeden Wahlgang: die offengelegten Einnahmen, aufgeschlüsselt nach Partei und Kanton der unterstützten Kandidaturen.","Pour chaque scrutin : les recettes déclarées, ventilées par parti et par canton des candidatures soutenues.","Per ogni tornata elettorale: le entrate dichiarate, suddivise per partito e cantone delle candidature sostenute."
+elections.select,Wahlgang wählen,Choisir un scrutin,Scegliere una tornata elettorale
+elections.kpi_income,Offengelegte Einnahmen,Recettes déclarées,Entrate dichiarate
+elections.kpi_decl,Offenlegungen,Déclarations,Comunicazioni
+elections.kpi_actors,Beteiligte Akteure,Acteurs impliqués,Attori coinvolti
+elections.kpi_mixed,Ohne einheitliche Partei,Sans parti unique,Senza partito unico
+elections.kpi_sub_income,"Gesamteinnahmen, CHF","recettes totales, CHF","entrate totali, CHF"
+elections.kpi_sub_decl,berücksichtigte Meldungen,déclarations retenues,comunicazioni considerate
+elections.kpi_sub_actors,"Parteien, Komitees, Personen","partis, comités, personnes","partiti, comitati, persone"
+elections.kpi_sub_mixed,"der Einnahmen, keiner Partei zurechenbar","des recettes, non attribuables à un parti","delle entrate, non attribuibili a un partito"
+elections.chart_party,Nach Partei der Kandidaturen,Par parti des candidatures,Per partito delle candidature
+elections.chart_party_sub,"Offengelegte Einnahmen, CHF","Recettes déclarées, CHF","Entrate dichiarate, CHF"
+elections.chart_canton,Nach Kanton der Kandidaturen,Par canton des candidatures,Per cantone delle candidature
+elections.chart_canton_sub,"Offengelegte Einnahmen, CHF","Recettes déclarées, CHF","Entrate dichiarate, CHF"
+elections.multi_title,Nicht jede Offenlegung gehört einer Partei,Toutes les déclarations n'appartiennent pas à un parti,Non ogni comunicazione appartiene a un partito
+elections.multi_text,"Manche Offenlegungen unterstützen Kandidaturen mehrerer Parteien oder Kantone – ein Branchenverband kann Dutzende auf einmal abdecken. Solche Meldungen erscheinen in einer eigenen Kategorie und werden nicht aufgeteilt: Eine Aufteilung würde denselben Franken so oft zählen, wie Parteien beteiligt sind. Wie viel auf sie entfällt, steht oben.",Certaines déclarations soutiennent des candidatures de plusieurs partis ou de plusieurs cantons – une association professionnelle peut en couvrir des dizaines à la fois. Ces déclarations forment une catégorie à part et ne sont pas réparties : les répartir compterait le même franc autant de fois qu'il y a de partis concernés. La part qu'elles représentent est indiquée ci-dessus.,Alcune comunicazioni sostengono candidature di più partiti o di più cantoni – un'associazione di categoria può coprirne decine in una volta sola. Queste comunicazioni formano una categoria a sé e non vengono ripartite: ripartirle conterebbe lo stesso franco tante volte quanti sono i partiti coinvolti. La quota che rappresentano è indicata sopra.
+elections.tbl_decl,Offenlegungen zu diesem Wahlgang,Déclarations relatives à ce scrutin,Comunicazioni relative a questa tornata
+elections.donations_here,Zuwendungen zu diesem Wahlgang,Libéralités liées à ce scrutin,Liberalità legate a questa tornata
+parties.title,Parteienfinanzierung,Financement des partis,Finanziamento dei partiti
+parties.lead,"Die jährliche Offenlegung der Bundesparteien: woraus ihre Einnahmen bestehen und wer ihnen Geld gibt. Ein Jahr auf einmal – zwei Jahre zu addieren ergäbe keine Grösse, die es gibt.",La déclaration annuelle des partis fédéraux : de quoi se composent leurs recettes et qui leur donne de l'argent. Une année à la fois – additionner deux années ne produirait aucune grandeur existante.,La comunicazione annuale dei partiti federali: di cosa sono composte le loro entrate e chi dà loro denaro. Un anno alla volta – sommare due anni non produrrebbe alcuna grandezza esistente.
+parties.select,Kalenderjahr wählen,Choisir une année civile,Scegliere un anno civile
+parties.kpi_total,Deklarierte Einnahmen,Recettes déclarées,Entrate dichiarate
+parties.kpi_parties,Parteien,Partis,Partiti
+parties.kpi_named,Namentliche Zuwendungen,Libéralités nominatives,Liberalità nominative
+parties.kpi_sub_total,"aller Parteien zusammen, CHF","tous partis confondus, CHF","tutti i partiti insieme, CHF"
+parties.kpi_sub_parties,haben für dieses Jahr offengelegt,ont déclaré pour cette année,hanno dichiarato per quest'anno
+parties.kpi_sub_named,"der Einnahmen, namentlich zugeordnet","des recettes, attribuées nominativement","delle entrate, attribuite nominativamente"
+parties.chart_income,Einnahmen pro Partei,Recettes par parti,Entrate per partito
+parties.chart_income_sub,"Gestapelt nach Einnahmenart, CHF","Empilées par type de recettes, CHF","Impilate per tipo di entrate, CHF"
+parties.chart_donors,Wer den Parteien Geld gibt,Qui donne aux partis,Chi dà denaro ai partiti
+parties.chart_donors_sub,"Grösste Zuwendende, eingefärbt nach Partei, CHF","Principaux donateurs/trices, couleur selon le parti, CHF","Principali donatori/trici, colore secondo il partito, CHF"
+parties.mandates_title,Mandatsbeiträge,Contributions de mandat,Contributi di mandato
+parties.mandates_lead,Gewählte Mandatsträgerinnen und -träger liefern einen Teil ihrer Entschädigung an ihre Partei ab. Diese Beiträge sind Teil der oben gezeigten Einnahmen und werden zusätzlich einzeln offengelegt.,Les élus versent une part de leur indemnité à leur parti. Ces contributions font partie des recettes ci-dessus et sont en outre déclarées une à une.,Gli eletti versano una parte della loro indennità al proprio partito. Questi contributi fanno parte delle entrate mostrate sopra e sono inoltre comunicati singolarmente.
+parties.chart_mandates,Mandatsbeiträge nach Partei,Contributions de mandat par parti,Contributi di mandato per partito
+parties.chart_mandates_sub,"Summe der Einzelbeiträge, CHF","Somme des contributions individuelles, CHF","Somma dei singoli contributi, CHF"
+parties.tbl_decl,Offenlegungen dieses Jahres,Déclarations de cette année,Comunicazioni di quest'anno
+parties.tbl_mandates,Einzelne Mandatsbeiträge,Contributions de mandat individuelles,Singoli contributi di mandato
+donors.title,Zuwendende,Donateurs/trices,Donatori/trici
+donors.lead,"Wer der Schweizer Politik Geld gibt – wie viel, an wen und für welche Vorlage oder Wahl. Offenlegungspflichtig sind Zuwendungen ab CHF 15'000.","Qui donne de l'argent à la politique suisse – combien, à qui, et pour quel objet ou quel scrutin. Les libéralités sont soumises à déclaration dès CHF 15'000.","Chi dà denaro alla politica svizzera – quanto, a chi e per quale oggetto o tornata elettorale. Le liberalità sono soggette a comunicazione a partire da CHF 15'000."
+donors.select,Jahr wählen,Choisir une année,Scegliere un anno
+donors.all_years,Alle Jahre,Toutes les années,Tutti gli anni
+donors.kpi_total,Offengelegte Zuwendungen,Libéralités déclarées,Liberalità dichiarate
+donors.kpi_count,Namentliche Zuwendende,Donateurs/trices nommés,Donatori/trici nominati
+donors.kpi_share,Anteil der zehn grössten,Part des dix plus grands,Quota dei dieci maggiori
+donors.kpi_sub_total,"im gewählten Zeitraum, CHF","sur la période choisie, CHF","nel periodo scelto, CHF"
+donors.kpi_sub_count,Personen & Organisationen,personnes & organisations,persone e organizzazioni
+donors.kpi_sub_share,der offengelegten Summe,du montant déclaré,dell'importo dichiarato
+donors.chart_top,Grösste Zuwendende,Principaux donateurs/trices,Principali donatori/trici
+donors.chart_top_sub,"Offengelegte Beträge, CHF","Montants déclarés, CHF","Importi dichiarati, CHF"
+donors.chart_kind,Woher das Geld kommt,D'où vient l'argent,Da dove viene il denaro
+donors.chart_kind_sub,"Nach Art der Zuwendenden und der Zuwendung, CHF","Par type de donateur/trice et de libéralité, CHF","Per tipo di donatore/trice e di liberalità, CHF"
+donors.kind_org,Organisationen & Unternehmen,Organisations & entreprises,Organizzazioni e imprese
+donors.kind_person,Privatpersonen,Personnes physiques,Persone fisiche
+donors.tbl_explore,"Zuwendende, Empfänger, Betrag","Donateur/trice, bénéficiaire, montant","Donatore/trice, beneficiario, importo"
+donors.tbl_explore_sub,"Eine Zeile pro Zuwendung. Filtern Sie nach Ereignis, um zu sehen, wer eine einzelne Vorlage oder Wahl finanziert hat.",Une ligne par libéralité. Filtrez par événement pour voir qui a financé un objet ou un scrutin donné.,Una riga per liberalità. Filtrate per evento per vedere chi ha finanziato un singolo oggetto o una singola tornata.
+donors.naming_title,Namen werden zusammengefasst,Les noms sont regroupés,I nomi vengono raggruppati
+donors.naming_text,"Die EFK erfasst Zuwendende als Freitext, dieselbe Organisation erscheint daher in mehreren Schreibweisen. Diese Anwendung fasst Schreibweisen zusammen, die sich nur in Gross- und Kleinschreibung, Interpunktion oder einem angehängten Klammerzusatz unterscheiden. Namen, die sich in den Wörtern selbst unterscheiden, bleiben getrennt, sofern sie nicht ausdrücklich zugeordnet wurden – eine Zuwendende wird also eher zu tief als zu hoch ausgewiesen. Der Originalname steht in der Tabelle und im CSV.","Le CDF saisit les donateurs/trices en texte libre : une même organisation apparaît donc sous plusieurs orthographes. Cette application regroupe les graphies qui ne diffèrent que par la casse, la ponctuation ou une parenthèse finale. Les noms dont les mots eux-mêmes diffèrent restent séparés, sauf rapprochement explicite – un donateur est donc plutôt sous-estimé que surestimé. Le nom d'origine figure dans le tableau et dans le CSV.","Il CDF registra i donatori/trici come testo libero: la stessa organizzazione compare quindi con più grafie. Questa applicazione raggruppa le grafie che differiscono solo per maiuscole, punteggiatura o una parentesi finale. I nomi le cui parole stesse differiscono restano separati, salvo accostamento esplicito: un donatore risulta quindi piuttosto sottostimato che sovrastimato. Il nome originale figura nella tabella e nel CSV."
+donors.imputed,"Bei einem Teil der Zuwendungen fehlt im Quellmaterial das Datum. Sie werden dem Jahr des Ereignisses zugeordnet, damit sie in der Jahresansicht nicht verloren gehen.",Une partie des libéralités n'a pas de date exploitable dans la source. Elles sont rattachées à l'année de l'événement afin de ne pas disparaître de la vue par année.,Per una parte delle liberalità la fonte non contiene una data utilizzabile. Vengono attribuite all'anno dell'evento per non sparire dalla vista per anno.
+donations.f_party,Partei,Parti,Partito
+donations.f_canton,Kanton,Canton,Cantone
+donations.f_category,Art,Type,Tipo
+donations.f_position,Position,Position,Posizione
+donations.f_event,Ereignis,Événement,Evento
+donations.f_min,Mindestbetrag,Montant minimal,Importo minimo
+donations.f_any,Beliebig,Indifférent,Qualsiasi
+donations.clear,Filter löschen,Effacer les filtres,Azzerare i filtri
+donations.unit,Zuwendungen,libéralités,liberalità
+donations.filters,Filtern,Filtrer,Filtrare
+donations.hold_hint,Balken gedrückt halten für Details,Maintenir une barre pressée pour le détail,Tenere premuta una barra per i dettagli
+donations.click_hint,"Tipp: Namen von Zuwendenden und Parteien sind verlinkt – ein Klick öffnet alles, was diese Person, Firma oder Partei betrifft.","Astuce : les noms de donateurs/trices et de partis sont des liens – un clic ouvre tout ce qui concerne cette personne, entreprise ou parti.","Suggerimento: i nomi di donatori/trici e partiti sono link – un clic apre tutto ciò che riguarda quella persona, azienda o partito."
+donations.empty,Keine Zuwendungen entsprechen diesen Filtern.,Aucune libéralité ne correspond à ces filtres.,Nessuna liberalità corrisponde a questi filtri.
+donations.empty_body,Weniger Filter oder ein tieferer Mindestbetrag zeigen wieder Zeilen an.,Réduisez les filtres ou abaissez le montant minimal pour retrouver des lignes.,Riduci i filtri o abbassa l'importo minimo per visualizzare di nuovo delle righe.
+income.budget,Budgetzahlen,Montants budgétés,Importi preventivati
+income.final,Definitive Zahlen,Montants finaux,Importi finali
+income.no_spending_title,Die EFK veröffentlicht keine Ausgaben,Le CDF ne publie pas les dépenses,Il CDF non pubblica le spese
+income.no_spending_text,"Die Offenlegungspflicht umfasst nur die Einnahmen. Zu den Ausgaben von Parteien und Komitees liegen keine Daten vor – ein fehlender Wert bedeutet also nicht null. Wo diese Anwendung «Budget» und «definitiv» vergleicht, vergleicht sie budgetierte mit tatsächlich eingegangenen Einnahmen, nicht Ausgaben mit einem Budget.","L'obligation de déclarer ne porte que sur les recettes. Il n'existe aucune donnée sur les dépenses des partis et des comités : une valeur absente ne signifie donc pas zéro. Là où cette application compare « budgété » et « final », elle compare des recettes budgétées à des recettes effectivement encaissées, et non des dépenses à un budget.","L'obbligo di comunicazione riguarda solo le entrate. Non esistono dati sulle spese di partiti e comitati: un valore assente non significa quindi zero. Dove questa applicazione confronta «preventivato» e «finale», confronta entrate preventivate con entrate effettivamente incassate, non spese con un preventivo."
+income.parts.monetary_donations_chf,Monetäre Zuwendungen,Libéralités monétaires,Liberalità monetarie
+income.parts.nonmonetary_donations_value_chf,Nichtmonetäre Zuwendungen,Libéralités non monétaires,Liberalità non monetarie
+income.parts.monetary_own_funds_chf,Monetäre Eigenmittel,Fonds propres monétaires,Mezzi propri monetari
+income.parts.membership_fees_chf,Mitgliederbeiträge,Cotisations des membres,Quote dei membri
+income.parts.mandate_contributions_income_chf,Mandatsbeiträge,Contributions de mandat,Contributi di mandato
+income.parts.goods_services_income_chf,Güter & Dienstleistungen,Biens & services,Beni e servizi
+income.parts.event_income_chf,Veranstaltungen,Manifestations,Manifestazioni
+events.type_campaign,Kampagnenfinanzierung,Financement des campagnes,Finanziamento della campagna elettorale
+events.type_party,Parteienfinanzierung,Financement des partis politiques,Finanziamento dei partiti politici
+data.title,Daten & Downloads,Données & téléchargements,Dati e download
+data.lead,"Alle konsolidierten Tabellen als CSV. Die Spalten sind direkt summierbar; die Beträge sind in Schweizer Franken. Die Dateien sind UTF-8 und semikolongetrennt, öffnen sich also in Excel mit einem Doppelklick.","Toutes les tables consolidées en CSV. Les colonnes sont directement sommables ; les montants sont en francs suisses. Les fichiers sont en UTF-8 et séparés par des points-virgules : ils s'ouvrent donc directement dans Excel.","Tutte le tabelle consolidate in CSV. Le colonne sono direttamente sommabili; gli importi sono in franchi svizzeri. I file sono in UTF-8 e separati da punto e virgola, quindi si aprono direttamente in Excel."
+data.col_table,Tabelle,Table,Tabella
+data.col_desc,Inhalt,Contenu,Contenuto
+data.col_rows,Zeilen,Lignes,Righe
+data.col_cols,Spalten,Colonnes,Colonne
+data.col_dl,CSV,CSV,CSV
+data.download,Herunterladen,Télécharger,Scaricare
+data.soon_title,Bald verfügbar,Bientôt disponible,Presto disponibile
+data.soon_text,"Die CSV-Dateien sind noch nicht zum Download veröffentlicht. Dieselben Zahlen lassen sich hier bereits erkunden, und jede Tabelle in dieser Anwendung exportiert ihre aktuelle Ansicht über die Schaltfläche «Export» als CSV.","Les fichiers CSV ne sont pas encore publiés au téléchargement. Les mêmes chiffres sont déjà explorables ici, et chaque tableau de cette application exporte sa vue courante en CSV via son bouton « Export ».",I file CSV non sono ancora pubblicati per il download. Le stesse cifre sono già esplorabili qui e ogni tabella di questa applicazione esporta la vista corrente in CSV con il pulsante «Export».
+data.soon_close,Schliessen,Fermer,Chiudere
+data.tables.exports_declarations,Eine Zeile pro Offenlegung: Gesamteinnahmen und ihre Zusammensetzung.,Une ligne par déclaration : recettes totales et leur composition.,Una riga per comunicazione: entrate totali e loro composizione.
+data.tables.exports_contributions,"Eine Zeile pro Zuwendung: Zuwender/in, Betrag, Datum, Empfänger/in.","Une ligne par libéralité : donateur/trice, montant, date, bénéficiaire.","Una riga per liberalità: donatore/trice, importo, data, beneficiario."
+data.tables.exports_declaration_candidates,Verknüpfung Offenlegung zu unterstützten Kandidierenden (ohne Beträge).,Lien entre déclaration et candidatures soutenues (sans montants).,Collegamento tra comunicazione e candidature sostenute (senza importi).
+data.tables.exports_mandate_contributions,Mandatsbeiträge einzelner Mandatsträgerinnen und -träger.,Contributions de mandat versées par les élus.,Contributi di mandato versati dagli eletti.
+data.tables.forms_forms,Alle Einzelmeldungen des Portals mit Downloadpfad.,"Toutes les déclarations individuelles du portail, avec chemin de téléchargement.","Tutte le singole comunicazioni del portale, con percorso di download."
+data.tables.forms_form_appearances,Wo jede Meldung in der Themenstruktur des Portals erscheint.,Où chaque déclaration apparaît dans l'arborescence du portail.,Dove ogni comunicazione appare nella struttura del portale.
+data.tables.allowances_allowances,Zuwendungsverzeichnis des Portals mit Typ des Zuwendenden.,"Répertoire des libéralités du portail, avec type de donateur/trice.","Elenco delle liberalità del portale, con tipo di donatore/trice."
+data.tables.allowances_allowance_appearances,Wo jede Zuwendung in der Themenstruktur erscheint.,Où chaque libéralité apparaît dans l'arborescence.,Dove ogni liberalità appare nella struttura tematica.
+data.tables.relationships_financing_events,"Die Abstimmungen, Wahlen und Parteijahre selbst.","Les votations, élections et exercices de parti eux-mêmes.","Le votazioni, le elezioni e gli esercizi di partito stessi."
+data.tables.relationships_actors,"Akteure: Parteien, Komitees, Personen, mit Kanton und Partei.","Acteurs : partis, comités, personnes, avec canton et parti.","Attori: partiti, comitati, persone, con cantone e partito."
+data.tables.relationships_candidates,"Kandidierende mit Partei, Kanton und Ereignis.","Candidatures avec parti, canton et événement.","Candidature con partito, cantone ed evento."
+data.tables.people_people,Für das Thema «Personen» reserviert – vom Portal noch nicht befüllt.,Réservé au thème « personnes » – pas encore alimenté par le portail.,Riservato al tema «persone» – non ancora alimentato dal portale.
+data.tables.manifest,"Herkunftsnachweis: Quell-URL, SHA-256 und Grösse jeder Datei.","Traçabilité : URL source, SHA-256 et taille de chaque fichier.","Tracciabilità: URL di origine, SHA-256 e dimensione di ogni file."
+drill.back_donors,Alle Zuwendenden,Tous les donateurs/trices,Tutti i donatori/trici
+drill.back_all,Alle Zuwendungen,Toutes les libéralités,Tutte le liberalità
+drill.donor_title,Zuwendungen von,Libéralités de,Liberalità di
+drill.party_title,Zuwendungen an,Libéralités à,Liberalità a
+drill.kpi_sum,Offengelegt,Déclaré,Dichiarato
+drill.kpi_count,Zuwendungen,Libéralités,Liberalità
+drill.kpi_donors,Verschiedene Zuwendende,Donateurs/trices distincts,Donatori/trici distinti
+drill.kpi_recipients,Unterstützte Empfänger,Bénéficiaires soutenus,Beneficiari sostenuti
+drill.chart_who,An wen,À qui,A chi
+drill.chart_who_sub,"Offengelegte Beträge pro Empfänger/in, CHF","Montants déclarés par bénéficiaire, CHF","Importi dichiarati per beneficiario, CHF"
+drill.chart_what,Wofür,Pour quoi,Per che cosa
+drill.chart_what_sub,"Offengelegte Beträge pro Ereignis, CHF","Montants déclarés par événement, CHF","Importi dichiarati per evento, CHF"
+drill.not_found,Dazu wurden keine Zuwendungen gefunden.,Aucune libéralité trouvée pour cette entrée.,Nessuna liberalità trovata per questa voce.
+cols.date,Datum,Date,Data
+cols.donor,Zuwender/in,Donateur/trice,Donatore/trice
+cols.donor_raw,Name laut Meldung,Nom selon la déclaration,Nome secondo la comunicazione
+cols.donor_place,Ort,Lieu,Luogo
+cols.amount,Betrag (CHF),Montant (CHF),Importo (CHF)
+cols.recipient,Empfänger/in,Bénéficiaire,Beneficiario
+cols.party,Partei,Parti,Partito
+cols.canton,Kanton,Canton,Cantone
+cols.category,Art,Type,Tipo
+cols.dtype,Zuwendungsart,Type de libéralité,Tipo di liberalità
+cols.position,Position,Position,Posizione
+cols.camp,Lager,Camp,Fronte
+cols.event,Ereignis,Événement,Evento
+cols.disclosure,Meldung,Déclaration,Comunicazione
+cols.total,Gesamteinnahmen (CHF),Recettes totales (CHF),Entrate totali (CHF)
+cols.budget,Budgetiert (CHF),Budgété (CHF),Preventivato (CHF)
+cols.final,Definitiv (CHF),Final (CHF),Finale (CHF)
+cols.delta,Differenz (CHF),Écart (CHF),Differenza (CHF)
+cols.n_donations,Zuwendungen,Libéralités,Liberalità
+cols.n_decl,Offenlegungen,Déclarations,Comunicazioni
+cols.n_actors,Akteure,Acteurs,Attori
+cols.year,Jahr,Année,Anno
+cols.type,Art,Type,Tipo
+cols.person,Mandatsträger/in,Élu/e,Eletto/a
+cols.institution,Institution,Institution,Istituzione
+cols.cfor,Kampagne für,Campagne pour,Campagna per
+cols.donors,Zuwendende,Donateurs/trices,Donatori/trici
+cols.n_gifts,Anzahl,Nombre,Numero
+cols.rows_of,von,sur,di
+cat.elections,Wahlen,Élections,Elezioni
+cat.votes,Abstimmungen,Votations,Votazioni
+cat.party,Parteienfinanzierung,Financement des partis,Finanziamento dei partiti
+no_party,(keine einheitliche Partei),(pas de parti unique),(nessun partito unico)
+no_canton,(national / gemischt),(national / mixte),(nazionale / mista)
+anonymous,(anonym / ohne Namen),(anonyme / sans nom),(anonimo / senza nome)
+unknown,(ohne Angabe),(non indiqué),(non indicato)
+not_found,Seite nicht gefunden,Page introuvable,Pagina non trovata
+skip_link,Zum Inhalt springen,Aller au contenu,Vai al contenuto
+meta.title,Politikfinanzierung Schweiz – wer bezahlt die Schweizer Politik?,Financement politique suisse – qui paie la politique suisse ?,Finanziamento della politica svizzera – chi paga la politica svizzera?
+meta.description,"Offengelegte Finanzierung von Abstimmungskampagnen, Wahlkämpfen und Parteien in der Schweiz. Alle Zahlen stammen aus den Offenlegungen bei der Eidgenössischen Finanzkontrolle (EFK) und lassen sich in drei Sprachen erkunden und als CSV herunterladen.","Le financement déclaré des campagnes de votation, des campagnes électorales et des partis en Suisse. Tous les montants proviennent des déclarations au Contrôle fédéral des finances (CDF) ; ils sont consultables en trois langues et téléchargeables en CSV.","Il finanziamento dichiarato delle campagne di votazione, delle campagne elettorali e dei partiti in Svizzera. Tutti gli importi provengono dalle dichiarazioni al Controllo federale delle finanze (CDF) e sono consultabili in tre lingue e scaricabili in CSV."
+empty.donors_title,Keine Zuwendungen offengelegt,Aucune libéralité déclarée,Nessuna liberalità dichiarata
+empty.donors_text,"Für diese Auswahl sind keine einzelnen Zuwendungen offengelegt. Das heisst nicht, dass keine geflossen sind: offenlegungspflichtig sind nur Zuwendungen ab der gesetzlichen Schwelle.",Aucune libéralité individuelle n'est déclarée pour cette sélection. Cela ne signifie pas qu'il n'y en a pas eu : seules les libéralités atteignant le seuil légal doivent être déclarées.,Per questa selezione non è dichiarata alcuna liberalità individuale. Ciò non significa che non ve ne siano state: sono soggette a obbligo di dichiarazione solo le liberalità che raggiungono la soglia di legge.
+empty.mandates_title,Keine Mandatsbeiträge offengelegt,Aucune contribution de mandat déclarée,Nessun contributo di mandato dichiarato
+empty.mandates_text,Für dieses Jahr hat keine Partei Mandatsbeiträge offengelegt.,Aucun parti n'a déclaré de contribution de mandat pour cette année.,Per questo anno nessun partito ha dichiarato contributi di mandato.
+footer.text,"Offiziell offengelegte Daten zur Politikfinanzierung der <strong>Eidgenössischen Finanzkontrolle (EFK)</strong> («Open use»), wöchentlich aktualisiert. Die Beträge sind offengelegte Franken und entsprechen nicht den gesamten Kampagnenkosten. Die EFK ist die Quelle und unterstützt diese Anwendung nicht.","Données officiellement déclarées sur le financement de la politique, publiées par le <strong>Contrôle fédéral des finances (CDF)</strong> (« utilisation libre »), actualisées chaque semaine. Les montants sont des francs déclarés et ne représentent pas le coût total des campagnes. Le CDF est la source et ne soutient pas cette application.","Dati ufficialmente dichiarati sul finanziamento della politica, pubblicati dal <strong>Controllo federale delle finanze (CDF)</strong> («uso libero»), aggiornati settimanalmente. Gli importi sono franchi dichiarati e non rappresentano il costo totale delle campagne. Il CDF è la fonte e non sostiene questa applicazione."
+footer.as_of,Datenstand:,État des données :,Stato dei dati:

@@ -1,0 +1,8 @@
+# Vendored browser libraries, copied verbatim into app/lib/ by save_html().
+#
+# They are third-party build output, not source: Git must not rewrite their line
+# endings. With core.autocrlf=true (the Windows default) it otherwise checks them
+# out as CRLF while every build copies them back as LF, so `git status` reports
+# 2 MB of unchanged JavaScript as modified after each local build -- and a
+# `git add app/lib` would commit the flipped copies.
+app/lib/** -text

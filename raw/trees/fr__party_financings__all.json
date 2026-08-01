@@ -1,0 +1,466 @@
+{
+  "data": {
+    "tree_roots": [
+      {
+        "id": 17,
+        "label": "2024",
+        "type": "party_financing",
+        "children": [
+          {
+            "id": 219,
+            "label": "Evangelische Volkspartei der Schweiz, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 61,
+                "label": "Déclaration des recettes annuelles",
+                "type": "form",
+                "campaign_id": 499,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/499/forms/61",
+                "children": []
+              },
+              {
+                "id": 62,
+                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                "type": "form",
+                "campaign_id": 499,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/499/forms/62",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "label": "Grünliberale Partei Schweiz, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 61,
+                "label": "Déclaration des recettes annuelles",
+                "type": "form",
+                "campaign_id": 492,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/492/forms/61",
+                "children": []
+              },
+              {
+                "id": 62,
+                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                "type": "form",
+                "campaign_id": 492,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/492/forms/62",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 59,
+            "label": "Le Centre, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 61,
+                "label": "Déclaration des recettes annuelles",
+                "type": "form",
+                "campaign_id": 497,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/497/forms/61",
+                "children": []
+              },
+              {
+                "id": 62,
+                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                "type": "form",
+                "campaign_id": 497,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/497/forms/62",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 394,
+            "label": "Lega dei Ticinesi, Lugano",
+            "type": "actor",
+            "children": [
+              {
+                "id": 61,
+                "label": "Déclaration des recettes annuelles",
+                "type": "form",
+                "campaign_id": 501,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/501/forms/61",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "label": "Les VERT-E-S suisses, Berne",
+            "type": "actor",
+            "children": [
+              {
+                "id": 61,
+                "label": "Déclaration des recettes annuelles",
+                "type": "form",
+                "campaign_id": 496,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/496/forms/61",
+                "children": []
+              },
+              {
+                "id": 62,
+                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                "type": "form",
+                "campaign_id": 496,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/496/forms/62",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 268,
+            "label": "Mouvement Citoyens Genevois, Genève",
+            "type": "actor",
+            "children": [
+              {
+                "id": 61,
+                "label": "Déclaration des recettes annuelles",
+                "type": "form",
+                "campaign_id": 498,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/498/forms/61",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 43,
+            "label": "PLR.Les Libéraux-Radicaux, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 61,
+                "label": "Déclaration des recettes annuelles",
+                "type": "form",
+                "campaign_id": 500,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/500/forms/61",
+                "children": []
+              },
+              {
+                "id": 62,
+                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                "type": "form",
+                "campaign_id": 500,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/500/forms/62",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "label": "Sozialdemokratische Partei der Schweiz, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 61,
+                "label": "Déclaration des recettes annuelles",
+                "type": "form",
+                "campaign_id": 495,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/495/forms/61",
+                "children": []
+              },
+              {
+                "id": 62,
+                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                "type": "form",
+                "campaign_id": 495,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/495/forms/62",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 42,
+            "label": "Union Démocratique du Centre (UDC), Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 61,
+                "label": "Déclaration des recettes annuelles",
+                "type": "form",
+                "campaign_id": 494,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/494/forms/61",
+                "children": []
+              },
+              {
+                "id": 62,
+                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                "type": "form",
+                "campaign_id": 494,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/494/forms/62",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 331,
+            "label": "Union Démocratique Fédérale Suisse (UDF Suisse), Thoune",
+            "type": "actor",
+            "children": [
+              {
+                "id": 61,
+                "label": "Déclaration des recettes annuelles",
+                "type": "form",
+                "campaign_id": 493,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/493/forms/61",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "label": "2023",
+        "type": "party_financing",
+        "children": [
+          {
+            "id": 219,
+            "label": "Evangelische Volkspartei der Schweiz, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Déclaration des recettes annuelles",
+                "type": "form",
+                "campaign_id": 414,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/414/forms/23",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "label": "Grünliberale Partei Schweiz, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Déclaration des recettes annuelles",
+                "type": "form",
+                "campaign_id": 426,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/426/forms/23",
+                "children": []
+              },
+              {
+                "id": 24,
+                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                "type": "form",
+                "campaign_id": 426,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/426/forms/24",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 59,
+            "label": "Le Centre, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Déclaration des recettes annuelles",
+                "type": "form",
+                "campaign_id": 432,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/432/forms/23",
+                "children": []
+              },
+              {
+                "id": 24,
+                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                "type": "form",
+                "campaign_id": 432,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/432/forms/24",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 394,
+            "label": "Lega dei Ticinesi, Lugano",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Déclaration des recettes annuelles",
+                "type": "form",
+                "campaign_id": 438,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/438/forms/23",
+                "children": []
+              },
+              {
+                "id": 24,
+                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                "type": "form",
+                "campaign_id": 438,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/438/forms/24",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "label": "Les VERT-E-S suisses, Berne",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Déclaration des recettes annuelles",
+                "type": "form",
+                "campaign_id": 433,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/433/forms/23",
+                "children": []
+              },
+              {
+                "id": 24,
+                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                "type": "form",
+                "campaign_id": 433,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/433/forms/24",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 268,
+            "label": "Mouvement Citoyens Genevois, Genève",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Déclaration des recettes annuelles",
+                "type": "form",
+                "campaign_id": 443,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/443/forms/23",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 395,
+            "label": "Parti suisse du Travail (PST-POP), Genève",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Déclaration des recettes annuelles",
+                "type": "form",
+                "campaign_id": 444,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/444/forms/23",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 43,
+            "label": "PLR.Les Libéraux-Radicaux, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Déclaration des recettes annuelles",
+                "type": "form",
+                "campaign_id": 437,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/437/forms/23",
+                "children": []
+              },
+              {
+                "id": 24,
+                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                "type": "form",
+                "campaign_id": 437,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/437/forms/24",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "label": "Sozialdemokratische Partei der Schweiz, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Déclaration des recettes annuelles",
+                "type": "form",
+                "campaign_id": 427,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/427/forms/23",
+                "children": []
+              },
+              {
+                "id": 24,
+                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                "type": "form",
+                "campaign_id": 427,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/427/forms/24",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 42,
+            "label": "Union Démocratique du Centre (UDC), Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Déclaration des recettes annuelles",
+                "type": "form",
+                "campaign_id": 428,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/428/forms/23",
+                "children": []
+              },
+              {
+                "id": 24,
+                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                "type": "form",
+                "campaign_id": 428,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/428/forms/24",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 331,
+            "label": "Union Démocratique Fédérale Suisse (UDF Suisse), Thoune",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Déclaration des recettes annuelles",
+                "type": "form",
+                "campaign_id": 431,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/431/forms/23",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 396,
+            "label": "Union Populaire, Genève",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Déclaration des recettes annuelles",
+                "type": "form",
+                "campaign_id": 445,
+                "download_path": "/api/frontend/latest/fr/downloads/campaigns/445/forms/23",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "powered_by": "Sitrox",
+    "data_checksum_sha256": "c6fa9c9d94f59e31d8a8db66e15b965edbf6f706c5e1b13a8a157513c649187a"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "data": {
+    "tree_roots": [
+      {
+        "id": 27,
+        "label": "08.03.2026 Nationalratswahl (Appenzell Ausserrhoden)",
+        "type": "campaign_financing",
+        "header_text": "2026",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/27?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/27?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "label": "29.06.2025 Ständeratswahl (Schaffhausen)",
+        "type": "campaign_financing",
+        "header_text": "2025",
+        "children": [
+          {
+            "id": 2,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/22?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "label": "22.10.2023 Nationalratswahlen 2023",
+        "type": "campaign_financing",
+        "header_text": "2023",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/1?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/1?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "label": "22.10.2023 Ständeratswahlen 2023",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/2?with_budget=false",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "powered_by": "Sitrox",
+    "data_checksum_sha256": "ee746d9167a47f40b840214a6a6cb1b7aa3243737b4ae98ffdc3c0dac36f8a45"
+  }
+}

@@ -1,0 +1,153 @@
+/* app.css
+ * ---------------------------------------------------------------------------
+ * The stylesheet, as an ordinary .css file so an editor can highlight it and a
+ * formatter can read it. build_site.R embeds it in a <style> tag, prefixed by a
+ * :root{} block carrying the theme values below (components.R::css_vars).
+ *
+ * What is here rather than in an `sx` prop: this stylesheet lives in the body
+ * and emotion's classes live in the head, so at equal specificity these rules
+ * win -- which is what the nav and language switch rules rely on. The rest are
+ * things `sx` cannot reach at all: elements MUI portals to <body> (chart
+ * tooltips, the autocomplete listbox), and the native <dialog>.
+ * ---------------------------------------------------------------------------
+ */
+
+:root { color-scheme: light; }
+body { font-family: var(--spf-font); }
+/* The inline nav is a desktop-only affordance -- on a phone the same links are
+   in the side sheet. Hidden here rather than with an `sx` breakpoint: this
+   stylesheet lives in the body and emotion's classes live in the head, so at
+   equal specificity a `.spf-nav` rule here would win over the sx one anyway.
+   900px is MUI's `md`, so the two systems agree on where the bar changes. */
+.spf-nav { display: none; align-items: center; gap: 2px; flex-wrap: nowrap; }
+@media (min-width: 900px) { .spf-nav { display: flex; } }
+.spf-nav a.spf-navlink {
+  color: var(--spf-on-bar); text-decoration: none;
+  padding: 7px 12px; border-radius: 9px;
+  font-size: 0.9rem; font-weight: 600; line-height: 1; white-space: nowrap;
+  transition: background-color .15s ease, color .15s ease;
+}
+.spf-nav a.spf-navlink:hover { background: rgba(255,255,255,0.10); color: #fff; }
+.spf-nav a.spf-navlink.active { background: rgba(255,255,255,0.16); color: #fff; }
+.spf-langs { display: flex; gap: 2px; }
+.spf-lang {
+  background: none; border: 0; cursor: pointer;
+  color: var(--spf-on-bar); font: inherit; font-size: 0.78rem; font-weight: 700;
+  letter-spacing: 0.04em; padding: 5px 8px; border-radius: 7px;
+  font-family: inherit;
+}
+.spf-lang:hover { background: rgba(255,255,255,0.10); color: #fff; }
+.spf-lang.active { background: rgba(255,255,255,0.16); color: #fff; }
+/* ---- focus ------------------------------------------------------------- */
+/* Everything focusable states where the keyboard is. The entry cards did this
+   already; the app bar did not, and the UA's own ring is a thin dark outline
+   that is effectively invisible on #1a1a19. White on the dark chrome, the
+   link blue on light surfaces -- in both cases offset so the ring sits
+   outside the element's own border rather than on top of it. */
+.spf-nav a.spf-navlink:focus-visible,
+.spf-lang:focus-visible,
+.spf-sheet-nav a.spf-navlink:focus-visible {
+  outline: 2px solid #fff; outline-offset: 2px;
+}
+
+/* ---- skip link --------------------------------------------------------- */
+/* Off-screen until focused, rather than display:none, which would take it out
+   of the tab order and defeat the point. */
+.spf-skip {
+  position: fixed; top: 8px; left: 8px; z-index: 1400;
+  transform: translateY(-200%); transition: transform .15s ease;
+  background: var(--spf-series1); color: #fff; border: 0; border-radius: 9px;
+  font: inherit; font-size: 0.9rem; font-weight: 600;
+  padding: 10px 14px; cursor: pointer;
+  box-shadow: 0 6px 18px rgba(11,11,11,0.25);
+}
+.spf-skip:focus-visible { transform: translateY(0); outline: 2px solid #fff; outline-offset: 2px; }
+/* The routed container is given a tabindex of -1 so it can receive focus from
+   the skip link; that makes it focusable, and without this it would then draw
+   a ring around the entire page. */
+#spf-main:focus { outline: none; }
+
+.spf-themecard { text-decoration: none; display: block; height: 100%; cursor: pointer; }
+/* The card is the target, so the focus ring belongs on the card and not on the
+   invisible anchor wrapping it. */
+.spf-themecard:focus-visible { outline: none; }
+.spf-themecard:focus-visible > .MuiCard-root {
+  outline: 2px solid var(--spf-series1); outline-offset: 2px;
+}
+
+/* ---- mobile navigation sheet ------------------------------------------ */
+/* The panel itself is a `Drawer.triggerId` (see nav_sheet), so its geometry,
+   backdrop and anchoring are MUI's and its surface is styled through the paper
+   slot. What is left here is the link list inside it, which is shared with the
+   app bar's inline nav and so belongs in the same stylesheet as that. */
+.spf-sheet-nav { display: flex; flex-direction: column; gap: 2px; margin-top: 6px; }
+/* 48px tall: a touch target, not a pointer target. */
+.spf-sheet-nav a.spf-navlink {
+  color: var(--spf-on-bar); text-decoration: none;
+  display: flex; align-items: center; min-height: 48px; padding: 0 14px;
+  border-radius: 11px; font-size: 1.02rem; font-weight: 600;
+}
+.spf-sheet-nav a.spf-navlink.active { background: rgba(255,255,255,0.16); color: #fff; }
+
+/* ---- centred note dialog ---------------------------------------------- */
+dialog.spf-modal {
+  border: 0; border-radius: 14px; padding: 20px;
+  width: min(92vw, 420px); max-width: none;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+}
+dialog.spf-modal::backdrop { background: rgba(0,0,0,0.4); }
+
+/* ---- chart tooltips ---------------------------------------------------- */
+/* MUI X renders the tooltip in a Popper portalled to <body>, so the chart's
+   own `sx` cannot reach it -- these have to be global rules.
+
+   The label cell ships as `white-space: nowrap`, and this app's series names
+   are full committee names. One row measured 692px wide: fine on a desktop,
+   wider than the whole screen on a phone, where it was then clipped at the
+   viewport edge. Wrapping the label and capping the width against the
+   viewport fixes both ends.
+
+   Note the doubled class names below. MUI X applies each of these classes
+   twice on the element for exactly this reason, so a single-class rule loses
+   to its own styles however it is nested; repeating the class matches that
+   specificity, and the root prefix wins the tie. */
+.MuiChartsTooltip-root, .MuiChartsTooltip-paper {
+  max-width: min(340px, calc(100vw - 20px));
+}
+.MuiChartsTooltip-root .MuiChartsTooltip-labelCell.MuiChartsTooltip-labelCell {
+  white-space: normal; overflow-wrap: anywhere; min-width: 0;
+}
+/* The amount is the one thing that must never wrap: a franc figure broken
+   across two lines is unreadable as a number. */
+.MuiChartsTooltip-root .MuiChartsTooltip-valueCell.MuiChartsTooltip-valueCell {
+  white-space: nowrap; vertical-align: top;
+}
+.MuiChartsTooltip-root .MuiChartsTooltip-markContainer { vertical-align: top; }
+/* A guard, not the fix: `trigger: 'item'` keeps these to one row. If a chart
+   ever goes back to axis-triggered tooltips, this stops it covering the whole
+   screen instead of silently regressing. */
+.MuiChartsTooltip-root .MuiChartsTooltip-paper { max-height: 60vh; overflow-y: auto; }
+@media (max-width: 599.95px) {
+  .MuiChartsTooltip-root .MuiChartsTooltip-cell { font-size: 0.8rem; padding: 4px 6px; }
+}
+
+/* ---- autocomplete dropdown --------------------------------------------- */
+/* The listbox is in a Popper portalled to <body>, so the control's own `sx`
+   cannot reach it. MUI ships each option as a single clipped line, and this
+   app's options are full ballot titles -- the picker on the votes page then
+   offers a list of half-read questions ending in an ellipsis. Let them wrap
+   over as many lines as they need; the row grows with the text. */
+.MuiAutocomplete-option {
+  white-space: normal; overflow: visible; text-overflow: clip;
+  overflow-wrap: anywhere; line-height: 1.35;
+}
+
+/* ---- data grid --------------------------------------------------------- */
+/* Long localised headers must wrap rather than be clipped to an ellipsis. */
+.MuiDataGrid-columnHeaderTitle { white-space: normal !important; line-height: 1.25 !important; }
+
+/* Nothing may push the page itself sideways: a wide table scrolls inside its
+   own card, which the grid already does, and this is the backstop for the
+   charts, whose SVG briefly measures wider than its parent while laying out. */
+html, body { overflow-x: hidden; }
+

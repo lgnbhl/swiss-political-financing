@@ -1,0 +1,26 @@
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# scratch / logs
+*.log
+insp.R
+headers*.txt
+*_prev.csv
+
+# local tooling / editor
+.claude/
+.Rproj.user/
+*.Rproj
+.DS_Store
+
+# local config -- the pipeline is entirely env-var driven (R/config.R), so
+# .Renviron is where a contributor's local settings would land. Never commit it.
+.Renviron
+.env
+
+# only used by the build's `node --check` / smoke test, never vendored
+node_modules/
+__pycache__/

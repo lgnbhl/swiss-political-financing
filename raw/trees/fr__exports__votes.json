@@ -1,0 +1,461 @@
+{
+  "data": {
+    "tree_roots": [
+      {
+        "id": 28,
+        "label": "14.06.2026 Pas de Suisse à 10 millions ! (initiative pour la durabilité)",
+        "type": "campaign_financing",
+        "header_text": "2026",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/28?with_budget=true",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "label": "14.06.2026 Modification du 26 septembre 2025 de la loi fédérale sur le service civil (LSC)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/29?with_budget=true",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "label": "08.03.2026 Pour une politique énergétique et climatique équitable : investir pour la prospérité, le travail et l’environnement (initiative pour un fonds climat)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/25?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Décompte final des recettes et des libéralités",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/25?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "label": "08.03.2026 200 francs, ça suffit ! (initiative SSR)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/24?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Décompte final des recettes et des libéralités",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/24?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "label": "08.03.2026 Loi fédérale du 20 juin 2025 sur l’imposition individuelle",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/26?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Décompte final des recettes et des libéralités",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/26?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "label": "30.11.2025 Pour une suisse qui s’engage (initiative service citoyen)",
+        "type": "campaign_financing",
+        "header_text": "2025",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/20?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Décompte final des recettes et des libéralités",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/20?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "label": "30.11.2025 Pour une politique climatique sociale financée de manière juste fiscalement (initiative pour l’avenir)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/21?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Décompte final des recettes et des libéralités",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/21?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "label": "28.09.2025 Arrêté fédéral du 20 décembre 2024 relatif à l’impôt immobilier cantonal sur les résidences secondaires",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/18?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Décompte final des recettes et des libéralités",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/18?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "label": "28.09.2025 Loi fédérale du 20 décembre 2024 sur l’identité électronique et d’autres moyens de preuves électroniques (Loi sur l’e-ID, LeID)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/19?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Décompte final des recettes et des libéralités",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/19?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "label": "09.02.2025 Pour une économie responsable respectant les limites planétaires (initiative pour la responsabilité environnementale)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/16?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Décompte final des recettes et des libéralités",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/16?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "label": "24.11.2024 Arrêté fédéral 29 septembre 2023 sur l’étape d’aménagement 2023 des routes nationales",
+        "type": "campaign_financing",
+        "header_text": "2024",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/12?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Décompte final des recettes et des libéralités",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/12?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "label": "24.11.2024 Modification du 29 septembre 2023 du code des obligations (droit du bail: sous-location)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/13?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Décompte final des recettes et des libéralités",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/13?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "label": "24.11.2024 Modification du 29 septembre 2023 du code des obligations (droit du bail: résiliation pour besoin propre)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/14?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Décompte final des recettes et des libéralités",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/14?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "label": "24.11.2024 Modification du 22 décembre 2023 de la loi fédérale sur l’assurance-maladie (financement uniforme des prestations)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/15?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Décompte final des recettes et des libéralités",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/15?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "label": "22.09.2024 Pour l’avenir de notre nature et de notre paysage (Initiative biodiversité)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/10?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Décompte final des recettes et des libéralités",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/10?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "label": "22.09.2024 Loi fédérale sur la prévoyance professionnelle vieillesse, survivants et invalidité (LPP) (Réforme de la prévoyance professionnelle)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/11?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Décompte final des recettes et des libéralités",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/11?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "label": "09.06.2024 Maximum 10 % du revenu pour les primes d’assurance-maladie (initiative d’allègement des primes)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/5?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Décompte final des recettes et des libéralités",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/5?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "label": "09.06.2024 Pour des primes plus basses. Frein aux coûts dans le système de santé (initiative pour un frein aux coûts)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/6?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Décompte final des recettes et des libéralités",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/6?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "label": "09.06.2024 Pour la liberté et l’intégrité physique",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/7?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Décompte final des recettes et des libéralités",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/7?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "label": "09.06.2024 Loi fédérale du 29 septembre 2023 relative à un approvisionnement en électricité sûr reposant sur des énergies renouvelables (modification de la loi sur l’énergie et de la loi sur l’approvisionnement en électricité)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/8?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Décompte final des recettes et des libéralités",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/8?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "label": "03.03.2024 Mieux vivre à la retraite (initiative pour une 13e rente AVS)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/3?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Décompte final des recettes et des libéralités",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/3?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "label": "03.03.2024 Pour une prévoyance vieillesse sûre et pérenne (initiative sur les rentes)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/4?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Décompte final des recettes et des libéralités",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/4?with_budget=false",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "powered_by": "Sitrox",
+    "data_checksum_sha256": "58a0460a32c51cfac9cd67e6118e43a569d6e7e4cca99e62ec221f595284fb45"
+  }
+}

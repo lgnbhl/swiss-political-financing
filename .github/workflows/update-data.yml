@@ -1,0 +1,124 @@
+name: Update EFK political-financing data
+
+# Weekly scrape of politikfinanzierung.efk.admin.ch. New entries appear as new
+# API tree nodes and are discovered automatically.
+#
+# A commit lands every week whether or not the EFK published anything, because
+# state/run_info.json carries the timestamp of the run and the page shows it as
+# the "Datenstand" -- the footer promises weekly updates, and a date that only
+# moves when the data does would not keep that promise. So a quiet week still
+# rewrites that date in app/index.html and publish.yml still pushes the website
+# repo; what says the data itself moved is whether data/, raw/ and files/ appear
+# in the diff.
+#
+# The flip side is that the date only advances on a successful run. A job that
+# starts failing shows up as a "Datenstand" that stops moving, and nothing else
+# says so -- the site keeps serving last week's page.
+
+on:
+  schedule:
+    - cron: "0 10 * * 6"       # every Saturday 10:00 UTC
+  workflow_dispatch:            # allow manual runs
+
+permissions:
+  contents: write
+
+concurrency:
+  group: efk-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      EFK_LANGUAGES: "de,fr,it"
+      EFK_ARCHIVE_FORMS: "true"
+      EFK_ARCHIVE_FORM_LANGS: "de,fr,it"
+      EFK_THROTTLE: "0.1"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      # The build syntax-checks the browser JavaScript with `node --check`
+      # before it embeds it. Without node that check is skipped with a warning,
+      # so it is installed here to make it mandatory where it matters.
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      # The wrapper packages come from GitHub, not from CRAN, on purpose: the app
+      # is developed against their development versions, so CI has to build from
+      # the same source or it builds a different page. The first run of this
+      # workflow showed what that costs -- it installed the released wrappers,
+      # which wrapped the app in a second <html> (check_html_shell() in
+      # app/build_checks.R now stops that) and renamed every
+      # app/lib/<pkg>-<version>/ folder, so CI and the next local rebuild undid
+      # each other's commit week after week.
+      #
+      # All of them are listed this way, including any that happen to match their
+      # release today, because the point is that the source is the same on both
+      # machines -- otherwise the next development version brings this back.
+      #
+      # The tradeoff is that an unattended weekly job tracks those repos'
+      # default branches, so a push to one of them can fail Saturday's run. That
+      # is the intended direction: a wrapper change that breaks this app should
+      # surface in a failed job, not in a silently different page. Pin a tag or a
+      # SHA (lgnbhl/muiMaterial@<ref>) if that stops being the right trade.
+      - name: Install R package dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: >-
+            any::httr2 any::jsonlite any::readxl any::dplyr any::tidyr
+            any::readr any::purrr any::digest any::stringr any::fs
+            any::htmltools
+            lgnbhl/reactRouter lgnbhl/muiMaterial lgnbhl/muiDataGrid
+            lgnbhl/muiCharts
+
+      - name: Run scraper
+        run: Rscript R/main.R
+
+      # Fails the run rather than publishing data that could be double counted.
+      - name: Check dataset invariants
+        run: Rscript R/checks.R
+
+      # The app embeds the data, so it has to be rebuilt whenever the data
+      # moves, or the published page would show last week's figures.
+      #
+      # This step is also the gate on the app itself: build_site.R syntax-checks
+      # the browser JavaScript, checks every i18n key the source asks for, runs
+      # every route loader in every language against the data it just embedded,
+      # and refuses to write a page that has doubled in size. A non-zero exit
+      # here fails the job, so nothing broken reaches the "Commit changes" step.
+      # See app/build_checks.R.
+      - name: Rebuild the app
+        run: Rscript app/build_site.R
+        env:
+          # See the configuration block at the top of app/build_site.R.
+          SPF_REPO_URL: ${{ vars.SPF_REPO_URL }}
+          # Literal, not a repository variable: what makes the CSVs reachable is
+          # publish.yml copying data/ next to index.html, and that is a fact
+          # about this pipeline rather than a setting someone chose. A build
+          # anywhere else -- a laptop, a fork with no publish step -- still gets
+          # the default and shows the "not published yet" note instead of links
+          # that would 404.
+          SPF_DATA_PUBLISHED: "true"
+
+      - name: Commit changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data raw files state app/index.html app/lib app/js app/css \
+                  app/i18n.csv app/build-report.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "data: weekly EFK refresh ($(date -u +%Y-%m-%d))"
+            git push
+          fi

@@ -1,0 +1,461 @@
+{
+  "data": {
+    "tree_roots": [
+      {
+        "id": 28,
+        "label": "14.06.2026 Keine 10-Millionen-Schweiz! (Nachhaltigkeitsinitiative)",
+        "type": "campaign_financing",
+        "header_text": "2026",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/28?with_budget=true",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "label": "14.06.2026 Änderung vom 26. September 2025 des Bundesgesetzes über den zivilen Ersatzdienst (Zivildienstgesetz, ZDG)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/29?with_budget=true",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "label": "08.03.2026 Für eine gerechte Energie- und Klimapolitik: Investieren für Wohlstand, Arbeit und Umwelt (Klimafonds-Initiative)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/25?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/25?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "label": "08.03.2026 200 Franken sind genug! (SRG-Initiative)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/24?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/24?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "label": "08.03.2026 Bundesgesetz vom 20. Juni 2025 über die Individualbesteuerung",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/26?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/26?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "label": "30.11.2025 Für eine engagierte Schweiz (Service-citoyen-Initiative)",
+        "type": "campaign_financing",
+        "header_text": "2025",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/20?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/20?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "label": "30.11.2025 Für eine soziale Klimapolitik – steuerlich gerecht finanziert (Initiative für eine Zukunft)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/21?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/21?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "label": "28.09.2025 Bundesbeschluss vom 20. Dezember 2024 über die kantonalen Liegenschaftssteuern auf Zweitliegenschaften",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/18?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/18?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "label": "28.09.2025 Bundesgesetz vom 20. Dezember 2024 über den elektronischen Identitätsnachweis und andere elektronische Nachweise (E-ID-Gesetz, BGEID)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/19?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/19?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "label": "09.02.2025 Für eine verantwortungsvolle Wirtschaft innerhalb der planetaren Grenzen (Umweltverantwortungsinitiative)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/16?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/16?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "label": "24.11.2024 Bundesbeschluss vom 29. September 2023 über den Ausbauschritt 2023 für die Nationalstrassen",
+        "type": "campaign_financing",
+        "header_text": "2024",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/12?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/12?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "label": "24.11.2024 Änderung vom 29. September 2023 des Obligationenrechts (Mietrecht: Untermiete)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/13?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/13?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "label": "24.11.2024 Änderung vom 29. September 2023 des Obligationenrechts (Mietrecht: Kündigung wegen Eigenbedarfs)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/14?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/14?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "label": "24.11.2024 Änderung vom 22. Dezember 2023 des Bundesgesetzes über die Krankenversicherung (Einheitliche Finanzierung der Leistungen)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/15?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/15?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "label": "22.09.2024 Für die Zukunft unserer Natur und Landschaft (Biodiversitätsinitiative)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/10?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/10?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "label": "22.09.2024 Bundesgesetzes über die berufliche Alters-, Hinterlassenen- und Invalidenvorsorge (BVG) (Reform der beruflichen Vorsorge)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/11?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/11?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "label": "09.06.2024 Maximal 10 % des Einkommens für die Krankenkassenprämien (Prämien-Entlastungs-Initiative)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/5?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/5?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "label": "09.06.2024 Für tiefere Prämien – Kostenbremse im Gesundheitswesen (Kostenbremse-Initiative)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/6?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/6?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "label": "09.06.2024 Für Freiheit und körperliche Unversehrtheit",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/7?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/7?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "label": "09.06.2024 Bundesgesetz vom 29. September 2023 über eine sichere Stromversorgung mit erneuerbaren Energien (Änderung des Energiegesetzes und des Stromversorgungsgesetzes)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/8?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/8?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "label": "03.03.2024 Für ein besseres Leben im Alter (Initiative für eine 13. AHV-Rente)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/3?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/3?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "label": "03.03.2024 Für eine sichere und nachhaltige Altersvorsorge (Renteninitiative)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/4?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/4?with_budget=false",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "powered_by": "Sitrox",
+    "data_checksum_sha256": "71628fbc511cf201d628e94408d51e014d7f0011c2f044009522bf574e28a880"
+  }
+}

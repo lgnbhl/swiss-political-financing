@@ -1,0 +1,466 @@
+{
+  "data": {
+    "tree_roots": [
+      {
+        "id": 17,
+        "label": "2024",
+        "type": "party_financing",
+        "children": [
+          {
+            "id": 59,
+            "label": "Alleanza del Centro, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 61,
+                "label": "Comunicazione delle entrate annuali",
+                "type": "form",
+                "campaign_id": 497,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/497/forms/61",
+                "children": []
+              },
+              {
+                "id": 62,
+                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                "type": "form",
+                "campaign_id": 497,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/497/forms/62",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 219,
+            "label": "Evangelische Volkspartei der Schweiz, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 61,
+                "label": "Comunicazione delle entrate annuali",
+                "type": "form",
+                "campaign_id": 499,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/499/forms/61",
+                "children": []
+              },
+              {
+                "id": 62,
+                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                "type": "form",
+                "campaign_id": 499,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/499/forms/62",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "label": "Grünliberale Partei Schweiz, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 61,
+                "label": "Comunicazione delle entrate annuali",
+                "type": "form",
+                "campaign_id": 492,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/492/forms/61",
+                "children": []
+              },
+              {
+                "id": 62,
+                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                "type": "form",
+                "campaign_id": 492,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/492/forms/62",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 394,
+            "label": "Lega dei Ticinesi, Lugano",
+            "type": "actor",
+            "children": [
+              {
+                "id": 61,
+                "label": "Comunicazione delle entrate annuali",
+                "type": "form",
+                "campaign_id": 501,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/501/forms/61",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 268,
+            "label": "Mouvement Citoyens Genevois, Genève",
+            "type": "actor",
+            "children": [
+              {
+                "id": 61,
+                "label": "Comunicazione delle entrate annuali",
+                "type": "form",
+                "campaign_id": 498,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/498/forms/61",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 43,
+            "label": "PLR.I Liberali Radicali, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 61,
+                "label": "Comunicazione delle entrate annuali",
+                "type": "form",
+                "campaign_id": 500,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/500/forms/61",
+                "children": []
+              },
+              {
+                "id": 62,
+                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                "type": "form",
+                "campaign_id": 500,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/500/forms/62",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "label": "Sozialdemokratische Partei der Schweiz, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 61,
+                "label": "Comunicazione delle entrate annuali",
+                "type": "form",
+                "campaign_id": 495,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/495/forms/61",
+                "children": []
+              },
+              {
+                "id": 62,
+                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                "type": "form",
+                "campaign_id": 495,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/495/forms/62",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 42,
+            "label": "Unione Democratica di Centro (UDC), Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 61,
+                "label": "Comunicazione delle entrate annuali",
+                "type": "form",
+                "campaign_id": 494,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/494/forms/61",
+                "children": []
+              },
+              {
+                "id": 62,
+                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                "type": "form",
+                "campaign_id": 494,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/494/forms/62",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 331,
+            "label": "Unione Democratica Federale Svizzera (UDF Svizzera), Thun",
+            "type": "actor",
+            "children": [
+              {
+                "id": 61,
+                "label": "Comunicazione delle entrate annuali",
+                "type": "form",
+                "campaign_id": 493,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/493/forms/61",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "label": "VERDI svizzeri, Berna",
+            "type": "actor",
+            "children": [
+              {
+                "id": 61,
+                "label": "Comunicazione delle entrate annuali",
+                "type": "form",
+                "campaign_id": 496,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/496/forms/61",
+                "children": []
+              },
+              {
+                "id": 62,
+                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                "type": "form",
+                "campaign_id": 496,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/496/forms/62",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "label": "2023",
+        "type": "party_financing",
+        "children": [
+          {
+            "id": 59,
+            "label": "Alleanza del Centro, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Comunicazione delle entrate annuali",
+                "type": "form",
+                "campaign_id": 432,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/432/forms/23",
+                "children": []
+              },
+              {
+                "id": 24,
+                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                "type": "form",
+                "campaign_id": 432,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/432/forms/24",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 219,
+            "label": "Evangelische Volkspartei der Schweiz, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Comunicazione delle entrate annuali",
+                "type": "form",
+                "campaign_id": 414,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/414/forms/23",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "label": "Grünliberale Partei Schweiz, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Comunicazione delle entrate annuali",
+                "type": "form",
+                "campaign_id": 426,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/426/forms/23",
+                "children": []
+              },
+              {
+                "id": 24,
+                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                "type": "form",
+                "campaign_id": 426,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/426/forms/24",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 394,
+            "label": "Lega dei Ticinesi, Lugano",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Comunicazione delle entrate annuali",
+                "type": "form",
+                "campaign_id": 438,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/438/forms/23",
+                "children": []
+              },
+              {
+                "id": 24,
+                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                "type": "form",
+                "campaign_id": 438,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/438/forms/24",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 268,
+            "label": "Mouvement Citoyens Genevois, Genève",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Comunicazione delle entrate annuali",
+                "type": "form",
+                "campaign_id": 443,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/443/forms/23",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 395,
+            "label": "Partito Operaio e Popolare (POP), Ginevra",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Comunicazione delle entrate annuali",
+                "type": "form",
+                "campaign_id": 444,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/444/forms/23",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 43,
+            "label": "PLR.I Liberali Radicali, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Comunicazione delle entrate annuali",
+                "type": "form",
+                "campaign_id": 437,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/437/forms/23",
+                "children": []
+              },
+              {
+                "id": 24,
+                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                "type": "form",
+                "campaign_id": 437,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/437/forms/24",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "label": "Sozialdemokratische Partei der Schweiz, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Comunicazione delle entrate annuali",
+                "type": "form",
+                "campaign_id": 427,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/427/forms/23",
+                "children": []
+              },
+              {
+                "id": 24,
+                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                "type": "form",
+                "campaign_id": 427,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/427/forms/24",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 396,
+            "label": "Union Populaire, Genève",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Comunicazione delle entrate annuali",
+                "type": "form",
+                "campaign_id": 445,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/445/forms/23",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 42,
+            "label": "Unione Democratica di Centro (UDC), Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Comunicazione delle entrate annuali",
+                "type": "form",
+                "campaign_id": 428,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/428/forms/23",
+                "children": []
+              },
+              {
+                "id": 24,
+                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                "type": "form",
+                "campaign_id": 428,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/428/forms/24",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 331,
+            "label": "Unione Democratica Federale Svizzera (UDF Svizzera), Thun",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Comunicazione delle entrate annuali",
+                "type": "form",
+                "campaign_id": 431,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/431/forms/23",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "label": "VERDI svizzeri, Berna",
+            "type": "actor",
+            "children": [
+              {
+                "id": 23,
+                "label": "Comunicazione delle entrate annuali",
+                "type": "form",
+                "campaign_id": 433,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/433/forms/23",
+                "children": []
+              },
+              {
+                "id": 24,
+                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                "type": "form",
+                "campaign_id": 433,
+                "download_path": "/api/frontend/latest/it/downloads/campaigns/433/forms/24",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "powered_by": "Sitrox",
+    "data_checksum_sha256": "5b624f9235bed289422eafce601a39f5646fd098331d476e783ab3c40349edd6"
+  }
+}

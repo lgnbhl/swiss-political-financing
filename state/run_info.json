@@ -1,0 +1,19 @@
+{
+  "finished_at": "2026-08-01T14:06:23+0000",
+  "duration_sec": 100.2,
+  "languages": ["de", "fr", "it"],
+  "counts": {
+    "declarations": 2715,
+    "declaration_candidates": 16830,
+    "contributions": 5430,
+    "mandate_contributions": 2205,
+    "forms": 4026,
+    "form_appearances": 20754,
+    "allowances": 5430,
+    "events": 93,
+    "actors": 1167,
+    "candidates": 1026,
+    "people": 0,
+    "manifest": 4176
+  }
+}

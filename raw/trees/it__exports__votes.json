@@ -1,0 +1,461 @@
+{
+  "data": {
+    "tree_roots": [
+      {
+        "id": 28,
+        "label": "14.06.2026 No a una Svizzera da 10 milioni! (Iniziativa per la sostenibilità)",
+        "type": "campaign_financing",
+        "header_text": "2026",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/28?with_budget=true",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "label": "14.06.2026 Modifica del 26 settembre 2025 della legge federale sul servizio civile sostitutivo (Legge sul servizio civile, LSC)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/29?with_budget=true",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "label": "08.03.2026 Per una politica energetica e climatica equa: investire per la prosperità, il lavoro e l’ambiente (Iniziativa per un fondo per il clima)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/25?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Conto finale delle entrate e liberalità",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/25?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "label": "08.03.2026 200 franchi bastano! (Iniziativa SSR)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/24?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Conto finale delle entrate e liberalità",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/24?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "label": "08.03.2026 Legge federale del 20 giugno 2025 sull’imposizione individuale",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/26?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Conto finale delle entrate e liberalità",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/26?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "label": "30.11.2025 Per una Svizzera che si impegna (Iniziativa Servizio civico)",
+        "type": "campaign_financing",
+        "header_text": "2025",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/20?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Conto finale delle entrate e liberalità",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/20?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "label": "30.11.2025 Per una politica climatica sociale finanziata in modo fiscalmente equo (Iniziativa per il futuro)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/21?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Conto finale delle entrate e liberalità",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/21?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "label": "28.09.2025 Decreto federale del 20 dicembre 2024 concernente l’imposta immobiliare cantonale sulle abitazioni secondarie",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/18?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Conto finale delle entrate e liberalità",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/18?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "label": "28.09.2025 Legge federale del 20 dicembre 2024 sul mezzo d’identificazione elettronico e altri mezzi di autenticazione elettronici (Legge sull’Id-e, LIdE)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/19?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Conto finale delle entrate e liberalità",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/19?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "label": "09.02.2025 Per un’economia responsabile entro i limiti del pianeta (Iniziativa per la responsabilità ambientale)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/16?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Conto finale delle entrate e liberalità",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/16?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "label": "24.11.2024 Decreto federale del 29 settembre 2023 sulla Fase di potenziamento 2023 delle strade nazionali",
+        "type": "campaign_financing",
+        "header_text": "2024",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/12?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Conto finale delle entrate e liberalità",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/12?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "label": "24.11.2024 Modifica del 29 settembre 2023 del Codice delle obbligazioni (Diritto di locazione: sublocazione)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/13?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Conto finale delle entrate e liberalità",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/13?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "label": "24.11.2024 Modifica del 29 settembre 2023 del Codice delle obbligazioni (Diritto di locazione: disdetta per bisogno personale)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/14?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Conto finale delle entrate e liberalità",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/14?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "label": "24.11.2024 Modifica del 22 dicembre 2023 della legge federale sull’assicurazione malattie (Finanziamento uniforme delle prestazioni)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/15?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Conto finale delle entrate e liberalità",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/15?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "label": "22.09.2024 Per il futuro della nostra natura e del nostro paesaggio (Iniziativa biodiversità)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/10?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Conto finale delle entrate e liberalità",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/10?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "label": "22.09.2024 Legge federale sulla previdenza professionale per la vecchiaia, i superstiti e l’invalidità (LPP) (Riforma della previdenza professionale)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/11?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Conto finale delle entrate e liberalità",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/11?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "label": "09.06.2024 Al massimo il 10 per cento del reddito per i premi delle casse malati (Iniziativa per premi meno onerosi)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/5?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Conto finale delle entrate e liberalità",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/5?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "label": "09.06.2024 Per premi più bassi – Freno ai costi nel settore sanitario (Iniziativa per un freno ai costi)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/6?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Conto finale delle entrate e liberalità",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/6?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "label": "09.06.2024 Per la libertà e l’integrità fisica",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/7?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Conto finale delle entrate e liberalità",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/7?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "label": "09.06.2024 Legge federale del 29 settembre 2023 su un approvvigionamento elettrico sicuro con le energie rinnovabili (Modifica della legge federale sull’energia e della legge sull’approvvigionamento elettrico)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/8?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Conto finale delle entrate e liberalità",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/8?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "label": "03.03.2024 Vivere meglio la pensione (Iniziativa per una 13esima mensilità AVS)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/3?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Conto finale delle entrate e liberalità",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/3?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "label": "03.03.2024 Per una previdenza vecchiaia sicura e sostenibile (Iniziativa sulle pensioni)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/4?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Conto finale delle entrate e liberalità",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/4?with_budget=false",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "powered_by": "Sitrox",
+    "data_checksum_sha256": "3330b9dd73e1cf6d379a4ddc01229bf51c82e31e3ea973adc3ce998810ebffae"
+  }
+}
