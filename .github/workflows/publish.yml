@@ -32,7 +32,7 @@ on:
     types: [completed]
   # Hand edits: after you rebuild locally and commit index.html.
   push:
-    branches: [master]
+    branches: [main]
     paths:
       - "app/index.html"
       - "app/lib/**"
@@ -51,16 +51,16 @@ jobs:
       github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
-      # After a scrape, master's tip: the rebuild is a commit update-data pushes
+      # After a scrape, main's tip: the rebuild is a commit update-data pushes
       # on top of the one it started from, so the triggering run's head_sha is
       # the page as it was *before* the refresh. The other triggers have no such
       # commit-on-top, and the SHA the run was queued at is the right one.
       - name: Checkout this repo
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event_name == 'workflow_run' && 'master' || github.sha }}
+          ref: ${{ github.event_name == 'workflow_run' && 'main' || github.sha }}
 
-      # Note the branch names differ: this repo is `master`, the website `main`.
+      # Both repos use `main`.
       # WEBSITE_DEPLOY_TOKEN is a fine-grained PAT with Contents: read and write
       # on lgnbhl/lgnbhl.github.io only.
       - name: Checkout the website repo
