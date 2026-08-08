@@ -173,6 +173,50 @@
             ]
           },
           {
+            "id": 461,
+            "label": "Agri Médias Sàrl, Lausanne",
+            "type": "actor",
+            "children": [
+              {
+                "id": 0,
+                "label": "Finanziamento della campagna elettorale",
+                "type": "financing_category",
+                "children": [
+                  {
+                    "id": 32,
+                    "label": "27.09.2026 Per un’alimentazione sicura – mediante il rafforzamento di una produzione nazionale sostenibile, più derrate alimentari vegetali e acqua potabile pulita (Iniziativa sull’alimentazione)",
+                    "type": "campaign_financing",
+                    "children": [
+                      {
+                        "id": 601,
+                        "label": "Rifiuto dell'oggetto della votazione popolare",
+                        "type": "campaign",
+                        "children": [
+                          {
+                            "id": 113,
+                            "label": "Comunicazione delle entrate preventivate",
+                            "type": "form",
+                            "campaign_id": 601,
+                            "download_path": "/api/frontend/latest/it/downloads/campaigns/601/forms/113",
+                            "children": []
+                          },
+                          {
+                            "id": 114,
+                            "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                            "type": "form",
+                            "campaign_id": 601,
+                            "download_path": "/api/frontend/latest/it/downloads/campaigns/601/forms/114",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "id": 290,
             "label": "AL - Alternative Liste, Zürich",
             "type": "actor",
@@ -559,6 +603,22 @@
                             "type": "form",
                             "campaign_id": 571,
                             "download_path": "/api/frontend/latest/it/downloads/campaigns/571/forms/92",
+                            "children": []
+                          },
+                          {
+                            "id": 107,
+                            "label": "Comunicazione del conto finale delle entrate",
+                            "type": "form",
+                            "campaign_id": 571,
+                            "download_path": "/api/frontend/latest/it/downloads/campaigns/571/forms/107",
+                            "children": []
+                          },
+                          {
+                            "id": 108,
+                            "label": "Comunicazione di liberalità superiori a 15 000 franchi (conto finale)",
+                            "type": "form",
+                            "campaign_id": 571,
+                            "download_path": "/api/frontend/latest/it/downloads/campaigns/571/forms/108",
                             "children": []
                           }
                         ]
@@ -4965,6 +5025,14 @@
                             "campaign_id": 574,
                             "download_path": "/api/frontend/latest/it/downloads/campaigns/574/forms/91",
                             "children": []
+                          },
+                          {
+                            "id": 107,
+                            "label": "Comunicazione del conto finale delle entrate",
+                            "type": "form",
+                            "campaign_id": 574,
+                            "download_path": "/api/frontend/latest/it/downloads/campaigns/574/forms/107",
+                            "children": []
                           }
                         ]
                       }
@@ -7945,6 +8013,14 @@
                             "campaign_id": 565,
                             "download_path": "/api/frontend/latest/it/downloads/campaigns/565/forms/91",
                             "children": []
+                          },
+                          {
+                            "id": 107,
+                            "label": "Comunicazione del conto finale delle entrate",
+                            "type": "form",
+                            "campaign_id": 565,
+                            "download_path": "/api/frontend/latest/it/downloads/campaigns/565/forms/107",
+                            "children": []
                           }
                         ]
                       }
@@ -10051,6 +10127,28 @@
                 "label": "Finanziamento della campagna elettorale",
                 "type": "financing_category",
                 "children": [
+                  {
+                    "id": 31,
+                    "label": "27.09.2026 Salvaguardia della neutralità svizzera (Iniziativa sulla neutralità)",
+                    "type": "campaign_financing",
+                    "children": [
+                      {
+                        "id": 600,
+                        "label": "Rifiuto dell'oggetto della votazione popolare",
+                        "type": "campaign",
+                        "children": [
+                          {
+                            "id": 111,
+                            "label": "Comunicazione delle entrate preventivate",
+                            "type": "form",
+                            "campaign_id": 600,
+                            "download_path": "/api/frontend/latest/it/downloads/campaigns/600/forms/111",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
                   {
                     "id": 28,
                     "label": "14.06.2026 No a una Svizzera da 10 milioni! (Iniziativa per la sostenibilità)",
@@ -12307,6 +12405,14 @@
                             "campaign_id": 570,
                             "download_path": "/api/frontend/latest/it/downloads/campaigns/570/forms/91",
                             "children": []
+                          },
+                          {
+                            "id": 107,
+                            "label": "Comunicazione del conto finale delle entrate",
+                            "type": "form",
+                            "campaign_id": 570,
+                            "download_path": "/api/frontend/latest/it/downloads/campaigns/570/forms/107",
+                            "children": []
                           }
                         ]
                       }
@@ -14250,6 +14356,14 @@
                             "campaign_id": 588,
                             "download_path": "/api/frontend/latest/it/downloads/campaigns/588/forms/91",
                             "children": []
+                          },
+                          {
+                            "id": 107,
+                            "label": "Comunicazione del conto finale delle entrate",
+                            "type": "form",
+                            "campaign_id": 588,
+                            "download_path": "/api/frontend/latest/it/downloads/campaigns/588/forms/107",
+                            "children": []
                           }
                         ]
                       }
@@ -15790,6 +15904,22 @@
                             "type": "form",
                             "campaign_id": 569,
                             "download_path": "/api/frontend/latest/it/downloads/campaigns/569/forms/92",
+                            "children": []
+                          },
+                          {
+                            "id": 107,
+                            "label": "Comunicazione del conto finale delle entrate",
+                            "type": "form",
+                            "campaign_id": 569,
+                            "download_path": "/api/frontend/latest/it/downloads/campaigns/569/forms/107",
+                            "children": []
+                          },
+                          {
+                            "id": 108,
+                            "label": "Comunicazione di liberalità superiori a 15 000 franchi (conto finale)",
+                            "type": "form",
+                            "campaign_id": 569,
+                            "download_path": "/api/frontend/latest/it/downloads/campaigns/569/forms/108",
                             "children": []
                           }
                         ]
@@ -23271,6 +23401,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "51c415aae15767a23f69b36a81068cc6d0e897924f620fae890309328beabac6"
+    "data_checksum_sha256": "485b9e8522b53b551927e66d2605c0940c86c056e44e1f68634fab89ba8ffadc"
   }
 }

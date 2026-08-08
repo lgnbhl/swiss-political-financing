@@ -2,8 +2,8 @@
   "data": {
     "tree_roots": [
       {
-        "id": 28,
-        "label": "14.06.2026 Pas de Suisse à 10 millions ! (initiative pour la durabilité)",
+        "id": 31,
+        "label": "27.09.2026 Sauvegarder la neutralité suisse (initiative sur la neutralité)",
         "type": "campaign_financing",
         "header_text": "2026",
         "children": [
@@ -11,7 +11,42 @@
             "id": 2,
             "label": "Recettes et libéralités budgétées",
             "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/31?with_budget=true",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "label": "27.09.2026 Pour une alimentation sûre – grâce au renforcement de la protection indigène durable, à davantage de denrées alimentaires végétales et à une eau potable propre (initiative sur l’alimentation)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/32?with_budget=true",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "label": "14.06.2026 Pas de Suisse à 10 millions ! (initiative pour la durabilité)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
             "download_path": "/api/frontend/latest/fr/downloads/financings/28?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Décompte final des recettes et des libéralités",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/28?with_budget=false",
             "children": []
           }
         ]
@@ -456,6 +491,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "58a0460a32c51cfac9cd67e6118e43a569d6e7e4cca99e62ec221f595284fb45"
+    "data_checksum_sha256": "f2099ef86aff141b52e4fc2c1687d2d912b8c40395051b710b17edabdaa6ee52"
   }
 }

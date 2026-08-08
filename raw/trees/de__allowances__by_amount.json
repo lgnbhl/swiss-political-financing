@@ -17,7 +17,27 @@
             "id": 32,
             "label": "27.09.2026 Für eine sichere Ernährung – durch Stärkung einer nachhaltigen inländischen Produktion, mehr pflanzliche Lebensmittel und sauberes Trinkwasser (Ernährungsinitiative)",
             "type": "campaign_financing",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Budgetzahlen",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 4547,
+                    "label": "CHF 50'000.00, Zuwender/in: AgorA, Akteur/in: Agri Médias Sàrl, Lausanne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4546,
+                    "label": "CHF 50'000.00, Zuwender/in: Prométerre, Akteur/in: Agri Médias Sàrl, Lausanne",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 28,
@@ -260,6 +280,49 @@
                   {
                     "id": 4223,
                     "label": "CHF 5'000.00, Zuwender/in: economiesuisse, Akteur/in: FDP.Die Liberalen, Bern",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "label": "Definitive Zahlen",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 4512,
+                    "label": "CHF 301'410.00, Zuwender/in: Unia, Akteur/in: Schweizerischer Gewerkschaftsbund (SGB), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4514,
+                    "label": "CHF 93'386.00, Zuwender/in: Schweizerischer Gewerkschaftsbund, Akteur/in: Schweizerischer Gewerkschaftsbund (SGB), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4510,
+                    "label": "CHF 61'399.00, Zuwender/in: SEV, Akteur/in: Schweizerischer Gewerkschaftsbund (SGB), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4513,
+                    "label": "CHF 58'644.00, Zuwender/in: VPOD, Akteur/in: Schweizerischer Gewerkschaftsbund (SGB), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4511,
+                    "label": "CHF 53'383.00, Zuwender/in: Syndicom, Akteur/in: Schweizerischer Gewerkschaftsbund (SGB), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4548,
+                    "label": "CHF 25'000.00, Zuwender/in: GastroSuisse, Akteur/in: Allianz für eine funktionierende Schweiz, Bern",
                     "type": "allowance",
                     "children": []
                   }
@@ -11410,6 +11473,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "1e334640efcd423ee21af06b9874ebdd3e7ceeaa25b6ee390de09a05b66840f1"
+    "data_checksum_sha256": "a61e3c669e6f49b6e100a77818a05bd25f66438cbcd00f25ef98b8d0bb8adc2d"
   }
 }

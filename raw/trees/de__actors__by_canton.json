@@ -14595,6 +14595,14 @@
                                 "campaign_id": 570,
                                 "download_path": "/api/frontend/latest/de/downloads/campaigns/570/forms/91",
                                 "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Offenlegung der Schlussrechnung über die Einnahmen",
+                                "type": "form",
+                                "campaign_id": 570,
+                                "download_path": "/api/frontend/latest/de/downloads/campaigns/570/forms/107",
+                                "children": []
                               }
                             ]
                           }
@@ -14720,6 +14728,14 @@
                                 "type": "form",
                                 "campaign_id": 588,
                                 "download_path": "/api/frontend/latest/de/downloads/campaigns/588/forms/91",
+                                "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Offenlegung der Schlussrechnung über die Einnahmen",
+                                "type": "form",
+                                "campaign_id": 588,
+                                "download_path": "/api/frontend/latest/de/downloads/campaigns/588/forms/107",
                                 "children": []
                               }
                             ]
@@ -16598,6 +16614,50 @@
                 ]
               },
               {
+                "id": 461,
+                "label": "Agri Médias Sàrl, Lausanne",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "Kampagnenfinanzierung",
+                    "type": "financing_category",
+                    "children": [
+                      {
+                        "id": 32,
+                        "label": "27.09.2026 Für eine sichere Ernährung – durch Stärkung einer nachhaltigen inländischen Produktion, mehr pflanzliche Lebensmittel und sauberes Trinkwasser (Ernährungsinitiative)",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 601,
+                            "label": "Ablehnung der Abstimmungsvorlage",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 113,
+                                "label": "Offenlegung der budgetierten Einnahmen",
+                                "type": "form",
+                                "campaign_id": 601,
+                                "download_path": "/api/frontend/latest/de/downloads/campaigns/601/forms/113",
+                                "children": []
+                              },
+                              {
+                                "id": 114,
+                                "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                                "type": "form",
+                                "campaign_id": 601,
+                                "download_path": "/api/frontend/latest/de/downloads/campaigns/601/forms/114",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "id": 398,
                 "label": "Allianz \"Ja zur BVG-Reform\", Zürich",
                 "type": "actor",
@@ -17021,6 +17081,22 @@
                                 "type": "form",
                                 "campaign_id": 571,
                                 "download_path": "/api/frontend/latest/de/downloads/campaigns/571/forms/92",
+                                "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Offenlegung der Schlussrechnung über die Einnahmen",
+                                "type": "form",
+                                "campaign_id": 571,
+                                "download_path": "/api/frontend/latest/de/downloads/campaigns/571/forms/107",
+                                "children": []
+                              },
+                              {
+                                "id": 108,
+                                "label": "Offenlegung von Zuwendungen über 15 000 Franken (Schlussrechnung)",
+                                "type": "form",
+                                "campaign_id": 571,
+                                "download_path": "/api/frontend/latest/de/downloads/campaigns/571/forms/108",
                                 "children": []
                               }
                             ]
@@ -18652,6 +18728,14 @@
                                 "campaign_id": 574,
                                 "download_path": "/api/frontend/latest/de/downloads/campaigns/574/forms/91",
                                 "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Offenlegung der Schlussrechnung über die Einnahmen",
+                                "type": "form",
+                                "campaign_id": 574,
+                                "download_path": "/api/frontend/latest/de/downloads/campaigns/574/forms/107",
+                                "children": []
                               }
                             ]
                           }
@@ -19758,6 +19842,14 @@
                                 "campaign_id": 565,
                                 "download_path": "/api/frontend/latest/de/downloads/campaigns/565/forms/91",
                                 "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Offenlegung der Schlussrechnung über die Einnahmen",
+                                "type": "form",
+                                "campaign_id": 565,
+                                "download_path": "/api/frontend/latest/de/downloads/campaigns/565/forms/107",
+                                "children": []
                               }
                             ]
                           }
@@ -20487,6 +20579,28 @@
                     "label": "Kampagnenfinanzierung",
                     "type": "financing_category",
                     "children": [
+                      {
+                        "id": 31,
+                        "label": "27.09.2026 Wahrung der schweizerischen Neutralität (Neutralitätsinitiative)",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 600,
+                            "label": "Ablehnung der Abstimmungsvorlage",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 111,
+                                "label": "Offenlegung der budgetierten Einnahmen",
+                                "type": "form",
+                                "campaign_id": 600,
+                                "download_path": "/api/frontend/latest/de/downloads/campaigns/600/forms/111",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
                       {
                         "id": 28,
                         "label": "14.06.2026 Keine 10-Millionen-Schweiz! (Nachhaltigkeitsinitiative)",
@@ -21666,6 +21780,22 @@
                                 "type": "form",
                                 "campaign_id": 569,
                                 "download_path": "/api/frontend/latest/de/downloads/campaigns/569/forms/92",
+                                "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Offenlegung der Schlussrechnung über die Einnahmen",
+                                "type": "form",
+                                "campaign_id": 569,
+                                "download_path": "/api/frontend/latest/de/downloads/campaigns/569/forms/107",
+                                "children": []
+                              },
+                              {
+                                "id": 108,
+                                "label": "Offenlegung von Zuwendungen über 15 000 Franken (Schlussrechnung)",
+                                "type": "form",
+                                "campaign_id": 569,
+                                "download_path": "/api/frontend/latest/de/downloads/campaigns/569/forms/108",
                                 "children": []
                               }
                             ]
@@ -23705,6 +23835,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "43745e0510712e1d699a2e7b4be46ae78a2f4b94c6cdb7d92c8732e90c242214"
+    "data_checksum_sha256": "edd6265dc584e399d9aeb9a38fc24d33cc20899c620d67779fc255141a3f9683"
   }
 }

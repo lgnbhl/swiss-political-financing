@@ -17,7 +17,27 @@
             "id": 32,
             "label": "27.09.2026 Pour une alimentation sûre – grâce au renforcement de la protection indigène durable, à davantage de denrées alimentaires végétales et à une eau potable propre (initiative sur l’alimentation)",
             "type": "campaign_financing",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Montants budgétés",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 4547,
+                    "label": "CHF 50'000.00, Donateur/trice: AgorA, Acteur/trice: Agri Médias Sàrl, Lausanne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4546,
+                    "label": "CHF 50'000.00, Donateur/trice: Prométerre, Acteur/trice: Agri Médias Sàrl, Lausanne",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 28,
@@ -260,6 +280,49 @@
                   {
                     "id": 4223,
                     "label": "CHF 5'000.00, Donateur/trice: economiesuisse, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "label": "Montants finaux",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 4512,
+                    "label": "CHF 301'410.00, Donateur/trice: Unia, Acteur/trice: Union syndicale suisse (USS), Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4514,
+                    "label": "CHF 93'386.00, Donateur/trice: Schweizerischer Gewerkschaftsbund, Acteur/trice: Union syndicale suisse (USS), Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4510,
+                    "label": "CHF 61'399.00, Donateur/trice: SEV, Acteur/trice: Union syndicale suisse (USS), Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4513,
+                    "label": "CHF 58'644.00, Donateur/trice: VPOD, Acteur/trice: Union syndicale suisse (USS), Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4511,
+                    "label": "CHF 53'383.00, Donateur/trice: Syndicom, Acteur/trice: Union syndicale suisse (USS), Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4548,
+                    "label": "CHF 25'000.00, Donateur/trice: GastroSuisse, Acteur/trice: Alliance pour une Suisse qui fonctionne, Berne",
                     "type": "allowance",
                     "children": []
                   }
@@ -11410,6 +11473,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "1785bb7416687c2bdebb191164f3cc5ca8c5b2488224ef28ff44770fb0a2d5ca"
+    "data_checksum_sha256": "4baa2b478a7b1704f64add99a1c57647ee55fb60cf241dd0768f8268679f361c"
   }
 }

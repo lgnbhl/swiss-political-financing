@@ -6,13 +6,81 @@
         "label": "27.09.2026 Sauvegarder la neutralité suisse (initiative sur la neutralité)",
         "type": "campaign_financing",
         "header_text": "2026",
-        "children": []
+        "children": [
+          {
+            "id": 0,
+            "label": "Personnes morales ou sociétés de personnes",
+            "type": "actor_category",
+            "children": [
+              {
+                "id": 357,
+                "label": "Operation Libero, Bern",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 600,
+                    "label": "Rejet de l'objet de la votation populaire",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 111,
+                        "label": "Déclaration des recettes budgétées",
+                        "type": "form",
+                        "campaign_id": 600,
+                        "download_path": "/api/frontend/latest/fr/downloads/campaigns/600/forms/111",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 32,
         "label": "27.09.2026 Pour une alimentation sûre – grâce au renforcement de la protection indigène durable, à davantage de denrées alimentaires végétales et à une eau potable propre (initiative sur l’alimentation)",
         "type": "campaign_financing",
-        "children": []
+        "children": [
+          {
+            "id": 0,
+            "label": "Personnes morales ou sociétés de personnes",
+            "type": "actor_category",
+            "children": [
+              {
+                "id": 461,
+                "label": "Agri Médias Sàrl, Lausanne",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 601,
+                    "label": "Rejet de l'objet de la votation populaire",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 113,
+                        "label": "Déclaration des recettes budgétées",
+                        "type": "form",
+                        "campaign_id": 601,
+                        "download_path": "/api/frontend/latest/fr/downloads/campaigns/601/forms/113",
+                        "children": []
+                      },
+                      {
+                        "id": 114,
+                        "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                        "type": "form",
+                        "campaign_id": 601,
+                        "download_path": "/api/frontend/latest/fr/downloads/campaigns/601/forms/114",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 28,
@@ -48,6 +116,22 @@
                         "type": "form",
                         "campaign_id": 571,
                         "download_path": "/api/frontend/latest/fr/downloads/campaigns/571/forms/92",
+                        "children": []
+                      },
+                      {
+                        "id": 107,
+                        "label": "Déclaration du décompte final des recettes",
+                        "type": "form",
+                        "campaign_id": 571,
+                        "download_path": "/api/frontend/latest/fr/downloads/campaigns/571/forms/107",
+                        "children": []
+                      },
+                      {
+                        "id": 108,
+                        "label": "Déclaration de libéralités supérieures à 15 000 francs (décompte final)",
+                        "type": "form",
+                        "campaign_id": 571,
+                        "download_path": "/api/frontend/latest/fr/downloads/campaigns/571/forms/108",
                         "children": []
                       }
                     ]
@@ -175,6 +259,14 @@
                         "campaign_id": 574,
                         "download_path": "/api/frontend/latest/fr/downloads/campaigns/574/forms/91",
                         "children": []
+                      },
+                      {
+                        "id": 107,
+                        "label": "Déclaration du décompte final des recettes",
+                        "type": "form",
+                        "campaign_id": 574,
+                        "download_path": "/api/frontend/latest/fr/downloads/campaigns/574/forms/107",
+                        "children": []
                       }
                     ]
                   }
@@ -226,6 +318,14 @@
                         "type": "form",
                         "campaign_id": 565,
                         "download_path": "/api/frontend/latest/fr/downloads/campaigns/565/forms/91",
+                        "children": []
+                      },
+                      {
+                        "id": 107,
+                        "label": "Déclaration du décompte final des recettes",
+                        "type": "form",
+                        "campaign_id": 565,
+                        "download_path": "/api/frontend/latest/fr/downloads/campaigns/565/forms/107",
                         "children": []
                       }
                     ]
@@ -375,6 +475,14 @@
                         "campaign_id": 570,
                         "download_path": "/api/frontend/latest/fr/downloads/campaigns/570/forms/91",
                         "children": []
+                      },
+                      {
+                        "id": 107,
+                        "label": "Déclaration du décompte final des recettes",
+                        "type": "form",
+                        "campaign_id": 570,
+                        "download_path": "/api/frontend/latest/fr/downloads/campaigns/570/forms/107",
+                        "children": []
                       }
                     ]
                   }
@@ -448,6 +556,14 @@
                         "type": "form",
                         "campaign_id": 588,
                         "download_path": "/api/frontend/latest/fr/downloads/campaigns/588/forms/91",
+                        "children": []
+                      },
+                      {
+                        "id": 107,
+                        "label": "Déclaration du décompte final des recettes",
+                        "type": "form",
+                        "campaign_id": 588,
+                        "download_path": "/api/frontend/latest/fr/downloads/campaigns/588/forms/107",
                         "children": []
                       }
                     ]
@@ -530,6 +646,22 @@
                         "type": "form",
                         "campaign_id": 569,
                         "download_path": "/api/frontend/latest/fr/downloads/campaigns/569/forms/92",
+                        "children": []
+                      },
+                      {
+                        "id": 107,
+                        "label": "Déclaration du décompte final des recettes",
+                        "type": "form",
+                        "campaign_id": 569,
+                        "download_path": "/api/frontend/latest/fr/downloads/campaigns/569/forms/107",
+                        "children": []
+                      },
+                      {
+                        "id": 108,
+                        "label": "Déclaration de libéralités supérieures à 15 000 francs (décompte final)",
+                        "type": "form",
+                        "campaign_id": 569,
+                        "download_path": "/api/frontend/latest/fr/downloads/campaigns/569/forms/108",
                         "children": []
                       }
                     ]
@@ -17706,6 +17838,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "3eecccc6e3308130195054214c6580ce5f67ef11d01f5cd7103c964c1aa8c7b9"
+    "data_checksum_sha256": "4c7c175df8f9ccad449856bb4f67ccfd5704cbe3ffdb10b5afb9128306c8780e"
   }
 }

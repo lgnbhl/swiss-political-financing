@@ -17,7 +17,34 @@
             "id": 32,
             "label": "27.09.2026 Für eine sichere Ernährung – durch Stärkung einer nachhaltigen inländischen Produktion, mehr pflanzliche Lebensmittel und sauberes Trinkwasser (Ernährungsinitiative)",
             "type": "campaign_financing",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Budgetzahlen",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 1,
+                    "label": "juristische Person oder Personengesellschaft",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4547,
+                        "label": "Zuwender/in: AgorA, Akteur/in: Agri Médias Sàrl, Lausanne",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4546,
+                        "label": "Zuwender/in: Prométerre, Akteur/in: Agri Médias Sàrl, Lausanne",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 28,
@@ -272,6 +299,56 @@
                       {
                         "id": 4216,
                         "label": "Zuwender/in: Zürcher Handelskammer, Akteur/in: Allianz \"Nein zur Chaos-Initiative\", Bern",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "label": "Definitive Zahlen",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 1,
+                    "label": "juristische Person oder Personengesellschaft",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4548,
+                        "label": "Zuwender/in: GastroSuisse, Akteur/in: Allianz für eine funktionierende Schweiz, Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4514,
+                        "label": "Zuwender/in: Schweizerischer Gewerkschaftsbund, Akteur/in: Schweizerischer Gewerkschaftsbund (SGB), Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4510,
+                        "label": "Zuwender/in: SEV, Akteur/in: Schweizerischer Gewerkschaftsbund (SGB), Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4511,
+                        "label": "Zuwender/in: Syndicom, Akteur/in: Schweizerischer Gewerkschaftsbund (SGB), Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4512,
+                        "label": "Zuwender/in: Unia, Akteur/in: Schweizerischer Gewerkschaftsbund (SGB), Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4513,
+                        "label": "Zuwender/in: VPOD, Akteur/in: Schweizerischer Gewerkschaftsbund (SGB), Bern",
                         "type": "allowance",
                         "children": []
                       }
@@ -11921,6 +11998,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "0f5197e5c84fa7057e3983e706a39b92a5724e015a2aced8177e0ce4e3314e1c"
+    "data_checksum_sha256": "d152553fc50c5783d0ad4f5d4d7ccf57cd36787a9d6c117d9838a3984df6592b"
   }
 }

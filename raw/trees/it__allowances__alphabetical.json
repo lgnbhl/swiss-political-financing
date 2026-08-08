@@ -17,7 +17,34 @@
             "id": 32,
             "label": "27.09.2026 Per un’alimentazione sicura – mediante il rafforzamento di una produzione nazionale sostenibile, più derrate alimentari vegetali e acqua potabile pulita (Iniziativa sull’alimentazione)",
             "type": "campaign_financing",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Importi preventivati",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 1,
+                    "label": "persona giuridica o società di persone",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4547,
+                        "label": "Donatore/trice: AgorA, Attore/trice: Agri Médias Sàrl, Lausanne",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4546,
+                        "label": "Donatore/trice: Prométerre, Attore/trice: Agri Médias Sàrl, Lausanne",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 28,
@@ -272,6 +299,56 @@
                       {
                         "id": 4216,
                         "label": "Donatore/trice: Zürcher Handelskammer, Attore/trice: Alleanza «NO all'iniziativa del caos», Berna",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "label": "Importi finali",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 1,
+                    "label": "persona giuridica o società di persone",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4548,
+                        "label": "Donatore/trice: GastroSuisse, Attore/trice: Alleanza per una Svizzera che funziona, Berna",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4514,
+                        "label": "Donatore/trice: Schweizerischer Gewerkschaftsbund, Attore/trice: Unione sindacale svizzera (USS), Berna",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4510,
+                        "label": "Donatore/trice: SEV, Attore/trice: Unione sindacale svizzera (USS), Berna",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4511,
+                        "label": "Donatore/trice: Syndicom, Attore/trice: Unione sindacale svizzera (USS), Berna",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4512,
+                        "label": "Donatore/trice: Unia, Attore/trice: Unione sindacale svizzera (USS), Berna",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4513,
+                        "label": "Donatore/trice: VPOD, Attore/trice: Unione sindacale svizzera (USS), Berna",
                         "type": "allowance",
                         "children": []
                       }
@@ -11921,6 +11998,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "e3718b6f4967b4d05458d2d31084754e2280683519af9a0a0e16b155b082d1a2"
+    "data_checksum_sha256": "b9890da02f7687ea65fbf6266493f75b05cfcaf81f0e48d15ffdba82610ad2f9"
   }
 }

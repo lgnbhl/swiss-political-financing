@@ -17,7 +17,34 @@
             "id": 32,
             "label": "27.09.2026 Pour une alimentation sûre – grâce au renforcement de la protection indigène durable, à davantage de denrées alimentaires végétales et à une eau potable propre (initiative sur l’alimentation)",
             "type": "campaign_financing",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Montants budgétés",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 1,
+                    "label": "personne morale ou société de personnes",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4547,
+                        "label": "Donateur/trice: AgorA, Acteur/trice: Agri Médias Sàrl, Lausanne",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4546,
+                        "label": "Donateur/trice: Prométerre, Acteur/trice: Agri Médias Sàrl, Lausanne",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 28,
@@ -272,6 +299,56 @@
                       {
                         "id": 4216,
                         "label": "Donateur/trice: Zürcher Handelskammer, Acteur/trice: Alliance « NON à l'initiative du chaos », Berne",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "label": "Montants finaux",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 1,
+                    "label": "personne morale ou société de personnes",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4548,
+                        "label": "Donateur/trice: GastroSuisse, Acteur/trice: Alliance pour une Suisse qui fonctionne, Berne",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4514,
+                        "label": "Donateur/trice: Schweizerischer Gewerkschaftsbund, Acteur/trice: Union syndicale suisse (USS), Berne",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4510,
+                        "label": "Donateur/trice: SEV, Acteur/trice: Union syndicale suisse (USS), Berne",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4511,
+                        "label": "Donateur/trice: Syndicom, Acteur/trice: Union syndicale suisse (USS), Berne",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4512,
+                        "label": "Donateur/trice: Unia, Acteur/trice: Union syndicale suisse (USS), Berne",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4513,
+                        "label": "Donateur/trice: VPOD, Acteur/trice: Union syndicale suisse (USS), Berne",
                         "type": "allowance",
                         "children": []
                       }
@@ -11921,6 +11998,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "932922dbd29220c42cf9f8cc5653fa593718a9609e5db1d4c1f008b91b2d165f"
+    "data_checksum_sha256": "98a74aa6faec64172e8d2026ce95af7e5b07af2291eec18d37ea6130fc54b6a2"
   }
 }

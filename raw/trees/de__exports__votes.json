@@ -2,8 +2,8 @@
   "data": {
     "tree_roots": [
       {
-        "id": 28,
-        "label": "14.06.2026 Keine 10-Millionen-Schweiz! (Nachhaltigkeitsinitiative)",
+        "id": 31,
+        "label": "27.09.2026 Wahrung der schweizerischen Neutralität (Neutralitätsinitiative)",
         "type": "campaign_financing",
         "header_text": "2026",
         "children": [
@@ -11,7 +11,42 @@
             "id": 2,
             "label": "Budgetierte Einnahmen und Zuwendungen",
             "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/31?with_budget=true",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "label": "27.09.2026 Für eine sichere Ernährung – durch Stärkung einer nachhaltigen inländischen Produktion, mehr pflanzliche Lebensmittel und sauberes Trinkwasser (Ernährungsinitiative)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/32?with_budget=true",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "label": "14.06.2026 Keine 10-Millionen-Schweiz! (Nachhaltigkeitsinitiative)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Budgetierte Einnahmen und Zuwendungen",
+            "type": "download",
             "download_path": "/api/frontend/latest/de/downloads/financings/28?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/28?with_budget=false",
             "children": []
           }
         ]
@@ -456,6 +491,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "71628fbc511cf201d628e94408d51e014d7f0011c2f044009522bf574e28a880"
+    "data_checksum_sha256": "880a26c36e771bcfdf6621433aafa37943b53ab382b2d4ba56dd509302601e75"
   }
 }
