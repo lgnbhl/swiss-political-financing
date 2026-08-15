@@ -11,7 +11,77 @@
             "label": "27.09.2026 Salvaguardia della neutralità svizzera (Iniziativa sulla neutralità)",
             "type": "campaign_financing",
             "header_text": "2026",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Importi preventivati",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "persona fisica",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4592,
+                        "label": "Donatore/trice: Blocher Christoph, Attore/trice: Wahrung der Schweizer Neutralität, Herrliberg",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4597,
+                        "label": "Donatore/trice: Blocher Christoph, Attore/trice: Wahrung der Schweizer Neutralität, Herrliberg",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 1,
+                    "label": "persona giuridica o società di persone",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4566,
+                        "label": "Donatore/trice: economiesuisse Verband der Schweizer Unternehmen, Attore/trice: Überparteiliches Komitee Nein zur Neutralitätsinitiative, Zürich",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4595,
+                        "label": "Donatore/trice: Emil Frey AG, Attore/trice: Wahrung der Schweizer Neutralität, Herrliberg",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4594,
+                        "label": "Donatore/trice: Pro Schweiz, Attore/trice: Wahrung der Schweizer Neutralität, Herrliberg",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4596,
+                        "label": "Donatore/trice: Schweizerische Volkspartei (SVP), Attore/trice: Wahrung der Schweizer Neutralität, Herrliberg",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4593,
+                        "label": "Donatore/trice: Stiftung für bürgerliche Politik, Attore/trice: Wahrung der Schweizer Neutralität, Herrliberg",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4598,
+                        "label": "Donatore/trice: Verein zur Wahrung der Schweizer Neutralität, Attore/trice: Wahrung der Schweizer Neutralität, Herrliberg",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 32,
@@ -24,6 +94,19 @@
                 "type": "budget",
                 "children": [
                   {
+                    "id": 0,
+                    "label": "persona fisica",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4586,
+                        "label": "Donatore/trice: Kummer Walter, Attore/trice: Verein Sauberes Wasser für alle, Wiedlisbach",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
                     "id": 1,
                     "label": "persona giuridica o società di persone",
                     "type": "donor",
@@ -35,8 +118,74 @@
                         "children": []
                       },
                       {
+                        "id": 4561,
+                        "label": "Donatore/trice: Arbeitsgemeinschaft Schweizerischer Rinderzüchter, Attore/trice: Unione Svizzera dei Contadini (USC), Brugg",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4554,
+                        "label": "Donatore/trice: BO Milch, Attore/trice: Unione Svizzera dei Contadini (USC), Brugg",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4556,
+                        "label": "Donatore/trice: Fromarte, Attore/trice: Unione Svizzera dei Contadini (USC), Brugg",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4559,
+                        "label": "Donatore/trice: Gallosuisse, Attore/trice: Unione Svizzera dei Contadini (USC), Brugg",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4558,
+                        "label": "Donatore/trice: Gastrosuisse, Attore/trice: Unione Svizzera dei Contadini (USC), Brugg",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
                         "id": 4546,
                         "label": "Donatore/trice: Prométerre, Attore/trice: Agri Médias Sàrl, Lausanne",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4560,
+                        "label": "Donatore/trice: Proviande, Attore/trice: Unione Svizzera dei Contadini (USC), Brugg",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4562,
+                        "label": "Donatore/trice: Schweizer Bauernverband, Attore/trice: Unione Svizzera dei Contadini (USC), Brugg",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4557,
+                        "label": "Donatore/trice: Schweizer Milchproduzenten, Attore/trice: Unione Svizzera dei Contadini (USC), Brugg",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4555,
+                        "label": "Donatore/trice: Vereinigung der Schweizerischen Milchindustrie, Attore/trice: Unione Svizzera dei Contadini (USC), Brugg",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4567,
+                        "label": "Donatore/trice: Visempio Stiftung, Attore/trice: Verein Sauberes Wasser für alle, Wiedlisbach",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4590,
+                        "label": "Donatore/trice: Visempio Stiftung, Attore/trice: Verein Sauberes Wasser für alle, Wiedlisbach",
                         "type": "allowance",
                         "children": []
                       }
@@ -312,13 +461,170 @@
                 "type": "budget",
                 "children": [
                   {
+                    "id": 0,
+                    "label": "persona fisica",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4534,
+                        "label": "Donatore/trice: Blocher Christoph, Attore/trice: IG Nachhaltigkeitsinitiative, Dübendorf",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4550,
+                        "label": "Donatore/trice: Brändlin Sabine und Dominik, Attore/trice: Sozialdemokratische Partei der Schweiz, Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4539,
+                        "label": "Donatore/trice: Gaydoul Philippe, Attore/trice: IG Nachhaltigkeitsinitiative, Dübendorf",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4551,
+                        "label": "Donatore/trice: Murbach und Nussbaum Urs und Theresa, Attore/trice: Sozialdemokratische Partei der Schweiz, Bern",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
                     "id": 1,
                     "label": "persona giuridica o società di persone",
                     "type": "donor",
                     "children": [
                       {
+                        "id": 4603,
+                        "label": "Donatore/trice: Chambre de commerce, d’industrie et des services de Genève, Attore/trice: Alleanza «NO all'iniziativa del caos», Berna",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4502,
+                        "label": "Donatore/trice: economiesuisse, Attore/trice: Comitato per il turismo, Berna",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4589,
+                        "label": "Donatore/trice: Economiesuisse, Attore/trice: Alleanza del Centro, Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4563,
+                        "label": "Donatore/trice: economiesuisse, Attore/trice: PLR.I Liberali Radicali, Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4564,
+                        "label": "Donatore/trice: economiesuisse, Attore/trice: PLR.I Liberali Radicali, Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4565,
+                        "label": "Donatore/trice: economiesuisse, Attore/trice: PLR.I Liberali Radicali, Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4605,
+                        "label": "Donatore/trice: economiesuisse, Attore/trice: Alleanza «NO all'iniziativa del caos», Berna",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4606,
+                        "label": "Donatore/trice: economiesuisse, Attore/trice: Alleanza «NO all'iniziativa del caos», Berna",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4607,
+                        "label": "Donatore/trice: economiesuisse, Attore/trice: Alleanza «NO all'iniziativa del caos», Berna",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4535,
+                        "label": "Donatore/trice: Emil Frey AG, Attore/trice: IG Nachhaltigkeitsinitiative, Dübendorf",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4608,
+                        "label": "Donatore/trice: Fondation Genève Place Financière, Attore/trice: Alleanza «NO all'iniziativa del caos», Berna",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4601,
+                        "label": "Donatore/trice: Fédération des Entreprises Romandes Genève, Attore/trice: Alleanza «NO all'iniziativa del caos», Berna",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
                         "id": 4548,
                         "label": "Donatore/trice: GastroSuisse, Attore/trice: Alleanza per una Svizzera che funziona, Berna",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4504,
+                        "label": "Donatore/trice: GastroSuisse, Attore/trice: Comitato per il turismo, Berna",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4578,
+                        "label": "Donatore/trice: Gewerkschaft Unia, Attore/trice: Sindacato Unia, Berna",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4602,
+                        "label": "Donatore/trice: Groupement des Entreprises Multinationales, Attore/trice: Alleanza «NO all'iniziativa del caos», Berna",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4600,
+                        "label": "Donatore/trice: Handelskammer beider Basel, Attore/trice: Alleanza «NO all'iniziativa del caos», Berna",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4503,
+                        "label": "Donatore/trice: HotellerieSuisse, Attore/trice: Comitato per il turismo, Berna",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4541,
+                        "label": "Donatore/trice: Patinex AG, Attore/trice: IG Nachhaltigkeitsinitiative, Dübendorf",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4501,
+                        "label": "Donatore/trice: Schweizer Tourismus-Verband, Attore/trice: Comitato per il turismo, Berna",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4533,
+                        "label": "Donatore/trice: Schweizerische Volkspartei (SVP Schweiz), Attore/trice: IG Nachhaltigkeitsinitiative, Dübendorf",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4531,
+                        "label": "Donatore/trice: Schweizerische Volkspartei des Kantons Zürich, Attore/trice: IG Nachhaltigkeitsinitiative, Dübendorf",
                         "type": "allowance",
                         "children": []
                       },
@@ -331,6 +637,12 @@
                       {
                         "id": 4510,
                         "label": "Donatore/trice: SEV, Attore/trice: Unione sindacale svizzera (USS), Berna",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4532,
+                        "label": "Donatore/trice: Stiftung für bürgerliche Politik, Attore/trice: IG Nachhaltigkeitsinitiative, Dübendorf",
                         "type": "allowance",
                         "children": []
                       },
@@ -349,6 +661,12 @@
                       {
                         "id": 4513,
                         "label": "Donatore/trice: VPOD, Attore/trice: Unione sindacale svizzera (USS), Berna",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4604,
+                        "label": "Donatore/trice: Zürcher Handelskammer, Attore/trice: Alleanza «NO all'iniziativa del caos», Berna",
                         "type": "allowance",
                         "children": []
                       }
@@ -413,6 +731,69 @@
                       {
                         "id": 3909,
                         "label": "Donatore/trice: Verband Militärischer Gesellschaften Schweiz (VMG), Attore/trice: Allianz Sicherheit Schweiz, Zürich",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "label": "Importi finali",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "persona fisica",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4515,
+                        "label": "Donatore/trice: Werenfels Samuel, Attore/trice: Allianz Zivildienstgesetz-nein, Bern",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 1,
+                    "label": "persona giuridica o società di persone",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4545,
+                        "label": "Donatore/trice: Bonny-Stiftung, Attore/trice: Allianz Sicherheit Schweiz, Zürich",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4587,
+                        "label": "Donatore/trice: Junge Grüne Schweiz, Attore/trice: Allianz Zivildienstgesetz-nein, Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4588,
+                        "label": "Donatore/trice: Junge Grüne Schweiz, Attore/trice: Allianz Zivildienstgesetz-nein, Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4542,
+                        "label": "Donatore/trice: Swissmem, Attore/trice: Allianz Sicherheit Schweiz, Zürich",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4544,
+                        "label": "Donatore/trice: Verband militärischer Gesellschaften, Attore/trice: Allianz Sicherheit Schweiz, Zürich",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4543,
+                        "label": "Donatore/trice: Verband militärischer Gesellschaften VMG, Attore/trice: Allianz Sicherheit Schweiz, Zürich",
                         "type": "allowance",
                         "children": []
                       }
@@ -11998,6 +12379,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "b9890da02f7687ea65fbf6266493f75b05cfcaf81f0e48d15ffdba82610ad2f9"
+    "data_checksum_sha256": "48aa467e6615b3942fc4ed7ed4a5a384a63e596e7b9005f07e662db7070392f3"
   }
 }

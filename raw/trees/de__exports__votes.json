@@ -62,6 +62,13 @@
             "type": "download",
             "download_path": "/api/frontend/latest/de/downloads/financings/29?with_budget=true",
             "children": []
+          },
+          {
+            "id": 3,
+            "label": "Schlussrechnung über die Einnahmen und Zuwendungen",
+            "type": "download",
+            "download_path": "/api/frontend/latest/de/downloads/financings/29?with_budget=false",
+            "children": []
           }
         ]
       },
@@ -491,6 +498,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "880a26c36e771bcfdf6621433aafa37943b53ab382b2d4ba56dd509302601e75"
+    "data_checksum_sha256": "39c4a4bf04f80fa65d10c339f6cee2c03c686e3c6e3853cbf8985fa4fadd62ad"
   }
 }

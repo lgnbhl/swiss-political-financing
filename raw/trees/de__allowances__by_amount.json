@@ -11,7 +11,63 @@
             "label": "27.09.2026 Wahrung der schweizerischen Neutralität (Neutralitätsinitiative)",
             "type": "campaign_financing",
             "header_text": "2026",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Budgetzahlen",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 4592,
+                    "label": "CHF 2'000'000.00, Zuwender/in: Blocher Christoph, Akteur/in: Wahrung der Schweizer Neutralität, Herrliberg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4594,
+                    "label": "CHF 1'300'000.00, Zuwender/in: Pro Schweiz, Akteur/in: Wahrung der Schweizer Neutralität, Herrliberg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4566,
+                    "label": "CHF 1'200'000.00, Zuwender/in: economiesuisse Verband der Schweizer Unternehmen, Akteur/in: Überparteiliches Komitee Nein zur Neutralitätsinitiative, Zürich",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4598,
+                    "label": "CHF 133'316.58, Zuwender/in: Verein zur Wahrung der Schweizer Neutralität, Akteur/in: Wahrung der Schweizer Neutralität, Herrliberg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4595,
+                    "label": "CHF 100'000.00, Zuwender/in: Emil Frey AG, Akteur/in: Wahrung der Schweizer Neutralität, Herrliberg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4593,
+                    "label": "CHF 100'000.00, Zuwender/in: Stiftung für bürgerliche Politik, Akteur/in: Wahrung der Schweizer Neutralität, Herrliberg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4596,
+                    "label": "CHF 50'000.00, Zuwender/in: Schweizerische Volkspartei (SVP), Akteur/in: Wahrung der Schweizer Neutralität, Herrliberg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4597,
+                    "label": "CHF 28'665.42, Zuwender/in: Blocher Christoph, Akteur/in: Wahrung der Schweizer Neutralität, Herrliberg",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 32,
@@ -24,6 +80,66 @@
                 "type": "budget",
                 "children": [
                   {
+                    "id": 4560,
+                    "label": "CHF 600'000.00, Zuwender/in: Proviande, Akteur/in: Schweizer Bauernverband (SBV), Brugg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4557,
+                    "label": "CHF 350'000.00, Zuwender/in: Schweizer Milchproduzenten, Akteur/in: Schweizer Bauernverband (SBV), Brugg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4586,
+                    "label": "CHF 275'000.00, Zuwender/in: Kummer Walter, Akteur/in: Verein Sauberes Wasser für alle, Wiedlisbach",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4567,
+                    "label": "CHF 205'000.00, Zuwender/in: Visempio Stiftung, Akteur/in: Verein Sauberes Wasser für alle, Wiedlisbach",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4590,
+                    "label": "CHF 200'000.00, Zuwender/in: Visempio Stiftung, Akteur/in: Verein Sauberes Wasser für alle, Wiedlisbach",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4562,
+                    "label": "CHF 150'000.00, Zuwender/in: Schweizer Bauernverband, Akteur/in: Schweizer Bauernverband (SBV), Brugg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4558,
+                    "label": "CHF 120'000.00, Zuwender/in: Gastrosuisse, Akteur/in: Schweizer Bauernverband (SBV), Brugg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4554,
+                    "label": "CHF 100'000.00, Zuwender/in: BO Milch, Akteur/in: Schweizer Bauernverband (SBV), Brugg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4555,
+                    "label": "CHF 60'000.00, Zuwender/in: Vereinigung der Schweizerischen Milchindustrie, Akteur/in: Schweizer Bauernverband (SBV), Brugg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4559,
+                    "label": "CHF 58'500.00, Zuwender/in: Gallosuisse, Akteur/in: Schweizer Bauernverband (SBV), Brugg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
                     "id": 4547,
                     "label": "CHF 50'000.00, Zuwender/in: AgorA, Akteur/in: Agri Médias Sàrl, Lausanne",
                     "type": "allowance",
@@ -32,6 +148,18 @@
                   {
                     "id": 4546,
                     "label": "CHF 50'000.00, Zuwender/in: Prométerre, Akteur/in: Agri Médias Sàrl, Lausanne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4556,
+                    "label": "CHF 40'000.00, Zuwender/in: Fromarte, Akteur/in: Schweizer Bauernverband (SBV), Brugg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4561,
+                    "label": "CHF 15'000.00, Zuwender/in: Arbeitsgemeinschaft Schweizerischer Rinderzüchter, Akteur/in: Schweizer Bauernverband (SBV), Brugg",
                     "type": "allowance",
                     "children": []
                   }
@@ -291,14 +419,104 @@
                 "type": "budget",
                 "children": [
                   {
+                    "id": 4605,
+                    "label": "CHF 3'720'000.00, Zuwender/in: economiesuisse, Akteur/in: Allianz \"Nein zur Chaos-Initiative\", Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4533,
+                    "label": "CHF 2'700'000.00, Zuwender/in: Schweizerische Volkspartei (SVP Schweiz), Akteur/in: IG Nachhaltigkeitsinitiative, Dübendorf",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4532,
+                    "label": "CHF 1'050'000.00, Zuwender/in: Stiftung für bürgerliche Politik, Akteur/in: IG Nachhaltigkeitsinitiative, Dübendorf",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4531,
+                    "label": "CHF 814'753.51, Zuwender/in: Schweizerische Volkspartei des Kantons Zürich, Akteur/in: IG Nachhaltigkeitsinitiative, Dübendorf",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4607,
+                    "label": "CHF 420'000.00, Zuwender/in: economiesuisse, Akteur/in: Allianz \"Nein zur Chaos-Initiative\", Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
                     "id": 4512,
                     "label": "CHF 301'410.00, Zuwender/in: Unia, Akteur/in: Schweizerischer Gewerkschaftsbund (SGB), Bern",
                     "type": "allowance",
                     "children": []
                   },
                   {
+                    "id": 4539,
+                    "label": "CHF 250'000.00, Zuwender/in: Gaydoul Philippe, Akteur/in: IG Nachhaltigkeitsinitiative, Dübendorf",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4606,
+                    "label": "CHF 196'560.00, Zuwender/in: economiesuisse, Akteur/in: Allianz \"Nein zur Chaos-Initiative\", Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4589,
+                    "label": "CHF 135'000.00, Zuwender/in: Economiesuisse, Akteur/in: Die Mitte, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4534,
+                    "label": "CHF 133'332.65, Zuwender/in: Blocher Christoph, Akteur/in: IG Nachhaltigkeitsinitiative, Dübendorf",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4563,
+                    "label": "CHF 130'000.00, Zuwender/in: economiesuisse, Akteur/in: FDP.Die Liberalen, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4578,
+                    "label": "CHF 108'500.00, Zuwender/in: Gewerkschaft Unia, Akteur/in: Gewerkschaft Unia, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4535,
+                    "label": "CHF 100'000.00, Zuwender/in: Emil Frey AG, Akteur/in: IG Nachhaltigkeitsinitiative, Dübendorf",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4541,
+                    "label": "CHF 100'000.00, Zuwender/in: Patinex AG, Akteur/in: IG Nachhaltigkeitsinitiative, Dübendorf",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4604,
+                    "label": "CHF 100'000.00, Zuwender/in: Zürcher Handelskammer, Akteur/in: Allianz \"Nein zur Chaos-Initiative\", Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
                     "id": 4514,
                     "label": "CHF 93'386.00, Zuwender/in: Schweizerischer Gewerkschaftsbund, Akteur/in: Schweizerischer Gewerkschaftsbund (SGB), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4601,
+                    "label": "CHF 78'719.00, Zuwender/in: Fédération des Entreprises Romandes Genève, Akteur/in: Allianz \"Nein zur Chaos-Initiative\", Bern",
                     "type": "allowance",
                     "children": []
                   },
@@ -321,8 +539,80 @@
                     "children": []
                   },
                   {
+                    "id": 4564,
+                    "label": "CHF 50'000.00, Zuwender/in: economiesuisse, Akteur/in: FDP.Die Liberalen, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4502,
+                    "label": "CHF 50'000.00, Zuwender/in: economiesuisse, Akteur/in: Tourismuskomitee, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4501,
+                    "label": "CHF 50'000.00, Zuwender/in: Schweizer Tourismus-Verband, Akteur/in: Tourismuskomitee, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4602,
+                    "label": "CHF 46'000.00, Zuwender/in: Groupement des Entreprises Multinationales, Akteur/in: Allianz \"Nein zur Chaos-Initiative\", Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4608,
+                    "label": "CHF 45'000.00, Zuwender/in: Fondation Genève Place Financière, Akteur/in: Allianz \"Nein zur Chaos-Initiative\", Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4603,
+                    "label": "CHF 40'000.00, Zuwender/in: Chambre de commerce, d’industrie et des services de Genève, Akteur/in: Allianz \"Nein zur Chaos-Initiative\", Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4551,
+                    "label": "CHF 40'000.00, Zuwender/in: Murbach und Nussbaum Urs und Theresa, Akteur/in: Sozialdemokratische Partei der Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
                     "id": 4548,
                     "label": "CHF 25'000.00, Zuwender/in: GastroSuisse, Akteur/in: Allianz für eine funktionierende Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4550,
+                    "label": "CHF 20'000.00, Zuwender/in: Brändlin Sabine und Dominik, Akteur/in: Sozialdemokratische Partei der Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4600,
+                    "label": "CHF 20'000.00, Zuwender/in: Handelskammer beider Basel, Akteur/in: Allianz \"Nein zur Chaos-Initiative\", Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4504,
+                    "label": "CHF 15'000.00, Zuwender/in: GastroSuisse, Akteur/in: Tourismuskomitee, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4503,
+                    "label": "CHF 15'000.00, Zuwender/in: HotellerieSuisse, Akteur/in: Tourismuskomitee, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4565,
+                    "label": "CHF 5'000.00, Zuwender/in: economiesuisse, Akteur/in: FDP.Die Liberalen, Bern",
                     "type": "allowance",
                     "children": []
                   }
@@ -372,6 +662,55 @@
                   },
                   {
                     "id": 4516,
+                    "label": "CHF 7'000.00, Zuwender/in: Junge Grüne Schweiz, Akteur/in: Allianz Zivildienstgesetz-nein, Bern",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "label": "Definitive Zahlen",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 4545,
+                    "label": "CHF 25'000.00, Zuwender/in: Bonny-Stiftung, Akteur/in: Allianz Sicherheit Schweiz, Zürich",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4542,
+                    "label": "CHF 25'000.00, Zuwender/in: Swissmem, Akteur/in: Allianz Sicherheit Schweiz, Zürich",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4543,
+                    "label": "CHF 25'000.00, Zuwender/in: Verband militärischer Gesellschaften VMG, Akteur/in: Allianz Sicherheit Schweiz, Zürich",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4544,
+                    "label": "CHF 25'000.00, Zuwender/in: Verband militärischer Gesellschaften, Akteur/in: Allianz Sicherheit Schweiz, Zürich",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4515,
+                    "label": "CHF 24'000.00, Zuwender/in: Werenfels Samuel, Akteur/in: Allianz Zivildienstgesetz-nein, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4588,
+                    "label": "CHF 8'754.40, Zuwender/in: Junge Grüne Schweiz, Akteur/in: Allianz Zivildienstgesetz-nein, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4587,
                     "label": "CHF 7'000.00, Zuwender/in: Junge Grüne Schweiz, Akteur/in: Allianz Zivildienstgesetz-nein, Bern",
                     "type": "allowance",
                     "children": []
@@ -11473,6 +11812,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "a61e3c669e6f49b6e100a77818a05bd25f66438cbcd00f25ef98b8d0bb8adc2d"
+    "data_checksum_sha256": "b44a072dbf93087a9b481681e04fc59cd08f7cbf299d9a151e9610c2cce6d8e3"
   }
 }

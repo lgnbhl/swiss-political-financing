@@ -11,7 +11,63 @@
             "label": "27.09.2026 Sauvegarder la neutralité suisse (initiative sur la neutralité)",
             "type": "campaign_financing",
             "header_text": "2026",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Montants budgétés",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 4592,
+                    "label": "CHF 2'000'000.00, Donateur/trice: Blocher Christoph, Acteur/trice: Wahrung der Schweizer Neutralität, Herrliberg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4594,
+                    "label": "CHF 1'300'000.00, Donateur/trice: Pro Schweiz, Acteur/trice: Wahrung der Schweizer Neutralität, Herrliberg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4566,
+                    "label": "CHF 1'200'000.00, Donateur/trice: economiesuisse Verband der Schweizer Unternehmen, Acteur/trice: Überparteiliches Komitee Nein zur Neutralitätsinitiative, Zürich",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4598,
+                    "label": "CHF 133'316.58, Donateur/trice: Verein zur Wahrung der Schweizer Neutralität, Acteur/trice: Wahrung der Schweizer Neutralität, Herrliberg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4595,
+                    "label": "CHF 100'000.00, Donateur/trice: Emil Frey AG, Acteur/trice: Wahrung der Schweizer Neutralität, Herrliberg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4593,
+                    "label": "CHF 100'000.00, Donateur/trice: Stiftung für bürgerliche Politik, Acteur/trice: Wahrung der Schweizer Neutralität, Herrliberg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4596,
+                    "label": "CHF 50'000.00, Donateur/trice: Schweizerische Volkspartei (SVP), Acteur/trice: Wahrung der Schweizer Neutralität, Herrliberg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4597,
+                    "label": "CHF 28'665.42, Donateur/trice: Blocher Christoph, Acteur/trice: Wahrung der Schweizer Neutralität, Herrliberg",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 32,
@@ -24,6 +80,66 @@
                 "type": "budget",
                 "children": [
                   {
+                    "id": 4560,
+                    "label": "CHF 600'000.00, Donateur/trice: Proviande, Acteur/trice: Union Suisse des Paysans (USP), Brugg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4557,
+                    "label": "CHF 350'000.00, Donateur/trice: Schweizer Milchproduzenten, Acteur/trice: Union Suisse des Paysans (USP), Brugg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4586,
+                    "label": "CHF 275'000.00, Donateur/trice: Kummer Walter, Acteur/trice: Verein Sauberes Wasser für alle, Wiedlisbach",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4567,
+                    "label": "CHF 205'000.00, Donateur/trice: Visempio Stiftung, Acteur/trice: Verein Sauberes Wasser für alle, Wiedlisbach",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4590,
+                    "label": "CHF 200'000.00, Donateur/trice: Visempio Stiftung, Acteur/trice: Verein Sauberes Wasser für alle, Wiedlisbach",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4562,
+                    "label": "CHF 150'000.00, Donateur/trice: Schweizer Bauernverband, Acteur/trice: Union Suisse des Paysans (USP), Brugg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4558,
+                    "label": "CHF 120'000.00, Donateur/trice: Gastrosuisse, Acteur/trice: Union Suisse des Paysans (USP), Brugg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4554,
+                    "label": "CHF 100'000.00, Donateur/trice: BO Milch, Acteur/trice: Union Suisse des Paysans (USP), Brugg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4555,
+                    "label": "CHF 60'000.00, Donateur/trice: Vereinigung der Schweizerischen Milchindustrie, Acteur/trice: Union Suisse des Paysans (USP), Brugg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4559,
+                    "label": "CHF 58'500.00, Donateur/trice: Gallosuisse, Acteur/trice: Union Suisse des Paysans (USP), Brugg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
                     "id": 4547,
                     "label": "CHF 50'000.00, Donateur/trice: AgorA, Acteur/trice: Agri Médias Sàrl, Lausanne",
                     "type": "allowance",
@@ -32,6 +148,18 @@
                   {
                     "id": 4546,
                     "label": "CHF 50'000.00, Donateur/trice: Prométerre, Acteur/trice: Agri Médias Sàrl, Lausanne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4556,
+                    "label": "CHF 40'000.00, Donateur/trice: Fromarte, Acteur/trice: Union Suisse des Paysans (USP), Brugg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4561,
+                    "label": "CHF 15'000.00, Donateur/trice: Arbeitsgemeinschaft Schweizerischer Rinderzüchter, Acteur/trice: Union Suisse des Paysans (USP), Brugg",
                     "type": "allowance",
                     "children": []
                   }
@@ -291,14 +419,104 @@
                 "type": "budget",
                 "children": [
                   {
+                    "id": 4605,
+                    "label": "CHF 3'720'000.00, Donateur/trice: economiesuisse, Acteur/trice: Alliance « NON à l'initiative du chaos », Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4533,
+                    "label": "CHF 2'700'000.00, Donateur/trice: Schweizerische Volkspartei (SVP Schweiz), Acteur/trice: IG Nachhaltigkeitsinitiative, Dübendorf",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4532,
+                    "label": "CHF 1'050'000.00, Donateur/trice: Stiftung für bürgerliche Politik, Acteur/trice: IG Nachhaltigkeitsinitiative, Dübendorf",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4531,
+                    "label": "CHF 814'753.51, Donateur/trice: Schweizerische Volkspartei des Kantons Zürich, Acteur/trice: IG Nachhaltigkeitsinitiative, Dübendorf",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4607,
+                    "label": "CHF 420'000.00, Donateur/trice: economiesuisse, Acteur/trice: Alliance « NON à l'initiative du chaos », Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
                     "id": 4512,
                     "label": "CHF 301'410.00, Donateur/trice: Unia, Acteur/trice: Union syndicale suisse (USS), Berne",
                     "type": "allowance",
                     "children": []
                   },
                   {
+                    "id": 4539,
+                    "label": "CHF 250'000.00, Donateur/trice: Gaydoul Philippe, Acteur/trice: IG Nachhaltigkeitsinitiative, Dübendorf",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4606,
+                    "label": "CHF 196'560.00, Donateur/trice: economiesuisse, Acteur/trice: Alliance « NON à l'initiative du chaos », Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4589,
+                    "label": "CHF 135'000.00, Donateur/trice: Economiesuisse, Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4534,
+                    "label": "CHF 133'332.65, Donateur/trice: Blocher Christoph, Acteur/trice: IG Nachhaltigkeitsinitiative, Dübendorf",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4563,
+                    "label": "CHF 130'000.00, Donateur/trice: economiesuisse, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4578,
+                    "label": "CHF 108'500.00, Donateur/trice: Gewerkschaft Unia, Acteur/trice: Syndicat Unia, Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4535,
+                    "label": "CHF 100'000.00, Donateur/trice: Emil Frey AG, Acteur/trice: IG Nachhaltigkeitsinitiative, Dübendorf",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4541,
+                    "label": "CHF 100'000.00, Donateur/trice: Patinex AG, Acteur/trice: IG Nachhaltigkeitsinitiative, Dübendorf",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4604,
+                    "label": "CHF 100'000.00, Donateur/trice: Zürcher Handelskammer, Acteur/trice: Alliance « NON à l'initiative du chaos », Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
                     "id": 4514,
                     "label": "CHF 93'386.00, Donateur/trice: Schweizerischer Gewerkschaftsbund, Acteur/trice: Union syndicale suisse (USS), Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4601,
+                    "label": "CHF 78'719.00, Donateur/trice: Fédération des Entreprises Romandes Genève, Acteur/trice: Alliance « NON à l'initiative du chaos », Berne",
                     "type": "allowance",
                     "children": []
                   },
@@ -321,8 +539,80 @@
                     "children": []
                   },
                   {
+                    "id": 4502,
+                    "label": "CHF 50'000.00, Donateur/trice: economiesuisse, Acteur/trice: Comité du tourisme, Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4564,
+                    "label": "CHF 50'000.00, Donateur/trice: economiesuisse, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4501,
+                    "label": "CHF 50'000.00, Donateur/trice: Schweizer Tourismus-Verband, Acteur/trice: Comité du tourisme, Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4602,
+                    "label": "CHF 46'000.00, Donateur/trice: Groupement des Entreprises Multinationales, Acteur/trice: Alliance « NON à l'initiative du chaos », Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4608,
+                    "label": "CHF 45'000.00, Donateur/trice: Fondation Genève Place Financière, Acteur/trice: Alliance « NON à l'initiative du chaos », Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4603,
+                    "label": "CHF 40'000.00, Donateur/trice: Chambre de commerce, d’industrie et des services de Genève, Acteur/trice: Alliance « NON à l'initiative du chaos », Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4551,
+                    "label": "CHF 40'000.00, Donateur/trice: Murbach und Nussbaum Urs und Theresa, Acteur/trice: Sozialdemokratische Partei der Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
                     "id": 4548,
                     "label": "CHF 25'000.00, Donateur/trice: GastroSuisse, Acteur/trice: Alliance pour une Suisse qui fonctionne, Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4550,
+                    "label": "CHF 20'000.00, Donateur/trice: Brändlin Sabine und Dominik, Acteur/trice: Sozialdemokratische Partei der Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4600,
+                    "label": "CHF 20'000.00, Donateur/trice: Handelskammer beider Basel, Acteur/trice: Alliance « NON à l'initiative du chaos », Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4504,
+                    "label": "CHF 15'000.00, Donateur/trice: GastroSuisse, Acteur/trice: Comité du tourisme, Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4503,
+                    "label": "CHF 15'000.00, Donateur/trice: HotellerieSuisse, Acteur/trice: Comité du tourisme, Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4565,
+                    "label": "CHF 5'000.00, Donateur/trice: economiesuisse, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
                     "type": "allowance",
                     "children": []
                   }
@@ -372,6 +662,55 @@
                   },
                   {
                     "id": 4516,
+                    "label": "CHF 7'000.00, Donateur/trice: Junge Grüne Schweiz, Acteur/trice: Allianz Zivildienstgesetz-nein, Bern",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "label": "Montants finaux",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 4545,
+                    "label": "CHF 25'000.00, Donateur/trice: Bonny-Stiftung, Acteur/trice: Allianz Sicherheit Schweiz, Zürich",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4542,
+                    "label": "CHF 25'000.00, Donateur/trice: Swissmem, Acteur/trice: Allianz Sicherheit Schweiz, Zürich",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4543,
+                    "label": "CHF 25'000.00, Donateur/trice: Verband militärischer Gesellschaften VMG, Acteur/trice: Allianz Sicherheit Schweiz, Zürich",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4544,
+                    "label": "CHF 25'000.00, Donateur/trice: Verband militärischer Gesellschaften, Acteur/trice: Allianz Sicherheit Schweiz, Zürich",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4515,
+                    "label": "CHF 24'000.00, Donateur/trice: Werenfels Samuel, Acteur/trice: Allianz Zivildienstgesetz-nein, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4588,
+                    "label": "CHF 8'754.40, Donateur/trice: Junge Grüne Schweiz, Acteur/trice: Allianz Zivildienstgesetz-nein, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4587,
                     "label": "CHF 7'000.00, Donateur/trice: Junge Grüne Schweiz, Acteur/trice: Allianz Zivildienstgesetz-nein, Bern",
                     "type": "allowance",
                     "children": []
@@ -11473,6 +11812,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "4baa2b478a7b1704f64add99a1c57647ee55fb60cf241dd0768f8268679f361c"
+    "data_checksum_sha256": "291df20ba9a0756b24c07feb4b77f0dfca257e19929435793639dc5e73b362e6"
   }
 }
