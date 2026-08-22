@@ -525,6 +525,14 @@
                         "campaign_id": 585,
                         "download_path": "/api/frontend/latest/it/downloads/campaigns/585/forms/91",
                         "children": []
+                      },
+                      {
+                        "id": 107,
+                        "label": "Comunicazione del conto finale delle entrate",
+                        "type": "form",
+                        "campaign_id": 585,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/585/forms/107",
+                        "children": []
                       }
                     ]
                   }
@@ -623,6 +631,14 @@
                         "campaign_id": 575,
                         "download_path": "/api/frontend/latest/it/downloads/campaigns/575/forms/91",
                         "children": []
+                      },
+                      {
+                        "id": 107,
+                        "label": "Comunicazione del conto finale delle entrate",
+                        "type": "form",
+                        "campaign_id": 575,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/575/forms/107",
+                        "children": []
                       }
                     ]
                   }
@@ -644,6 +660,14 @@
                         "type": "form",
                         "campaign_id": 584,
                         "download_path": "/api/frontend/latest/it/downloads/campaigns/584/forms/91",
+                        "children": []
+                      },
+                      {
+                        "id": 107,
+                        "label": "Comunicazione del conto finale delle entrate",
+                        "type": "form",
+                        "campaign_id": 584,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/584/forms/107",
                         "children": []
                       }
                     ]
@@ -18164,6 +18188,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "3d6169a7923ef60d095b4a5810cafa064ac5580dad78497f11966ff2a7375d47"
+    "data_checksum_sha256": "0040e58fb2185adb2d09b164577a7d5eecbcf34d7614aeb06881beb16ba290f0"
   }
 }

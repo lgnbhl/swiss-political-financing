@@ -8842,6 +8842,14 @@
                             "campaign_id": 585,
                             "download_path": "/api/frontend/latest/de/downloads/campaigns/585/forms/91",
                             "children": []
+                          },
+                          {
+                            "id": 107,
+                            "label": "Offenlegung der Schlussrechnung über die Einnahmen",
+                            "type": "form",
+                            "campaign_id": 585,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/585/forms/107",
+                            "children": []
                           }
                         ]
                       }
@@ -10687,6 +10695,14 @@
                             "campaign_id": 575,
                             "download_path": "/api/frontend/latest/de/downloads/campaigns/575/forms/91",
                             "children": []
+                          },
+                          {
+                            "id": 107,
+                            "label": "Offenlegung der Schlussrechnung über die Einnahmen",
+                            "type": "form",
+                            "campaign_id": 575,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/575/forms/107",
+                            "children": []
                           }
                         ]
                       }
@@ -12358,6 +12374,14 @@
                             "type": "form",
                             "campaign_id": 584,
                             "download_path": "/api/frontend/latest/de/downloads/campaigns/584/forms/91",
+                            "children": []
+                          },
+                          {
+                            "id": 107,
+                            "label": "Offenlegung der Schlussrechnung über die Einnahmen",
+                            "type": "form",
+                            "campaign_id": 584,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/584/forms/107",
                             "children": []
                           }
                         ]
@@ -23769,6 +23793,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "cdf3535bbc4df0973d696a626f711df6de4d0acfd7edc91385c1d0e2a5252145"
+    "data_checksum_sha256": "40c5bb456f10228fa4408d83498c8afe6e48b6909d39422cc10dfd004e386c8e"
   }
 }

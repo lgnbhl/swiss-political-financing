@@ -19108,6 +19108,14 @@
                                 "campaign_id": 585,
                                 "download_path": "/api/frontend/latest/it/downloads/campaigns/585/forms/91",
                                 "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Comunicazione del conto finale delle entrate",
+                                "type": "form",
+                                "campaign_id": 585,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/585/forms/107",
+                                "children": []
                               }
                             ]
                           }
@@ -20365,6 +20373,14 @@
                                 "campaign_id": 575,
                                 "download_path": "/api/frontend/latest/it/downloads/campaigns/575/forms/91",
                                 "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Comunicazione del conto finale delle entrate",
+                                "type": "form",
+                                "campaign_id": 575,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/575/forms/107",
+                                "children": []
                               }
                             ]
                           }
@@ -20460,6 +20476,14 @@
                                 "type": "form",
                                 "campaign_id": 584,
                                 "download_path": "/api/frontend/latest/it/downloads/campaigns/584/forms/91",
+                                "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Comunicazione del conto finale delle entrate",
+                                "type": "form",
+                                "campaign_id": 584,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/584/forms/107",
                                 "children": []
                               }
                             ]
@@ -24203,6 +24227,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "a445cdc684ef660328cafd4c770d7fa295fe4e0d5159d56b16395ae938158ad2"
+    "data_checksum_sha256": "6588e9c087bfaede14fdbae003f50c13e46f8ec1ead5362e1a517bd72c81018a"
   }
 }

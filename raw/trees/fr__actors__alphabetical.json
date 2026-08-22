@@ -8004,6 +8004,14 @@
                             "campaign_id": 585,
                             "download_path": "/api/frontend/latest/fr/downloads/campaigns/585/forms/91",
                             "children": []
+                          },
+                          {
+                            "id": 107,
+                            "label": "Déclaration du décompte final des recettes",
+                            "type": "form",
+                            "campaign_id": 585,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/585/forms/107",
+                            "children": []
                           }
                         ]
                       }
@@ -10541,6 +10549,14 @@
                             "campaign_id": 575,
                             "download_path": "/api/frontend/latest/fr/downloads/campaigns/575/forms/91",
                             "children": []
+                          },
+                          {
+                            "id": 107,
+                            "label": "Déclaration du décompte final des recettes",
+                            "type": "form",
+                            "campaign_id": 575,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/575/forms/107",
+                            "children": []
                           }
                         ]
                       }
@@ -10636,6 +10652,14 @@
                             "type": "form",
                             "campaign_id": 584,
                             "download_path": "/api/frontend/latest/fr/downloads/campaigns/584/forms/91",
+                            "children": []
+                          },
+                          {
+                            "id": 107,
+                            "label": "Déclaration du décompte final des recettes",
+                            "type": "form",
+                            "campaign_id": 584,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/584/forms/107",
                             "children": []
                           }
                         ]
@@ -23769,6 +23793,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "ab9c4ec674db2e374050c28010ba959ac2141db1ffe7558fd9c872bc9cb189af"
+    "data_checksum_sha256": "c1b63d86a954ab2007ccf3bc1b0e7fbbbdeb6a92d35264b8e03d604c3454d2cc"
   }
 }

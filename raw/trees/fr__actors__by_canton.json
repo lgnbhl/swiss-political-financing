@@ -19744,6 +19744,14 @@
                                 "campaign_id": 585,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/585/forms/91",
                                 "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 585,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/585/forms/107",
+                                "children": []
                               }
                             ]
                           }
@@ -20628,6 +20636,14 @@
                                 "campaign_id": 575,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/575/forms/91",
                                 "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 575,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/575/forms/107",
+                                "children": []
                               }
                             ]
                           }
@@ -20723,6 +20739,14 @@
                                 "type": "form",
                                 "campaign_id": 584,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/584/forms/91",
+                                "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 584,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/584/forms/107",
                                 "children": []
                               }
                             ]
@@ -24203,6 +24227,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "84495971fe44b13ffa6cbb352c22f2ae58d8ff8d8a8ca0891a22c8f71fed987e"
+    "data_checksum_sha256": "8d7b66f089744a972ab1f1796d4d06d95f676eefa551af1bf3d04278aa406497"
   }
 }

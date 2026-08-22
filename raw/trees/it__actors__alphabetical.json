@@ -5411,6 +5411,14 @@
                             "campaign_id": 585,
                             "download_path": "/api/frontend/latest/it/downloads/campaigns/585/forms/91",
                             "children": []
+                          },
+                          {
+                            "id": 107,
+                            "label": "Comunicazione del conto finale delle entrate",
+                            "type": "form",
+                            "campaign_id": 585,
+                            "download_path": "/api/frontend/latest/it/downloads/campaigns/585/forms/107",
+                            "children": []
                           }
                         ]
                       }
@@ -10278,6 +10286,14 @@
                             "campaign_id": 575,
                             "download_path": "/api/frontend/latest/it/downloads/campaigns/575/forms/91",
                             "children": []
+                          },
+                          {
+                            "id": 107,
+                            "label": "Comunicazione del conto finale delle entrate",
+                            "type": "form",
+                            "campaign_id": 575,
+                            "download_path": "/api/frontend/latest/it/downloads/campaigns/575/forms/107",
+                            "children": []
                           }
                         ]
                       }
@@ -10373,6 +10389,14 @@
                             "type": "form",
                             "campaign_id": 584,
                             "download_path": "/api/frontend/latest/it/downloads/campaigns/584/forms/91",
+                            "children": []
+                          },
+                          {
+                            "id": 107,
+                            "label": "Comunicazione del conto finale delle entrate",
+                            "type": "form",
+                            "campaign_id": 584,
+                            "download_path": "/api/frontend/latest/it/downloads/campaigns/584/forms/107",
                             "children": []
                           }
                         ]
@@ -23769,6 +23793,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "b61e60617050378f8cc5d2f9cdbe93c20e774e1ecb2c5010aa11958caa113b75"
+    "data_checksum_sha256": "8d5478d5b6a36d4089d8eaffc58bcecf7164b35dc5a913b5584027c4c5b036e0"
   }
 }

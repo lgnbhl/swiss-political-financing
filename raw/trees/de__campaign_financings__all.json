@@ -617,6 +617,14 @@
                         "campaign_id": 585,
                         "download_path": "/api/frontend/latest/de/downloads/campaigns/585/forms/91",
                         "children": []
+                      },
+                      {
+                        "id": 107,
+                        "label": "Offenlegung der Schlussrechnung über die Einnahmen",
+                        "type": "form",
+                        "campaign_id": 585,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/585/forms/107",
+                        "children": []
                       }
                     ]
                   }
@@ -638,6 +646,14 @@
                         "type": "form",
                         "campaign_id": 575,
                         "download_path": "/api/frontend/latest/de/downloads/campaigns/575/forms/91",
+                        "children": []
+                      },
+                      {
+                        "id": 107,
+                        "label": "Offenlegung der Schlussrechnung über die Einnahmen",
+                        "type": "form",
+                        "campaign_id": 575,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/575/forms/107",
                         "children": []
                       }
                     ]
@@ -690,6 +706,14 @@
                         "type": "form",
                         "campaign_id": 584,
                         "download_path": "/api/frontend/latest/de/downloads/campaigns/584/forms/91",
+                        "children": []
+                      },
+                      {
+                        "id": 107,
+                        "label": "Offenlegung der Schlussrechnung über die Einnahmen",
+                        "type": "form",
+                        "campaign_id": 584,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/584/forms/107",
                         "children": []
                       }
                     ]
@@ -18164,6 +18188,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "93a49606b912b00abe502136f55ce7cea8ed3fcb0d23d2581c40953c3cfc6cac"
+    "data_checksum_sha256": "d0177cc4cea05d796eefb5084132c26348d6066f47e0f7bb3f961ede47d38c23"
   }
 }
