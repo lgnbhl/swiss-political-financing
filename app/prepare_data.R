@@ -119,6 +119,41 @@ slugify <- function(x) {
   x
 }
 
+# A person is keyed by their bare name -- "Dittli Josef" -> "dittli-josef" --
+# because that is the only identifier the three sources share. The EFK publishes
+# no person id, and the same politician appears as a candidate under one
+# spelling, as a mandate contributor under another table, and as a private donor
+# with their place of residence attached ("Hug Piero, Dietfurt", which is why the
+# donor key cannot be reused here). Names are not translated, so the key is the
+# same in all three languages.
+#
+# Two people with the same name therefore collapse into one page. The dataset has
+# no way to tell them apart and neither does this; the person page says so.
+person_name <- function(last, first) {
+  nm <- trimws(paste0(ifelse(is.na(last), "", last), " ", ifelse(is.na(first), "", first)))
+  nm[nm == ""] <- NA_character_
+  nm
+}
+
+person_key_of <- function(last, first) {
+  nm <- person_name(last, first)
+  k <- slugify(nm)
+  k[is.na(nm)] <- NA_character_
+  k
+}
+
+# The commonest non-missing value, for folding a person's several candidacies
+# into one canton and one party. Ties go to the first in `method = "radix"`
+# order for the same reason build_donor_dict() sorts that way: the build is a
+# committed artefact and must not depend on the machine's locale.
+mode_or_na <- function(x) {
+  v <- x[!is.na(x)]
+  if (!length(v)) return(NA_character_)
+  u <- unique(v)
+  n <- tabulate(match(v, u), nbins = length(u))
+  u[order(-n, u, method = "radix")][1]
+}
+
 # Build a key -> label lookup per language from a de/fr/it label triple that is
 # already row-aligned. Returns list(keys = <key per row>, dict = list(de=, fr=, it=)).
 # Keys are derived from the German label; a collision (two different German
@@ -170,6 +205,30 @@ donor_norm <- function(x) {
   x <- iconv(x, from = "UTF-8", to = "ASCII//TRANSLIT", sub = "")
   tolower(gsub("[^A-Za-z0-9]+", "", x))
 }
+
+# What people call the parties. The EFK publishes each party's full registered
+# name and no abbreviation, so a reader typing "SVP" -- or "UDC", which is the
+# same party in French -- found nothing in the app bar search while a donor
+# record spelling it out did match. These are not labels: nothing displays them,
+# they only widen what the search box matches, which is why every language's
+# abbreviation sits on one line rather than in i18n.csv. A Romand typing "UDC"
+# and a Ticinese typing "PLR" should both land on the party, whichever language
+# they are reading the site in.
+#
+# Keyed by the party key from build_dict(); a key that disappears from the data
+# simply stops being looked up, and a new party is searchable by its full name
+# until someone adds its initials here.
+PARTY_ABBR <- c(
+  "schweizerische-volkspartei"             = "SVP UDC",
+  "sozialdemokratische-partei-der-schweiz" = "SP PS",
+  "fdp-die-liberalen"                      = "FDP PLR PRD",
+  "die-mitte"                              = "Mitte Centro CVP PDC",
+  "gruene-schweiz"                         = "Gruene Grune Verts Verdi",
+  "gruenliberale-partei"                   = "GLP PVL",
+  "evangelische-volkspartei-der-schweiz"   = "EVP PEV",
+  "eidgenoessisch-demokratische-union"     = "EDU UDF",
+  "lega-dei-ticinesi"                      = "Lega"
+)
 
 # Spellings the mechanical key cannot join because the words themselves differ.
 # Kept short, exact-match only and listed here rather than inferred: a fuzzy rule
@@ -281,12 +340,30 @@ prepare_app_data <- function(root = NULL) {
   mand    <- read_all_langs(root, "exports", "mandate_contributions.csv", id_col = "declaration_id")
   events  <- read_all_langs(root, "relationships", "financing_events.csv", id_col = "financing_id")
 
+  # The candidate lists. Names are the same in all three languages; the canton
+  # and the party affiliation are not, and they feed the dictionaries below.
+  cands   <- read_all_langs(root, "exports", "declaration_candidates.csv", id_col = "declaration_id")
+
   check_language_invariants(contrib)
 
   # ---- dictionaries --------------------------------------------------------
-  # Party and canton live on declarations; everything else on its own table.
-  party  <- build_dict(lapply(decl, function(d) blank_to_na(d$candidate_party)))
-  canton <- build_dict(lapply(decl, function(d) blank_to_na(d$candidate_canton)))
+  # Party and canton live on declarations and on the candidate lists, and the two
+  # do not agree: 18 of the 5610 candidate rows name a canton no declaration
+  # does -- Uri among them, which is Josef Dittli's. Each dictionary is built
+  # from the union rather than from the declarations alone, the same move the
+  # actor dictionary makes below and for the same reason: one key space, or the
+  # person page and the declarations page key the same canton differently.
+  n_decl <- nrow(decl$de); n_cand <- nrow(cands$de)
+  party  <- build_dict(stats::setNames(lapply(LANGS, function(l) c(
+    blank_to_na(decl[[l]]$candidate_party), blank_to_na(cands[[l]]$party_affiliation)
+  )), LANGS))
+  canton <- build_dict(stats::setNames(lapply(LANGS, function(l) c(
+    blank_to_na(decl[[l]]$candidate_canton), blank_to_na(cands[[l]]$canton)
+  )), LANGS))
+  party_key_decl  <- party$keys[seq_len(n_decl)]
+  party_key_cand  <- party$keys[n_decl + seq_len(n_cand)]
+  canton_key_decl <- canton$keys[seq_len(n_decl)]
+  canton_key_cand <- canton$keys[n_decl + seq_len(n_cand)]
   cfor   <- build_dict(lapply(decl, function(d) blank_to_na(d$campaign_for)), key_prefix = "cf")
   dtype  <- build_dict(lapply(contrib, function(d) blank_to_na(d$donation_type)))
 
@@ -307,7 +384,7 @@ prepare_app_data <- function(root = NULL) {
   ))
   names(actor_labels) <- LANGS
   actor <- build_dict(actor_labels)
-  n_decl <- nrow(decl$de); n_contrib <- nrow(contrib$de)
+  n_contrib <- nrow(contrib$de)
   actor_key_decl    <- actor$keys[seq_len(n_decl)]
   actor_key_contrib <- actor$keys[n_decl + seq_len(n_contrib)]
   actor_key_mand    <- actor$keys[n_decl + n_contrib + seq_len(nrow(mand$de))]
@@ -335,8 +412,8 @@ prepare_app_data <- function(root = NULL) {
     year           = suppressWarnings(as.integer(d0$event_year)),
     actor_key      = actor_key_decl,
     position       = position_keys(d0, "declarations.csv"),
-    party_key      = party$keys,
-    canton_key     = canton$keys,
+    party_key      = party_key_decl,
+    canton_key     = canton_key_decl,
     cfor_key       = cfor$keys,
     n_candidates   = suppressWarnings(as.integer(d0$candidate_count)),
     total          = d0$total_income_chf
@@ -381,6 +458,12 @@ prepare_app_data <- function(root = NULL) {
       # first/last name; which one is filled is the only "who is this" signal it
       # carries, and `actor_type` on the declaration describes the *recipient*.
       donor_is_org = !is.na(donor_company) & donor_company != "",
+      # The private individuals among the donors, keyed the way the candidate
+      # lists and the mandate contributions key them, so that one person page can
+      # gather all three. An organisation has no person key, and an anonymous
+      # gift has no name to make one from.
+      person_key = if_else(donor_is_org | is_anonymous | donor_person == "",
+                           NA_character_, slugify(donor_person)),
       donor_place = coalesce(na_if(donor_domicile, ""), na_if(donor_residence, "")),
       date_parsed = as.Date(date_raw, format = "%d.%m.%Y"),
       date = if_else(is.na(date_parsed), NA_character_, format(date_parsed, "%Y-%m-%d")),
@@ -414,7 +497,7 @@ prepare_app_data <- function(root = NULL) {
     ) |>
     transmute(
       id, date, year, year_source, amount,
-      donor, donor_key, donor_raw, donor_place, is_anonymous, donor_is_org,
+      donor, donor_key, donor_raw, donor_place, is_anonymous, donor_is_org, person_key,
       actor_key, position, dtype_key,
       party_key, canton_key, category, financing_id, with_budget, is_latest
     ) |>
@@ -425,7 +508,8 @@ prepare_app_data <- function(root = NULL) {
   mandates <- tibble(
     id             = paste0(m0$declaration_id, "-m", m0$mandate_id),
     declaration_id = m0$declaration_id,
-    person         = trimws(paste0(coalesce(m0$last_name, ""), " ", coalesce(m0$first_name, ""))),
+    person         = person_name(m0$last_name, m0$first_name),
+    person_key     = person_key_of(m0$last_name, m0$first_name),
     inst_key       = inst$keys,
     amount         = m0$amount_chf,
     actor_key      = actor_key_mand,
@@ -438,6 +522,100 @@ prepare_app_data <- function(root = NULL) {
     mutate(is_latest = coalesce(is_latest, TRUE)) |>
     filter(!is.na(amount), amount > 0) |>
     arrange(desc(amount))
+
+  # ---- people index --------------------------------------------------------
+  # Who the app can name. Two sources define a person, one key space (see
+  # person_key_of):
+  #
+  #   candidacies  declaration_candidates.csv -- 5610 rows, ~2040 people, the
+  #                only place the app learns a politician's canton and party
+  #   mandates     a person paying a mandate contribution to their party
+  #
+  # Private donors are deliberately not a third source. A donor who is neither a
+  # candidate nor a mandate contributor already has a donor page, and a person
+  # page for them would repeat it gift for gift (86 names at the time of writing).
+  # A donor who *is* one of the two still has their gifts on the person page,
+  # through `donations$person_key`.
+  #
+  # `candidacies` stays a bare list of declaration ids rather than a widened
+  # table: the event, the actor and the year already sit on `declarations`, and
+  # repeating them per candidacy would cost more than the whole index does.
+  k0 <- cands$de
+  cands_core <- tibble(
+    person_key     = person_key_of(k0$last_name, k0$first_name),
+    declaration_id = k0$declaration_id,
+    canton_key     = canton_key_cand,
+    party_key      = party_key_cand
+  ) |>
+    filter(!is.na(person_key))
+
+  # `is_latest`, the same rule the totals follow. An actor files a budget for a
+  # campaign and then final accounts for it, and the same candidate list is
+  # attached to both: Bettina Balmer stood five times in 2023 and the raw link
+  # table says ten. Keeping only the latest filing per actor and campaign is what
+  # makes the candidacy count a count of candidacies. It also halves the table,
+  # from 5265 links to 2726.
+  #
+  # The semi_join doubles as the guard against a candidate list naming a
+  # declaration this build did not keep, which would be a candidacy counted with
+  # no row to show for it.
+  cand_links <- cands_core |>
+    distinct(person_key, declaration_id) |>
+    semi_join(filter(declarations, is_latest), by = "declaration_id") |>
+    arrange(person_key, declaration_id)
+
+  # Shipped as person key -> the declarations they stood on, not as 5265 rows of
+  # {person_key, declaration_id}. A row would repeat both field names and the
+  # person's key once per candidacy, which cost 360 KB of the built page against
+  # 170 KB this way; and the person loader wants a lookup, not a scan.
+  #
+  # `factor(levels = unique(...))` rather than a bare split(): split() would
+  # order the groups with factor()'s default, which sorts in the machine's
+  # locale, and index.html is a committed artefact that must not change because
+  # it was built on a different computer. `arrange()` above already put the keys
+  # in C order.
+  candidacies <- split(
+    cand_links$declaration_id,
+    factor(cand_links$person_key, levels = unique(cand_links$person_key))
+  )
+
+  # The two halves of every name the two sources offer, kept apart rather than
+  # joined here: the EFK writes a person surname-first and a reader types either
+  # way round, so the search has to match "Dittli Josef" and "Josef Dittli"
+  # alike, and only the browser knows which the reader typed.
+  name_src <- bind_rows(
+    tibble(person_key = person_key_of(k0$last_name, k0$first_name),
+           l = k0$last_name, f = k0$first_name),
+    tibble(person_key = person_key_of(m0$last_name, m0$first_name),
+           l = m0$last_name, f = m0$first_name)
+  ) |>
+    filter(!is.na(person_key)) |>
+    distinct(person_key, .keep_all = TRUE)
+
+  # Only people the app can actually show something about. A mandate row
+  # dropped for having no amount would otherwise give a page with nothing on it,
+  # reachable from the search.
+  known <- unique(c(cands_core$person_key, mandates$person_key))
+
+  # Short field names, which nothing else in this file does. This is the one
+  # table whose size is dominated by its own field names -- ~2250 rows of five
+  # keys is ~130 KB of "person_key" repeated -- and it is read in three places,
+  # window.spf.searchOptions() and the people and person loaders. The letters are
+  # k(ey), l(ast), f(irst), c(anton), p(arty).
+  people <- cands_core |>
+    group_by(person_key) |>
+    summarise(
+      c = mode_or_na(canton_key),
+      p = mode_or_na(party_key),
+      .groups = "drop"
+    ) |>
+    # A mandate contributor who never stood as a candidate is still a person
+    # and still gets a page; they arrive with a name and nothing
+    # else, because the candidate lists are where canton and party come from.
+    right_join(tibble(person_key = known[!is.na(known)]), by = "person_key") |>
+    inner_join(name_src, by = "person_key") |>
+    transmute(k = person_key, l, f, c, p) |>
+    arrange(l, f)
 
   # ---- events core --------------------------------------------------------
   # Per-event totals count each actor's latest disclosure once (see `is_latest`).
@@ -496,6 +674,9 @@ prepare_app_data <- function(root = NULL) {
     donations    = donations,
     declarations = declarations,
     mandates     = mandates,
+    people       = people,
+    party_abbr   = as.list(PARTY_ABBR[intersect(names(PARTY_ABBR), names(party$dict$de))]),
+    candidacies  = candidacies,
     events       = events_core,
     dict         = dict,
     # Donor labels are not translated by the EFK, so this map is language-free

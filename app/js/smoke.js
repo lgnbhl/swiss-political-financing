@@ -92,6 +92,10 @@ const firstElection = eventsWith('elections')[0];
 const partyYear = String(SPF.events.find((e) => e.type === 'party_financing').year);
 const someDonor = SPF.donations.find((r) => r.donor_key)?.donor_key;
 const someParty = SPF.donations.find((r) => r.party_key)?.party_key;
+// Not people[0]: the first person alphabetically is a candidate and nothing
+// else, so the money half of the page would never run. A mandate contributor
+// has a money row by construction, which is the case worth checking.
+const somePerson = (SPF.mandates.find((m) => m.person_key) || {}).person_key || SPF.people[0].k;
 
 const cases = [
   ['votes',     { eventId: firstVote },     'votes/' + firstVote],
@@ -102,7 +106,12 @@ const cases = [
   // them is run with some set.
   ['donors',    { year: 'all' },            'donors/all?category=votes&min=50000'],
   ['donor',     { key: someDonor },         'donor/' + someDonor],
-  ['party',     { key: someParty },         'party/' + someParty]
+  ['party',     { key: someParty },         'party/' + someParty],
+  ['person',    { key: somePerson },        'person/' + somePerson],
+  ['people',    {},                         'people'],
+  // A party read off the people, not the donations: most candidates' parties
+  // never appear on a donation, so someParty could filter the index to nothing.
+  ['people',    {},                         'people?party=' + SPF.people.find((p) => p.p).p]
 ];
 
 const expected = JSON.parse(fs.readFileSync(expectedPath, 'utf8'));

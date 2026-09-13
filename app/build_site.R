@@ -120,6 +120,14 @@ i18n_for_js <- lapply(LANGS, function(l) list(
   cols      = tr_group("cols", l),
   cat       = tr_group("cat", l),
   drill     = tr_group("drill", l),
+  # Only the one string the loader needs. tr_group would ship the whole page's
+  # wording, note and all, three times over for nothing.
+  person    = tr_pick("person", l, "no_affiliation"),
+  people    = tr_pick("people", l, c("no_info", "all")),
+  # The three group headers in the app bar search. They are built in JS from
+  # the payload rather than in R, because the option list is, and a header has
+  # to arrive with its options.
+  search    = tr_pick("search", l, c("group_person", "group_party", "group_donor", "of")),
   votes     = tr_pick("votes", l, c("kpi_yes", "kpi_no", "other", "gap_even",
                                     "short_yes", "short_no", "short_budget", "short_final",
                                     "gap_more_yes", "gap_more_no", "gap_one_sided",
@@ -188,6 +196,9 @@ payload <- sprintf(
      donations: %s,
      declarations: %s,
      mandates: %s,
+     people: %s,
+     partyAbbr: %s,
+     candidacies: %s,
      events: %s,
      dict: %s,
      donors: %s,
@@ -202,6 +213,11 @@ payload <- sprintf(
   json(D$donations),
   json(D$declarations),
   json(D$mandates),
+  json(D$people),
+  toJSON(D$party_abbr, auto_unbox = TRUE, na = "null"),
+  # Not json(): auto_unbox would turn the one-candidacy people into a bare
+  # string, and the loader would count their name's characters as candidacies.
+  toJSON(D$candidacies, auto_unbox = FALSE, na = "null"),
   json(D$events),
   toJSON(D$dict, auto_unbox = TRUE, na = "null"),
   toJSON(D$donor_dict, auto_unbox = TRUE, na = "null"),
@@ -253,6 +269,8 @@ app_shell <- function(lang) {
         sx = list(px = list(xs = 2, sm = 3)),
         Toolbar(
           disableGutters = TRUE,
+          # The hook app.css and window.spf.bindSearchToggle find the bar by.
+          className = "spf-bar",
           sx = list(gap = 1, minHeight = list(xs = 56, md = 64)),
           menu_button(lang),
           NavLink(
@@ -271,15 +289,20 @@ app_shell <- function(lang) {
                                    fontSize = list(xs = "0.82rem", sm = "1rem"),
                                    display = "-webkit-box", overflow = "hidden",
                                    WebkitLineClamp = 2, WebkitBoxOrient = "vertical")),
+              # Only between the phone and the inline nav: from `lg` the seven
+              # section links need the room, and a subtitle wrapped into a narrow
+              # column clipped the title above it.
               Typography(t_("app_subtitle", lang), variant = "caption",
                          sx = list(color = INK$on_bar,
-                                   display = list(xs = "none", md = "block")))
+                                   display = list(xs = "none", md = "block", lg = "none")))
             )
           ),
           # Inline on a wide screen; on a phone the same links live in the drawer
           # the hamburger opens (nav_sheet, below, which binds to it by id).
           Box(className = "spf-nav", nav_links(lang)),
-          Box(sx = list(flexGrow = 1, minWidth = 8)),
+          Box(className = "spf-bar-spacer", sx = list(flexGrow = 1, minWidth = 8)),
+          search_button(lang),
+          search_box(lang),
           lang_switch(lang)
         )
       )
@@ -404,6 +427,23 @@ lang_routes <- function(lang) {
       loader = spf_loader("party"),
       element = page_drill(D, lang, "donors", "drill.back_all"),
       errorElement = drill_error(lang, "donors", "drill.back_all")
+    ),
+
+    # ---- people ----
+    # The index, then one person. A person page is reached from the index grid,
+    # the app bar search and the person cells in the mandate grids; its way back
+    # is the index.
+    Route(
+      path = "people",
+      loader = spf_loader("people"),
+      element = page_people(D, lang),
+      errorElement = drill_error(lang, "people", "nav.people")
+    ),
+    Route(
+      path = "person/:key",
+      loader = spf_loader("person"),
+      element = page_person(D, lang),
+      errorElement = drill_error(lang, "people", "people.back", "person.not_found")
     ),
 
     Route(path = "data", element = page_data(D, lang, REPO_URL, DATA_PUBLISHED)),
@@ -568,7 +608,9 @@ check_loaders(list(
   parties   = page_parties(D, "de"),
   donors    = page_donors(D, "de"),
   donor     = page_drill(D, "de"),
-  party     = page_drill(D, "de", "donors", "drill.back_all")
+  party     = page_drill(D, "de", "donors", "drill.back_all"),
+  people    = page_people(D, "de"),
+  person    = page_person(D, "de")
 ))
 
 build_report("index.html")

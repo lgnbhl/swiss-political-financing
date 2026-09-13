@@ -205,6 +205,217 @@
     }
   };
 
+  // ---- the app bar search ----------------------------------------------------
+  // How many matches each group shows before it is cut short.
+  //
+  // A cap there must be: MUI renders every option it is given into the DOM, and
+  // "e" matches some three thousand of them -- enough to make typing stutter on
+  // a phone, and enough to hang the popup that opens on the arrow button with no
+  // query at all.
+  //
+  // But a flat cap over the whole list was worse than slow, it was misleading.
+  // Ten rows with nothing after them read as "that is all there is", when the
+  // truth was ten of two hundred; and because people are listed first, a common
+  // surname filled all ten and the Parteien and Zuwendende groups vanished from
+  // a box whose whole point is that it covers them too. So the cap is per group,
+  // and a group that overflows says by how much.
+  var SEARCH_LIMIT = 12;
+
+  // Created once per language and kept: MUI treats `filterOptions` as an
+  // ordinary prop, so a fresh closure on every render would be a fresh filter on
+  // every keystroke. Lazily, because window.jsmodule is not populated when this
+  // file is read.
+  var searchFilterFns = {};
+  window.spf.searchFilter = function (lang) {
+    if (searchFilterFns[lang]) return searchFilterFns[lang];
+    var of = window.SPF.i18n[lang].search.of;
+    var match = window.jsmodule['@mui/material'].createFilterOptions({
+      // No `limit` here -- this matcher has to see every hit for the counts
+      // below to be true. The cutting happens after.
+      //
+      // `alt` is matched but never shown: a person's name the other way round,
+      // and a party's initials in all three languages. Without it "Josef
+      // Dittli" and "SVP" both come back empty from a box that has them.
+      stringify: function (o) { return o.alt ? o.label + ' ' + o.alt : o.label; }
+    });
+
+    searchFilterFns[lang] = function (options, state) {
+      var hits = match(options, state);
+
+      // Group order follows first appearance, which is the order
+      // searchOptions() built -- people, parties, donors. MUI's groupBy renders
+      // options in the order it is given them and starts a new header whenever
+      // the group changes, so the groups have to stay contiguous here.
+      var order = [], byGroup = {};
+      hits.forEach(function (o) {
+        if (!byGroup[o.groupLabel]) { byGroup[o.groupLabel] = []; order.push(o.groupLabel); }
+        byGroup[o.groupLabel].push(o);
+      });
+
+      // The count goes in the group header -- "Personen (12 von 2299)" -- and not
+      // into an extra row at the foot of the group. An extra row would be a
+      // thing in the list that is not a result: it has to be disabled, skipped
+      // by the keyboard, and guarded against in onChange, and MUI still writes
+      // a clicked option's text into the input before any of that. A header is
+      // none of those things, it is already sticky while the group scrolls, and
+      // it says how deep the list is before the reader scrolls rather than
+      // after.
+      //
+      // The header text lives on the options because that is where groupBy
+      // reads it, so the shown ones are copied with a new groupLabel. The
+      // originals are the cached list and must not be touched.
+      var out = [];
+      order.forEach(function (g) {
+        var list = byGroup[g];
+        var head = list.length > SEARCH_LIMIT
+          ? g + ' (' + SEARCH_LIMIT + ' ' + of + ' ' + list.length + ')'
+          : g + ' (' + list.length + ')';
+        list.slice(0, SEARCH_LIMIT).forEach(function (o) {
+          out.push({
+            key: o.key, label: o.label, alt: o.alt, path: o.path, groupLabel: head
+          });
+        });
+      });
+      return out;
+    };
+    return searchFilterFns[lang];
+  };
+
+  // From `lg` the app bar has no room left for a readable search box beside the
+  // seven section links: at 210px the placeholder and every result label were
+  // cut off. So there it is a magnifier, and opening it swaps the links out for
+  // a wide field. The swap is one class on the toolbar (see app.css) rather
+  // than React state: the Autocomplete stays mounted, its cached options and
+  // filter untouched, and like nav_sheet this binds to its trigger by id.
+  //
+  // It closes when focus leaves the field. A click on a result does not count:
+  // MUI prevents the option's mousedown, so the input keeps focus; the pick
+  // then blurs it (blurOnSelect) and the field closes by itself.
+  window.spf.bindSearchToggle = function () {
+    var wide = function () { return window.innerWidth >= 1200; };
+    var bar = function () { return document.querySelector('.spf-bar'); };
+    var open = function () {
+      var b = bar();
+      if (!b || !wide()) return;
+      b.classList.add('spf-search-open');
+      requestAnimationFrame(function () {
+        var input = b.querySelector('.spf-search input');
+        if (input) input.focus();
+      });
+    };
+    var close = function (refocus) {
+      var b = bar();
+      if (!b || !b.classList.contains('spf-search-open')) return;
+      b.classList.remove('spf-search-open');
+      if (refocus) {
+        var t = document.getElementById('spf-search-trigger');
+        if (t) t.focus();
+      }
+    };
+
+    document.addEventListener('click', function (e) {
+      if (e.target.closest && e.target.closest('#spf-search-trigger')) open();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && e.target.closest && e.target.closest('.spf-bar .spf-search')) {
+        close(true);
+        return;
+      }
+      if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey) return;
+      var t = e.target;
+      if (t && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) return;
+      var b = bar();
+      if (!b || !wide() || b.classList.contains('spf-search-open')) return;
+      e.preventDefault();
+      open();
+    });
+    document.addEventListener('focusout', function (e) {
+      var s = e.target.closest && e.target.closest('.spf-bar .spf-search');
+      if (!s || (e.relatedTarget && s.contains(e.relatedTarget))) return;
+      close(false);
+    });
+  };
+
+  // The one place a person's two name halves are put back together, so the page
+  // title, the search label and anything later cannot disagree about the order.
+  window.spf.personName = function (p) {
+    return ((p.l || '') + ' ' + (p.f || '')).trim();
+  };
+
+  // Everything the reader can name, in one list: the ~2250 people the person
+  // index knows, the parties, and the donors. Each option carries the path it
+  // goes to, so one control serves three kinds of subject and the box never
+  // dead-ends -- typing "SVP" or a company name lands on the page that already
+  // exists rather than on "no results" beside data that plainly has the answer.
+  //
+  // Built once per language and kept, because it is ~3300 options and the
+  // control is on every page: rebuilding it on each render made typing visibly
+  // lag on a phone. Nothing in it changes after load, so a cache is safe.
+  //
+  // People come first. A search here is nearly always for a person -- that is
+  // what the rest of the app cannot already do -- and MUI renders the groups in
+  // the order the options arrive in.
+  var searchCache = {};
+  window.spf.searchOptions = function (lang) {
+    if (searchCache[lang]) return searchCache[lang];
+    var S = window.SPF, T = S.i18n[lang], D = S.dict[lang];
+    var out = [];
+
+    // Every option is also matched by its own key, spaces for hyphens.
+    //
+    // MUI folds accents, so "mull" already finds "Müller". What it cannot do is
+    // the German expansion: a reader typing "mueller", or "gruene", or
+    // "hauseigentuemerverband" -- which is how you type an umlaut on a keyboard
+    // that has none, and is exactly what the URL of the page says -- got
+    // nothing. slugify() in prepare_data.R has already done that expansion to
+    // build the key, so the key is the transliteration, free and already here.
+    var deSlug = function (k) { return k.replace(/-/g, ' '); };
+
+    // "Dittli Josef (Uri, FDP.Die Liberalen)". The canton and the party are what
+    // tell two candidates of the same name apart, so far as anything can; a
+    // person known only as a donor or a mandate contributor has neither, and
+    // then the parenthesis is left off rather than shown empty.
+    //
+    // The label is surname-first, the way the EFK writes it and the way the
+    // tables here read; `alt` carries the other order, so the reader may type
+    // whichever they think of first. See window.spf.searchFilter.
+    S.people.forEach(function (p) {
+      var q = [p.c && D.canton[p.c], p.p && D.party[p.p]].filter(Boolean).join(', ');
+      out.push({
+        key: p.k,
+        label: window.spf.personName(p) + (q ? ' (' + q + ')' : ''),
+        alt: ((p.f || '') + ' ' + (p.l || '')).trim() + ' ' + deSlug(p.k),
+        groupLabel: T.search.group_person,
+        path: 'person/' + encodeURIComponent(p.k)
+      });
+    });
+
+    Object.keys(D.party).forEach(function (k) {
+      out.push({
+        key: k, label: D.party[k],
+        alt: (S.partyAbbr[k] ? S.partyAbbr[k] + ' ' : '') + deSlug(k),
+        groupLabel: T.search.group_party,
+        path: 'party/' + encodeURIComponent(k)
+      });
+    });
+
+    // A private donor who is also a candidate or a mandate contributor is in
+    // both groups, under two different keys: the person key is the bare name,
+    // the donor key carries their place of residence. The person page is the
+    // fuller view and the donor page is the money. A donor who is neither has
+    // no person entry at all (see the people index in prepare_data.R).
+    Object.keys(S.donors).forEach(function (k) {
+      out.push({
+        key: k, label: S.donors[k], alt: deSlug(k),
+        groupLabel: T.search.group_donor,
+        path: 'donor/' + encodeURIComponent(k)
+      });
+    });
+
+    searchCache[lang] = out;
+    return out;
+  };
+
   // Everything a route loader needs, in one call:
   //   `var c = window.spf.ctx(args, 'de')`
   //
@@ -318,6 +529,7 @@
   // One delegated listener for the whole app, so it survives every navigation
   // without being re-attached per chart.
   window.spf.touchNudge();
+  window.spf.bindSearchToggle();
 
   window.spf.watchRotation();
   

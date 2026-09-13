@@ -41,6 +41,32 @@ function resolveRows(c, rows) {
   return rows.map(function (r) { return resolveRow(c, r); });
 }
 
+// Underlined, not just coloured. A blue cell in a table of blue-ish chrome is
+// not read as a link -- these cells are the way into the drill-down pages, and
+// undecorated they were being missed entirely.
+function linkStyle(c) {
+  return {
+    color: c.K.LINK_COLOR, textDecoration: 'underline',
+    textDecorationThickness: '1px', textUnderlineOffset: '2px',
+    cursor: 'pointer', fontWeight: 600
+  };
+}
+
+// A cell that links to a drill-down page, given where the row keeps the key.
+// A row with no key -- an anonymous gift, a candidate the index could not name --
+// renders as plain text rather than as a link that goes nowhere.
+function keyLink(c, to, keyField) {
+  var style = linkStyle(c);
+  return function (p) {
+    var key = p.row[keyField];
+    if (!p.value || key == null) return p.value || '';
+    return React.createElement('a', {
+      href: '#/' + c.L + '/' + to + '/' + encodeURIComponent(key),
+      style: style, title: p.value
+    }, p.value);
+  };
+}
+
 // Column set for any grid of donations. Donor and party cells link to their
 // drill-downs; anonymous donors have no page to link to. The donor cell shows the
 // grouped name and links by key, while `donor_raw` keeps the spelling the EFK
@@ -48,14 +74,7 @@ function resolveRows(c, rows) {
 // grouping is always auditable.
 function donationColumns(c) {
   var T = c.T, L = c.L;
-  // Underlined, not just coloured. A blue cell in a table of blue-ish chrome is
-  // not read as a link -- these cells are the way into the donor and party
-  // pages, and undecorated they were being missed entirely.
-  var LINK = {
-    color: c.K.LINK_COLOR, textDecoration: 'underline',
-    textDecorationThickness: '1px', textUnderlineOffset: '2px',
-    cursor: 'pointer', fontWeight: 600
-  };
+  var LINK = linkStyle(c);
   var link = function (to) {
     return function (p) {
       if (!p.value) return '';
@@ -91,6 +110,57 @@ function donationColumns(c) {
   // landmarks. Who gave, how much, to whom -- the rest stays on the desktop grid
   // and in the CSV export.
   return window.spf.keepCols(columns, ['donor', 'amount', 'recipient']);
+}
+
+// ---- one person's candidacies -----------------------------------------------
+// The declarations a person was named on as a candidate. Deliberately not a
+// money table: declaration_candidates.csv carries no per-candidate figure --
+// the francs in the source sit on the declaration, which a list of 146 names may
+// share -- so this says where someone stood, and the page says as much in a
+// note above it rather than letting a total next to a name be misread.
+
+function candidacyColumns(c) {
+  var T = c.T;
+  return window.spf.keepCols([
+    { field: 'event', headerName: T.cols.event, flex: 1.7, minWidth: 220 },
+    { field: 'actor', headerName: T.cols.recipient, flex: 1.6, minWidth: 210 },
+    // The party, not the actor beside it: the actor is the committee that filed
+    // the declaration -- a trade association, say -- and linking its name to a
+    // party page would send the reader somewhere the cell does not name.
+    { field: 'party', headerName: T.cols.party, flex: 1, minWidth: 150,
+      renderCell: keyLink(c, 'party', 'party_key') },
+    { field: 'canton', headerName: T.cols.canton, width: 140 },
+    { field: 'year', headerName: T.cols.year, type: 'number', width: 100 },
+    { field: 'disclosure', headerName: T.cols.disclosure, width: 150 }
+  ], ['event', 'actor', 'year']);
+}
+
+// `links` is this person's declaration ids and `byId` the loader's lookup into
+// the declarations. The link table carries no labels of its own precisely so
+// that each event and actor is stored once rather than once per candidacy.
+function candidacyRows(c, links, byId) {
+  var D = c.D, T = c.T;
+  // `event_year` is not filled on every declaration; where it is missing the
+  // year comes from the event's own polling date, the same fallback the rest of
+  // the app uses. An empty year cell reads as missing data rather than as an
+  // unfilled field on one form.
+  var evYear = new Map(c.S.events.map(function (e) { return [e.financing_id, e.year]; }));
+  var out = [];
+  links.forEach(function (id) {
+    var d = byId.get(id);
+    if (!d) return;
+    out.push({
+      id: id,
+      event: D.event[d.financing_id] || T.unknown,
+      actor: D.actor[d.actor_key] || T.unknown,
+      party_key: d.party_key,
+      party: d.party_key == null ? T.no_party : (D.party[d.party_key] || d.party_key),
+      canton: d.canton_key == null ? T.no_canton : (D.canton[d.canton_key] || d.canton_key),
+      year: d.year != null ? d.year : (evYear.get(d.financing_id) || null),
+      disclosure: d.with_budget ? T.income.budget : T.income.final
+    });
+  });
+  return out.sort(function (a, b) { return (b.year || 0) - (a.year || 0); });
 }
 
 // ---- per-actor disclosure table ---------------------------------------------

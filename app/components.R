@@ -869,10 +869,66 @@ nav_link <- function(to, label, end = FALSE) {
   NavLink(to = to, end = end, className = "spf-navlink", label)
 }
 
-# The six section links, in one place: the app bar renders them inline on a wide
+# The seven section links, in one place: the app bar renders them inline on a wide
 # screen and the side sheet renders the same list on a phone, so they can never
 # drift apart.
-NAV_SECTIONS <- c("votes", "elections", "parties", "donors", "data")
+NAV_SECTIONS <- c("votes", "elections", "parties", "donors", "people", "data")
+
+# ---- the app bar search -----------------------------------------------------
+# The one control in the app that is not driven by loader data.
+#
+# Every other Autocomplete here fills its options from `useLoaderData()`, which
+# works because it sits on a routed page. This one lives in the app bar, which is
+# the root route's own element and has no loader, so the options come straight
+# from the runtime instead -- `JS()` serialises as `{"type":"expr"}` and is
+# evaluated at render, by which point the payload and window.spf are both there.
+#
+# The options carry their own destination (see window.spf.searchOptions), so one
+# box covers people, parties and donors, and a reader who types a party name is
+# not told there are no results by a control sitting on top of the party page.
+#
+# Language is baked per subtree, exactly as single_select()'s `base` is: there
+# are three shells in the source and React Router mounts one.
+search_box <- function(lang, mobile = FALSE) {
+  ac <- Autocomplete(
+    multiple = FALSE,
+    size = "small",
+    autoHighlight = TRUE,
+    # The value is never kept: picking an option is a navigation, and the page
+    # it opens is the feedback. A box still holding "Dittli Josef" on the next
+    # search is something to clear first.
+    blurOnSelect = TRUE,
+    clearOnBlur = TRUE,
+    filterOptions = JS(sprintf("window.spf.searchFilter('%s')", lang)),
+    options = JS(sprintf("window.spf.searchOptions('%s')", lang)),
+    groupBy = JS("(o) => o.groupLabel"),
+    noOptionsText = t_("search.none", lang),
+    getOptionLabel = JS("(o) => o.label"),
+    isOptionEqualToValue = JS("(o, v) => o.path === v.path"),
+    onChange = JS(sprintf(
+      "(e, v) => { if (v) window.spf.goto('/%s/' + v.path); }", lang)),
+    renderInput = JS(sprintf(
+      "(params) => React.createElement(window.jsmodule['@mui/material'].TextField, { ...params, placeholder: %s, inputProps: { ...params.inputProps, 'aria-label': %s } })",
+      jsonlite::toJSON(t_("search.placeholder", lang), auto_unbox = TRUE),
+      jsonlite::toJSON(t_("search.label", lang), auto_unbox = TRUE)
+    )),
+    # When and how wide the bar copy shows is app.css's business (.spf-search):
+    # hidden on a phone, where the `mobile` copy in the nav panel stands in;
+    # always there at 300px between the phone and the inline nav; from `lg`
+    # behind search_button(), opening wide in place of the section links.
+    className = if (mobile) "spf-search-sheet" else "spf-search",
+    sx = utils::modifyList(CONTROL_SX, if (mobile) list(
+      width = "100%", mb = 1.5
+    ) else list(
+      width = 300, mr = 1.5,
+      # The bar is the darkest surface in the app and the field is the lightest
+      # thing on it, so it needs no outline to be found; the hover and focus
+      # rings CONTROL_SX draws are kept.
+      `& .MuiOutlinedInput-notchedOutline` = list(borderColor = "transparent")
+    ))
+  )
+  ac
+}
 
 nav_links <- function(lang) {
   c(
@@ -895,12 +951,32 @@ menu_button <- function(lang) {
   IconButton(
     id = NAV_TRIGGER_ID,
     `aria-label` = t_("nav.menu", lang),
-    sx = list(display = list(xs = "inline-flex", md = "none"), color = "#fff",
+    sx = list(display = list(xs = "inline-flex", lg = "none"), color = "#fff",
               mr = 0.5, ml = -1),
     HTML(paste0(
       "<svg width='22' height='22' viewBox='0 0 24 24' fill='none' ",
       "stroke='currentColor' stroke-width='2' stroke-linecap='round'>",
       "<path d='M3 6h18M3 12h18M3 18h18'/></svg>"
+    ))
+  )
+}
+
+# The magnifier that opens the app bar search from `lg`, where the section links
+# leave the box no room. Shown only there (app.css), and like the hamburger it
+# has no onClick: window.spf.bindSearchToggle binds to it by id.
+SEARCH_TRIGGER_ID <- "spf-search-trigger"
+
+search_button <- function(lang) {
+  IconButton(
+    id = SEARCH_TRIGGER_ID,
+    className = "spf-search-btn",
+    `aria-label` = t_("search.open", lang),
+    title = t_("search.open", lang),
+    sx = list(color = "#fff", mr = 0.5),
+    HTML(paste0(
+      "<svg width='20' height='20' viewBox='0 0 24 24' fill='none' ",
+      "stroke='currentColor' stroke-width='2' stroke-linecap='round'>",
+      "<circle cx='11' cy='11' r='7'/><path d='M20 20l-4-4'/></svg>"
     ))
   )
 }
@@ -936,6 +1012,9 @@ nav_sheet <- function(lang) {
       pb = "calc(14px + env(safe-area-inset-bottom))",
       boxShadow = "-18px 0 40px rgba(0,0,0,0.35)"
     ))),
+    # The search first: it is the only thing in the panel that is not already a
+    # tap away, and on a phone the app bar has no room for it.
+    search_box(lang, mobile = TRUE),
     Box(
       component = "nav", className = "spf-sheet-nav",
       `aria-label` = t_("nav.label", lang),

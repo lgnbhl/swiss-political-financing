@@ -369,7 +369,7 @@ window.spf.loaders.parties = function (args, lang) {
     function (m) { return m.actor_key; }, function (m) { return m.amount; }));
   var mandRows = mand.map(function (m) {
     return {
-      id: m.id, person: m.person,
+      id: m.id, person: m.person, person_key: m.person_key,
       institution: D.inst[m.inst_key] || T.unknown,
       actor: D.actor[m.actor_key] || T.unknown,
       amount: m.amount
@@ -399,7 +399,8 @@ window.spf.loaders.parties = function (args, lang) {
                    mRank.map(function (e) { return e[1]; }), 260),
     mandRows: mandRows,
     mandColumns: window.spf.keepCols([
-      { field: 'person', headerName: T.cols.person, flex: 1.3, minWidth: 180 },
+      { field: 'person', headerName: T.cols.person, flex: 1.3, minWidth: 180,
+        renderCell: keyLink(c, 'person', 'person_key') },
       { field: 'institution', headerName: T.cols.institution, flex: 1.2, minWidth: 180 },
       { field: 'amount', headerName: T.cols.amount, type: 'number', width: 150,
         valueFormatter: F.num },
@@ -603,3 +604,232 @@ function drill(mode) {
 
 window.spf.loaders.donor = drill('donor');
 window.spf.loaders.party = drill('party');
+
+// ---- one person --------------------------------------------------------------
+// The page the app had no way to reach: everything the dataset says about a
+// named individual, gathered from the three places it says it.
+//
+//   candidacies   they stood on a declaration -- where, for whom, in what year
+//   mandates      they paid a mandate contribution to their party
+//   donations     they gave to a committee as a private individual
+//
+// The three are joined on the person key alone (see person_key_of in
+// prepare_data.R), because the EFK publishes no person id. Two people of the
+// same name therefore share this page; `homonym` says so when there is reason to
+// suspect it, and the note under the title says so unconditionally.
+//
+// Two of the three carry money and one does not, which is the whole shape of the
+// page: the francs are the mandate contributions plus the donations, and the
+// candidacies are counted, never summed.
+window.spf.loaders.person = function (args, lang) {
+  var c = window.spf.ctx(args, lang);
+  var S = c.S, D = c.D, T = c.T, F = c.F;
+  var key = decodeURIComponent(c.P.key);
+
+  var who = S.people.find(function (p) { return p.k === key; });
+  if (!who) notFound();
+
+  var mand  = S.mandates.filter(function (r) { return r.is_latest && r.person_key === key; });
+  var gifts = S.donations.filter(function (r) { return r.is_latest && r.person_key === key; });
+  var links = S.candidacies[key] || [];
+
+  var byId = new Map();
+  S.declarations.forEach(function (d) { byId.set(d.declaration_id, d); });
+
+  var mandSum = window.spf.sum(mand,  function (r) { return r.amount; });
+  var giftSum = window.spf.sum(gifts, function (r) { return r.amount; });
+
+  // Where their money went, mandate contributions and donations together: both
+  // are francs this person paid to an actor, and splitting the chart by which
+  // form they were declared on would answer a question nobody is asking.
+  var paid = window.spf.topN(window.spf.sumBy(
+    mand.concat(gifts), function (r) { return r.actor_key; },
+    function (r) { return r.amount; }), 12);
+
+  // What they stood for. Candidacies and money are counted in the same chart
+  // because on this page the interesting shape is the events a person appears in
+  // at all -- most of them with no francs attached to their name.
+  var evCount = new Map();
+  links.forEach(function (id) {
+    var d = byId.get(id);
+    if (!d) return;
+    evCount.set(d.financing_id, (evCount.get(d.financing_id) || 0) + 1);
+  });
+  var stood = window.spf.topN(evCount, 12);
+
+  var canton = who.c ? (D.canton[who.c] || who.c) : null;
+  var party  = who.p ? (D.party[who.p]   || who.p) : null;
+  var name   = window.spf.personName(who);
+
+  return {
+    title: name,
+    subtitle: [canton, party].filter(Boolean).join(' · ') || T.person.no_affiliation,
+    scope: name,
+
+    // Three figures, none of them a sum of the others. A headline total over the
+    // mandate contributions and the donations would be a number the EFK never
+    // publishes and that means little -- the two are different obligations under
+    // different articles -- and it would sit next to a candidacy count that is
+    // emphatically not money.
+    mandFmt: mandSum > 0 ? F.chf(mandSum) : '–',
+    giftFmt: giftSum > 0 ? F.chf(giftSum) : '–',
+    // Elections, not filings: two committees naming the same candidate for one
+    // race are one candidacy. The filings are the rows of the table below.
+    candCount: evCount.size.toLocaleString(F.loc),
+
+    paid: barH(c, paid.map(function (e) { return D.actor[e[0]] || T.unknown; }),
+               paid.map(function (e) { return e[1]; }), 250),
+    paidStyle: hide(paid.length === 0),
+    paidNoneStyle: show(paid.length === 0),
+
+    // Event labels are the full wording of a federal act; clipped here because
+    // the table below names each one in full.
+    stood: barH(c, stood.map(function (e) {
+                 return window.spf.clip(D.event[e[0]] || T.unknown, 52);
+               }),
+               stood.map(function (e) { return e[1]; }), 300, null, 'count'),
+    stoodStyle: hide(stood.length === 0),
+    stoodNoneStyle: show(stood.length === 0),
+
+    candRows: candidacyRows(c, links, byId),
+    candColumns: candidacyColumns(c),
+    candStyle: hide(links.length === 0),
+    candNoneStyle: show(links.length === 0),
+
+    // The money table is the ordinary donations grid, so a private donor's gifts
+    // read here exactly as they do on the donors page and in the CSV. Mandate
+    // contributions are not donations and are not folded into it; they are on the
+    // party page they were filed with, which the chart above links to.
+    rows: resolveRows(c, gifts),
+    columns: donationColumns(c),
+    giftsStyle: hide(gifts.length === 0),
+    giftsNoneStyle: show(gifts.length === 0)
+  };
+};
+
+// ---- all people --------------------------------------------------------------
+// The index the person pages lacked: who the dataset names, where they stood and
+// what they paid, filterable by party and canton.
+//
+// The same restraint as the person page. Candidacies are counted, never turned
+// into francs -- the money sits on a declaration that up to 146 names share --
+// and mandate contributions and donations stay in two columns rather than one
+// total, because they are different obligations.
+//
+// The party and canton options are read off the people rather than taken from
+// the meta lists: those are built from the donations, and most candidates' parties
+// and cantons never appear on a donation.
+window.spf.loaders.people = function (args, lang) {
+  var c = window.spf.ctx(args, lang);
+  var S = c.S, D = c.D, T = c.T, F = c.F;
+
+  var parties = c.q.getAll('party'), cantons = c.q.getAll('canton');
+  var kd = function (v) { return v == null ? '-' : String(v); };
+
+  var opts = function (field, dict, none) {
+    var keys = Array.from(new Set(S.people.map(function (p) { return kd(p[field]); })));
+    return keys.map(function (k) {
+      return { key: k, label: k === '-' ? none : (dict[k] || k) };
+    }).sort(function (a, b) { return a.label.localeCompare(b.label, F.loc); });
+  };
+  var partyOpts  = opts('p', D.party,  T.people.no_info);
+  var cantonOpts = opts('c', D.canton, T.people.no_info);
+
+  var who = S.people;
+  if (parties.length) who = who.filter(function (p) { return parties.includes(kd(p.p)); });
+  if (cantons.length) who = who.filter(function (p) { return cantons.includes(kd(p.c)); });
+
+  // Latest filings only, the rule every total in the app follows.
+  var latest = function (r) { return r.is_latest; };
+  var mandBy = window.spf.sumBy(S.mandates.filter(latest),
+    function (r) { return r.person_key; }, function (r) { return r.amount; });
+  var giftBy = window.spf.sumBy(S.donations.filter(latest),
+    function (r) { return r.person_key; }, function (r) { return r.amount; });
+
+  // A filing is not an election. A candidate backed by their party and by a
+  // trade association is named on two filings for one race, so the grid shows
+  // both counts: the filings naming them, and the distinct events among them.
+  var evOf = new Map(S.declarations.map(function (d) { return [d.declaration_id, d.financing_id]; }));
+  var electionsOf = function (links) {
+    var s = new Set();
+    links.forEach(function (id) { if (evOf.has(id)) s.add(evOf.get(id)); });
+    return s.size;
+  };
+
+  var candTotal = 0, mandTotal = 0, both = 0;
+  var partyCount = new Map(), cantonCount = new Map();
+  var rows = who.map(function (p) {
+    var links = S.candidacies[p.k] || [];
+    var cand = links.length;
+    var elections = electionsOf(links);
+    var mand = mandBy.get(p.k) || 0;
+    var gift = giftBy.get(p.k) || 0;
+    candTotal += elections;
+    mandTotal += mand;
+    if (cand > 0 && (mand > 0 || gift > 0)) both++;
+    // People who stood, not candidacies: a councillor who stood in three
+    // campaigns is one candidate of their party, not three.
+    if (cand > 0) {
+      partyCount.set(kd(p.p), (partyCount.get(kd(p.p)) || 0) + 1);
+      cantonCount.set(kd(p.c), (cantonCount.get(kd(p.c)) || 0) + 1);
+    }
+    return {
+      id: p.k,
+      person: window.spf.personName(p),
+      person_key: p.k,
+      canton: p.c ? (D.canton[p.c] || p.c) : T.people.no_info,
+      party:  p.p ? (D.party[p.p]   || p.p) : T.people.no_info,
+      elections: elections,
+      candidacies: cand,
+      mandates: mand || null,
+      donations: gift || null
+    };
+  });
+
+  var label = function (dict) {
+    return function (e) { return e[0] === '-' ? T.people.no_info : (dict[e[0]] || e[0]); };
+  };
+  var topParty  = window.spf.topN(partyCount, 12);
+  var topCanton = window.spf.ranked(cantonCount);
+
+  var pick = function (all, keys) {
+    return all.filter(function (o) { return keys.includes(o.key); });
+  };
+
+  return {
+    scope: [pick(partyOpts, parties), pick(cantonOpts, cantons)]
+      .map(function (l) { return l.map(function (o) { return o.label; }).join(', '); })
+      .filter(Boolean).join(' · ') || T.people.all,
+
+    peopleCount: who.length.toLocaleString(F.loc),
+    // One per person and election -- the filings would count a candidate twice
+    // wherever two committees named them for the same race.
+    candCount: candTotal.toLocaleString(F.loc),
+    mandFmt: mandTotal > 0 ? F.chf(mandTotal) : '–',
+    bothCount: both.toLocaleString(F.loc),
+
+    byParty: barH(c, topParty.map(label(D.party)),
+                  topParty.map(function (e) { return e[1]; }), 230, null, 'count'),
+    byCanton: barH(c, topCanton.map(label(D.canton)),
+                   topCanton.map(function (e) { return e[1]; }), 170, null, 'count'),
+
+    count: rows.length.toLocaleString(F.loc),
+    emptyStyle: hide(rows.length > 0),
+    rows: rows,
+    columns: window.spf.keepCols([
+      { field: 'person', headerName: T.cols.name, flex: 1.4, minWidth: 190,
+        renderCell: keyLink(c, 'person', 'person_key') },
+      { field: 'party', headerName: T.cols.party, flex: 1.2, minWidth: 170 },
+      { field: 'canton', headerName: T.cols.canton, width: 140 },
+      { field: 'elections', headerName: T.cols.elections, type: 'number', width: 110 },
+      { field: 'candidacies', headerName: T.cols.candidacies, type: 'number', width: 130 },
+      { field: 'mandates', headerName: T.cols.mandates, type: 'number', width: 180,
+        valueFormatter: F.num },
+      { field: 'donations', headerName: T.cols.gifts, type: 'number', width: 160,
+        valueFormatter: F.num }
+    ], ['person', 'party', 'elections']),
+
+    parties: partyOpts, cantons: cantonOpts,
+    curParty: pick(partyOpts, parties), curCanton: pick(cantonOpts, cantons)
+  };
+};

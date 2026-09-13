@@ -18,9 +18,11 @@ body { font-family: var(--spf-font); }
    in the side sheet. Hidden here rather than with an `sx` breakpoint: this
    stylesheet lives in the body and emotion's classes live in the head, so at
    equal specificity a `.spf-nav` rule here would win over the sx one anyway.
-   900px is MUI's `md`, so the two systems agree on where the bar changes. */
+   1200px is MUI's `lg`, so the two systems agree on where the bar changes: with
+   seven sections and the search box, anything narrower squeezed the app title
+   into a clipped column. menu_button() switches at the same width. */
 .spf-nav { display: none; align-items: center; gap: 2px; flex-wrap: nowrap; }
-@media (min-width: 900px) { .spf-nav { display: flex; } }
+@media (min-width: 1200px) { .spf-nav { display: flex; } }
 .spf-nav a.spf-navlink {
   color: var(--spf-on-bar); text-decoration: none;
   padding: 7px 12px; border-radius: 9px;
@@ -29,6 +31,24 @@ body { font-family: var(--spf-font); }
 }
 .spf-nav a.spf-navlink:hover { background: rgba(255,255,255,0.10); color: #fff; }
 .spf-nav a.spf-navlink.active { background: rgba(255,255,255,0.16); color: #fff; }
+/* The app bar search (components.R::search_box, search_button). Hidden on a
+   phone, where the copy in the nav panel stands in; always visible between the
+   phone and the inline nav; from `lg`, where the section links take the room,
+   a magnifier that swaps the links out for a wide field while it is open
+   (window.spf.bindSearchToggle sets .spf-search-open). Prefixed with .spf-bar
+   so these beat the display and width the component's sx would otherwise set. */
+.spf-bar .spf-search-btn { display: none; }
+@media (max-width: 899.95px) { .spf-bar .spf-search { display: none; } }
+@media (min-width: 1200px) {
+  .spf-bar .spf-search-btn { display: inline-flex; }
+  .spf-bar .spf-search { display: none; }
+  .spf-bar.spf-search-open .spf-nav,
+  .spf-bar.spf-search-open .spf-bar-spacer,
+  .spf-bar.spf-search-open .spf-search-btn { display: none; }
+  .spf-bar.spf-search-open .spf-search {
+    display: block; flex: 1 1 auto; width: auto; max-width: 560px; margin-left: auto;
+  }
+}
 .spf-langs { display: flex; gap: 2px; }
 .spf-lang {
   background: none; border: 0; cursor: pointer;

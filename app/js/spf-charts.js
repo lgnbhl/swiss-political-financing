@@ -54,11 +54,18 @@ function band(c, o, gap) {
   return Object.assign({ scaleType: 'band' }, c.K.GAP, gap || {}, o);
 }
 
-function barH(c, labels, values, labelWidth, color) {
+// `fmt` 'count' for bars that count things rather than francs -- candidacies,
+// people -- which would otherwise read "CHF 3".
+function barH(c, labels, values, labelWidth, color, fmt) {
+  var count = fmt === 'count';
+  // A count of two gets ticks at 0.2, 0.4 ... which round to "0 0 0 1 1 1";
+  // only whole numbers are labelled.
+  var countTick = function (v) { return Number.isInteger(v) ? c.F.num(v) : ''; };
   return {
     margin: MH,
-    series: [{ data: values, color: color || c.K.SERIES[0], valueFormatter: c.F.chf }],
-    xAxis: [{ valueFormatter: c.F.short, tickNumber: c.K.TICKS }],
+    series: [{ data: values, color: color || c.K.SERIES[0],
+               valueFormatter: count ? c.F.num : c.F.chf }],
+    xAxis: [{ valueFormatter: count ? countTick : c.F.short, tickNumber: c.K.TICKS }],
     yAxis: [band(c, { data: labels, width: labelRoom(labels, labelWidth),
                       valueFormatter: tickFormat,
                       tickLabelStyle: { fontSize: 11 } })]

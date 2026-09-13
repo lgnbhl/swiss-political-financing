@@ -531,6 +531,161 @@ page_drill <- function(D, lang, back = "donors", label = "drill.back_donors") {
 }
 
 # =============================================================================
+# PEOPLE  (the index of everyone the candidate lists and mandates name)
+# =============================================================================
+#
+# Laid out like the donors page -- figures, two charts, a filterable table --
+# minus the year picker: a person is not a thing that belongs to one year.
+#
+# Both charts count people, not francs. The only francs a person can be credited
+# with are their mandate contributions and their own donations, and those are in
+# the table, in two columns, next to the name they belong to.
+page_people <- function(D, lang) {
+  page(
+    page_head(t_("people.title", lang), t_("people.lead", lang)),
+
+    kpi_row(
+      loader_kpi(t_("people.kpi_count", lang), "peopleCount",
+                 t_("people.kpi_sub_count", lang)),
+      loader_kpi(t_("people.kpi_cand", lang), "candCount",
+                 t_("people.kpi_sub_cand", lang)),
+      loader_kpi(t_("people.kpi_mand", lang), "mandFmt",
+                 t_("people.kpi_sub_mand", lang)),
+      loader_kpi(t_("people.kpi_both", lang), "bothCount",
+                 t_("people.kpi_sub_both", lang))
+    ),
+
+    # The same note as on each person page, and for the same two reasons.
+    note_card(t_("person.note_title", lang), t_("person.note_text", lang)),
+
+    card_pair(
+      chart_card(lang, t_("people.chart_party", lang), t_("people.chart_party_sub", lang),
+                 loader_bar("byParty", height = chart_h(340, 440))),
+      chart_card(lang, t_("people.chart_canton", lang), t_("people.chart_canton_sub", lang),
+                 loader_bar("byCanton", height = chart_h(520, 640)))
+    ),
+
+    section(
+      t_("people.tbl", lang),
+      Typography(t_("people.tbl_sub", lang), variant = "body2",
+                 color = "text.secondary", sx = list(maxWidth = LEAD_MEASURE)),
+      control_panel(
+        t_("donations.filters", lang),
+        Box(
+          sx = list(display = "flex", flexWrap = "wrap", gap = 1.5,
+                    alignItems = "center"),
+          filter_input("party",  t_("donations.f_party", lang),  "parties", "curParty"),
+          filter_input("canton", t_("donations.f_canton", lang), "cantons", "curCanton"),
+          Button(
+            t_("donations.clear", lang), size = "small", color = "inherit",
+            sx = list(color = "text.secondary"),
+            onClick = JS("() => { window.location.hash = window.location.hash.split('?')[0]; }")
+          )
+        )
+      ),
+
+      Stack(
+        direction = "row", spacing = 1, alignItems = "baseline",
+        useLoaderData(Typography(variant = "body1", color = "text.secondary"),
+                      as = "children", selector = "count"),
+        Typography(t_("people.unit", lang), variant = "body1",
+                   color = "text.secondary")
+      ),
+
+      click_hint(lang),
+
+      loader_toggle(
+        "emptyStyle",
+        note_card(t_("people.empty", lang), t_("people.empty_body", lang))
+      ),
+
+      grid_card(loader_grid(lang, "politikfinanzierung-personen", height = 620,
+                            sort_field = "elections"))
+    )
+  )
+}
+
+# =============================================================================
+# PERSON
+# =============================================================================
+#
+# The page the app was missing. Everything the dataset says about one named
+# individual, which until now was reachable only by quick-filtering the mandate
+# grid on the parties page or by downloading a CSV.
+#
+# Its shape follows page_drill() -- back link, title, three figures, two charts,
+# a table -- because a reader arriving here from the donor page should not have
+# to learn a second layout. What differs is that one of the three sources has no
+# money in it, so the candidacies get their own grid and their own note.
+#
+# Back to the people index, which lists every person this page can show.
+page_person <- function(D, lang) {
+  page(
+    NavLink(
+      to = p_(lang, "people"),
+      style = JS("() => ({ textDecoration: 'none' })"),
+      Button(paste("←", t_("people.back", lang)), size = "small")
+    ),
+    useLoaderData(Typography(variant = "h4"), selector = "title"),
+    useLoaderData(
+      Typography(variant = "body2", color = "text.secondary", sx = list(mt = 0.5)),
+      as = "children", selector = "subtitle"
+    ),
+
+    kpi_row(
+      loader_kpi(t_("person.kpi_mandates", lang), "mandFmt",
+                 t_("person.kpi_sub_mandates", lang)),
+      loader_kpi(t_("person.kpi_donations", lang), "giftFmt",
+                 t_("person.kpi_sub_donations", lang)),
+      loader_kpi(t_("person.kpi_candidacies", lang), "candCount",
+                 t_("person.kpi_sub_candidacies", lang))
+    ),
+
+    # Unconditional, and above everything it qualifies. Both halves are things a
+    # reader would otherwise assume the other way round: that this page is one
+    # human being, and that a candidacy carries the francs on the row.
+    note_card(t_("person.note_title", lang), t_("person.note_text", lang)),
+
+    card_pair(
+      loader_or_note(
+        "paid",
+        chart_card(lang, t_("person.chart_paid", lang), t_("person.chart_paid_sub", lang),
+                   loader_bar("paid", height = chart_h(240, 340))),
+        note_card(t_("person.empty_paid_title", lang), t_("person.empty_paid_text", lang))
+      ),
+      loader_or_note(
+        "stood",
+        chart_card(lang, t_("person.chart_stood", lang), t_("person.chart_stood_sub", lang),
+                   loader_bar("stood", height = chart_h(240, 340))),
+        note_card(t_("person.empty_stood_title", lang), t_("person.empty_stood_text", lang))
+      )
+    ),
+
+    section(
+      t_("person.tbl_candidacies", lang),
+      loader_or_note(
+        "cand",
+        grid_card(click_hint(lang),
+                  loader_grid(lang, "politikfinanzierung-kandidaturen", height = 420,
+                              sort_field = "year",
+                              rows_selector = "candRows",
+                              columns_selector = "candColumns")),
+        note_card(t_("person.empty_cand_title", lang), t_("person.empty_cand_text", lang))
+      )
+    ),
+
+    section(
+      t_("person.tbl_donations", lang),
+      loader_or_note(
+        "gifts",
+        grid_card(loader_grid(lang, "politikfinanzierung-person", height = 420)),
+        note_card(t_("person.empty_gifts_title", lang), t_("person.empty_gifts_text", lang))
+      )
+    )
+  )
+}
+
+# =============================================================================
 # DATA & DOWNLOADS  (static per language)
 # =============================================================================
 
@@ -674,10 +829,14 @@ page_missing <- function(lang) {
 
 # Shared error element for every route that resolves a path parameter: an
 # unknown ballot, year or donor renders this rather than a blank page.
-drill_error <- function(lang, back = "donors", label = "drill.back_donors") {
+# `message` for the same reason `back` and `label` are arguments: one tree serves
+# every parameterised route, and "no donations were found for that" is the wrong
+# sentence on a person page, which is not about donations at all.
+drill_error <- function(lang, back = "donors", label = "drill.back_donors",
+                        message = "drill.not_found") {
   Box(
     sx = list(py = 6, textAlign = "center"),
-    Typography(t_("drill.not_found", lang), variant = "h6", sx = list(mb = 2)),
+    Typography(t_(message, lang), variant = "h6", sx = list(mb = 2)),
     NavLink(
       to = p_(lang, back),
       style = JS("() => ({ textDecoration: 'none' })"),

@@ -8,9 +8,18 @@ nav.votes,Abstimmungen,Votations,Votazioni
 nav.elections,Wahlen,Élections,Elezioni
 nav.parties,Parteien,Partis,Partiti
 nav.donors,Zuwendende,Donateurs/trices,Donatori/trici
+nav.people,Personen,Personnes,Persone
 nav.data,Daten,Données,Dati
 nav.menu,Menü öffnen,Ouvrir le menu,Apri il menu
 nav.label,Navigation,Navigation,Navigazione
+search.label,Suche,Recherche,Ricerca
+search.placeholder,"Person, Partei oder Zuwendende suchen","Rechercher une personne, un parti, un donateur","Cerca una persona, un partito, un donatore"
+search.open,Suche öffnen,Ouvrir la recherche,Apri la ricerca
+search.none,Nichts gefunden,Aucun résultat,Nessun risultato
+search.of,von,sur,di
+search.group_person,Personen,Personnes,Persone
+search.group_party,Parteien,Partis,Partiti
+search.group_donor,Zuwendende,Donateurs/trices,Donatori/trici
 home.title,Wer bezahlt die Schweizer Politik?,Qui paie la politique suisse ?,Chi paga la politica svizzera?
 home.lead,"Diese Anwendung macht die offengelegte Finanzierung von Abstimmungs-kampagnen, Wahlkämpfen und Parteien durchsuchbar. Alle Zahlen stammen aus den Offenlegungen bei der Eidgenössischen Finanzkontrolle (EFK) und lassen sich in drei Sprachen erkunden und als CSV herunterladen.","Cette application rend consultable le financement déclaré des campagnes de votation, des campagnes électorales et des partis. Tous les chiffres proviennent des déclarations faites au Contrôle fédéral des finances (CDF) ; ils sont explorables en trois langues et téléchargeables en CSV.","Questa applicazione rende consultabile il finanziamento dichiarato di campagne di votazione, campagne elettorali e partiti. Tutte le cifre provengono dalle comunicazioni al Controllo federale delle finanze (CDF) e sono esplorabili in tre lingue e scaricabili in CSV."
 home.explore,"Vier Fragen, vier Einstiege","Quatre questions, quatre entrées","Quattro domande, quattro percorsi"
@@ -183,6 +192,52 @@ drill.chart_who_sub,"Offengelegte Beträge pro Empfänger/in, CHF","Montants dé
 drill.chart_what,Wofür,Pour quoi,Per che cosa
 drill.chart_what_sub,"Offengelegte Beträge pro Ereignis, CHF","Montants déclarés par événement, CHF","Importi dichiarati per evento, CHF"
 drill.not_found,Dazu wurden keine Zuwendungen gefunden.,Aucune libéralité trouvée pour cette entrée.,Nessuna liberalità trovata per questa voce.
+person.no_affiliation,Ohne Kantons- und Parteiangabe,Sans canton ni parti indiqués,Senza cantone né partito indicati
+person.not_found,Zu diesem Namen ist in den Offenlegungen nichts verzeichnet.,Rien n'est enregistré sous ce nom dans les déclarations.,Sotto questo nome non risulta nulla nelle comunicazioni.
+person.kpi_mandates,Mandatsbeiträge,Contributions de mandat,Contributi di mandato
+person.kpi_sub_mandates,An die eigene Partei bezahlt,Versées à son propre parti,Versati al proprio partito
+person.kpi_donations,Zuwendungen,Libéralités,Liberalità
+person.kpi_sub_donations,Als Privatperson offengelegt,Déclarées à titre privé,Dichiarate a titolo privato
+person.kpi_candidacies,Wahlen,Élections,Elezioni
+person.kpi_sub_candidacies,für die dieser Name auf einer Offenlegung steht,pour lesquelles ce nom figure sur une déclaration,per le quali questo nome figura in una comunicazione
+person.note_title,Was diese Seite zeigt – und was nicht,Ce que cette page montre – et ce qu'elle ne montre pas,Che cosa mostra questa pagina – e che cosa no
+person.note_text,"Personen werden über den Namen zusammengeführt; die EFK vergibt keine Personen-ID. Zwei gleichnamige Personen teilen sich deshalb diese Seite. Und eine Kandidatur ist kein Betrag: Die offengelegten Franken gehören der Offenlegung, auf der bis zu 146 Namen stehen können, nicht der einzelnen Person.","Les personnes sont regroupées d'après leur nom ; le CDF n'attribue aucun identifiant de personne. Deux homonymes partagent donc cette page. Et une candidature n'est pas un montant : les francs déclarés appartiennent à la déclaration, qui peut porter jusqu'à 146 noms, et non à la personne.","Le persone sono raggruppate in base al nome; il CDF non attribuisce alcun identificativo personale. Due omonimi condividono quindi questa pagina. E una candidatura non è un importo: i franchi dichiarati appartengono alla comunicazione, che può riportare fino a 146 nomi, non alla singola persona."
+person.chart_paid,Wohin das Geld ging,Où l'argent est allé,Dove è andato il denaro
+person.chart_paid_sub,"Mandatsbeiträge und Zuwendungen pro Empfänger/in, CHF","Contributions de mandat et libéralités par bénéficiaire, CHF","Contributi di mandato e liberalità per beneficiario, CHF"
+person.chart_stood,Wo diese Person antrat,Où cette personne s'est présentée,Dove questa persona si è candidata
+person.chart_stood_sub,Offenlegungen mit diesem Namen pro Ereignis,Déclarations mentionnant ce nom par événement,Comunicazioni che citano questo nome per evento
+person.empty_paid_title,Keine Zahlungen offengelegt,Aucun versement déclaré,Nessun versamento dichiarato
+person.empty_paid_text,Unter diesem Namen sind weder Mandatsbeiträge noch Zuwendungen offengelegt.,Aucune contribution de mandat ni libéralité n'est déclarée sous ce nom.,Sotto questo nome non sono dichiarati né contributi di mandato né liberalità.
+person.empty_stood_title,Keine Kandidatur offengelegt,Aucune candidature déclarée,Nessuna candidatura dichiarata
+person.empty_stood_text,Dieser Name steht auf keiner Kandidatenliste einer Offenlegung.,Ce nom ne figure sur la liste de candidats d'aucune déclaration.,Questo nome non figura nella lista di candidati di alcuna comunicazione.
+person.tbl_candidacies,Offenlegungen mit diesem Namen,Déclarations mentionnant ce nom,Comunicazioni che citano questo nome
+person.empty_cand_title,Keine Kandidaturen,Aucune candidature,Nessuna candidatura
+person.empty_cand_text,"Diese Person erscheint in den Offenlegungen nur als zahlende Person, nicht als Kandidatin oder Kandidat.","Cette personne n'apparaît dans les déclarations que comme payeuse, jamais comme candidate.","Questa persona compare nelle comunicazioni solo come pagante, mai come candidata."
+people.title,Personen,Personnes,Persone
+people.lead,"Wer in den Offenlegungen namentlich erscheint: als Kandidatin oder Kandidat auf einer Wahlkampf-Offenlegung oder als Mandatsträgerin oder Mandatsträger, die ihrer Partei einen Beitrag bezahlen. Die Liste ist nicht vollständig: Offenlegen muss nur, wer für einen Wahlkampf mehr als CHF 50'000 aufwendet, und nur diese Offenlegungen nennen Kandidierende. Wer auf keiner steht, fehlt hier, auch wenn gewählt. Private Zuwendende ohne Kandidatur oder Mandat finden Sie unter Zuwendende.","Les personnes nommées dans les déclarations : comme candidat·e sur une déclaration de campagne électorale ou comme élu·e versant une contribution de mandat à son parti. La liste n'est pas exhaustive : seule une campagne de plus de CHF 50'000 doit être déclarée, et seules ces déclarations nomment des candidat·e·s. Qui n'y figure pas manque ici, même élu·e. Les donateurs/trices privés sans candidature ni mandat figurent sous Donateurs/trices.","Le persone nominate nelle comunicazioni: come candidato/a in una comunicazione di campagna elettorale o come eletto/a che versa un contributo di mandato al proprio partito. L'elenco non è completo: solo una campagna oltre CHF 50'000 va comunicata, e solo queste comunicazioni nominano i candidati. Chi non vi figura manca qui, anche se eletto. I donatori/trici privati senza candidatura né mandato si trovano sotto Donatori/trici."
+people.back,Alle Personen,Toutes les personnes,Tutte le persone
+people.all,Alle Personen,Toutes les personnes,Tutte le persone
+people.no_info,(ohne Angabe),(non indiqué),(non indicato)
+people.kpi_count,Personen,Personnes,Persone
+people.kpi_sub_count,mit den gewählten Filtern,avec les filtres choisis,con i filtri scelti
+people.kpi_cand,Kandidaturen,Candidatures,Candidature
+people.kpi_sub_cand,eine pro Person und Wahl,une par personne et élection,una per persona ed elezione
+people.kpi_mand,Mandatsbeiträge,Contributions de mandat,Contributi di mandato
+people.kpi_sub_mand,"an die eigene Partei, CHF","à son propre parti, CHF","al proprio partito, CHF"
+people.kpi_both,Kandidiert und bezahlt,Candidat·e et payeur·se,Candidato/a e pagante
+people.kpi_sub_both,mit Kandidatur und eigenem Beitrag,avec candidature et versement propre,con candidatura e versamento proprio
+people.chart_party,Kandidierende nach Partei,Candidat·e·s par parti,Candidati/e per partito
+people.chart_party_sub,"Anzahl Personen, zwölf grösste Parteien","Nombre de personnes, douze plus grands partis","Numero di persone, dodici maggiori partiti"
+people.chart_canton,Kandidierende nach Kanton,Candidat·e·s par canton,Candidati/e per cantone
+people.chart_canton_sub,Anzahl Personen,Nombre de personnes,Numero di persone
+people.tbl,"Name, Partei, Kandidaturen","Nom, parti, candidatures","Nome, partito, candidature"
+people.tbl_sub,"Eine Zeile pro Person. Mandatsbeiträge und Zuwendungen sind getrennt aufgeführt, weil es verschiedene Pflichten sind; eine Kandidatur trägt keinen eigenen Betrag.","Une ligne par personne. Contributions de mandat et libéralités sont séparées, car ce sont des obligations distinctes ; une candidature ne porte aucun montant propre.","Una riga per persona. Contributi di mandato e liberalità sono separati perché sono obblighi distinti; una candidatura non ha un importo proprio."
+people.unit,Personen,personnes,persone
+people.empty,Keine Personen entsprechen diesen Filtern.,Aucune personne ne correspond à ces filtres.,Nessuna persona corrisponde a questi filtri.
+people.empty_body,Weniger Filter zeigen wieder Zeilen an.,Réduisez les filtres pour afficher des lignes.,Riducete i filtri per visualizzare delle righe.
+person.tbl_donations,Zuwendungen dieser Person,Libéralités de cette personne,Liberalità di questa persona
+person.empty_gifts_title,Keine Zuwendungen offengelegt,Aucune libéralité déclarée,Nessuna liberalità dichiarata
+person.empty_gifts_text,Unter diesem Namen ist keine Zuwendung offengelegt. Offenlegungspflichtig sind nur Zuwendungen ab der gesetzlichen Schwelle.,Aucune libéralité n'est déclarée sous ce nom. Seules les libéralités atteignant le seuil légal doivent être déclarées.,Sotto questo nome non è dichiarata alcuna liberalità. Sono soggette a obbligo di dichiarazione solo le liberalità che raggiungono la soglia di legge.
 cols.date,Datum,Date,Data
 cols.donor,Zuwender/in,Donateur/trice,Donatore/trice
 cols.donor_raw,Name laut Meldung,Nom selon la déclaration,Nome secondo la comunicazione
@@ -212,6 +267,11 @@ cols.cfor,Kampagne für,Campagne pour,Campagna per
 cols.donors,Zuwendende,Donateurs/trices,Donatori/trici
 cols.n_gifts,Anzahl,Nombre,Numero
 cols.rows_of,von,sur,di
+cols.name,Name,Nom,Nome
+cols.candidacies,Nennungen,Mentions,Menzioni
+cols.elections,Wahlen,Élections,Elezioni
+cols.mandates,Mandatsbeiträge (CHF),Contributions de mandat (CHF),Contributi di mandato (CHF)
+cols.gifts,Zuwendungen (CHF),Libéralités (CHF),Liberalità (CHF)
 cat.elections,Wahlen,Élections,Elezioni
 cat.votes,Abstimmungen,Votations,Votazioni
 cat.party,Parteienfinanzierung,Financement des partis,Finanziamento dei partiti
