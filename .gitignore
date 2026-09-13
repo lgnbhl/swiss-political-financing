@@ -21,6 +21,11 @@ headers*.txt
 .Renviron
 .env
 
+# build output -- `Rscript app/build_site.R` writes these, and publish.yml
+# rebuilds them in CI before copying them to the website
+app/index.html
+app/lib/
+
 # only used by the build's `node --check` / smoke test, never vendored
 node_modules/
 __pycache__/

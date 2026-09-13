@@ -10729,19 +10729,19 @@
                         "type": "party_financing",
                         "children": [
                           {
-                            "id": 24,
-                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
-                            "type": "form",
-                            "campaign_id": 438,
-                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/438/forms/24",
-                            "children": []
-                          },
-                          {
                             "id": 23,
                             "label": "Déclaration des recettes annuelles",
                             "type": "form",
                             "campaign_id": 438,
                             "download_path": "/api/frontend/latest/fr/downloads/campaigns/438/forms/23",
+                            "children": []
+                          },
+                          {
+                            "id": 24,
+                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                            "type": "form",
+                            "campaign_id": 438,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/438/forms/24",
                             "children": []
                           }
                         ]
@@ -14595,6 +14595,14 @@
                                 "campaign_id": 570,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/570/forms/91",
                                 "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 570,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/570/forms/107",
+                                "children": []
                               }
                             ]
                           }
@@ -14720,6 +14728,14 @@
                                 "type": "form",
                                 "campaign_id": 588,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/588/forms/91",
+                                "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 588,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/588/forms/107",
                                 "children": []
                               }
                             ]
@@ -16658,6 +16674,50 @@
                 ]
               },
               {
+                "id": 461,
+                "label": "Agri Médias Sàrl, Lausanne",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "Financement des campagnes",
+                    "type": "financing_category",
+                    "children": [
+                      {
+                        "id": 32,
+                        "label": "27.09.2026 Pour une alimentation sûre – grâce au renforcement de la protection indigène durable, à davantage de denrées alimentaires végétales et à une eau potable propre (initiative sur l’alimentation)",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 601,
+                            "label": "Rejet de l'objet de la votation populaire",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 113,
+                                "label": "Déclaration des recettes budgétées",
+                                "type": "form",
+                                "campaign_id": 601,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/601/forms/113",
+                                "children": []
+                              },
+                              {
+                                "id": 114,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                                "type": "form",
+                                "campaign_id": 601,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/601/forms/114",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "id": 203,
                 "label": "Alliance Climatique Suisse, Genève",
                 "type": "actor",
@@ -16752,6 +16812,22 @@
                                 "campaign_id": 571,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/571/forms/92",
                                 "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 571,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/571/forms/107",
+                                "children": []
+                              },
+                              {
+                                "id": 108,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs (décompte final)",
+                                "type": "form",
+                                "campaign_id": 571,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/571/forms/108",
+                                "children": []
                               }
                             ]
                           }
@@ -16795,6 +16871,22 @@
                                 "type": "form",
                                 "campaign_id": 578,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/578/forms/92",
+                                "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 578,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/578/forms/107",
+                                "children": []
+                              },
+                              {
+                                "id": 108,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs (décompte final)",
+                                "type": "form",
+                                "campaign_id": 578,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/578/forms/108",
                                 "children": []
                               }
                             ]
@@ -17426,6 +17518,22 @@
                                 "campaign_id": 567,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/567/forms/94",
                                 "children": []
+                              },
+                              {
+                                "id": 105,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 567,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/567/forms/105",
+                                "children": []
+                              },
+                              {
+                                "id": 106,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs (décompte final)",
+                                "type": "form",
+                                "campaign_id": 567,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/567/forms/106",
+                                "children": []
                               }
                             ]
                           }
@@ -17515,6 +17623,22 @@
                                 "type": "form",
                                 "campaign_id": 583,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/583/forms/94",
+                                "children": []
+                              },
+                              {
+                                "id": 105,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 583,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/583/forms/105",
+                                "children": []
+                              },
+                              {
+                                "id": 106,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs (décompte final)",
+                                "type": "form",
+                                "campaign_id": 583,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/583/forms/106",
                                 "children": []
                               }
                             ]
@@ -17611,6 +17735,14 @@
                                 "type": "form",
                                 "campaign_id": 576,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/576/forms/91",
+                                "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 576,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/576/forms/107",
                                 "children": []
                               }
                             ]
@@ -18148,6 +18280,22 @@
                                 "campaign_id": 573,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/573/forms/92",
                                 "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 573,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/573/forms/107",
+                                "children": []
+                              },
+                              {
+                                "id": 108,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs (décompte final)",
+                                "type": "form",
+                                "campaign_id": 573,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/573/forms/108",
+                                "children": []
                               }
                             ]
                           }
@@ -18183,6 +18331,14 @@
                                 "type": "form",
                                 "campaign_id": 586,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/586/forms/91",
+                                "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 586,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/586/forms/107",
                                 "children": []
                               }
                             ]
@@ -18343,19 +18499,19 @@
                         "type": "party_financing",
                         "children": [
                           {
-                            "id": 62,
-                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
-                            "type": "form",
-                            "campaign_id": 499,
-                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/499/forms/62",
-                            "children": []
-                          },
-                          {
                             "id": 61,
                             "label": "Déclaration des recettes annuelles",
                             "type": "form",
                             "campaign_id": 499,
                             "download_path": "/api/frontend/latest/fr/downloads/campaigns/499/forms/61",
+                            "children": []
+                          },
+                          {
+                            "id": 62,
+                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                            "type": "form",
+                            "campaign_id": 499,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/499/forms/62",
                             "children": []
                           }
                         ]
@@ -18590,6 +18746,14 @@
                                 "type": "form",
                                 "campaign_id": 574,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/574/forms/91",
+                                "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 574,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/574/forms/107",
                                 "children": []
                               }
                             ]
@@ -18910,19 +19074,19 @@
                         "type": "party_financing",
                         "children": [
                           {
-                            "id": 62,
-                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
-                            "type": "form",
-                            "campaign_id": 492,
-                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/492/forms/62",
-                            "children": []
-                          },
-                          {
                             "id": 61,
                             "label": "Déclaration des recettes annuelles",
                             "type": "form",
                             "campaign_id": 492,
                             "download_path": "/api/frontend/latest/fr/downloads/campaigns/492/forms/61",
+                            "children": []
+                          },
+                          {
+                            "id": 62,
+                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                            "type": "form",
+                            "campaign_id": 492,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/492/forms/62",
                             "children": []
                           }
                         ]
@@ -18933,19 +19097,19 @@
                         "type": "party_financing",
                         "children": [
                           {
-                            "id": 24,
-                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
-                            "type": "form",
-                            "campaign_id": 426,
-                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/426/forms/24",
-                            "children": []
-                          },
-                          {
                             "id": 23,
                             "label": "Déclaration des recettes annuelles",
                             "type": "form",
                             "campaign_id": 426,
                             "download_path": "/api/frontend/latest/fr/downloads/campaigns/426/forms/23",
+                            "children": []
+                          },
+                          {
+                            "id": 24,
+                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                            "type": "form",
+                            "campaign_id": 426,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/426/forms/24",
                             "children": []
                           }
                         ]
@@ -19198,6 +19362,22 @@
                                 "campaign_id": 579,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/579/forms/92",
                                 "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 579,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/579/forms/107",
+                                "children": []
+                              },
+                              {
+                                "id": 108,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs (décompte final)",
+                                "type": "form",
+                                "campaign_id": 579,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/579/forms/108",
+                                "children": []
                               }
                             ]
                           }
@@ -19293,6 +19473,14 @@
                                 "type": "form",
                                 "campaign_id": 565,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/565/forms/91",
+                                "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 565,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/565/forms/107",
                                 "children": []
                               }
                             ]
@@ -19555,6 +19743,14 @@
                                 "type": "form",
                                 "campaign_id": 585,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/585/forms/91",
+                                "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 585,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/585/forms/107",
                                 "children": []
                               }
                             ]
@@ -19914,6 +20110,22 @@
                                 "campaign_id": 582,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/582/forms/92",
                                 "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 582,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/582/forms/107",
+                                "children": []
+                              },
+                              {
+                                "id": 108,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs (décompte final)",
+                                "type": "form",
+                                "campaign_id": 582,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/582/forms/108",
+                                "children": []
                               }
                             ]
                           }
@@ -20054,19 +20266,19 @@
                         "type": "party_financing",
                         "children": [
                           {
-                            "id": 62,
-                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
-                            "type": "form",
-                            "campaign_id": 497,
-                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/497/forms/62",
-                            "children": []
-                          },
-                          {
                             "id": 61,
                             "label": "Déclaration des recettes annuelles",
                             "type": "form",
                             "campaign_id": 497,
                             "download_path": "/api/frontend/latest/fr/downloads/campaigns/497/forms/61",
+                            "children": []
+                          },
+                          {
+                            "id": 62,
+                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                            "type": "form",
+                            "campaign_id": 497,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/497/forms/62",
                             "children": []
                           }
                         ]
@@ -20077,19 +20289,19 @@
                         "type": "party_financing",
                         "children": [
                           {
-                            "id": 24,
-                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
-                            "type": "form",
-                            "campaign_id": 432,
-                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/432/forms/24",
-                            "children": []
-                          },
-                          {
                             "id": 23,
                             "label": "Déclaration des recettes annuelles",
                             "type": "form",
                             "campaign_id": 432,
                             "download_path": "/api/frontend/latest/fr/downloads/campaigns/432/forms/23",
+                            "children": []
+                          },
+                          {
+                            "id": 24,
+                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                            "type": "form",
+                            "campaign_id": 432,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/432/forms/24",
                             "children": []
                           }
                         ]
@@ -20257,19 +20469,19 @@
                         "type": "party_financing",
                         "children": [
                           {
-                            "id": 62,
-                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
-                            "type": "form",
-                            "campaign_id": 496,
-                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/496/forms/62",
-                            "children": []
-                          },
-                          {
                             "id": 61,
                             "label": "Déclaration des recettes annuelles",
                             "type": "form",
                             "campaign_id": 496,
                             "download_path": "/api/frontend/latest/fr/downloads/campaigns/496/forms/61",
+                            "children": []
+                          },
+                          {
+                            "id": 62,
+                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                            "type": "form",
+                            "campaign_id": 496,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/496/forms/62",
                             "children": []
                           }
                         ]
@@ -20280,19 +20492,19 @@
                         "type": "party_financing",
                         "children": [
                           {
-                            "id": 24,
-                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
-                            "type": "form",
-                            "campaign_id": 433,
-                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/433/forms/24",
-                            "children": []
-                          },
-                          {
                             "id": 23,
                             "label": "Déclaration des recettes annuelles",
                             "type": "form",
                             "campaign_id": 433,
                             "download_path": "/api/frontend/latest/fr/downloads/campaigns/433/forms/23",
+                            "children": []
+                          },
+                          {
+                            "id": 24,
+                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                            "type": "form",
+                            "campaign_id": 433,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/433/forms/24",
                             "children": []
                           }
                         ]
@@ -20386,6 +20598,28 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 31,
+                        "label": "27.09.2026 Sauvegarder la neutralité suisse (initiative sur la neutralité)",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 600,
+                            "label": "Rejet de l'objet de la votation populaire",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 111,
+                                "label": "Déclaration des recettes budgétées",
+                                "type": "form",
+                                "campaign_id": 600,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/600/forms/111",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
                         "id": 28,
                         "label": "14.06.2026 Pas de Suisse à 10 millions ! (initiative pour la durabilité)",
                         "type": "campaign_financing",
@@ -20401,6 +20635,14 @@
                                 "type": "form",
                                 "campaign_id": 575,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/575/forms/91",
+                                "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 575,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/575/forms/107",
                                 "children": []
                               }
                             ]
@@ -20497,6 +20739,14 @@
                                 "type": "form",
                                 "campaign_id": 584,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/584/forms/91",
+                                "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 584,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/584/forms/107",
                                 "children": []
                               }
                             ]
@@ -20735,6 +20985,22 @@
                                 "campaign_id": 577,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/577/forms/92",
                                 "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 577,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/577/forms/107",
+                                "children": []
+                              },
+                              {
+                                "id": 108,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs (décompte final)",
+                                "type": "form",
+                                "campaign_id": 577,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/577/forms/108",
+                                "children": []
                               }
                             ]
                           }
@@ -20937,19 +21203,19 @@
                         "type": "party_financing",
                         "children": [
                           {
-                            "id": 62,
-                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
-                            "type": "form",
-                            "campaign_id": 500,
-                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/500/forms/62",
-                            "children": []
-                          },
-                          {
                             "id": 61,
                             "label": "Déclaration des recettes annuelles",
                             "type": "form",
                             "campaign_id": 500,
                             "download_path": "/api/frontend/latest/fr/downloads/campaigns/500/forms/61",
+                            "children": []
+                          },
+                          {
+                            "id": 62,
+                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                            "type": "form",
+                            "campaign_id": 500,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/500/forms/62",
                             "children": []
                           }
                         ]
@@ -20960,19 +21226,19 @@
                         "type": "party_financing",
                         "children": [
                           {
-                            "id": 24,
-                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
-                            "type": "form",
-                            "campaign_id": 437,
-                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/437/forms/24",
-                            "children": []
-                          },
-                          {
                             "id": 23,
                             "label": "Déclaration des recettes annuelles",
                             "type": "form",
                             "campaign_id": 437,
                             "download_path": "/api/frontend/latest/fr/downloads/campaigns/437/forms/23",
+                            "children": []
+                          },
+                          {
+                            "id": 24,
+                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                            "type": "form",
+                            "campaign_id": 437,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/437/forms/24",
                             "children": []
                           }
                         ]
@@ -21179,6 +21445,14 @@
                                 "campaign_id": 587,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/587/forms/91",
                                 "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 587,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/587/forms/107",
+                                "children": []
                               }
                             ]
                           }
@@ -21259,6 +21533,28 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 31,
+                        "label": "27.09.2026 Sauvegarder la neutralité suisse (initiative sur la neutralité)",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 603,
+                            "label": "Rejet de l'objet de la votation populaire",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 111,
+                                "label": "Déclaration des recettes budgétées",
+                                "type": "form",
+                                "campaign_id": 603,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/603/forms/111",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
                         "id": 28,
                         "label": "14.06.2026 Pas de Suisse à 10 millions ! (initiative pour la durabilité)",
                         "type": "campaign_financing",
@@ -21283,6 +21579,22 @@
                                 "campaign_id": 580,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/580/forms/92",
                                 "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 580,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/580/forms/107",
+                                "children": []
+                              },
+                              {
+                                "id": 108,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs (décompte final)",
+                                "type": "form",
+                                "campaign_id": 580,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/580/forms/108",
+                                "children": []
                               }
                             ]
                           }
@@ -21304,6 +21616,14 @@
                                 "type": "form",
                                 "campaign_id": 581,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/581/forms/93",
+                                "children": []
+                              },
+                              {
+                                "id": 105,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 581,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/581/forms/105",
                                 "children": []
                               }
                             ]
@@ -21713,19 +22033,19 @@
                         "type": "party_financing",
                         "children": [
                           {
-                            "id": 62,
-                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
-                            "type": "form",
-                            "campaign_id": 495,
-                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/495/forms/62",
-                            "children": []
-                          },
-                          {
                             "id": 61,
                             "label": "Déclaration des recettes annuelles",
                             "type": "form",
                             "campaign_id": 495,
                             "download_path": "/api/frontend/latest/fr/downloads/campaigns/495/forms/61",
+                            "children": []
+                          },
+                          {
+                            "id": 62,
+                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                            "type": "form",
+                            "campaign_id": 495,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/495/forms/62",
                             "children": []
                           }
                         ]
@@ -21736,19 +22056,19 @@
                         "type": "party_financing",
                         "children": [
                           {
-                            "id": 24,
-                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
-                            "type": "form",
-                            "campaign_id": 427,
-                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/427/forms/24",
-                            "children": []
-                          },
-                          {
                             "id": 23,
                             "label": "Déclaration des recettes annuelles",
                             "type": "form",
                             "campaign_id": 427,
                             "download_path": "/api/frontend/latest/fr/downloads/campaigns/427/forms/23",
+                            "children": []
+                          },
+                          {
+                            "id": 24,
+                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                            "type": "form",
+                            "campaign_id": 427,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/427/forms/24",
                             "children": []
                           }
                         ]
@@ -22210,6 +22530,22 @@
                                 "campaign_id": 572,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/572/forms/92",
                                 "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 572,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/572/forms/107",
+                                "children": []
+                              },
+                              {
+                                "id": 108,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs (décompte final)",
+                                "type": "form",
+                                "campaign_id": 572,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/572/forms/108",
+                                "children": []
                               }
                             ]
                           }
@@ -22335,6 +22671,14 @@
                                 "type": "form",
                                 "campaign_id": 568,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/568/forms/91",
+                                "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 568,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/568/forms/107",
                                 "children": []
                               }
                             ]
@@ -22594,19 +22938,19 @@
                         "type": "party_financing",
                         "children": [
                           {
-                            "id": 62,
-                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
-                            "type": "form",
-                            "campaign_id": 494,
-                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/494/forms/62",
-                            "children": []
-                          },
-                          {
                             "id": 61,
                             "label": "Déclaration des recettes annuelles",
                             "type": "form",
                             "campaign_id": 494,
                             "download_path": "/api/frontend/latest/fr/downloads/campaigns/494/forms/61",
+                            "children": []
+                          },
+                          {
+                            "id": 62,
+                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                            "type": "form",
+                            "campaign_id": 494,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/494/forms/62",
                             "children": []
                           }
                         ]
@@ -22617,19 +22961,19 @@
                         "type": "party_financing",
                         "children": [
                           {
-                            "id": 24,
-                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
-                            "type": "form",
-                            "campaign_id": 428,
-                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/428/forms/24",
-                            "children": []
-                          },
-                          {
                             "id": 23,
                             "label": "Déclaration des recettes annuelles",
                             "type": "form",
                             "campaign_id": 428,
                             "download_path": "/api/frontend/latest/fr/downloads/campaigns/428/forms/23",
+                            "children": []
+                          },
+                          {
+                            "id": 24,
+                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                            "type": "form",
+                            "campaign_id": 428,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/428/forms/24",
                             "children": []
                           }
                         ]
@@ -23076,6 +23420,36 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 32,
+                        "label": "27.09.2026 Pour une alimentation sûre – grâce au renforcement de la protection indigène durable, à davantage de denrées alimentaires végétales et à une eau potable propre (initiative sur l’alimentation)",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 597,
+                            "label": "Rejet de l'objet de la votation populaire",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 113,
+                                "label": "Déclaration des recettes budgétées",
+                                "type": "form",
+                                "campaign_id": 597,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/597/forms/113",
+                                "children": []
+                              },
+                              {
+                                "id": 114,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                                "type": "form",
+                                "campaign_id": 597,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/597/forms/114",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
                         "id": 10,
                         "label": "22.09.2024 Pour l’avenir de notre nature et de notre paysage (Initiative biodiversité)",
                         "type": "campaign_financing",
@@ -23189,6 +23563,22 @@
                                 "type": "form",
                                 "campaign_id": 569,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/569/forms/92",
+                                "children": []
+                              },
+                              {
+                                "id": 107,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 569,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/569/forms/107",
+                                "children": []
+                              },
+                              {
+                                "id": 108,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs (décompte final)",
+                                "type": "form",
+                                "campaign_id": 569,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/569/forms/108",
                                 "children": []
                               }
                             ]
@@ -23458,6 +23848,94 @@
                 ]
               },
               {
+                "id": 450,
+                "label": "Verein Sauberes Wasser für alle, Wiedlisbach",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "Financement des campagnes",
+                    "type": "financing_category",
+                    "children": [
+                      {
+                        "id": 32,
+                        "label": "27.09.2026 Pour une alimentation sûre – grâce au renforcement de la protection indigène durable, à davantage de denrées alimentaires végétales et à une eau potable propre (initiative sur l’alimentation)",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 604,
+                            "label": "Adoption de l'objet de la votation populaire",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 113,
+                                "label": "Déclaration des recettes budgétées",
+                                "type": "form",
+                                "campaign_id": 604,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/604/forms/113",
+                                "children": []
+                              },
+                              {
+                                "id": 114,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                                "type": "form",
+                                "campaign_id": 604,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/604/forms/114",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 460,
+                "label": "Wahrung der Schweizer Neutralität, Herrliberg",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "Financement des campagnes",
+                    "type": "financing_category",
+                    "children": [
+                      {
+                        "id": 31,
+                        "label": "27.09.2026 Sauvegarder la neutralité suisse (initiative sur la neutralité)",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 602,
+                            "label": "Adoption de l'objet de la votation populaire",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 111,
+                                "label": "Déclaration des recettes budgétées",
+                                "type": "form",
+                                "campaign_id": 602,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/602/forms/111",
+                                "children": []
+                              },
+                              {
+                                "id": 112,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                                "type": "form",
+                                "campaign_id": 602,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/602/forms/112",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "id": 399,
                 "label": "Wirtschaftsallianz \"NEIN zur BVG-Scheinreform\", Zürich",
                 "type": "actor",
@@ -23696,6 +24174,50 @@
                     ]
                   }
                 ]
+              },
+              {
+                "id": 459,
+                "label": "Überparteiliches Komitee Nein zur Neutralitätsinitiative, Zürich",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "Financement des campagnes",
+                    "type": "financing_category",
+                    "children": [
+                      {
+                        "id": 31,
+                        "label": "27.09.2026 Sauvegarder la neutralité suisse (initiative sur la neutralité)",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 605,
+                            "label": "Rejet de l'objet de la votation populaire",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 111,
+                                "label": "Déclaration des recettes budgétées",
+                                "type": "form",
+                                "campaign_id": 605,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/605/forms/111",
+                                "children": []
+                              },
+                              {
+                                "id": 112,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                                "type": "form",
+                                "campaign_id": 605,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/605/forms/112",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -23705,6 +24227,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "dc61a07603ee036f6539357c0e730432bad8f1d5896277314c5e75351a700e01"
+    "data_checksum_sha256": "8d7b66f089744a972ab1f1796d4d06d95f676eefa551af1bf3d04278aa406497"
   }
 }

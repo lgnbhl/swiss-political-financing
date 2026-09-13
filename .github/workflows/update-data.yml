@@ -7,7 +7,7 @@ name: Update EFK political-financing data
 # state/run_info.json carries the timestamp of the run and the page shows it as
 # the "Datenstand" -- the footer promises weekly updates, and a date that only
 # moves when the data does would not keep that promise. So a quiet week still
-# rewrites that date in app/index.html and publish.yml still pushes the website
+# rewrites that date in the rebuilt page and publish.yml still pushes the website
 # repo; what says the data itself moved is whether data/, raw/ and files/ appear
 # in the diff.
 #
@@ -114,8 +114,9 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data raw files state app/index.html app/lib app/js app/css \
-                  app/i18n.csv app/build-report.json
+          # Not app/index.html or app/lib: they are build output, gitignored, and
+          # publish.yml rebuilds them. The build above is the gate, not the source.
+          git add data raw files state app/build-report.json
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
