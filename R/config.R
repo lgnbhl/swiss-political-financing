@@ -105,7 +105,10 @@ norm_header <- function(x) {
   goods_services_income_chf = c("Einnahmen durch den Verkauf von Gutern und Dienstleistungen (in CHF)",
                                 "Einnahmen durch den Verkauf von Gütern und Dienstleistungen (in CHF)",
                                 "Recettes provenant de la vente de biens et de services (en CHF)",
-                                "Entrate dalla vendita di beni e servizi (in CHF)"),
+                                "Entrate dalla vendita di beni e servizi (in CHF)",
+                                # renamed by the EFK (Entrate -> Proventi); the old
+                                # spelling stays, archived exports still carry it
+                                "Proventi dalla vendita di beni e servizi (in CHF)"),
   monetary_own_funds_chf = c("Monetare Eigenmittel (in CHF)", "Monetäre Eigenmittel (in CHF)",
                              "Fonds propres monetaires (en CHF)", "Fonds propres monétaires (en CHF)",
                              "Fondi propri monetari (in CHF)"),

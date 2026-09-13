@@ -160,13 +160,23 @@ check_loaders <- function(pages, html = "index.html") {
 # So the overflow stops the build here instead. The fix is a new validated slot in
 # SERIES (see the header of components.R for the checker invocation), not a wider
 # cap and not a fold: every component a party reports is worth naming.
+#
+# Unless the extra component is not one. A localized header the dictionary does
+# not know is carried under a slug of the header text itself (exports.R::
+# .name_sheet), and a slugged amount header ends in `_chf` like every real
+# component does -- so a *renamed* header arrives here looking like a new one.
+# .name_sheet() now stops on that case first, but the tell is in the name: a real
+# component is canonical snake_case, a renamed header reads as the localized
+# label. Then the fix is .HEADER_VARIANTS in R/config.R, not SERIES.
 check_palette <- function(parts, series) {
   if (length(parts) <= length(series)) return(invisible(TRUE))
   stop("palette: ", length(parts), " income components but SERIES has only ",
        length(series), " slots -- ",
        paste(utils::tail(parts, length(parts) - length(series)), collapse = ", "),
        " would have no colour of its own. Add a slot to SERIES in components.R ",
-       "(validate it with scripts/validate_palette.js first).", call. = FALSE)
+       "(validate it with scripts/validate_palette.js first). If that name reads ",
+       "as a localized header rather than a canonical column, it is an unmapped ",
+       "header instead: fix .HEADER_VARIANTS in R/config.R.", call. = FALSE)
 }
 
 # ---- 5. the document is one document ----------------------------------------

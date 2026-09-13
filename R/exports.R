@@ -49,6 +49,17 @@ discover_exports <- function(languages, raw_dir) {
 
 # Map localized headers to canonical names via the trilingual dictionary.
 # Unknown headers are kept with a sanitized name so no column is ever dropped.
+#
+# Amount columns are the exception. A descriptive column the EFK adds is
+# harmless under its fallback name, but an *amount* column is not: the app finds
+# the income components by the `_chf$` suffix (prepare_data.R::income_parts), so
+# an unmapped amount header (German/Italian "(in CHF)", French "(en CHF)" -- both
+# slug to a name ending in `_chf`) does not read as a missing alias, it reads
+# as a brand new income component -- and surfaces two steps later as
+# check_palette() asking for a colour slot for a component that does not exist.
+# That is how the 2026-09 rename of the Italian goods-and-services header
+# (Entrate -> Proventi) broke the weekly build. So an unmapped amount column
+# stops the run here, where the header that caused it can still be named.
 .name_sheet <- function(df) {
   orig <- names(df)
   canon <- unname(HEADER_MAP[norm_header(orig)])
@@ -57,6 +68,16 @@ discover_exports <- function(languages, raw_dir) {
     fallback <- gsub("[^a-z0-9]+", "_", norm_header(orig[unknown]))
     fallback <- gsub("^_|_$", "", fallback)
     canon[unknown] <- fallback
+    amounts <- grepl("_chf$", fallback)
+    if (any(amounts)) {
+      stop("unmapped amount header(s): ",
+           paste(unique(orig[unknown][amounts]), collapse = " | "),
+           " -- an amount column the header dictionary does not know would be ",
+           "carried as a new income component. Add the spelling to the right ",
+           "entry of .HEADER_VARIANTS in R/config.R (it is additive: keep the ",
+           "old spelling too). Sheet columns: ",
+           paste(orig, collapse = " | "), call. = FALSE)
+    }
     .log("NOTE unmapped export headers:", paste(unique(orig[unknown]), collapse = " | "))
   }
   names(df) <- make.unique(canon, sep = "_")
