@@ -5253,6 +5253,21 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 30,
+                        "label": "2025",
+                        "type": "party_financing",
+                        "children": [
+                          {
+                            "id": 109,
+                            "label": "Déclaration des recettes annuelles",
+                            "type": "form",
+                            "campaign_id": 596,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/596/forms/109",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
                         "id": 17,
                         "label": "2024",
                         "type": "party_financing",
@@ -10708,6 +10723,21 @@
                     "label": "Financement des partis politiques",
                     "type": "financing_category",
                     "children": [
+                      {
+                        "id": 30,
+                        "label": "2025",
+                        "type": "party_financing",
+                        "children": [
+                          {
+                            "id": 109,
+                            "label": "Déclaration des recettes annuelles",
+                            "type": "form",
+                            "campaign_id": 599,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/599/forms/109",
+                            "children": []
+                          }
+                        ]
+                      },
                       {
                         "id": 17,
                         "label": "2024",
@@ -18494,6 +18524,21 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 30,
+                        "label": "2025",
+                        "type": "party_financing",
+                        "children": [
+                          {
+                            "id": 109,
+                            "label": "Déclaration des recettes annuelles",
+                            "type": "form",
+                            "campaign_id": 598,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/598/forms/109",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
                         "id": 17,
                         "label": "2024",
                         "type": "party_financing",
@@ -19068,6 +19113,29 @@
                     "label": "Financement des partis politiques",
                     "type": "financing_category",
                     "children": [
+                      {
+                        "id": 30,
+                        "label": "2025",
+                        "type": "party_financing",
+                        "children": [
+                          {
+                            "id": 109,
+                            "label": "Déclaration des recettes annuelles",
+                            "type": "form",
+                            "campaign_id": 590,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/590/forms/109",
+                            "children": []
+                          },
+                          {
+                            "id": 110,
+                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                            "type": "form",
+                            "campaign_id": 590,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/590/forms/110",
+                            "children": []
+                          }
+                        ]
+                      },
                       {
                         "id": 17,
                         "label": "2024",
@@ -20261,6 +20329,29 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 30,
+                        "label": "2025",
+                        "type": "party_financing",
+                        "children": [
+                          {
+                            "id": 109,
+                            "label": "Déclaration des recettes annuelles",
+                            "type": "form",
+                            "campaign_id": 593,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/593/forms/109",
+                            "children": []
+                          },
+                          {
+                            "id": 110,
+                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                            "type": "form",
+                            "campaign_id": 593,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/593/forms/110",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
                         "id": 17,
                         "label": "2024",
                         "type": "party_financing",
@@ -20464,6 +20555,29 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 30,
+                        "label": "2025",
+                        "type": "party_financing",
+                        "children": [
+                          {
+                            "id": 109,
+                            "label": "Déclaration des recettes annuelles",
+                            "type": "form",
+                            "campaign_id": 595,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/595/forms/109",
+                            "children": []
+                          },
+                          {
+                            "id": 110,
+                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                            "type": "form",
+                            "campaign_id": 595,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/595/forms/110",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
                         "id": 17,
                         "label": "2024",
                         "type": "party_financing",
@@ -20523,6 +20637,28 @@
                     "label": "Financement des campagnes",
                     "type": "financing_category",
                     "children": [
+                      {
+                        "id": 31,
+                        "label": "27.09.2026 Sauvegarder la neutralité suisse (initiative sur la neutralité)",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 607,
+                            "label": "Adoption de l'objet de la votation populaire",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 111,
+                                "label": "Déclaration des recettes budgétées",
+                                "type": "form",
+                                "campaign_id": 607,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/607/forms/111",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
                       {
                         "id": 19,
                         "label": "28.09.2025 Loi fédérale du 20 décembre 2024 sur l’identité électronique et d’autres moyens de preuves électroniques (Loi sur l’e-ID, LeID)",
@@ -21197,6 +21333,29 @@
                     "label": "Financement des partis politiques",
                     "type": "financing_category",
                     "children": [
+                      {
+                        "id": 30,
+                        "label": "2025",
+                        "type": "party_financing",
+                        "children": [
+                          {
+                            "id": 109,
+                            "label": "Déclaration des recettes annuelles",
+                            "type": "form",
+                            "campaign_id": 589,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/589/forms/109",
+                            "children": []
+                          },
+                          {
+                            "id": 110,
+                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                            "type": "form",
+                            "campaign_id": 589,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/589/forms/110",
+                            "children": []
+                          }
+                        ]
+                      },
                       {
                         "id": 17,
                         "label": "2024",
@@ -22027,6 +22186,29 @@
                     "label": "Financement des partis politiques",
                     "type": "financing_category",
                     "children": [
+                      {
+                        "id": 30,
+                        "label": "2025",
+                        "type": "party_financing",
+                        "children": [
+                          {
+                            "id": 109,
+                            "label": "Déclaration des recettes annuelles",
+                            "type": "form",
+                            "campaign_id": 591,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/591/forms/109",
+                            "children": []
+                          },
+                          {
+                            "id": 110,
+                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                            "type": "form",
+                            "campaign_id": 591,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/591/forms/110",
+                            "children": []
+                          }
+                        ]
+                      },
                       {
                         "id": 17,
                         "label": "2024",
@@ -22933,6 +23115,29 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 30,
+                        "label": "2025",
+                        "type": "party_financing",
+                        "children": [
+                          {
+                            "id": 109,
+                            "label": "Déclaration des recettes annuelles",
+                            "type": "form",
+                            "campaign_id": 594,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/594/forms/109",
+                            "children": []
+                          },
+                          {
+                            "id": 110,
+                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                            "type": "form",
+                            "campaign_id": 594,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/594/forms/110",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
                         "id": 17,
                         "label": "2024",
                         "type": "party_financing",
@@ -23119,6 +23324,21 @@
                     "label": "Financement des partis politiques",
                     "type": "financing_category",
                     "children": [
+                      {
+                        "id": 30,
+                        "label": "2025",
+                        "type": "party_financing",
+                        "children": [
+                          {
+                            "id": 109,
+                            "label": "Déclaration des recettes annuelles",
+                            "type": "form",
+                            "campaign_id": 592,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/592/forms/109",
+                            "children": []
+                          }
+                        ]
+                      },
                       {
                         "id": 17,
                         "label": "2024",
@@ -24227,6 +24447,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "8d7b66f089744a972ab1f1796d4d06d95f676eefa551af1bf3d04278aa406497"
+    "data_checksum_sha256": "545b7537bb67f972459911616b241923467337186eb9d4083cf3702f4894a4b5"
   }
 }

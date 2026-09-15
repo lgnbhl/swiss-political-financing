@@ -5253,6 +5253,21 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 30,
+                        "label": "2025",
+                        "type": "party_financing",
+                        "children": [
+                          {
+                            "id": 109,
+                            "label": "Offenlegung der jährlichen Einnahmen",
+                            "type": "form",
+                            "campaign_id": 596,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/596/forms/109",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
                         "id": 17,
                         "label": "2024",
                         "type": "party_financing",
@@ -10708,6 +10723,21 @@
                     "label": "Parteienfinanzierung",
                     "type": "financing_category",
                     "children": [
+                      {
+                        "id": 30,
+                        "label": "2025",
+                        "type": "party_financing",
+                        "children": [
+                          {
+                            "id": 109,
+                            "label": "Offenlegung der jährlichen Einnahmen",
+                            "type": "form",
+                            "campaign_id": 599,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/599/forms/109",
+                            "children": []
+                          }
+                        ]
+                      },
                       {
                         "id": 17,
                         "label": "2024",
@@ -18043,6 +18073,29 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 30,
+                        "label": "2025",
+                        "type": "party_financing",
+                        "children": [
+                          {
+                            "id": 109,
+                            "label": "Offenlegung der jährlichen Einnahmen",
+                            "type": "form",
+                            "campaign_id": 593,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/593/forms/109",
+                            "children": []
+                          },
+                          {
+                            "id": 110,
+                            "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                            "type": "form",
+                            "campaign_id": 593,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/593/forms/110",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
                         "id": 17,
                         "label": "2024",
                         "type": "party_financing",
@@ -18274,6 +18327,21 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 30,
+                        "label": "2025",
+                        "type": "party_financing",
+                        "children": [
+                          {
+                            "id": 109,
+                            "label": "Offenlegung der jährlichen Einnahmen",
+                            "type": "form",
+                            "campaign_id": 592,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/592/forms/109",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
                         "id": 17,
                         "label": "2024",
                         "type": "party_financing",
@@ -18317,6 +18385,21 @@
                     "label": "Parteienfinanzierung",
                     "type": "financing_category",
                     "children": [
+                      {
+                        "id": 30,
+                        "label": "2025",
+                        "type": "party_financing",
+                        "children": [
+                          {
+                            "id": 109,
+                            "label": "Offenlegung der jährlichen Einnahmen",
+                            "type": "form",
+                            "campaign_id": 598,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/598/forms/109",
+                            "children": []
+                          }
+                        ]
+                      },
                       {
                         "id": 17,
                         "label": "2024",
@@ -18687,6 +18770,29 @@
                     "label": "Parteienfinanzierung",
                     "type": "financing_category",
                     "children": [
+                      {
+                        "id": 30,
+                        "label": "2025",
+                        "type": "party_financing",
+                        "children": [
+                          {
+                            "id": 109,
+                            "label": "Offenlegung der jährlichen Einnahmen",
+                            "type": "form",
+                            "campaign_id": 589,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/589/forms/109",
+                            "children": []
+                          },
+                          {
+                            "id": 110,
+                            "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                            "type": "form",
+                            "campaign_id": 589,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/589/forms/110",
+                            "children": []
+                          }
+                        ]
+                      },
                       {
                         "id": 17,
                         "label": "2024",
@@ -19423,6 +19529,29 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 30,
+                        "label": "2025",
+                        "type": "party_financing",
+                        "children": [
+                          {
+                            "id": 109,
+                            "label": "Offenlegung der jährlichen Einnahmen",
+                            "type": "form",
+                            "campaign_id": 595,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/595/forms/109",
+                            "children": []
+                          },
+                          {
+                            "id": 110,
+                            "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                            "type": "form",
+                            "campaign_id": 595,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/595/forms/110",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
                         "id": 17,
                         "label": "2024",
                         "type": "party_financing",
@@ -19482,6 +19611,29 @@
                     "label": "Parteienfinanzierung",
                     "type": "financing_category",
                     "children": [
+                      {
+                        "id": 30,
+                        "label": "2025",
+                        "type": "party_financing",
+                        "children": [
+                          {
+                            "id": 109,
+                            "label": "Offenlegung der jährlichen Einnahmen",
+                            "type": "form",
+                            "campaign_id": 590,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/590/forms/109",
+                            "children": []
+                          },
+                          {
+                            "id": 110,
+                            "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                            "type": "form",
+                            "campaign_id": 590,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/590/forms/110",
+                            "children": []
+                          }
+                        ]
+                      },
                       {
                         "id": 17,
                         "label": "2024",
@@ -20634,6 +20786,28 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 31,
+                        "label": "27.09.2026 Wahrung der schweizerischen Neutralität (Neutralitätsinitiative)",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 607,
+                            "label": "Annahme der Abstimmungsvorlage",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 111,
+                                "label": "Offenlegung der budgetierten Einnahmen",
+                                "type": "form",
+                                "campaign_id": 607,
+                                "download_path": "/api/frontend/latest/de/downloads/campaigns/607/forms/111",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
                         "id": 19,
                         "label": "28.09.2025 Bundesgesetz vom 20. Dezember 2024 über den elektronischen Identitätsnachweis und andere elektronische Nachweise (E-ID-Gesetz, BGEID)",
                         "type": "campaign_financing",
@@ -21571,6 +21745,29 @@
                     "label": "Parteienfinanzierung",
                     "type": "financing_category",
                     "children": [
+                      {
+                        "id": 30,
+                        "label": "2025",
+                        "type": "party_financing",
+                        "children": [
+                          {
+                            "id": 109,
+                            "label": "Offenlegung der jährlichen Einnahmen",
+                            "type": "form",
+                            "campaign_id": 594,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/594/forms/109",
+                            "children": []
+                          },
+                          {
+                            "id": 110,
+                            "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                            "type": "form",
+                            "campaign_id": 594,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/594/forms/110",
+                            "children": []
+                          }
+                        ]
+                      },
                       {
                         "id": 17,
                         "label": "2024",
@@ -23036,6 +23233,29 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 30,
+                        "label": "2025",
+                        "type": "party_financing",
+                        "children": [
+                          {
+                            "id": 109,
+                            "label": "Offenlegung der jährlichen Einnahmen",
+                            "type": "form",
+                            "campaign_id": 591,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/591/forms/109",
+                            "children": []
+                          },
+                          {
+                            "id": 110,
+                            "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                            "type": "form",
+                            "campaign_id": 591,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/591/forms/110",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
                         "id": 17,
                         "label": "2024",
                         "type": "party_financing",
@@ -24227,6 +24447,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "67044e9c750a69db5b9cc60a85d6a18be6a88aa107fc6a0ca563072c6c8ff67e"
+    "data_checksum_sha256": "3e472ad01183c7b3ec0093a5aca4ed9867f0b744877c0dc737cd6de84cfcafb0"
   }
 }

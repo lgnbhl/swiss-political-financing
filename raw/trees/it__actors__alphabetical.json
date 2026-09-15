@@ -536,6 +536,29 @@
                 "type": "financing_category",
                 "children": [
                   {
+                    "id": 30,
+                    "label": "2025",
+                    "type": "party_financing",
+                    "children": [
+                      {
+                        "id": 109,
+                        "label": "Comunicazione delle entrate annuali",
+                        "type": "form",
+                        "campaign_id": 593,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/593/forms/109",
+                        "children": []
+                      },
+                      {
+                        "id": 110,
+                        "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                        "type": "form",
+                        "campaign_id": 593,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/593/forms/110",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
                     "id": 17,
                     "label": "2024",
                     "type": "party_financing",
@@ -3794,6 +3817,21 @@
                 "type": "financing_category",
                 "children": [
                   {
+                    "id": 30,
+                    "label": "2025",
+                    "type": "party_financing",
+                    "children": [
+                      {
+                        "id": 109,
+                        "label": "Comunicazione delle entrate annuali",
+                        "type": "form",
+                        "campaign_id": 598,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/598/forms/109",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
                     "id": 17,
                     "label": "2024",
                     "type": "party_financing",
@@ -6780,6 +6818,29 @@
                 "type": "financing_category",
                 "children": [
                   {
+                    "id": 30,
+                    "label": "2025",
+                    "type": "party_financing",
+                    "children": [
+                      {
+                        "id": 109,
+                        "label": "Comunicazione delle entrate annuali",
+                        "type": "form",
+                        "campaign_id": 590,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/590/forms/109",
+                        "children": []
+                      },
+                      {
+                        "id": 110,
+                        "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                        "type": "form",
+                        "campaign_id": 590,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/590/forms/110",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
                     "id": 17,
                     "label": "2024",
                     "type": "party_financing",
@@ -9453,6 +9514,21 @@
                 "type": "financing_category",
                 "children": [
                   {
+                    "id": 30,
+                    "label": "2025",
+                    "type": "party_financing",
+                    "children": [
+                      {
+                        "id": 109,
+                        "label": "Comunicazione delle entrate annuali",
+                        "type": "form",
+                        "campaign_id": 599,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/599/forms/109",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
                     "id": 17,
                     "label": "2024",
                     "type": "party_financing",
@@ -9929,6 +10005,28 @@
                 "type": "financing_category",
                 "children": [
                   {
+                    "id": 31,
+                    "label": "27.09.2026 Salvaguardia della neutralità svizzera (Iniziativa sulla neutralità)",
+                    "type": "campaign_financing",
+                    "children": [
+                      {
+                        "id": 607,
+                        "label": "Adozione dell'oggetto della votazione popolare",
+                        "type": "campaign",
+                        "children": [
+                          {
+                            "id": 111,
+                            "label": "Comunicazione delle entrate preventivate",
+                            "type": "form",
+                            "campaign_id": 607,
+                            "download_path": "/api/frontend/latest/it/downloads/campaigns/607/forms/111",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
                     "id": 19,
                     "label": "28.09.2025 Legge federale del 20 dicembre 2024 sul mezzo d’identificazione elettronico e altri mezzi di autenticazione elettronici (Legge sull’Id-e, LIdE)",
                     "type": "campaign_financing",
@@ -10062,6 +10160,21 @@
                 "label": "Finanziamento dei partiti politici",
                 "type": "financing_category",
                 "children": [
+                  {
+                    "id": 30,
+                    "label": "2025",
+                    "type": "party_financing",
+                    "children": [
+                      {
+                        "id": 109,
+                        "label": "Comunicazione delle entrate annuali",
+                        "type": "form",
+                        "campaign_id": 596,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/596/forms/109",
+                        "children": []
+                      }
+                    ]
+                  },
                   {
                     "id": 17,
                     "label": "2024",
@@ -11686,6 +11799,29 @@
                 "label": "Finanziamento dei partiti politici",
                 "type": "financing_category",
                 "children": [
+                  {
+                    "id": 30,
+                    "label": "2025",
+                    "type": "party_financing",
+                    "children": [
+                      {
+                        "id": 109,
+                        "label": "Comunicazione delle entrate annuali",
+                        "type": "form",
+                        "campaign_id": 589,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/589/forms/109",
+                        "children": []
+                      },
+                      {
+                        "id": 110,
+                        "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                        "type": "form",
+                        "campaign_id": 589,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/589/forms/110",
+                        "children": []
+                      }
+                    ]
+                  },
                   {
                     "id": 17,
                     "label": "2024",
@@ -14029,6 +14165,29 @@
                 "type": "financing_category",
                 "children": [
                   {
+                    "id": 30,
+                    "label": "2025",
+                    "type": "party_financing",
+                    "children": [
+                      {
+                        "id": 109,
+                        "label": "Comunicazione delle entrate annuali",
+                        "type": "form",
+                        "campaign_id": 591,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/591/forms/109",
+                        "children": []
+                      },
+                      {
+                        "id": 110,
+                        "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                        "type": "form",
+                        "campaign_id": 591,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/591/forms/110",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
                     "id": 17,
                     "label": "2024",
                     "type": "party_financing",
@@ -15820,6 +15979,29 @@
                 "type": "financing_category",
                 "children": [
                   {
+                    "id": 30,
+                    "label": "2025",
+                    "type": "party_financing",
+                    "children": [
+                      {
+                        "id": 109,
+                        "label": "Comunicazione delle entrate annuali",
+                        "type": "form",
+                        "campaign_id": 594,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/594/forms/109",
+                        "children": []
+                      },
+                      {
+                        "id": 110,
+                        "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                        "type": "form",
+                        "campaign_id": 594,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/594/forms/110",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
                     "id": 17,
                     "label": "2024",
                     "type": "party_financing",
@@ -16066,6 +16248,21 @@
                 "label": "Finanziamento dei partiti politici",
                 "type": "financing_category",
                 "children": [
+                  {
+                    "id": 30,
+                    "label": "2025",
+                    "type": "party_financing",
+                    "children": [
+                      {
+                        "id": 109,
+                        "label": "Comunicazione delle entrate annuali",
+                        "type": "form",
+                        "campaign_id": 592,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/592/forms/109",
+                        "children": []
+                      }
+                    ]
+                  },
                   {
                     "id": 17,
                     "label": "2024",
@@ -17095,6 +17292,29 @@
                 "label": "Finanziamento dei partiti politici",
                 "type": "financing_category",
                 "children": [
+                  {
+                    "id": 30,
+                    "label": "2025",
+                    "type": "party_financing",
+                    "children": [
+                      {
+                        "id": 109,
+                        "label": "Comunicazione delle entrate annuali",
+                        "type": "form",
+                        "campaign_id": 595,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/595/forms/109",
+                        "children": []
+                      },
+                      {
+                        "id": 110,
+                        "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                        "type": "form",
+                        "campaign_id": 595,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/595/forms/110",
+                        "children": []
+                      }
+                    ]
+                  },
                   {
                     "id": 17,
                     "label": "2024",
@@ -23793,6 +24013,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "8d5478d5b6a36d4089d8eaffc58bcecf7164b35dc5a913b5584027c4c5b036e0"
+    "data_checksum_sha256": "9e0e5dd2356c1c333101537ba327ba83a8139273082a687b3e15dfbae0008ef6"
   }
 }

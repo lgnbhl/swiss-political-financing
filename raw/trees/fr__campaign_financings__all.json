@@ -2,16 +2,62 @@
   "data": {
     "tree_roots": [
       {
+        "id": 33,
+        "label": "29.11.2026 Arrêté fédéral du 19 juin 2026 sur le financement additionnel de l’AVS par le biais d’un relèvement de la TVA",
+        "type": "campaign_financing",
+        "header_text": "2026",
+        "children": []
+      },
+      {
+        "id": 34,
+        "label": "29.11.2026 Pour une limitation des feux d’artifice",
+        "type": "campaign_financing",
+        "children": []
+      },
+      {
+        "id": 35,
+        "label": "29.11.2026 Oui à des impôts fédéraux équitables pour les couples mariés – Pour enfin en finir avec la discrimination du mariage !",
+        "type": "campaign_financing",
+        "children": []
+      },
+      {
+        "id": 36,
+        "label": "29.11.2026 Modification du 19 décembre 2025 de la loi fédérale sur le matériel de guerre (LFMG)",
+        "type": "campaign_financing",
+        "children": []
+      },
+      {
         "id": 31,
         "label": "27.09.2026 Sauvegarder la neutralité suisse (initiative sur la neutralité)",
         "type": "campaign_financing",
-        "header_text": "2026",
         "children": [
           {
             "id": 0,
             "label": "Personnes morales ou sociétés de personnes",
             "type": "actor_category",
             "children": [
+              {
+                "id": 329,
+                "label": "MASS-VOLL!, Zürich",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 607,
+                    "label": "Adoption de l'objet de la votation populaire",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 111,
+                        "label": "Déclaration des recettes budgétées",
+                        "type": "form",
+                        "campaign_id": 607,
+                        "download_path": "/api/frontend/latest/fr/downloads/campaigns/607/forms/111",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "id": 357,
                 "label": "Operation Libero, Bern",
@@ -18188,6 +18234,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "6c48c18c28ac7794d2731a521ead38385111c25ec9f3fc5478a0c231ee3a7d61"
+    "data_checksum_sha256": "776569f557c4f327d81d6e73a220d171754531d6c11f48cdc2551b40ff086eb2"
   }
 }

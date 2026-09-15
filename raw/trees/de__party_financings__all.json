@@ -2,6 +2,211 @@
   "data": {
     "tree_roots": [
       {
+        "id": 30,
+        "label": "2025",
+        "type": "party_financing",
+        "children": [
+          {
+            "id": 59,
+            "label": "Die Mitte, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 109,
+                "label": "Offenlegung der jährlichen Einnahmen",
+                "type": "form",
+                "campaign_id": 593,
+                "download_path": "/api/frontend/latest/de/downloads/campaigns/593/forms/109",
+                "children": []
+              },
+              {
+                "id": 110,
+                "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                "type": "form",
+                "campaign_id": 593,
+                "download_path": "/api/frontend/latest/de/downloads/campaigns/593/forms/110",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 331,
+            "label": "Eidgenössisch-Demokratische Union Schweiz (EDU Schweiz), Thun",
+            "type": "actor",
+            "children": [
+              {
+                "id": 109,
+                "label": "Offenlegung der jährlichen Einnahmen",
+                "type": "form",
+                "campaign_id": 592,
+                "download_path": "/api/frontend/latest/de/downloads/campaigns/592/forms/109",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 219,
+            "label": "Evangelische Volkspartei der Schweiz, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 109,
+                "label": "Offenlegung der jährlichen Einnahmen",
+                "type": "form",
+                "campaign_id": 598,
+                "download_path": "/api/frontend/latest/de/downloads/campaigns/598/forms/109",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 43,
+            "label": "FDP.Die Liberalen, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 109,
+                "label": "Offenlegung der jährlichen Einnahmen",
+                "type": "form",
+                "campaign_id": 589,
+                "download_path": "/api/frontend/latest/de/downloads/campaigns/589/forms/109",
+                "children": []
+              },
+              {
+                "id": 110,
+                "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                "type": "form",
+                "campaign_id": 589,
+                "download_path": "/api/frontend/latest/de/downloads/campaigns/589/forms/110",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "label": "GRÜNE Schweiz, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 109,
+                "label": "Offenlegung der jährlichen Einnahmen",
+                "type": "form",
+                "campaign_id": 595,
+                "download_path": "/api/frontend/latest/de/downloads/campaigns/595/forms/109",
+                "children": []
+              },
+              {
+                "id": 110,
+                "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                "type": "form",
+                "campaign_id": 595,
+                "download_path": "/api/frontend/latest/de/downloads/campaigns/595/forms/110",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "label": "Grünliberale Partei Schweiz, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 109,
+                "label": "Offenlegung der jährlichen Einnahmen",
+                "type": "form",
+                "campaign_id": 590,
+                "download_path": "/api/frontend/latest/de/downloads/campaigns/590/forms/109",
+                "children": []
+              },
+              {
+                "id": 110,
+                "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                "type": "form",
+                "campaign_id": 590,
+                "download_path": "/api/frontend/latest/de/downloads/campaigns/590/forms/110",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 394,
+            "label": "Lega dei Ticinesi, Lugano",
+            "type": "actor",
+            "children": [
+              {
+                "id": 109,
+                "label": "Offenlegung der jährlichen Einnahmen",
+                "type": "form",
+                "campaign_id": 599,
+                "download_path": "/api/frontend/latest/de/downloads/campaigns/599/forms/109",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 268,
+            "label": "Mouvement Citoyens Genevois, Genève",
+            "type": "actor",
+            "children": [
+              {
+                "id": 109,
+                "label": "Offenlegung der jährlichen Einnahmen",
+                "type": "form",
+                "campaign_id": 596,
+                "download_path": "/api/frontend/latest/de/downloads/campaigns/596/forms/109",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 42,
+            "label": "Schweizerische Volkspartei (SVP), Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 109,
+                "label": "Offenlegung der jährlichen Einnahmen",
+                "type": "form",
+                "campaign_id": 594,
+                "download_path": "/api/frontend/latest/de/downloads/campaigns/594/forms/109",
+                "children": []
+              },
+              {
+                "id": 110,
+                "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                "type": "form",
+                "campaign_id": 594,
+                "download_path": "/api/frontend/latest/de/downloads/campaigns/594/forms/110",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "label": "Sozialdemokratische Partei der Schweiz, Bern",
+            "type": "actor",
+            "children": [
+              {
+                "id": 109,
+                "label": "Offenlegung der jährlichen Einnahmen",
+                "type": "form",
+                "campaign_id": 591,
+                "download_path": "/api/frontend/latest/de/downloads/campaigns/591/forms/109",
+                "children": []
+              },
+              {
+                "id": 110,
+                "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                "type": "form",
+                "campaign_id": 591,
+                "download_path": "/api/frontend/latest/de/downloads/campaigns/591/forms/110",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": 17,
         "label": "2024",
         "type": "party_financing",
@@ -461,6 +666,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "44aea7361a4921939ee827c170dbf9f8223a2b2a7b4ce8ade4d36789567d4a24"
+    "data_checksum_sha256": "b8d34ed6b6bd0fb8994397f2474f1ec0baac62c68922e65f08e7598f664b9ecf"
   }
 }

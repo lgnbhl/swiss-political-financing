@@ -7,10 +7,34 @@
         "type": "financing_category",
         "children": [
           {
+            "id": 33,
+            "label": "29.11.2026 Arrêté fédéral du 19 juin 2026 sur le financement additionnel de l’AVS par le biais d’un relèvement de la TVA",
+            "type": "campaign_financing",
+            "header_text": "2026",
+            "children": []
+          },
+          {
+            "id": 34,
+            "label": "29.11.2026 Pour une limitation des feux d’artifice",
+            "type": "campaign_financing",
+            "children": []
+          },
+          {
+            "id": 35,
+            "label": "29.11.2026 Oui à des impôts fédéraux équitables pour les couples mariés – Pour enfin en finir avec la discrimination du mariage !",
+            "type": "campaign_financing",
+            "children": []
+          },
+          {
+            "id": 36,
+            "label": "29.11.2026 Modification du 19 décembre 2025 de la loi fédérale sur le matériel de guerre (LFMG)",
+            "type": "campaign_financing",
+            "children": []
+          },
+          {
             "id": 31,
             "label": "27.09.2026 Sauvegarder la neutralité suisse (initiative sur la neutralité)",
             "type": "campaign_financing",
-            "header_text": "2026",
             "children": [
               {
                 "id": 1,
@@ -10184,6 +10208,939 @@
         "type": "financing_category",
         "children": [
           {
+            "id": 30,
+            "label": "2025",
+            "type": "party_financing",
+            "children": [
+              {
+                "id": 0,
+                "label": "personne physique",
+                "type": "donor",
+                "children": [
+                  {
+                    "id": 4207,
+                    "label": "Donateur/trice: Baumann Anton sel., Acteur/trice: Sozialdemokratische Partei der Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4444,
+                    "label": "Donateur/trice: Baumann Maja Regula, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4366,
+                    "label": "Donateur/trice: Burkard Kroeber Carmita, Acteur/trice: Les VERT-E-S suisses, Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4368,
+                    "label": "Donateur/trice: Burkard Kroeber Carmita, Acteur/trice: Les VERT-E-S suisses, Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4208,
+                    "label": "Donateur/trice: Cornaz Daniel, Acteur/trice: Sozialdemokratische Partei der Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4378,
+                    "label": "Donateur/trice: Dörig Rolf, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4417,
+                    "label": "Donateur/trice: Happel Otto, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4447,
+                    "label": "Donateur/trice: Happel Otto, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4420,
+                    "label": "Donateur/trice: Heberlein Robert und Trix, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4264,
+                    "label": "Donateur/trice: Kottelat Pierre, Acteur/trice: Grünliberale Partei Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4386,
+                    "label": "Donateur/trice: Matter Thomas, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4424,
+                    "label": "Donateur/trice: Meier Werner Ferdinand, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4265,
+                    "label": "Donateur/trice: Michèle Kottelat Schloesing, Acteur/trice: Grünliberale Partei Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4369,
+                    "label": "Donateur/trice: Rüegg Hans, Acteur/trice: Les VERT-E-S suisses, Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4394,
+                    "label": "Donateur/trice: Spleiss Christian, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4448,
+                    "label": "Donateur/trice: Sprüngli Luzius R., Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4450,
+                    "label": "Donateur/trice: Wellauer Thomas, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 1,
+                "label": "personne morale ou société de personnes",
+                "type": "donor",
+                "children": [
+                  {
+                    "id": 4402,
+                    "label": "Donateur/trice: Aktionskomitee für Freiheit, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4403,
+                    "label": "Donateur/trice: Aktionskomitee für Freiheit, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4404,
+                    "label": "Donateur/trice: ANEBA HOLDING AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4405,
+                    "label": "Donateur/trice: ARTEMIS HOLDING AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4406,
+                    "label": "Donateur/trice: ARTEMIS HOLDING AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4374,
+                    "label": "Donateur/trice: auto-schweiz Vereinigung, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4407,
+                    "label": "Donateur/trice: auto-schweiz Vereinigung Schweizer Automobil-Importeure, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4408,
+                    "label": "Donateur/trice: auto-schweiz Vereinigung Schweizer Automobil-Importeure, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4449,
+                    "label": "Donateur/trice: auto-schweiz Vereinigung Schweizer Automobil-Importeure, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4409,
+                    "label": "Donateur/trice: AXA Versicherungen AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4483,
+                    "label": "Donateur/trice: Axa Versicherungen AG, Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4375,
+                    "label": "Donateur/trice: AXA Versicherungen AG, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4361,
+                    "label": "Donateur/trice: AXA Versicherungen AG, Acteur/trice: Les VERT-E-S suisses, Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4376,
+                    "label": "Donateur/trice: Baloise Versicherung AG, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4410,
+                    "label": "Donateur/trice: Baloise Versicherungen AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4411,
+                    "label": "Donateur/trice: Baloise Versicherungen AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4498,
+                    "label": "Donateur/trice: Bank Julius Baer and Co. Ltd., Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4385,
+                    "label": "Donateur/trice: BANK JULIUS BAER AND CO.LTD., Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4412,
+                    "label": "Donateur/trice: Bank Julius Bär & Co. AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4413,
+                    "label": "Donateur/trice: Bucher Industries AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4453,
+                    "label": "Donateur/trice: Die Mitte Aargau (Kantonalbeitrag), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4452,
+                    "label": "Donateur/trice: Die Mitte AI (Kantonalbeitrag), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4476,
+                    "label": "Donateur/trice: Die Mitte Ausserrhoden (Kantonalbeitrag), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4472,
+                    "label": "Donateur/trice: Die Mitte Basel-Landschaft (Kantonalbeitrag), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4463,
+                    "label": "Donateur/trice: Die Mitte Basel-Stadt (Kantonalbeitrag), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4474,
+                    "label": "Donateur/trice: Die Mitte Graubünden (Kantonalbeitrag), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4460,
+                    "label": "Donateur/trice: Die Mitte Kanton Bern (Kantonalbeitrag), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4469,
+                    "label": "Donateur/trice: Die Mitte Kanton Luzern (Kantonalbeitrag), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4467,
+                    "label": "Donateur/trice: Die Mitte Kanton Solothurn (Kantonalbeitrag), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4471,
+                    "label": "Donateur/trice: Die Mitte Kanton St. Gallen (Kantonalbeitrag), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4466,
+                    "label": "Donateur/trice: Die Mitte Kanton Zug (Kantonalbeitrag), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4456,
+                    "label": "Donateur/trice: Die Mitte Kanton Zürich (Kantonalbeitrag), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4459,
+                    "label": "Donateur/trice: Die Mitte Nidwalden (Kantonalbeitrag), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4454,
+                    "label": "Donateur/trice: Die Mitte Oberwallis (Kantonalbeitrag), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4465,
+                    "label": "Donateur/trice: Die Mitte Obwalden (Kantonalbeitrag), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4461,
+                    "label": "Donateur/trice: Die Mitte Schaffhausen (Kantonalbeitrag), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4468,
+                    "label": "Donateur/trice: Die Mitte Schwyz (Kantonalbeitrag), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4451,
+                    "label": "Donateur/trice: Die Mitte Sense (Kantonalbeitrag), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4477,
+                    "label": "Donateur/trice: Die Mitte Thurgau (Kantonalbeitrag), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4464,
+                    "label": "Donateur/trice: Die Mitte Uri (Kantonalbeitrag), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4414,
+                    "label": "Donateur/trice: economiesuisse, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4415,
+                    "label": "Donateur/trice: economiesuisse, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4252,
+                    "label": "Donateur/trice: Economiesuisse, Acteur/trice: Grünliberale Partei Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4495,
+                    "label": "Donateur/trice: Economiesuisse, Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4379,
+                    "label": "Donateur/trice: economiesuisse, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4416,
+                    "label": "Donateur/trice: Fondation Groupe Mutuel, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4484,
+                    "label": "Donateur/trice: Fondation Groupe Mutuel, Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4380,
+                    "label": "Donateur/trice: Fondation Groupe Mutuel, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4365,
+                    "label": "Donateur/trice: Fondation Groupe Mutuel, Acteur/trice: Les VERT-E-S suisses, Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4418,
+                    "label": "Donateur/trice: Hauseigentümerverband Schweiz, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4419,
+                    "label": "Donateur/trice: Hauseigentümerverband Schweiz, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4480,
+                    "label": "Donateur/trice: Hauseigentümerverband Schweiz, Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4487,
+                    "label": "Donateur/trice: Hauseigentümerverband Schweiz, Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4383,
+                    "label": "Donateur/trice: Hauseigentümerverband Schweiz, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4381,
+                    "label": "Donateur/trice: Heinrich Herz AG, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4421,
+                    "label": "Donateur/trice: Helvetia Schweiz. Versicherung, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4482,
+                    "label": "Donateur/trice: Helvetia Schweiz. Versicherung, Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4382,
+                    "label": "Donateur/trice: Helvetia Schweiz. Versicherung, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4362,
+                    "label": "Donateur/trice: Helvetia Schweiz. Versicherung, Acteur/trice: Les VERT-E-S suisses, Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4446,
+                    "label": "Donateur/trice: Hesta Services AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4462,
+                    "label": "Donateur/trice: Il Centro (contributo cantonal), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4445,
+                    "label": "Donateur/trice: Interpharma, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4260,
+                    "label": "Donateur/trice: Interpharma, Acteur/trice: Grünliberale Partei Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4493,
+                    "label": "Donateur/trice: Interpharma, Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4384,
+                    "label": "Donateur/trice: Interpharma, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4455,
+                    "label": "Donateur/trice: Le Centre du canton de Neuchâtel (cotisation cantonale), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4457,
+                    "label": "Donateur/trice: Le Centre Fribourg (cotisation cantonale), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4478,
+                    "label": "Donateur/trice: Le Centre Genève (cotisation cantonale), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4473,
+                    "label": "Donateur/trice: Le Centre Vaud (cotisation cantonale), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4443,
+                    "label": "Donateur/trice: Mehrwert Schweiz, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4387,
+                    "label": "Donateur/trice: Nestle S.A., Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4441,
+                    "label": "Donateur/trice: Nestle SA, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4440,
+                    "label": "Donateur/trice: Novartis International AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4255,
+                    "label": "Donateur/trice: Novartis International AG, Acteur/trice: Grünliberale Partei Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4497,
+                    "label": "Donateur/trice: Novartis International AG, Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4388,
+                    "label": "Donateur/trice: Novartis International AG, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4481,
+                    "label": "Donateur/trice: Néstlé S.A., Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4470,
+                    "label": "Donateur/trice: Partei Die Mitte Glarnerland (Kantonalbeitrag), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4475,
+                    "label": "Donateur/trice: Parti démocrate-chrétien du Valais (cotisation cantonale), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4458,
+                    "label": "Donateur/trice: Parti démocrate-chrétien Jura (cotisation cantonale), Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4389,
+                    "label": "Donateur/trice: Philip Morris Switzerland Sarl, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4439,
+                    "label": "Donateur/trice: Philip Morris Switzerland Sàr, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4438,
+                    "label": "Donateur/trice: Raiffeisen Schweiz Genossenschaft, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4205,
+                    "label": "Donateur/trice: Raiffeisen Schweiz Genossenschaft, Acteur/trice: Sozialdemokratische Partei der Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4489,
+                    "label": "Donateur/trice: Raiffeisen Schweiz Genossenschaft, Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4390,
+                    "label": "Donateur/trice: Raiffeisen Schweiz Genossenschaft, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4364,
+                    "label": "Donateur/trice: Raiffeisen Schweiz Genossenschaft, Acteur/trice: Les VERT-E-S suisses, Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4437,
+                    "label": "Donateur/trice: Roche Holding AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4261,
+                    "label": "Donateur/trice: Roche Holding AG, Acteur/trice: Grünliberale Partei Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4494,
+                    "label": "Donateur/trice: Roche Holding AG, Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4391,
+                    "label": "Donateur/trice: Roche Holding AG, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4436,
+                    "label": "Donateur/trice: SCHINDLER AUFZUEGE AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4254,
+                    "label": "Donateur/trice: Schindler Aufzüge AG, Acteur/trice: Grünliberale Partei Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4479,
+                    "label": "Donateur/trice: Schindler Aufzüge AG, Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4392,
+                    "label": "Donateur/trice: Schindler Aufzüge AG, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4263,
+                    "label": "Donateur/trice: Schweiz. Mobiliarversicherungsgesellschaft AG, Acteur/trice: Grünliberale Partei Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4434,
+                    "label": "Donateur/trice: SCHWEIZERISCHE BANKIERVEREINIGUNG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4256,
+                    "label": "Donateur/trice: Schweizerische Bankiervereinigung, Acteur/trice: Grünliberale Partei Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4485,
+                    "label": "Donateur/trice: Schweizerische Bankiervereinigung, Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4377,
+                    "label": "Donateur/trice: Schweizerische Bankiervereinigung, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4442,
+                    "label": "Donateur/trice: Schweizerische Mobiliar Versicherungsgesellschaft AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4206,
+                    "label": "Donateur/trice: Schweizerische Mobiliar Versicherungsgesellschaft AG, Acteur/trice: Sozialdemokratische Partei der Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4486,
+                    "label": "Donateur/trice: Schweizerische Mobiliar Versicherungsgesellschaft AG, Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4393,
+                    "label": "Donateur/trice: Schweizerische Mobiliar Versicherungsgesellschaft AG, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4363,
+                    "label": "Donateur/trice: Schweizerische Mobiliar Versicherungsgesellschaft AG, Acteur/trice: Les VERT-E-S suisses, Berne",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4435,
+                    "label": "Donateur/trice: Schweizerischer Gewerbeverband, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4396,
+                    "label": "Donateur/trice: Schweizerischer Versicherungsverband ASA / SVV, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4430,
+                    "label": "Donateur/trice: Schweizerischer Versicherungsverband SVV, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4431,
+                    "label": "Donateur/trice: Schweizerischer Versicherungsverband SVV, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4432,
+                    "label": "Donateur/trice: SIX Group Services AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4433,
+                    "label": "Donateur/trice: SIX Group Services AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4395,
+                    "label": "Donateur/trice: Stiftung für bürgerliche Politik, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4262,
+                    "label": "Donateur/trice: SVV, Acteur/trice: Grünliberale Partei Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4491,
+                    "label": "Donateur/trice: SVV, Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4426,
+                    "label": "Donateur/trice: SWISS INTERNATIONAL AIR LINES AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4488,
+                    "label": "Donateur/trice: Swiss International Air Lines AG, Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4398,
+                    "label": "Donateur/trice: Swiss International Air Lines AG, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4427,
+                    "label": "Donateur/trice: Swiss Life AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4428,
+                    "label": "Donateur/trice: Swiss Life AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4429,
+                    "label": "Donateur/trice: Swiss Life AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4259,
+                    "label": "Donateur/trice: Swiss Life AG, Acteur/trice: Grünliberale Partei Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4490,
+                    "label": "Donateur/trice: Swiss Life AG, Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4399,
+                    "label": "Donateur/trice: Swiss Life AG, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4423,
+                    "label": "Donateur/trice: SWISS RE MANAGEMENT LTD., Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4422,
+                    "label": "Donateur/trice: Swiss Reinsurance Company Limited, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4397,
+                    "label": "Donateur/trice: Swiss Reinsurance Company Limited, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4253,
+                    "label": "Donateur/trice: UBS AG, Acteur/trice: Grünliberale Partei Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4499,
+                    "label": "Donateur/trice: UBS AG, Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4400,
+                    "label": "Donateur/trice: UBS AG, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4257,
+                    "label": "Donateur/trice: Verein FDP-Kampagnen, Acteur/trice: Grünliberale Partei Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4496,
+                    "label": "Donateur/trice: Verein FDP-Kampagnen, Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4401,
+                    "label": "Donateur/trice: Verein FDP-Kampagnen, Acteur/trice: Union Démocratique du Centre (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4425,
+                    "label": "Donateur/trice: Zürich Versicherungs-Gesellschaft AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4258,
+                    "label": "Donateur/trice: Zürich Versicherungsgesellschaft AG, Acteur/trice: Grünliberale Partei Schweiz, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4492,
+                    "label": "Donateur/trice: Zürich Versicherungsgesellschaft AG, Acteur/trice: Le Centre, Bern",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "id": 17,
             "label": "2024",
             "type": "party_financing",
@@ -12379,6 +13336,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "00e53c46c86e16d12e2f55c0894cedfa0ff0ccf130027a4b891fbd802d3005b7"
+    "data_checksum_sha256": "214af66ad02de3a0890ade394023630e95ac45f8667fdb12d08c0dab77f26bdc"
   }
 }

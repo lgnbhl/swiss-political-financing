@@ -2,6 +2,20 @@
   "data": {
     "tree_roots": [
       {
+        "id": 30,
+        "label": "2025",
+        "type": "party_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Financement des partis",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/30?with_budget=false",
+            "children": []
+          }
+        ]
+      },
+      {
         "id": 17,
         "label": "2024",
         "type": "party_financing",
@@ -33,6 +47,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "d9641f31aeda9d34269c8c3861c97a832b78faa3bd6ae5722925f91651b06055"
+    "data_checksum_sha256": "ec0ba39a681caf4fb3335a0dc7717feb4f77fbe04cff575ad4277e58257e83f6"
   }
 }

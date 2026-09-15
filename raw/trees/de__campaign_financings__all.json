@@ -2,16 +2,62 @@
   "data": {
     "tree_roots": [
       {
+        "id": 33,
+        "label": "29.11.2026 Bundesbeschluss vom 19. Juni 2026 über die Zusatzfinanzierung der AHV durch eine Erhöhung der Mehrwertsteuer",
+        "type": "campaign_financing",
+        "header_text": "2026",
+        "children": []
+      },
+      {
+        "id": 34,
+        "label": "29.11.2026 Für eine Einschränkung von Feuerwerk",
+        "type": "campaign_financing",
+        "children": []
+      },
+      {
+        "id": 35,
+        "label": "29.11.2026 Ja zu fairen Bundessteuern auch für Ehepaare – Diskriminierung der Ehe endlich abschaffen!",
+        "type": "campaign_financing",
+        "children": []
+      },
+      {
+        "id": 36,
+        "label": "29.11.2026 Änderung vom 19. Dezember 2025 des Bundesgesetzes über das Kriegsmaterial (Kriegsmaterialgesetz, KMG)",
+        "type": "campaign_financing",
+        "children": []
+      },
+      {
         "id": 31,
         "label": "27.09.2026 Wahrung der schweizerischen Neutralität (Neutralitätsinitiative)",
         "type": "campaign_financing",
-        "header_text": "2026",
         "children": [
           {
             "id": 0,
             "label": "Juristische Personen oder Personengesellschaften",
             "type": "actor_category",
             "children": [
+              {
+                "id": 329,
+                "label": "MASS-VOLL!, Zürich",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 607,
+                    "label": "Annahme der Abstimmungsvorlage",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 111,
+                        "label": "Offenlegung der budgetierten Einnahmen",
+                        "type": "form",
+                        "campaign_id": 607,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/607/forms/111",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "id": 357,
                 "label": "Operation Libero, Bern",
@@ -18188,6 +18234,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "d0177cc4cea05d796eefb5084132c26348d6066f47e0f7bb3f961ede47d38c23"
+    "data_checksum_sha256": "152a63cb07fab43b265a33b23168e82df05ffad983622bfdcca2047aaa9f9607"
   }
 }
