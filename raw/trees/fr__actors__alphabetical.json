@@ -8026,6 +8026,28 @@
                 "type": "financing_category",
                 "children": [
                   {
+                    "id": 31,
+                    "label": "27.09.2026 Sauvegarder la neutralité suisse (initiative sur la neutralité)",
+                    "type": "campaign_financing",
+                    "children": [
+                      {
+                        "id": 608,
+                        "label": "Adoption de l'objet de la votation populaire",
+                        "type": "campaign",
+                        "children": [
+                          {
+                            "id": 111,
+                            "label": "Déclaration des recettes budgétées",
+                            "type": "form",
+                            "campaign_id": 608,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/608/forms/111",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
                     "id": 28,
                     "label": "14.06.2026 Pas de Suisse à 10 millions ! (initiative pour la durabilité)",
                     "type": "campaign_financing",
@@ -24013,6 +24035,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "d9439c62466c94bbb2da2bd79124566292abceb8e7b7ba78a8246dc3609a5a4a"
+    "data_checksum_sha256": "20bd3315b05dc99ab46aa60cc4ab5988c8bb67b60c70b658f517083cac19c777"
   }
 }

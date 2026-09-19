@@ -1,19 +1,19 @@
 {
-  "finished_at": "2026-09-15T08:30:35+0000",
-  "duration_sec": 104.4,
+  "finished_at": "2026-09-19T13:42:28+0000",
+  "duration_sec": 88.1,
   "languages": ["de", "fr", "it"],
   "counts": {
-    "declarations": 2838,
-    "declaration_candidates": 16953,
-    "contributions": 6072,
+    "declarations": 2841,
+    "declaration_candidates": 16956,
+    "contributions": 6078,
     "mandate_contributions": 3324,
-    "forms": 4215,
-    "form_appearances": 21321,
-    "allowances": 6072,
+    "forms": 4218,
+    "form_appearances": 21330,
+    "allowances": 6078,
     "events": 108,
     "actors": 1179,
     "candidates": 1026,
     "people": 0,
-    "manifest": 4380
+    "manifest": 4383
   }
 }

@@ -47,13 +47,25 @@
                     "type": "donor",
                     "children": [
                       {
-                        "id": 4592,
+                        "id": 4610,
                         "label": "Zuwender/in: Blocher Christoph, Akteur/in: Wahrung der Schweizer Neutralität, Herrliberg",
                         "type": "allowance",
                         "children": []
                       },
                       {
-                        "id": 4597,
+                        "id": 4615,
+                        "label": "Zuwender/in: Blocher Christoph, Akteur/in: Wahrung der Schweizer Neutralität, Herrliberg",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4617,
+                        "label": "Zuwender/in: Blocher Christoph, Akteur/in: Wahrung der Schweizer Neutralität, Herrliberg",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4618,
                         "label": "Zuwender/in: Blocher Christoph, Akteur/in: Wahrung der Schweizer Neutralität, Herrliberg",
                         "type": "allowance",
                         "children": []
@@ -72,31 +84,31 @@
                         "children": []
                       },
                       {
-                        "id": 4595,
+                        "id": 4613,
                         "label": "Zuwender/in: Emil Frey AG, Akteur/in: Wahrung der Schweizer Neutralität, Herrliberg",
                         "type": "allowance",
                         "children": []
                       },
                       {
-                        "id": 4594,
+                        "id": 4612,
                         "label": "Zuwender/in: Pro Schweiz, Akteur/in: Wahrung der Schweizer Neutralität, Herrliberg",
                         "type": "allowance",
                         "children": []
                       },
                       {
-                        "id": 4596,
+                        "id": 4614,
                         "label": "Zuwender/in: Schweizerische Volkspartei (SVP), Akteur/in: Wahrung der Schweizer Neutralität, Herrliberg",
                         "type": "allowance",
                         "children": []
                       },
                       {
-                        "id": 4593,
+                        "id": 4611,
                         "label": "Zuwender/in: Stiftung für bürgerliche Politik, Akteur/in: Wahrung der Schweizer Neutralität, Herrliberg",
                         "type": "allowance",
                         "children": []
                       },
                       {
-                        "id": 4598,
+                        "id": 4616,
                         "label": "Zuwender/in: Verein zur Wahrung der Schweizer Neutralität, Akteur/in: Wahrung der Schweizer Neutralität, Herrliberg",
                         "type": "allowance",
                         "children": []
@@ -13336,6 +13348,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "809a79845d29efc58270b304fc44368b98295f8ff25073523a740782caee0ad0"
+    "data_checksum_sha256": "7649f15901b4ebb6196f623c8587fe5a5d267df77fb3ec52b94c40d88b108586"
   }
 }

@@ -37,6 +37,28 @@
             "type": "actor_category",
             "children": [
               {
+                "id": 457,
+                "label": "Giovani Unione Democratica del Centro, Oberwil im Simmental",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 608,
+                    "label": "Adozione dell'oggetto della votazione popolare",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 111,
+                        "label": "Comunicazione delle entrate preventivate",
+                        "type": "form",
+                        "campaign_id": 608,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/608/forms/111",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "id": 329,
                 "label": "MASS-VOLL!, Zürich",
                 "type": "actor",
@@ -18234,6 +18256,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "2b98b354656cc02ccdfa52ff6270ab0a270ab6815ac4e57f27d79cf1cc7939e4"
+    "data_checksum_sha256": "65d2fb8eec2f8ad7d99a97aed4aa0028526b4af2162b547e660682a3fb33e4d8"
   }
 }

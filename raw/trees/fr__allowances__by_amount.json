@@ -42,13 +42,13 @@
                 "type": "budget",
                 "children": [
                   {
-                    "id": 4592,
+                    "id": 4610,
                     "label": "CHF 2'000'000.00, Donateur/trice: Blocher Christoph, Acteur/trice: Wahrung der Schweizer Neutralität, Herrliberg",
                     "type": "allowance",
                     "children": []
                   },
                   {
-                    "id": 4594,
+                    "id": 4612,
                     "label": "CHF 1'300'000.00, Donateur/trice: Pro Schweiz, Acteur/trice: Wahrung der Schweizer Neutralität, Herrliberg",
                     "type": "allowance",
                     "children": []
@@ -60,31 +60,43 @@
                     "children": []
                   },
                   {
-                    "id": 4598,
+                    "id": 4617,
+                    "label": "CHF 1'000'000.00, Donateur/trice: Blocher Christoph, Acteur/trice: Wahrung der Schweizer Neutralität, Herrliberg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4618,
+                    "label": "CHF 850'000.00, Donateur/trice: Blocher Christoph, Acteur/trice: Wahrung der Schweizer Neutralität, Herrliberg",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4616,
                     "label": "CHF 133'316.58, Donateur/trice: Verein zur Wahrung der Schweizer Neutralität, Acteur/trice: Wahrung der Schweizer Neutralität, Herrliberg",
                     "type": "allowance",
                     "children": []
                   },
                   {
-                    "id": 4595,
+                    "id": 4613,
                     "label": "CHF 100'000.00, Donateur/trice: Emil Frey AG, Acteur/trice: Wahrung der Schweizer Neutralität, Herrliberg",
                     "type": "allowance",
                     "children": []
                   },
                   {
-                    "id": 4593,
+                    "id": 4611,
                     "label": "CHF 100'000.00, Donateur/trice: Stiftung für bürgerliche Politik, Acteur/trice: Wahrung der Schweizer Neutralität, Herrliberg",
                     "type": "allowance",
                     "children": []
                   },
                   {
-                    "id": 4596,
+                    "id": 4614,
                     "label": "CHF 50'000.00, Donateur/trice: Schweizerische Volkspartei (SVP), Acteur/trice: Wahrung der Schweizer Neutralität, Herrliberg",
                     "type": "allowance",
                     "children": []
                   },
                   {
-                    "id": 4597,
+                    "id": 4615,
                     "label": "CHF 28'665.42, Donateur/trice: Blocher Christoph, Acteur/trice: Wahrung der Schweizer Neutralität, Herrliberg",
                     "type": "allowance",
                     "children": []
@@ -12755,6 +12767,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "9d470f9dd9312814a7beedead5ea73364c03c0fe2289a0808a60ad7152378920"
+    "data_checksum_sha256": "aab07e57bd959ebda05beb3044b9b01f6b0127497b7ef3db50e447b3d154f083"
   }
 }

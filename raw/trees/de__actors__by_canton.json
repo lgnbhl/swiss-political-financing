@@ -20428,6 +20428,28 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 31,
+                        "label": "27.09.2026 Wahrung der schweizerischen Neutralität (Neutralitätsinitiative)",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 608,
+                            "label": "Annahme der Abstimmungsvorlage",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 111,
+                                "label": "Offenlegung der budgetierten Einnahmen",
+                                "type": "form",
+                                "campaign_id": 608,
+                                "download_path": "/api/frontend/latest/de/downloads/campaigns/608/forms/111",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
                         "id": 28,
                         "label": "14.06.2026 Keine 10-Millionen-Schweiz! (Nachhaltigkeitsinitiative)",
                         "type": "campaign_financing",
@@ -24447,6 +24469,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "3e472ad01183c7b3ec0093a5aca4ed9867f0b744877c0dc737cd6de84cfcafb0"
+    "data_checksum_sha256": "9f038368c09b744aa28e733be59c2c58a0396fa680d8d870608071c9b1bb4711"
   }
 }

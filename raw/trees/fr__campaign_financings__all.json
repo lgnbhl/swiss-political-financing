@@ -37,6 +37,28 @@
             "type": "actor_category",
             "children": [
               {
+                "id": 457,
+                "label": "Jeune Union démocratique du centre, Oberwil im Simmental",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 608,
+                    "label": "Adoption de l'objet de la votation populaire",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 111,
+                        "label": "Déclaration des recettes budgétées",
+                        "type": "form",
+                        "campaign_id": 608,
+                        "download_path": "/api/frontend/latest/fr/downloads/campaigns/608/forms/111",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "id": 329,
                 "label": "MASS-VOLL!, Zürich",
                 "type": "actor",
@@ -18234,6 +18256,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "776569f557c4f327d81d6e73a220d171754531d6c11f48cdc2551b40ff086eb2"
+    "data_checksum_sha256": "d2fd9de43ea9543163998070d555262183157a753a8a890fc992ac94ac18e637"
   }
 }

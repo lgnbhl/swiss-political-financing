@@ -37,6 +37,28 @@
             "type": "actor_category",
             "children": [
               {
+                "id": 457,
+                "label": "Junge Schweizerische Volkspartei, Oberwil im Simmental",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 608,
+                    "label": "Annahme der Abstimmungsvorlage",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 111,
+                        "label": "Offenlegung der budgetierten Einnahmen",
+                        "type": "form",
+                        "campaign_id": 608,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/608/forms/111",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "id": 329,
                 "label": "MASS-VOLL!, Zürich",
                 "type": "actor",
@@ -18234,6 +18256,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "152a63cb07fab43b265a33b23168e82df05ffad983622bfdcca2047aaa9f9607"
+    "data_checksum_sha256": "1714c3bde09de0d2e2894733a5087e94e9c6b9792e296834747a2f2d9a146b19"
   }
 }
