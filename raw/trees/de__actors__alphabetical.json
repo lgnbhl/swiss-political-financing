@@ -1707,6 +1707,50 @@
             ]
           },
           {
+            "id": 462,
+            "label": "Bewegung für Neutralität, Solothurn",
+            "type": "actor",
+            "children": [
+              {
+                "id": 0,
+                "label": "Kampagnenfinanzierung",
+                "type": "financing_category",
+                "children": [
+                  {
+                    "id": 31,
+                    "label": "27.09.2026 Wahrung der schweizerischen Neutralität (Neutralitätsinitiative)",
+                    "type": "campaign_financing",
+                    "children": [
+                      {
+                        "id": 611,
+                        "label": "Annahme der Abstimmungsvorlage",
+                        "type": "campaign",
+                        "children": [
+                          {
+                            "id": 117,
+                            "label": "Offenlegung der Schlussrechnung über die Einnahmen",
+                            "type": "form",
+                            "campaign_id": 611,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/611/forms/117",
+                            "children": []
+                          },
+                          {
+                            "id": 118,
+                            "label": "Offenlegung von Zuwendungen über 15 000 Franken (Schlussrechnung)",
+                            "type": "form",
+                            "campaign_id": 611,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/611/forms/118",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "id": 391,
             "label": "Bündnis für Natur und Landschaft Schweiz, Bern",
             "type": "actor",
@@ -16373,6 +16417,36 @@
                 "type": "financing_category",
                 "children": [
                   {
+                    "id": 36,
+                    "label": "29.11.2026 Änderung vom 19. Dezember 2025 des Bundesgesetzes über das Kriegsmaterial (Kriegsmaterialgesetz, KMG)",
+                    "type": "campaign_financing",
+                    "children": [
+                      {
+                        "id": 606,
+                        "label": "Annahme der Abstimmungsvorlage",
+                        "type": "campaign",
+                        "children": [
+                          {
+                            "id": 131,
+                            "label": "Offenlegung der budgetierten Einnahmen",
+                            "type": "form",
+                            "campaign_id": 606,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/606/forms/131",
+                            "children": []
+                          },
+                          {
+                            "id": 132,
+                            "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                            "type": "form",
+                            "campaign_id": 606,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/606/forms/132",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
                     "id": 21,
                     "label": "30.11.2025 Für eine soziale Klimapolitik – steuerlich gerecht finanziert (Initiative für eine Zukunft)",
                     "type": "campaign_financing",
@@ -24035,6 +24109,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "a08c7ab7b55c47f6c0e26ad52f7bbd544d32543deb0fd7871c5825e75966a4f6"
+    "data_checksum_sha256": "37267b9ede52e8b4dbb9e59b2ed698a3f39d8521f9304b9977e3ef77f1aefd7d"
   }
 }

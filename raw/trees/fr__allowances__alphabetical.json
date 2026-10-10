@@ -29,7 +29,28 @@
             "id": 36,
             "label": "29.11.2026 Modification du 19 décembre 2025 de la loi fédérale sur le matériel de guerre (LFMG)",
             "type": "campaign_financing",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Montants budgétés",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 1,
+                    "label": "personne morale ou société de personnes",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4623,
+                        "label": "Donateur/trice: Economiesuisse, Acteur/trice: Swissmem, Zürich",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 31,
@@ -110,6 +131,26 @@
                       {
                         "id": 4616,
                         "label": "Donateur/trice: Verein zur Wahrung der Schweizer Neutralität, Acteur/trice: Wahrung der Schweizer Neutralität, Herrliberg",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "label": "Montants finaux",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "personne physique",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4626,
+                        "label": "Donateur/trice: Blocher Christoph, Acteur/trice: Bewegung für Neutralität, Solothurn",
                         "type": "allowance",
                         "children": []
                       }
@@ -13348,6 +13389,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "19499437ba750a42cbfed2c342e01fa9f57eb0fed54da20f6cd5d6714098e710"
+    "data_checksum_sha256": "35b6d429ed62af4fb1ab76a1cacd1495ffc31998187b7e0b9f2f3a95c6b830f8"
   }
 }

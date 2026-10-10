@@ -18310,6 +18310,50 @@
                 ]
               },
               {
+                "id": 462,
+                "label": "Bewegung für Neutralität, Solothurn",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "Finanziamento della campagna elettorale",
+                    "type": "financing_category",
+                    "children": [
+                      {
+                        "id": 31,
+                        "label": "27.09.2026 Salvaguardia della neutralità svizzera (Iniziativa sulla neutralità)",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 611,
+                            "label": "Adozione dell'oggetto della votazione popolare",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 117,
+                                "label": "Comunicazione del conto finale delle entrate",
+                                "type": "form",
+                                "campaign_id": 611,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/611/forms/117",
+                                "children": []
+                              },
+                              {
+                                "id": 118,
+                                "label": "Comunicazione di liberalità superiori a 15 000 franchi (conto finale)",
+                                "type": "form",
+                                "campaign_id": 611,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/611/forms/118",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "id": 391,
                 "label": "Bündnis für Natur und Landschaft Schweiz, Bern",
                 "type": "actor",
@@ -22530,6 +22574,36 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 36,
+                        "label": "29.11.2026 Modifica del 19 dicembre 2025 della legge federale sul materiale bellico (LMB)",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 606,
+                            "label": "Adozione dell'oggetto della votazione popolare",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 131,
+                                "label": "Comunicazione delle entrate preventivate",
+                                "type": "form",
+                                "campaign_id": 606,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/606/forms/131",
+                                "children": []
+                              },
+                              {
+                                "id": 132,
+                                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                                "type": "form",
+                                "campaign_id": 606,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/606/forms/132",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
                         "id": 21,
                         "label": "30.11.2025 Per una politica climatica sociale finanziata in modo fiscalmente equo (Iniziativa per il futuro)",
                         "type": "campaign_financing",
@@ -24469,6 +24543,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "589e8495dc33cc4ea59116be1b086e7ee235a5d2e3f2b37717f9103165aa3d7b"
+    "data_checksum_sha256": "0306b93176e308134a7c1f71cc7c0aaa1347ad63a3b8d638658596a12ef56d60"
   }
 }

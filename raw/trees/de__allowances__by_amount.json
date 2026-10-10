@@ -29,7 +29,21 @@
             "id": 36,
             "label": "29.11.2026 Änderung vom 19. Dezember 2025 des Bundesgesetzes über das Kriegsmaterial (Kriegsmaterialgesetz, KMG)",
             "type": "campaign_financing",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Budgetzahlen",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 4623,
+                    "label": "CHF 250'000.00, Zuwender/in: Economiesuisse, Akteur/in: Swissmem, Zürich",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 31,
@@ -98,6 +112,19 @@
                   {
                     "id": 4615,
                     "label": "CHF 28'665.42, Zuwender/in: Blocher Christoph, Akteur/in: Wahrung der Schweizer Neutralität, Herrliberg",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "label": "Definitive Zahlen",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 4626,
+                    "label": "CHF 40'000.00, Zuwender/in: Blocher Christoph, Akteur/in: Bewegung für Neutralität, Solothurn",
                     "type": "allowance",
                     "children": []
                   }
@@ -12767,6 +12794,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "550b27bc2b7bf4b1f8cb7e20660557e77bd9e1f4b55a0a26da3fcde4818a2a24"
+    "data_checksum_sha256": "55273414853940b8133628f679e0f15bac686b4b1ba14d8d25c5c8ceef190b7f"
   }
 }

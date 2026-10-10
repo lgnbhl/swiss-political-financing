@@ -29,7 +29,21 @@
             "id": 36,
             "label": "29.11.2026 Modifica del 19 dicembre 2025 della legge federale sul materiale bellico (LMB)",
             "type": "campaign_financing",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Importi preventivati",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 4623,
+                    "label": "CHF 250'000.00, Donatore/trice: Economiesuisse, Attore/trice: Swissmem, Zürich",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 31,
@@ -98,6 +112,19 @@
                   {
                     "id": 4615,
                     "label": "CHF 28'665.42, Donatore/trice: Blocher Christoph, Attore/trice: Wahrung der Schweizer Neutralität, Herrliberg",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "label": "Importi finali",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 4626,
+                    "label": "CHF 40'000.00, Donatore/trice: Blocher Christoph, Attore/trice: Bewegung für Neutralität, Solothurn",
                     "type": "allowance",
                     "children": []
                   }
@@ -12767,6 +12794,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "d17ae45271224e816bb91d3b9aeafe561f3fe570336d26ad4e26cd4ef3e23c34"
+    "data_checksum_sha256": "32e5f4b78621699560267ba13a703066251c66bcfa56fdef451b9eee8c617c24"
   }
 }

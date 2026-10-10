@@ -2,8 +2,8 @@
   "data": {
     "tree_roots": [
       {
-        "id": 31,
-        "label": "27.09.2026 Salvaguardia della neutralità svizzera (Iniziativa sulla neutralità)",
+        "id": 36,
+        "label": "29.11.2026 Modifica del 19 dicembre 2025 della legge federale sul materiale bellico (LMB)",
         "type": "campaign_financing",
         "header_text": "2026",
         "children": [
@@ -11,7 +11,28 @@
             "id": 2,
             "label": "Entrate e liberalità preventivate",
             "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/36?with_budget=true",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "label": "27.09.2026 Salvaguardia della neutralità svizzera (Iniziativa sulla neutralità)",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
             "download_path": "/api/frontend/latest/it/downloads/financings/31?with_budget=true",
+            "children": []
+          },
+          {
+            "id": 3,
+            "label": "Conto finale delle entrate e liberalità",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/31?with_budget=false",
             "children": []
           }
         ]
@@ -498,6 +519,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "4afaee32dfb0bf1b3339ec64bb5ef29c805332a0440847973e08b6a7d6f0d7f9"
+    "data_checksum_sha256": "14bd4df7b926b9ab1db6dae168b52c3c123733d722211de2acfa42a2c6dba6c6"
   }
 }

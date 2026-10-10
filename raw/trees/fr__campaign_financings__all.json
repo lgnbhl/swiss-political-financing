@@ -24,7 +24,45 @@
         "id": 36,
         "label": "29.11.2026 Modification du 19 décembre 2025 de la loi fédérale sur le matériel de guerre (LFMG)",
         "type": "campaign_financing",
-        "children": []
+        "children": [
+          {
+            "id": 0,
+            "label": "Personnes morales ou sociétés de personnes",
+            "type": "actor_category",
+            "children": [
+              {
+                "id": 328,
+                "label": "Swissmem, Zürich",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 606,
+                    "label": "Adoption de l'objet de la votation populaire",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 131,
+                        "label": "Déclaration des recettes budgétées",
+                        "type": "form",
+                        "campaign_id": 606,
+                        "download_path": "/api/frontend/latest/fr/downloads/campaigns/606/forms/131",
+                        "children": []
+                      },
+                      {
+                        "id": 132,
+                        "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                        "type": "form",
+                        "campaign_id": 606,
+                        "download_path": "/api/frontend/latest/fr/downloads/campaigns/606/forms/132",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 31,
@@ -36,6 +74,36 @@
             "label": "Personnes morales ou sociétés de personnes",
             "type": "actor_category",
             "children": [
+              {
+                "id": 462,
+                "label": "Bewegung für Neutralität, Solothurn",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 611,
+                    "label": "Adoption de l'objet de la votation populaire",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 117,
+                        "label": "Déclaration du décompte final des recettes",
+                        "type": "form",
+                        "campaign_id": 611,
+                        "download_path": "/api/frontend/latest/fr/downloads/campaigns/611/forms/117",
+                        "children": []
+                      },
+                      {
+                        "id": 118,
+                        "label": "Déclaration de libéralités supérieures à 15 000 francs (décompte final)",
+                        "type": "form",
+                        "campaign_id": 611,
+                        "download_path": "/api/frontend/latest/fr/downloads/campaigns/611/forms/118",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "id": 457,
                 "label": "Jeune Union démocratique du centre, Oberwil im Simmental",
@@ -18256,6 +18324,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "d2fd9de43ea9543163998070d555262183157a753a8a890fc992ac94ac18e637"
+    "data_checksum_sha256": "7ecb782d0da15c121bc66f432861203d1ad661f542b4b4a46faf9e6d0e8ea462"
   }
 }

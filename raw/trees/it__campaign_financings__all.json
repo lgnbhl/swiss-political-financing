@@ -24,7 +24,45 @@
         "id": 36,
         "label": "29.11.2026 Modifica del 19 dicembre 2025 della legge federale sul materiale bellico (LMB)",
         "type": "campaign_financing",
-        "children": []
+        "children": [
+          {
+            "id": 0,
+            "label": "Persone giuridiche o società di persone",
+            "type": "actor_category",
+            "children": [
+              {
+                "id": 328,
+                "label": "Swissmem, Zürich",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 606,
+                    "label": "Adozione dell'oggetto della votazione popolare",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 131,
+                        "label": "Comunicazione delle entrate preventivate",
+                        "type": "form",
+                        "campaign_id": 606,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/606/forms/131",
+                        "children": []
+                      },
+                      {
+                        "id": 132,
+                        "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                        "type": "form",
+                        "campaign_id": 606,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/606/forms/132",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 31,
@@ -36,6 +74,36 @@
             "label": "Persone giuridiche o società di persone",
             "type": "actor_category",
             "children": [
+              {
+                "id": 462,
+                "label": "Bewegung für Neutralität, Solothurn",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 611,
+                    "label": "Adozione dell'oggetto della votazione popolare",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 117,
+                        "label": "Comunicazione del conto finale delle entrate",
+                        "type": "form",
+                        "campaign_id": 611,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/611/forms/117",
+                        "children": []
+                      },
+                      {
+                        "id": 118,
+                        "label": "Comunicazione di liberalità superiori a 15 000 franchi (conto finale)",
+                        "type": "form",
+                        "campaign_id": 611,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/611/forms/118",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "id": 457,
                 "label": "Giovani Unione Democratica del Centro, Oberwil im Simmental",
@@ -18256,6 +18324,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "65d2fb8eec2f8ad7d99a97aed4aa0028526b4af2162b547e660682a3fb33e4d8"
+    "data_checksum_sha256": "aea68bbe73e0b6e0bb73ea3ef40976e850ee457d861630cd75dd938dd25ad7c7"
   }
 }

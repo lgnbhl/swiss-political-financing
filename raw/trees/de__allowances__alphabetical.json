@@ -29,7 +29,28 @@
             "id": 36,
             "label": "29.11.2026 Änderung vom 19. Dezember 2025 des Bundesgesetzes über das Kriegsmaterial (Kriegsmaterialgesetz, KMG)",
             "type": "campaign_financing",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Budgetzahlen",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 1,
+                    "label": "juristische Person oder Personengesellschaft",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4623,
+                        "label": "Zuwender/in: Economiesuisse, Akteur/in: Swissmem, Zürich",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 31,
@@ -110,6 +131,26 @@
                       {
                         "id": 4616,
                         "label": "Zuwender/in: Verein zur Wahrung der Schweizer Neutralität, Akteur/in: Wahrung der Schweizer Neutralität, Herrliberg",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "label": "Definitive Zahlen",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "natürliche Person",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4626,
+                        "label": "Zuwender/in: Blocher Christoph, Akteur/in: Bewegung für Neutralität, Solothurn",
                         "type": "allowance",
                         "children": []
                       }
@@ -13348,6 +13389,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "7649f15901b4ebb6196f623c8587fe5a5d267df77fb3ec52b94c40d88b108586"
+    "data_checksum_sha256": "5235d6360879c1c77bce34da59bc46ffeca8cb43646f88b381dd993fd385f693"
   }
 }

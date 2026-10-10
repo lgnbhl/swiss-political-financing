@@ -2095,6 +2095,50 @@
             ]
           },
           {
+            "id": 462,
+            "label": "Bewegung für Neutralität, Solothurn",
+            "type": "actor",
+            "children": [
+              {
+                "id": 0,
+                "label": "Financement des campagnes",
+                "type": "financing_category",
+                "children": [
+                  {
+                    "id": 31,
+                    "label": "27.09.2026 Sauvegarder la neutralité suisse (initiative sur la neutralité)",
+                    "type": "campaign_financing",
+                    "children": [
+                      {
+                        "id": 611,
+                        "label": "Adoption de l'objet de la votation populaire",
+                        "type": "campaign",
+                        "children": [
+                          {
+                            "id": 117,
+                            "label": "Déclaration du décompte final des recettes",
+                            "type": "form",
+                            "campaign_id": 611,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/611/forms/117",
+                            "children": []
+                          },
+                          {
+                            "id": 118,
+                            "label": "Déclaration de libéralités supérieures à 15 000 francs (décompte final)",
+                            "type": "form",
+                            "campaign_id": 611,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/611/forms/118",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "id": 391,
             "label": "Bündnis für Natur und Landschaft Schweiz, Bern",
             "type": "actor",
@@ -15223,6 +15267,36 @@
                 "type": "financing_category",
                 "children": [
                   {
+                    "id": 36,
+                    "label": "29.11.2026 Modification du 19 décembre 2025 de la loi fédérale sur le matériel de guerre (LFMG)",
+                    "type": "campaign_financing",
+                    "children": [
+                      {
+                        "id": 606,
+                        "label": "Adoption de l'objet de la votation populaire",
+                        "type": "campaign",
+                        "children": [
+                          {
+                            "id": 131,
+                            "label": "Déclaration des recettes budgétées",
+                            "type": "form",
+                            "campaign_id": 606,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/606/forms/131",
+                            "children": []
+                          },
+                          {
+                            "id": 132,
+                            "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                            "type": "form",
+                            "campaign_id": 606,
+                            "download_path": "/api/frontend/latest/fr/downloads/campaigns/606/forms/132",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
                     "id": 21,
                     "label": "30.11.2025 Pour une politique climatique sociale financée de manière juste fiscalement (initiative pour l’avenir)",
                     "type": "campaign_financing",
@@ -24035,6 +24109,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "20bd3315b05dc99ab46aa60cc4ab5988c8bb67b60c70b658f517083cac19c777"
+    "data_checksum_sha256": "ac16c5e37edf8b62b49d8043cacb49733e53a68bfc46de4feef2a660ccba6e55"
   }
 }

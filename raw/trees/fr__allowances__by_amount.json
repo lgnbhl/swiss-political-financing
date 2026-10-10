@@ -29,7 +29,21 @@
             "id": 36,
             "label": "29.11.2026 Modification du 19 décembre 2025 de la loi fédérale sur le matériel de guerre (LFMG)",
             "type": "campaign_financing",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Montants budgétés",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 4623,
+                    "label": "CHF 250'000.00, Donateur/trice: Economiesuisse, Acteur/trice: Swissmem, Zürich",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 31,
@@ -98,6 +112,19 @@
                   {
                     "id": 4615,
                     "label": "CHF 28'665.42, Donateur/trice: Blocher Christoph, Acteur/trice: Wahrung der Schweizer Neutralität, Herrliberg",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "label": "Montants finaux",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 4626,
+                    "label": "CHF 40'000.00, Donateur/trice: Blocher Christoph, Acteur/trice: Bewegung für Neutralität, Solothurn",
                     "type": "allowance",
                     "children": []
                   }
@@ -12767,6 +12794,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "aab07e57bd959ebda05beb3044b9b01f6b0127497b7ef3db50e447b3d154f083"
+    "data_checksum_sha256": "70894d69a4b3bbf49d317a71a3ff0998f24c1f7a6f0b5fe5fac403bd2a079036"
   }
 }

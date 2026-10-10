@@ -29,7 +29,28 @@
             "id": 36,
             "label": "29.11.2026 Modifica del 19 dicembre 2025 della legge federale sul materiale bellico (LMB)",
             "type": "campaign_financing",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Importi preventivati",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 1,
+                    "label": "persona giuridica o società di persone",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4623,
+                        "label": "Donatore/trice: Economiesuisse, Attore/trice: Swissmem, Zürich",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 31,
@@ -110,6 +131,26 @@
                       {
                         "id": 4616,
                         "label": "Donatore/trice: Verein zur Wahrung der Schweizer Neutralität, Attore/trice: Wahrung der Schweizer Neutralität, Herrliberg",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "label": "Importi finali",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "persona fisica",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4626,
+                        "label": "Donatore/trice: Blocher Christoph, Attore/trice: Bewegung für Neutralität, Solothurn",
                         "type": "allowance",
                         "children": []
                       }
@@ -13348,6 +13389,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "03c89ca9b2398057c8b6e5c79e840da92ea983c838b9084def6c6d1b46086b6c"
+    "data_checksum_sha256": "63699929050351fe9e2faffa61e4623406e8c9df6a772574df427d94a892b23f"
   }
 }
