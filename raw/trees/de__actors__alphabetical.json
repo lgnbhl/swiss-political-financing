@@ -1095,6 +1095,36 @@
                 "type": "financing_category",
                 "children": [
                   {
+                    "id": 36,
+                    "label": "29.11.2026 Änderung vom 19. Dezember 2025 des Bundesgesetzes über das Kriegsmaterial (Kriegsmaterialgesetz, KMG)",
+                    "type": "campaign_financing",
+                    "children": [
+                      {
+                        "id": 612,
+                        "label": "Annahme der Abstimmungsvorlage",
+                        "type": "campaign",
+                        "children": [
+                          {
+                            "id": 131,
+                            "label": "Offenlegung der budgetierten Einnahmen",
+                            "type": "form",
+                            "campaign_id": 612,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/612/forms/131",
+                            "children": []
+                          },
+                          {
+                            "id": 132,
+                            "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                            "type": "form",
+                            "campaign_id": 612,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/612/forms/132",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
                     "id": 29,
                     "label": "14.06.2026 Änderung vom 26. September 2025 des Bundesgesetzes über den zivilen Ersatzdienst (Zivildienstgesetz, ZDG)",
                     "type": "campaign_financing",
@@ -1940,6 +1970,42 @@
                             "type": "form",
                             "campaign_id": 94,
                             "download_path": "/api/frontend/latest/de/downloads/campaigns/94/forms/5",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 465,
+            "label": "Centre Patronal, Paudex",
+            "type": "actor",
+            "children": [
+              {
+                "id": 0,
+                "label": "Kampagnenfinanzierung",
+                "type": "financing_category",
+                "children": [
+                  {
+                    "id": 33,
+                    "label": "29.11.2026 Bundesbeschluss vom 19. Juni 2026 über die Zusatzfinanzierung der AHV durch eine Erhöhung der Mehrwertsteuer",
+                    "type": "campaign_financing",
+                    "children": [
+                      {
+                        "id": 623,
+                        "label": "Ablehnung der Abstimmungsvorlage",
+                        "type": "campaign",
+                        "children": [
+                          {
+                            "id": 119,
+                            "label": "Offenlegung der budgetierten Einnahmen",
+                            "type": "form",
+                            "campaign_id": 623,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/623/forms/119",
                             "children": []
                           }
                         ]
@@ -2916,6 +2982,28 @@
                 "label": "Kampagnenfinanzierung",
                 "type": "financing_category",
                 "children": [
+                  {
+                    "id": 35,
+                    "label": "29.11.2026 Ja zu fairen Bundessteuern auch für Ehepaare – Diskriminierung der Ehe endlich abschaffen!",
+                    "type": "campaign_financing",
+                    "children": [
+                      {
+                        "id": 614,
+                        "label": "Annahme der Abstimmungsvorlage",
+                        "type": "campaign",
+                        "children": [
+                          {
+                            "id": 127,
+                            "label": "Offenlegung der budgetierten Einnahmen",
+                            "type": "form",
+                            "campaign_id": 614,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/614/forms/127",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
                   {
                     "id": 28,
                     "label": "14.06.2026 Keine 10-Millionen-Schweiz! (Nachhaltigkeitsinitiative)",
@@ -4692,6 +4780,36 @@
                 "label": "Kampagnenfinanzierung",
                 "type": "financing_category",
                 "children": [
+                  {
+                    "id": 33,
+                    "label": "29.11.2026 Bundesbeschluss vom 19. Juni 2026 über die Zusatzfinanzierung der AHV durch eine Erhöhung der Mehrwertsteuer",
+                    "type": "campaign_financing",
+                    "children": [
+                      {
+                        "id": 620,
+                        "label": "Ablehnung der Abstimmungsvorlage",
+                        "type": "campaign",
+                        "children": [
+                          {
+                            "id": 119,
+                            "label": "Offenlegung der budgetierten Einnahmen",
+                            "type": "form",
+                            "campaign_id": 620,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/620/forms/119",
+                            "children": []
+                          },
+                          {
+                            "id": 120,
+                            "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                            "type": "form",
+                            "campaign_id": 620,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/620/forms/120",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
                   {
                     "id": 28,
                     "label": "14.06.2026 Keine 10-Millionen-Schweiz! (Nachhaltigkeitsinitiative)",
@@ -8654,6 +8772,36 @@
                 "type": "financing_category",
                 "children": [
                   {
+                    "id": 35,
+                    "label": "29.11.2026 Ja zu fairen Bundessteuern auch für Ehepaare – Diskriminierung der Ehe endlich abschaffen!",
+                    "type": "campaign_financing",
+                    "children": [
+                      {
+                        "id": 613,
+                        "label": "Ablehnung der Abstimmungsvorlage",
+                        "type": "campaign",
+                        "children": [
+                          {
+                            "id": 127,
+                            "label": "Offenlegung der budgetierten Einnahmen",
+                            "type": "form",
+                            "campaign_id": 613,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/613/forms/127",
+                            "children": []
+                          },
+                          {
+                            "id": 128,
+                            "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                            "type": "form",
+                            "campaign_id": 613,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/613/forms/128",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
                     "id": 26,
                     "label": "08.03.2026 Bundesgesetz vom 20. Juni 2025 über die Individualbesteuerung",
                     "type": "campaign_financing",
@@ -9876,6 +10024,50 @@
             ]
           },
           {
+            "id": 464,
+            "label": "Kriegsmaterial-Referendum, Zürich",
+            "type": "actor",
+            "children": [
+              {
+                "id": 0,
+                "label": "Kampagnenfinanzierung",
+                "type": "financing_category",
+                "children": [
+                  {
+                    "id": 36,
+                    "label": "29.11.2026 Änderung vom 19. Dezember 2025 des Bundesgesetzes über das Kriegsmaterial (Kriegsmaterialgesetz, KMG)",
+                    "type": "campaign_financing",
+                    "children": [
+                      {
+                        "id": 618,
+                        "label": "Ablehnung der Abstimmungsvorlage",
+                        "type": "campaign",
+                        "children": [
+                          {
+                            "id": 131,
+                            "label": "Offenlegung der budgetierten Einnahmen",
+                            "type": "form",
+                            "campaign_id": 618,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/618/forms/131",
+                            "children": []
+                          },
+                          {
+                            "id": 132,
+                            "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                            "type": "form",
+                            "campaign_id": 618,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/618/forms/132",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "id": 265,
             "label": "Kris nach Bern, Frauenfeld",
             "type": "actor",
@@ -10876,6 +11068,50 @@
                             "type": "form",
                             "campaign_id": 297,
                             "download_path": "/api/frontend/latest/de/downloads/campaigns/297/forms/6",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 467,
+            "label": "Offiziersgesellschaft des Kantons St.Gallen, St. Gallen",
+            "type": "actor",
+            "children": [
+              {
+                "id": 0,
+                "label": "Kampagnenfinanzierung",
+                "type": "financing_category",
+                "children": [
+                  {
+                    "id": 36,
+                    "label": "29.11.2026 Änderung vom 19. Dezember 2025 des Bundesgesetzes über das Kriegsmaterial (Kriegsmaterialgesetz, KMG)",
+                    "type": "campaign_financing",
+                    "children": [
+                      {
+                        "id": 617,
+                        "label": "Annahme der Abstimmungsvorlage",
+                        "type": "campaign",
+                        "children": [
+                          {
+                            "id": 131,
+                            "label": "Offenlegung der budgetierten Einnahmen",
+                            "type": "form",
+                            "campaign_id": 617,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/617/forms/131",
+                            "children": []
+                          },
+                          {
+                            "id": 132,
+                            "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                            "type": "form",
+                            "campaign_id": 617,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/617/forms/132",
                             "children": []
                           }
                         ]
@@ -12201,6 +12437,50 @@
             ]
           },
           {
+            "id": 468,
+            "label": "Pro Feuerwerk, Neudorf",
+            "type": "actor",
+            "children": [
+              {
+                "id": 0,
+                "label": "Kampagnenfinanzierung",
+                "type": "financing_category",
+                "children": [
+                  {
+                    "id": 34,
+                    "label": "29.11.2026 Für eine Einschränkung von Feuerwerk",
+                    "type": "campaign_financing",
+                    "children": [
+                      {
+                        "id": 619,
+                        "label": "Ablehnung der Abstimmungsvorlage",
+                        "type": "campaign",
+                        "children": [
+                          {
+                            "id": 123,
+                            "label": "Offenlegung der budgetierten Einnahmen",
+                            "type": "form",
+                            "campaign_id": 619,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/619/forms/123",
+                            "children": []
+                          },
+                          {
+                            "id": 124,
+                            "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                            "type": "form",
+                            "campaign_id": 619,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/619/forms/124",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "id": 429,
             "label": "Referendumskomitee E-ID 2.0, Zürich",
             "type": "actor",
@@ -12485,6 +12765,42 @@
             ]
           },
           {
+            "id": 466,
+            "label": "Schweizer Tierschutz STS, Basel",
+            "type": "actor",
+            "children": [
+              {
+                "id": 0,
+                "label": "Kampagnenfinanzierung",
+                "type": "financing_category",
+                "children": [
+                  {
+                    "id": 34,
+                    "label": "29.11.2026 Für eine Einschränkung von Feuerwerk",
+                    "type": "campaign_financing",
+                    "children": [
+                      {
+                        "id": 616,
+                        "label": "Annahme der Abstimmungsvorlage",
+                        "type": "campaign",
+                        "children": [
+                          {
+                            "id": 123,
+                            "label": "Offenlegung der budgetierten Einnahmen",
+                            "type": "form",
+                            "campaign_id": 616,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/616/forms/123",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "id": 164,
             "label": "Schweizerische Bankiervereinigung (SwissBanking), Basel",
             "type": "actor",
@@ -12642,6 +12958,36 @@
                 "label": "Kampagnenfinanzierung",
                 "type": "financing_category",
                 "children": [
+                  {
+                    "id": 33,
+                    "label": "29.11.2026 Bundesbeschluss vom 19. Juni 2026 über die Zusatzfinanzierung der AHV durch eine Erhöhung der Mehrwertsteuer",
+                    "type": "campaign_financing",
+                    "children": [
+                      {
+                        "id": 609,
+                        "label": "Ablehnung der Abstimmungsvorlage",
+                        "type": "campaign",
+                        "children": [
+                          {
+                            "id": 119,
+                            "label": "Offenlegung der budgetierten Einnahmen",
+                            "type": "form",
+                            "campaign_id": 609,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/609/forms/119",
+                            "children": []
+                          },
+                          {
+                            "id": 120,
+                            "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                            "type": "form",
+                            "campaign_id": 609,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/609/forms/120",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
                   {
                     "id": 26,
                     "label": "08.03.2026 Bundesgesetz vom 20. Juni 2025 über die Individualbesteuerung",
@@ -14174,6 +14520,36 @@
                 "type": "financing_category",
                 "children": [
                   {
+                    "id": 33,
+                    "label": "29.11.2026 Bundesbeschluss vom 19. Juni 2026 über die Zusatzfinanzierung der AHV durch eine Erhöhung der Mehrwertsteuer",
+                    "type": "campaign_financing",
+                    "children": [
+                      {
+                        "id": 610,
+                        "label": "Annahme der Abstimmungsvorlage",
+                        "type": "campaign",
+                        "children": [
+                          {
+                            "id": 119,
+                            "label": "Offenlegung der budgetierten Einnahmen",
+                            "type": "form",
+                            "campaign_id": 610,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/610/forms/119",
+                            "children": []
+                          },
+                          {
+                            "id": 120,
+                            "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                            "type": "form",
+                            "campaign_id": 610,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/610/forms/120",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
                     "id": 28,
                     "label": "14.06.2026 Keine 10-Millionen-Schweiz! (Nachhaltigkeitsinitiative)",
                     "type": "campaign_financing",
@@ -14901,6 +15277,50 @@
                 "label": "Kampagnenfinanzierung",
                 "type": "financing_category",
                 "children": [
+                  {
+                    "id": 33,
+                    "label": "29.11.2026 Bundesbeschluss vom 19. Juni 2026 über die Zusatzfinanzierung der AHV durch eine Erhöhung der Mehrwertsteuer",
+                    "type": "campaign_financing",
+                    "children": [
+                      {
+                        "id": 622,
+                        "label": "Annahme der Abstimmungsvorlage",
+                        "type": "campaign",
+                        "children": [
+                          {
+                            "id": 119,
+                            "label": "Offenlegung der budgetierten Einnahmen",
+                            "type": "form",
+                            "campaign_id": 622,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/622/forms/119",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 36,
+                    "label": "29.11.2026 Änderung vom 19. Dezember 2025 des Bundesgesetzes über das Kriegsmaterial (Kriegsmaterialgesetz, KMG)",
+                    "type": "campaign_financing",
+                    "children": [
+                      {
+                        "id": 621,
+                        "label": "Ablehnung der Abstimmungsvorlage",
+                        "type": "campaign",
+                        "children": [
+                          {
+                            "id": 131,
+                            "label": "Offenlegung der budgetierten Einnahmen",
+                            "type": "form",
+                            "campaign_id": 621,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/621/forms/131",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
                   {
                     "id": 31,
                     "label": "27.09.2026 Wahrung der schweizerischen Neutralität (Neutralitätsinitiative)",
@@ -17451,6 +17871,50 @@
                             "type": "form",
                             "campaign_id": 250,
                             "download_path": "/api/frontend/latest/de/downloads/campaigns/250/forms/6",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 463,
+            "label": "Verein für eine Einschränkung von Feuerwerk, Bern 8",
+            "type": "actor",
+            "children": [
+              {
+                "id": 0,
+                "label": "Kampagnenfinanzierung",
+                "type": "financing_category",
+                "children": [
+                  {
+                    "id": 34,
+                    "label": "29.11.2026 Für eine Einschränkung von Feuerwerk",
+                    "type": "campaign_financing",
+                    "children": [
+                      {
+                        "id": 615,
+                        "label": "Annahme der Abstimmungsvorlage",
+                        "type": "campaign",
+                        "children": [
+                          {
+                            "id": 123,
+                            "label": "Offenlegung der budgetierten Einnahmen",
+                            "type": "form",
+                            "campaign_id": 615,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/615/forms/123",
+                            "children": []
+                          },
+                          {
+                            "id": 124,
+                            "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                            "type": "form",
+                            "campaign_id": 615,
+                            "download_path": "/api/frontend/latest/de/downloads/campaigns/615/forms/124",
                             "children": []
                           }
                         ]
@@ -24109,6 +24573,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "37267b9ede52e8b4dbb9e59b2ed698a3f39d8521f9304b9977e3ef77f1aefd7d"
+    "data_checksum_sha256": "f11b74a99113470315166dc66055517b3114316b5cc59219e5a4ff2c03214be5"
   }
 }

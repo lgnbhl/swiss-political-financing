@@ -11,19 +11,185 @@
             "label": "29.11.2026 Bundesbeschluss vom 19. Juni 2026 über die Zusatzfinanzierung der AHV durch eine Erhöhung der Mehrwertsteuer",
             "type": "campaign_financing",
             "header_text": "2026",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Budgetzahlen",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "natürliche Person",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4659,
+                        "label": "Zuwender/in: Mosimann Philip, Akteur/in: FDP.Die Liberalen, Bern",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 1,
+                    "label": "juristische Person oder Personengesellschaft",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4658,
+                        "label": "Zuwender/in: Aktionskomitee für Freiheit und Verantwortung, Akteur/in: FDP.Die Liberalen, Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4661,
+                        "label": "Zuwender/in: Birkhäuser+GBC AG, Akteur/in: FDP.Die Liberalen, Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4656,
+                        "label": "Zuwender/in: Bonny Stiftung für die Freiheit, Akteur/in: FDP.Die Liberalen, Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4654,
+                        "label": "Zuwender/in: Buru Holding AG, Akteur/in: FDP.Die Liberalen, Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4639,
+                        "label": "Zuwender/in: Schweizerischer Gewerkschaftsbund, Akteur/in: Schweizerischer Gewerkschaftsbund (SGB), Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4651,
+                        "label": "Zuwender/in: Swiss Life AG, Akteur/in: Schweizerische Volkspartei (SVP), Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4657,
+                        "label": "Zuwender/in: Swiss Life AG, Akteur/in: FDP.Die Liberalen, Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4660,
+                        "label": "Zuwender/in: Swiss Life AG, Akteur/in: FDP.Die Liberalen, Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4652,
+                        "label": "Zuwender/in: Swissmem, Akteur/in: Schweizerische Volkspartei (SVP), Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4655,
+                        "label": "Zuwender/in: Swissmem, Akteur/in: FDP.Die Liberalen, Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4653,
+                        "label": "Zuwender/in: Zürcher Handelskammer, Akteur/in: FDP.Die Liberalen, Bern",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 34,
             "label": "29.11.2026 Für eine Einschränkung von Feuerwerk",
             "type": "campaign_financing",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Budgetzahlen",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 1,
+                    "label": "juristische Person oder Personengesellschaft",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4640,
+                        "label": "Zuwender/in: Bugano AG, Akteur/in: Pro Feuerwerk, Neudorf",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4662,
+                        "label": "Zuwender/in: Schweizer Tierschutz STS, Akteur/in: Verein für eine Einschränkung von Feuerwerk, Bern 8",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4635,
+                        "label": "Zuwender/in: Schweizerische Koordinationsstelle Feuerwerk, Akteur/in: Pro Feuerwerk, Neudorf",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4663,
+                        "label": "Zuwender/in: VIER PFOTEN, Akteur/in: Verein für eine Einschränkung von Feuerwerk, Bern 8",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 35,
             "label": "29.11.2026 Ja zu fairen Bundessteuern auch für Ehepaare – Diskriminierung der Ehe endlich abschaffen!",
             "type": "campaign_financing",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Budgetzahlen",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 1,
+                    "label": "juristische Person oder Personengesellschaft",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4630,
+                        "label": "Zuwender/in: alliance F, Akteur/in: JA zur Individualbesteuerung, Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4631,
+                        "label": "Zuwender/in: FDP.Die Liberalen, Akteur/in: JA zur Individualbesteuerung, Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4629,
+                        "label": "Zuwender/in: Zürcher Handelskammer, Akteur/in: JA zur Individualbesteuerung, Bern",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 36,
@@ -43,6 +209,42 @@
                       {
                         "id": 4623,
                         "label": "Zuwender/in: Economiesuisse, Akteur/in: Swissmem, Zürich",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4628,
+                        "label": "Zuwender/in: economiesuisse, Akteur/in: Allianz Sicherheit Schweiz, Zürich",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4633,
+                        "label": "Zuwender/in: Gruppe für eine Schweiz ohne Armee, Akteur/in: Kriegsmaterial-Referendum, Zürich",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4634,
+                        "label": "Zuwender/in: Gruppe für eine Schweiz ohne Armee (GSoA), Akteur/in: Kriegsmaterial-Referendum, Zürich",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4632,
+                        "label": "Zuwender/in: Kantonale St.Gallische Winkelriedstiftung, Akteur/in: Offiziersgesellschaft des Kantons St.Gallen, St. Gallen",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4627,
+                        "label": "Zuwender/in: Swissmem, Akteur/in: Allianz Sicherheit Schweiz, Zürich",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4636,
+                        "label": "Zuwender/in: Zürcher Handelskammer, Akteur/in: Allianz Sicherheit Schweiz, Zürich",
                         "type": "allowance",
                         "children": []
                       }
@@ -13389,6 +13591,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "5235d6360879c1c77bce34da59bc46ffeca8cb43646f88b381dd993fd385f693"
+    "data_checksum_sha256": "b9f03610acc48aca60915a78ea85be264a67ddaf46d5d5d1656dfcf3d77e63ee"
   }
 }

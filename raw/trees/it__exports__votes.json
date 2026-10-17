@@ -2,10 +2,52 @@
   "data": {
     "tree_roots": [
       {
+        "id": 33,
+        "label": "29.11.2026 Decreto federale del 19 giugno 2026 sul finanziamento supplementare dell’AVS mediante l’aumento dell’imposta sul valore aggiunto",
+        "type": "campaign_financing",
+        "header_text": "2026",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/33?with_budget=true",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "label": "29.11.2026 Per una limitazione dei fuochi d’artificio",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/34?with_budget=true",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "label": "29.11.2026 Sì a imposte federali eque anche per i coniugi – Basta con la discriminazione del matrimonio!",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Entrate e liberalità preventivate",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/35?with_budget=true",
+            "children": []
+          }
+        ]
+      },
+      {
         "id": 36,
         "label": "29.11.2026 Modifica del 19 dicembre 2025 della legge federale sul materiale bellico (LMB)",
         "type": "campaign_financing",
-        "header_text": "2026",
         "children": [
           {
             "id": 2,
@@ -519,6 +561,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "14bd4df7b926b9ab1db6dae168b52c3c123733d722211de2acfa42a2c6dba6c6"
+    "data_checksum_sha256": "ae1ccc8ffebb4d48ae124862ef1cb6e95d45e160ba707e35036a10fb5d104248"
   }
 }

@@ -8053,6 +8053,50 @@
                 ]
               },
               {
+                "id": 467,
+                "label": "Offiziersgesellschaft des Kantons St.Gallen, St. Gallen",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "Finanziamento della campagna elettorale",
+                    "type": "financing_category",
+                    "children": [
+                      {
+                        "id": 36,
+                        "label": "29.11.2026 Modifica del 19 dicembre 2025 della legge federale sul materiale bellico (LMB)",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 617,
+                            "label": "Adozione dell'oggetto della votazione popolare",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 131,
+                                "label": "Comunicazione delle entrate preventivate",
+                                "type": "form",
+                                "campaign_id": 617,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/617/forms/131",
+                                "children": []
+                              },
+                              {
+                                "id": 132,
+                                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                                "type": "form",
+                                "campaign_id": 617,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/617/forms/132",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "id": 196,
                 "label": "Schweizerische Volkspartei des Kantons St. Gallen, St. Gallen",
                 "type": "actor",
@@ -16698,6 +16742,28 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 35,
+                        "label": "29.11.2026 Sì a imposte federali eque anche per i coniugi – Basta con la discriminazione del matrimonio!",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 614,
+                            "label": "Adozione dell'oggetto della votazione popolare",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 127,
+                                "label": "Comunicazione delle entrate preventivate",
+                                "type": "form",
+                                "campaign_id": 614,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/614/forms/127",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
                         "id": 28,
                         "label": "14.06.2026 No a una Svizzera da 10 milioni! (Iniziativa per la sostenibilità)",
                         "type": "campaign_financing",
@@ -17662,6 +17728,36 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 36,
+                        "label": "29.11.2026 Modifica del 19 dicembre 2025 della legge federale sul materiale bellico (LMB)",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 612,
+                            "label": "Adozione dell'oggetto della votazione popolare",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 131,
+                                "label": "Comunicazione delle entrate preventivate",
+                                "type": "form",
+                                "campaign_id": 612,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/612/forms/131",
+                                "children": []
+                              },
+                              {
+                                "id": 132,
+                                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                                "type": "form",
+                                "campaign_id": 612,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/612/forms/132",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
                         "id": 29,
                         "label": "14.06.2026 Modifica del 26 settembre 2025 della legge federale sul servizio civile sostitutivo (Legge sul servizio civile, LSC)",
                         "type": "campaign_financing",
@@ -18403,6 +18499,42 @@
                                 "type": "form",
                                 "campaign_id": 424,
                                 "download_path": "/api/frontend/latest/it/downloads/campaigns/424/forms/36",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 465,
+                "label": "Centre Patronal, Paudex",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "Finanziamento della campagna elettorale",
+                    "type": "financing_category",
+                    "children": [
+                      {
+                        "id": 33,
+                        "label": "29.11.2026 Decreto federale del 19 giugno 2026 sul finanziamento supplementare dell’AVS mediante l’aumento dell’imposta sul valore aggiunto",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 623,
+                            "label": "Rifiuto dell'oggetto della votazione popolare",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 119,
+                                "label": "Comunicazione delle entrate preventivate",
+                                "type": "form",
+                                "campaign_id": 623,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/623/forms/119",
                                 "children": []
                               }
                             ]
@@ -20058,6 +20190,36 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 35,
+                        "label": "29.11.2026 Sì a imposte federali eque anche per i coniugi – Basta con la discriminazione del matrimonio!",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 613,
+                            "label": "Rifiuto dell'oggetto della votazione popolare",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 127,
+                                "label": "Comunicazione delle entrate preventivate",
+                                "type": "form",
+                                "campaign_id": 613,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/613/forms/127",
+                                "children": []
+                              },
+                              {
+                                "id": 128,
+                                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                                "type": "form",
+                                "campaign_id": 613,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/613/forms/128",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
                         "id": 26,
                         "label": "08.03.2026 Legge federale del 20 giugno 2025 sull’imposizione individuale",
                         "type": "campaign_financing",
@@ -20877,6 +21039,36 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 33,
+                        "label": "29.11.2026 Decreto federale del 19 giugno 2026 sul finanziamento supplementare dell’AVS mediante l’aumento dell’imposta sul valore aggiunto",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 620,
+                            "label": "Rifiuto dell'oggetto della votazione popolare",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 119,
+                                "label": "Comunicazione delle entrate preventivate",
+                                "type": "form",
+                                "campaign_id": 620,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/620/forms/119",
+                                "children": []
+                              },
+                              {
+                                "id": 120,
+                                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                                "type": "form",
+                                "campaign_id": 620,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/620/forms/120",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
                         "id": 28,
                         "label": "14.06.2026 No a una Svizzera da 10 milioni! (Iniziativa per la sostenibilità)",
                         "type": "campaign_financing",
@@ -21179,6 +21371,130 @@
                             "campaign_id": 437,
                             "download_path": "/api/frontend/latest/it/downloads/campaigns/437/forms/24",
                             "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 468,
+                "label": "Pro Feuerwerk, Neudorf",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "Finanziamento della campagna elettorale",
+                    "type": "financing_category",
+                    "children": [
+                      {
+                        "id": 34,
+                        "label": "29.11.2026 Per una limitazione dei fuochi d’artificio",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 619,
+                            "label": "Rifiuto dell'oggetto della votazione popolare",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 123,
+                                "label": "Comunicazione delle entrate preventivate",
+                                "type": "form",
+                                "campaign_id": 619,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/619/forms/123",
+                                "children": []
+                              },
+                              {
+                                "id": 124,
+                                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                                "type": "form",
+                                "campaign_id": 619,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/619/forms/124",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 466,
+                "label": "Protezione Svizzera degli Animali PSA, Basilea",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "Finanziamento della campagna elettorale",
+                    "type": "financing_category",
+                    "children": [
+                      {
+                        "id": 34,
+                        "label": "29.11.2026 Per una limitazione dei fuochi d’artificio",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 616,
+                            "label": "Adozione dell'oggetto della votazione popolare",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 123,
+                                "label": "Comunicazione delle entrate preventivate",
+                                "type": "form",
+                                "campaign_id": 616,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/616/forms/123",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 464,
+                "label": "Referendum sul materiale bellico, Zurigo",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "Finanziamento della campagna elettorale",
+                    "type": "financing_category",
+                    "children": [
+                      {
+                        "id": 36,
+                        "label": "29.11.2026 Modifica del 19 dicembre 2025 della legge federale sul materiale bellico (LMB)",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 618,
+                            "label": "Rifiuto dell'oggetto della votazione popolare",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 131,
+                                "label": "Comunicazione delle entrate preventivate",
+                                "type": "form",
+                                "campaign_id": 618,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/618/forms/131",
+                                "children": []
+                              },
+                              {
+                                "id": 132,
+                                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                                "type": "form",
+                                "campaign_id": 618,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/618/forms/132",
+                                "children": []
+                              }
+                            ]
                           }
                         ]
                       }
@@ -21681,6 +21997,50 @@
                     "label": "Finanziamento della campagna elettorale",
                     "type": "financing_category",
                     "children": [
+                      {
+                        "id": 33,
+                        "label": "29.11.2026 Decreto federale del 19 giugno 2026 sul finanziamento supplementare dell’AVS mediante l’aumento dell’imposta sul valore aggiunto",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 622,
+                            "label": "Adozione dell'oggetto della votazione popolare",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 119,
+                                "label": "Comunicazione delle entrate preventivate",
+                                "type": "form",
+                                "campaign_id": 622,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/622/forms/119",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 36,
+                        "label": "29.11.2026 Modifica del 19 dicembre 2025 della legge federale sul materiale bellico (LMB)",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 621,
+                            "label": "Rifiuto dell'oggetto della votazione popolare",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 131,
+                                "label": "Comunicazione delle entrate preventivate",
+                                "type": "form",
+                                "campaign_id": 621,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/621/forms/131",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
                       {
                         "id": 31,
                         "label": "27.09.2026 Salvaguardia della neutralità svizzera (Iniziativa sulla neutralità)",
@@ -22872,6 +23232,36 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 33,
+                        "label": "29.11.2026 Decreto federale del 19 giugno 2026 sul finanziamento supplementare dell’AVS mediante l’aumento dell’imposta sul valore aggiunto",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 609,
+                            "label": "Rifiuto dell'oggetto della votazione popolare",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 119,
+                                "label": "Comunicazione delle entrate preventivate",
+                                "type": "form",
+                                "campaign_id": 609,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/609/forms/119",
+                                "children": []
+                              },
+                              {
+                                "id": 120,
+                                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                                "type": "form",
+                                "campaign_id": 609,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/609/forms/120",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
                         "id": 26,
                         "label": "08.03.2026 Legge federale del 20 giugno 2025 sull’imposizione individuale",
                         "type": "campaign_financing",
@@ -23253,6 +23643,36 @@
                     "label": "Finanziamento della campagna elettorale",
                     "type": "financing_category",
                     "children": [
+                      {
+                        "id": 33,
+                        "label": "29.11.2026 Decreto federale del 19 giugno 2026 sul finanziamento supplementare dell’AVS mediante l’aumento dell’imposta sul valore aggiunto",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 610,
+                            "label": "Adozione dell'oggetto della votazione popolare",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 119,
+                                "label": "Comunicazione delle entrate preventivate",
+                                "type": "form",
+                                "campaign_id": 610,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/610/forms/119",
+                                "children": []
+                              },
+                              {
+                                "id": 120,
+                                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                                "type": "form",
+                                "campaign_id": 610,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/610/forms/120",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
                       {
                         "id": 28,
                         "label": "14.06.2026 No a una Svizzera da 10 milioni! (Iniziativa per la sostenibilità)",
@@ -24164,6 +24584,50 @@
                 ]
               },
               {
+                "id": 463,
+                "label": "Verein für eine Einschränkung von Feuerwerk, Bern 8",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "Finanziamento della campagna elettorale",
+                    "type": "financing_category",
+                    "children": [
+                      {
+                        "id": 34,
+                        "label": "29.11.2026 Per una limitazione dei fuochi d’artificio",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 615,
+                            "label": "Adozione dell'oggetto della votazione popolare",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 123,
+                                "label": "Comunicazione delle entrate preventivate",
+                                "type": "form",
+                                "campaign_id": 615,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/615/forms/123",
+                                "children": []
+                              },
+                              {
+                                "id": 124,
+                                "label": "Comunicazione di liberalità superiori a 15 000 franchi",
+                                "type": "form",
+                                "campaign_id": 615,
+                                "download_path": "/api/frontend/latest/it/downloads/campaigns/615/forms/124",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "id": 450,
                 "label": "Verein Sauberes Wasser für alle, Wiedlisbach",
                 "type": "actor",
@@ -24543,6 +25007,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "0306b93176e308134a7c1f71cc7c0aaa1347ad63a3b8d638658596a12ef56d60"
+    "data_checksum_sha256": "f0d9817beb3a18bbfa25b89bf87f87f2151e1b9025dd6e026d774c658849aaa7"
   }
 }

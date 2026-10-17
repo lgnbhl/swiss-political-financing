@@ -2,10 +2,52 @@
   "data": {
     "tree_roots": [
       {
+        "id": 33,
+        "label": "29.11.2026 Arrêté fédéral du 19 juin 2026 sur le financement additionnel de l’AVS par le biais d’un relèvement de la TVA",
+        "type": "campaign_financing",
+        "header_text": "2026",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/33?with_budget=true",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "label": "29.11.2026 Pour une limitation des feux d’artifice",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/34?with_budget=true",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "label": "29.11.2026 Oui à des impôts fédéraux équitables pour les couples mariés – Pour enfin en finir avec la discrimination du mariage !",
+        "type": "campaign_financing",
+        "children": [
+          {
+            "id": 2,
+            "label": "Recettes et libéralités budgétées",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/35?with_budget=true",
+            "children": []
+          }
+        ]
+      },
+      {
         "id": 36,
         "label": "29.11.2026 Modification du 19 décembre 2025 de la loi fédérale sur le matériel de guerre (LFMG)",
         "type": "campaign_financing",
-        "header_text": "2026",
         "children": [
           {
             "id": 2,
@@ -519,6 +561,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "b190b36ef0b377433f7f7c91e6a966a9daa8724601fc7ec38e5a292cb9d424db"
+    "data_checksum_sha256": "1d743804d180417dda5e5f168c0adcebc2a4c3078765ceb0083799dd3aa397eb"
   }
 }

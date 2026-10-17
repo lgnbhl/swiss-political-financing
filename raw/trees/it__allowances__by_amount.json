@@ -11,19 +11,157 @@
             "label": "29.11.2026 Decreto federale del 19 giugno 2026 sul finanziamento supplementare dell’AVS mediante l’aumento dell’imposta sul valore aggiunto",
             "type": "campaign_financing",
             "header_text": "2026",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Importi preventivati",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 4658,
+                    "label": "CHF 250'000.00, Donatore/trice: Aktionskomitee für Freiheit und Verantwortung, Attore/trice: PLR.I Liberali Radicali, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4651,
+                    "label": "CHF 75'000.00, Donatore/trice: Swiss Life AG, Attore/trice: Unione Democratica di Centro (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4660,
+                    "label": "CHF 50'000.00, Donatore/trice: Swiss Life AG, Attore/trice: PLR.I Liberali Radicali, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4655,
+                    "label": "CHF 50'000.00, Donatore/trice: Swissmem, Attore/trice: PLR.I Liberali Radicali, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4652,
+                    "label": "CHF 50'000.00, Donatore/trice: Swissmem, Attore/trice: Unione Democratica di Centro (UDC), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4661,
+                    "label": "CHF 40'000.00, Donatore/trice: Birkhäuser+GBC AG, Attore/trice: PLR.I Liberali Radicali, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4656,
+                    "label": "CHF 40'000.00, Donatore/trice: Bonny Stiftung für die Freiheit, Attore/trice: PLR.I Liberali Radicali, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4653,
+                    "label": "CHF 40'000.00, Donatore/trice: Zürcher Handelskammer, Attore/trice: PLR.I Liberali Radicali, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4654,
+                    "label": "CHF 25'000.00, Donatore/trice: Buru Holding AG, Attore/trice: PLR.I Liberali Radicali, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4659,
+                    "label": "CHF 25'000.00, Donatore/trice: Mosimann Philip, Attore/trice: PLR.I Liberali Radicali, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4639,
+                    "label": "CHF 25'000.00, Donatore/trice: Schweizerischer Gewerkschaftsbund, Attore/trice: Unione sindacale svizzera (USS), Berna",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4657,
+                    "label": "CHF 25'000.00, Donatore/trice: Swiss Life AG, Attore/trice: PLR.I Liberali Radicali, Bern",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 34,
             "label": "29.11.2026 Per una limitazione dei fuochi d’artificio",
             "type": "campaign_financing",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Importi preventivati",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 4663,
+                    "label": "CHF 210'000.00, Donatore/trice: VIER PFOTEN, Attore/trice: Verein für eine Einschränkung von Feuerwerk, Bern 8",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4662,
+                    "label": "CHF 150'000.00, Donatore/trice: Schweizer Tierschutz STS, Attore/trice: Verein für eine Einschränkung von Feuerwerk, Bern 8",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4640,
+                    "label": "CHF 25'000.00, Donatore/trice: Bugano AG, Attore/trice: Pro Feuerwerk, Neudorf",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4635,
+                    "label": "CHF 20'000.00, Donatore/trice: Schweizerische Koordinationsstelle Feuerwerk, Attore/trice: Pro Feuerwerk, Neudorf",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 35,
             "label": "29.11.2026 Sì a imposte federali eque anche per i coniugi – Basta con la discriminazione del matrimonio!",
             "type": "campaign_financing",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Importi preventivati",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 4631,
+                    "label": "CHF 50'000.00, Donatore/trice: FDP.Die Liberalen, Attore/trice: JA zur Individualbesteuerung, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4630,
+                    "label": "CHF 20'000.00, Donatore/trice: alliance F, Attore/trice: JA zur Individualbesteuerung, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4629,
+                    "label": "CHF 20'000.00, Donatore/trice: Zürcher Handelskammer, Attore/trice: JA zur Individualbesteuerung, Bern",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 36,
@@ -36,8 +174,44 @@
                 "type": "budget",
                 "children": [
                   {
+                    "id": 4628,
+                    "label": "CHF 1'250'000.00, Donatore/trice: economiesuisse, Attore/trice: Allianz Sicherheit Schweiz, Zürich",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
                     "id": 4623,
                     "label": "CHF 250'000.00, Donatore/trice: Economiesuisse, Attore/trice: Swissmem, Zürich",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4627,
+                    "label": "CHF 200'000.00, Donatore/trice: Swissmem, Attore/trice: Allianz Sicherheit Schweiz, Zürich",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4632,
+                    "label": "CHF 100'000.00, Donatore/trice: Kantonale St.Gallische Winkelriedstiftung, Attore/trice: Offiziersgesellschaft des Kantons St.Gallen, St. Gallen",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4633,
+                    "label": "CHF 40'000.00, Donatore/trice: Gruppe für eine Schweiz ohne Armee, Attore/trice: Referendum sul materiale bellico, Zurigo",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4636,
+                    "label": "CHF 20'000.00, Donatore/trice: Zürcher Handelskammer, Attore/trice: Allianz Sicherheit Schweiz, Zürich",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4634,
+                    "label": "CHF 18'000.00, Donatore/trice: Gruppe für eine Schweiz ohne Armee (GSoA), Attore/trice: Referendum sul materiale bellico, Zurigo",
                     "type": "allowance",
                     "children": []
                   }
@@ -12794,6 +12968,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "32e5f4b78621699560267ba13a703066251c66bcfa56fdef451b9eee8c617c24"
+    "data_checksum_sha256": "c503580cb8ba89cd9dc6be1a51e82817b3e4f1aa115a39a9db7bef6f1406697d"
   }
 }

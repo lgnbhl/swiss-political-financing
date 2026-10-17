@@ -6,19 +6,311 @@
         "label": "29.11.2026 Bundesbeschluss vom 19. Juni 2026 über die Zusatzfinanzierung der AHV durch eine Erhöhung der Mehrwertsteuer",
         "type": "campaign_financing",
         "header_text": "2026",
-        "children": []
+        "children": [
+          {
+            "id": 0,
+            "label": "Juristische Personen oder Personengesellschaften",
+            "type": "actor_category",
+            "children": [
+              {
+                "id": 465,
+                "label": "Centre Patronal, Paudex",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 623,
+                    "label": "Ablehnung der Abstimmungsvorlage",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 119,
+                        "label": "Offenlegung der budgetierten Einnahmen",
+                        "type": "form",
+                        "campaign_id": 623,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/623/forms/119",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 43,
+                "label": "FDP.Die Liberalen, Bern",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 620,
+                    "label": "Ablehnung der Abstimmungsvorlage",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 119,
+                        "label": "Offenlegung der budgetierten Einnahmen",
+                        "type": "form",
+                        "campaign_id": 620,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/620/forms/119",
+                        "children": []
+                      },
+                      {
+                        "id": 120,
+                        "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                        "type": "form",
+                        "campaign_id": 620,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/620/forms/120",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 42,
+                "label": "Schweizerische Volkspartei (SVP), Bern",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 609,
+                    "label": "Ablehnung der Abstimmungsvorlage",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 119,
+                        "label": "Offenlegung der budgetierten Einnahmen",
+                        "type": "form",
+                        "campaign_id": 609,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/609/forms/119",
+                        "children": []
+                      },
+                      {
+                        "id": 120,
+                        "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                        "type": "form",
+                        "campaign_id": 609,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/609/forms/120",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 374,
+                "label": "Schweizerischer Gewerkschaftsbund (SGB), Bern",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 610,
+                    "label": "Annahme der Abstimmungsvorlage",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 119,
+                        "label": "Offenlegung der budgetierten Einnahmen",
+                        "type": "form",
+                        "campaign_id": 610,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/610/forms/119",
+                        "children": []
+                      },
+                      {
+                        "id": 120,
+                        "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                        "type": "form",
+                        "campaign_id": 610,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/610/forms/120",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8,
+                "label": "Sozialdemokratische Partei der Schweiz, Bern",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 622,
+                    "label": "Annahme der Abstimmungsvorlage",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 119,
+                        "label": "Offenlegung der budgetierten Einnahmen",
+                        "type": "form",
+                        "campaign_id": 622,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/622/forms/119",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 34,
         "label": "29.11.2026 Für eine Einschränkung von Feuerwerk",
         "type": "campaign_financing",
-        "children": []
+        "children": [
+          {
+            "id": 0,
+            "label": "Juristische Personen oder Personengesellschaften",
+            "type": "actor_category",
+            "children": [
+              {
+                "id": 468,
+                "label": "Pro Feuerwerk, Neudorf",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 619,
+                    "label": "Ablehnung der Abstimmungsvorlage",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 123,
+                        "label": "Offenlegung der budgetierten Einnahmen",
+                        "type": "form",
+                        "campaign_id": 619,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/619/forms/123",
+                        "children": []
+                      },
+                      {
+                        "id": 124,
+                        "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                        "type": "form",
+                        "campaign_id": 619,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/619/forms/124",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 466,
+                "label": "Schweizer Tierschutz STS, Basel",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 616,
+                    "label": "Annahme der Abstimmungsvorlage",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 123,
+                        "label": "Offenlegung der budgetierten Einnahmen",
+                        "type": "form",
+                        "campaign_id": 616,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/616/forms/123",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 463,
+                "label": "Verein für eine Einschränkung von Feuerwerk, Bern 8",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 615,
+                    "label": "Annahme der Abstimmungsvorlage",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 123,
+                        "label": "Offenlegung der budgetierten Einnahmen",
+                        "type": "form",
+                        "campaign_id": 615,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/615/forms/123",
+                        "children": []
+                      },
+                      {
+                        "id": 124,
+                        "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                        "type": "form",
+                        "campaign_id": 615,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/615/forms/124",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 35,
         "label": "29.11.2026 Ja zu fairen Bundessteuern auch für Ehepaare – Diskriminierung der Ehe endlich abschaffen!",
         "type": "campaign_financing",
-        "children": []
+        "children": [
+          {
+            "id": 0,
+            "label": "Juristische Personen oder Personengesellschaften",
+            "type": "actor_category",
+            "children": [
+              {
+                "id": 59,
+                "label": "Die Mitte, Bern",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 614,
+                    "label": "Annahme der Abstimmungsvorlage",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 127,
+                        "label": "Offenlegung der budgetierten Einnahmen",
+                        "type": "form",
+                        "campaign_id": 614,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/614/forms/127",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 439,
+                "label": "JA zur Individualbesteuerung, Bern",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 613,
+                    "label": "Ablehnung der Abstimmungsvorlage",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 127,
+                        "label": "Offenlegung der budgetierten Einnahmen",
+                        "type": "form",
+                        "campaign_id": 613,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/613/forms/127",
+                        "children": []
+                      },
+                      {
+                        "id": 128,
+                        "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                        "type": "form",
+                        "campaign_id": 613,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/613/forms/128",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 36,
@@ -30,6 +322,118 @@
             "label": "Juristische Personen oder Personengesellschaften",
             "type": "actor_category",
             "children": [
+              {
+                "id": 435,
+                "label": "Allianz Sicherheit Schweiz, Zürich",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 612,
+                    "label": "Annahme der Abstimmungsvorlage",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 131,
+                        "label": "Offenlegung der budgetierten Einnahmen",
+                        "type": "form",
+                        "campaign_id": 612,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/612/forms/131",
+                        "children": []
+                      },
+                      {
+                        "id": 132,
+                        "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                        "type": "form",
+                        "campaign_id": 612,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/612/forms/132",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 464,
+                "label": "Kriegsmaterial-Referendum, Zürich",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 618,
+                    "label": "Ablehnung der Abstimmungsvorlage",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 131,
+                        "label": "Offenlegung der budgetierten Einnahmen",
+                        "type": "form",
+                        "campaign_id": 618,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/618/forms/131",
+                        "children": []
+                      },
+                      {
+                        "id": 132,
+                        "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                        "type": "form",
+                        "campaign_id": 618,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/618/forms/132",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 467,
+                "label": "Offiziersgesellschaft des Kantons St.Gallen, St. Gallen",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 617,
+                    "label": "Annahme der Abstimmungsvorlage",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 131,
+                        "label": "Offenlegung der budgetierten Einnahmen",
+                        "type": "form",
+                        "campaign_id": 617,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/617/forms/131",
+                        "children": []
+                      },
+                      {
+                        "id": 132,
+                        "label": "Offenlegung von Zuwendungen über 15 000 Franken",
+                        "type": "form",
+                        "campaign_id": 617,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/617/forms/132",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8,
+                "label": "Sozialdemokratische Partei der Schweiz, Bern",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 621,
+                    "label": "Ablehnung der Abstimmungsvorlage",
+                    "type": "campaign",
+                    "children": [
+                      {
+                        "id": 131,
+                        "label": "Offenlegung der budgetierten Einnahmen",
+                        "type": "form",
+                        "campaign_id": 621,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/621/forms/131",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "id": 328,
                 "label": "Swissmem, Zürich",
@@ -18324,6 +18728,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "c2f242d3d689d503b0600d299147d175422f6c0d43abf761a5514b63d32f9684"
+    "data_checksum_sha256": "acbaf5039a568cb1a3c736c5d584040d8055ae4fe49ba73717e6e574f6264518"
   }
 }

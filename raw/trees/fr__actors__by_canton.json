@@ -8053,6 +8053,50 @@
                 ]
               },
               {
+                "id": 467,
+                "label": "Offiziersgesellschaft des Kantons St.Gallen, St. Gallen",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "Financement des campagnes",
+                    "type": "financing_category",
+                    "children": [
+                      {
+                        "id": 36,
+                        "label": "29.11.2026 Modification du 19 décembre 2025 de la loi fédérale sur le matériel de guerre (LFMG)",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 617,
+                            "label": "Adoption de l'objet de la votation populaire",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 131,
+                                "label": "Déclaration des recettes budgétées",
+                                "type": "form",
+                                "campaign_id": 617,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/617/forms/131",
+                                "children": []
+                              },
+                              {
+                                "id": 132,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                                "type": "form",
+                                "campaign_id": 617,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/617/forms/132",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "id": 196,
                 "label": "Schweizerische Volkspartei des Kantons St. Gallen, St. Gallen",
                 "type": "actor",
@@ -17524,6 +17568,36 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 36,
+                        "label": "29.11.2026 Modification du 19 décembre 2025 de la loi fédérale sur le matériel de guerre (LFMG)",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 612,
+                            "label": "Adoption de l'objet de la votation populaire",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 131,
+                                "label": "Déclaration des recettes budgétées",
+                                "type": "form",
+                                "campaign_id": 612,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/612/forms/131",
+                                "children": []
+                              },
+                              {
+                                "id": 132,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                                "type": "form",
+                                "campaign_id": 612,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/612/forms/132",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
                         "id": 29,
                         "label": "14.06.2026 Modification du 26 septembre 2025 de la loi fédérale sur le service civil (LSC)",
                         "type": "campaign_financing",
@@ -18265,6 +18339,42 @@
                                 "type": "form",
                                 "campaign_id": 424,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/424/forms/36",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 465,
+                "label": "Centre Patronal, Paudex",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "Financement des campagnes",
+                    "type": "financing_category",
+                    "children": [
+                      {
+                        "id": 33,
+                        "label": "29.11.2026 Arrêté fédéral du 19 juin 2026 sur le financement additionnel de l’AVS par le biais d’un relèvement de la TVA",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 623,
+                            "label": "Rejet de l'objet de la votation populaire",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 119,
+                                "label": "Déclaration des recettes budgétées",
+                                "type": "form",
+                                "campaign_id": 623,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/623/forms/119",
                                 "children": []
                               }
                             ]
@@ -19720,6 +19830,36 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 35,
+                        "label": "29.11.2026 Oui à des impôts fédéraux équitables pour les couples mariés – Pour enfin en finir avec la discrimination du mariage !",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 613,
+                            "label": "Rejet de l'objet de la votation populaire",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 127,
+                                "label": "Déclaration des recettes budgétées",
+                                "type": "form",
+                                "campaign_id": 613,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/613/forms/127",
+                                "children": []
+                              },
+                              {
+                                "id": 128,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                                "type": "form",
+                                "campaign_id": 613,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/613/forms/128",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
                         "id": 26,
                         "label": "08.03.2026 Loi fédérale du 20 juin 2025 sur l’imposition individuelle",
                         "type": "campaign_financing",
@@ -20219,6 +20359,28 @@
                     "label": "Financement des campagnes",
                     "type": "financing_category",
                     "children": [
+                      {
+                        "id": 35,
+                        "label": "29.11.2026 Oui à des impôts fédéraux équitables pour les couples mariés – Pour enfin en finir avec la discrimination du mariage !",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 614,
+                            "label": "Adoption de l'objet de la votation populaire",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 127,
+                                "label": "Déclaration des recettes budgétées",
+                                "type": "form",
+                                "campaign_id": 614,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/614/forms/127",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
                       {
                         "id": 28,
                         "label": "14.06.2026 Pas de Suisse à 10 millions ! (initiative pour la durabilité)",
@@ -21163,6 +21325,36 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 33,
+                        "label": "29.11.2026 Arrêté fédéral du 19 juin 2026 sur le financement additionnel de l’AVS par le biais d’un relèvement de la TVA",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 620,
+                            "label": "Rejet de l'objet de la votation populaire",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 119,
+                                "label": "Déclaration des recettes budgétées",
+                                "type": "form",
+                                "campaign_id": 620,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/620/forms/119",
+                                "children": []
+                              },
+                              {
+                                "id": 120,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                                "type": "form",
+                                "campaign_id": 620,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/620/forms/120",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
                         "id": 28,
                         "label": "14.06.2026 Pas de Suisse à 10 millions ! (initiative pour la durabilité)",
                         "type": "campaign_financing",
@@ -21473,6 +21665,86 @@
                 ]
               },
               {
+                "id": 468,
+                "label": "Pro Feuerwerk, Neudorf",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "Financement des campagnes",
+                    "type": "financing_category",
+                    "children": [
+                      {
+                        "id": 34,
+                        "label": "29.11.2026 Pour une limitation des feux d’artifice",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 619,
+                            "label": "Rejet de l'objet de la votation populaire",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 123,
+                                "label": "Déclaration des recettes budgétées",
+                                "type": "form",
+                                "campaign_id": 619,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/619/forms/123",
+                                "children": []
+                              },
+                              {
+                                "id": 124,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                                "type": "form",
+                                "campaign_id": 619,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/619/forms/124",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 466,
+                "label": "Protection Suisse des Animaux PSA, Bâle",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "Financement des campagnes",
+                    "type": "financing_category",
+                    "children": [
+                      {
+                        "id": 34,
+                        "label": "29.11.2026 Pour une limitation des feux d’artifice",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 616,
+                            "label": "Adoption de l'objet de la votation populaire",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 123,
+                                "label": "Déclaration des recettes budgétées",
+                                "type": "form",
+                                "campaign_id": 616,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/616/forms/123",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "id": 429,
                 "label": "Referendumskomitee E-ID 2.0, Zürich",
                 "type": "actor",
@@ -21522,6 +21794,50 @@
                                 "type": "form",
                                 "campaign_id": 524,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/524/forms/74",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 464,
+                "label": "Référendum sur le matériel de guerre, Zurich",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "Financement des campagnes",
+                    "type": "financing_category",
+                    "children": [
+                      {
+                        "id": 36,
+                        "label": "29.11.2026 Modification du 19 décembre 2025 de la loi fédérale sur le matériel de guerre (LFMG)",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 618,
+                            "label": "Rejet de l'objet de la votation populaire",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 131,
+                                "label": "Déclaration des recettes budgétées",
+                                "type": "form",
+                                "campaign_id": 618,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/618/forms/131",
+                                "children": []
+                              },
+                              {
+                                "id": 132,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                                "type": "form",
+                                "campaign_id": 618,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/618/forms/132",
                                 "children": []
                               }
                             ]
@@ -21757,6 +22073,50 @@
                     "label": "Financement des campagnes",
                     "type": "financing_category",
                     "children": [
+                      {
+                        "id": 33,
+                        "label": "29.11.2026 Arrêté fédéral du 19 juin 2026 sur le financement additionnel de l’AVS par le biais d’un relèvement de la TVA",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 622,
+                            "label": "Adoption de l'objet de la votation populaire",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 119,
+                                "label": "Déclaration des recettes budgétées",
+                                "type": "form",
+                                "campaign_id": 622,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/622/forms/119",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 36,
+                        "label": "29.11.2026 Modification du 19 décembre 2025 de la loi fédérale sur le matériel de guerre (LFMG)",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 621,
+                            "label": "Rejet de l'objet de la votation populaire",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 131,
+                                "label": "Déclaration des recettes budgétées",
+                                "type": "form",
+                                "campaign_id": 621,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/621/forms/131",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
                       {
                         "id": 31,
                         "label": "27.09.2026 Sauvegarder la neutralité suisse (initiative sur la neutralité)",
@@ -23098,6 +23458,36 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 33,
+                        "label": "29.11.2026 Arrêté fédéral du 19 juin 2026 sur le financement additionnel de l’AVS par le biais d’un relèvement de la TVA",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 609,
+                            "label": "Rejet de l'objet de la votation populaire",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 119,
+                                "label": "Déclaration des recettes budgétées",
+                                "type": "form",
+                                "campaign_id": 609,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/609/forms/119",
+                                "children": []
+                              },
+                              {
+                                "id": 120,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                                "type": "form",
+                                "campaign_id": 609,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/609/forms/120",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
                         "id": 26,
                         "label": "08.03.2026 Loi fédérale du 20 juin 2025 sur l’imposition individuelle",
                         "type": "campaign_financing",
@@ -23856,6 +24246,36 @@
                     "type": "financing_category",
                     "children": [
                       {
+                        "id": 33,
+                        "label": "29.11.2026 Arrêté fédéral du 19 juin 2026 sur le financement additionnel de l’AVS par le biais d’un relèvement de la TVA",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 610,
+                            "label": "Adoption de l'objet de la votation populaire",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 119,
+                                "label": "Déclaration des recettes budgétées",
+                                "type": "form",
+                                "campaign_id": 610,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/610/forms/119",
+                                "children": []
+                              },
+                              {
+                                "id": 120,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                                "type": "form",
+                                "campaign_id": 610,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/610/forms/120",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
                         "id": 28,
                         "label": "14.06.2026 Pas de Suisse à 10 millions ! (initiative pour la durabilité)",
                         "type": "campaign_financing",
@@ -24153,6 +24573,50 @@
                                 "type": "form",
                                 "campaign_id": 558,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/558/forms/100",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 463,
+                "label": "Verein für eine Einschränkung von Feuerwerk, Bern 8",
+                "type": "actor",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "Financement des campagnes",
+                    "type": "financing_category",
+                    "children": [
+                      {
+                        "id": 34,
+                        "label": "29.11.2026 Pour une limitation des feux d’artifice",
+                        "type": "campaign_financing",
+                        "children": [
+                          {
+                            "id": 615,
+                            "label": "Adoption de l'objet de la votation populaire",
+                            "type": "campaign",
+                            "children": [
+                              {
+                                "id": 123,
+                                "label": "Déclaration des recettes budgétées",
+                                "type": "form",
+                                "campaign_id": 615,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/615/forms/123",
+                                "children": []
+                              },
+                              {
+                                "id": 124,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs",
+                                "type": "form",
+                                "campaign_id": 615,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/615/forms/124",
                                 "children": []
                               }
                             ]
@@ -24543,6 +25007,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "715363ada1241826e53874afd22176d9db2f1052e915a04a97bb7103cf1358cb"
+    "data_checksum_sha256": "a051fe2d2d0af2e9932b92b2c4fd4ffbec003ea7844c83a6f81a133236f53ca7"
   }
 }

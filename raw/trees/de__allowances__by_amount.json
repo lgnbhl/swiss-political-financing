@@ -11,19 +11,157 @@
             "label": "29.11.2026 Bundesbeschluss vom 19. Juni 2026 über die Zusatzfinanzierung der AHV durch eine Erhöhung der Mehrwertsteuer",
             "type": "campaign_financing",
             "header_text": "2026",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Budgetzahlen",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 4658,
+                    "label": "CHF 250'000.00, Zuwender/in: Aktionskomitee für Freiheit und Verantwortung, Akteur/in: FDP.Die Liberalen, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4651,
+                    "label": "CHF 75'000.00, Zuwender/in: Swiss Life AG, Akteur/in: Schweizerische Volkspartei (SVP), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4660,
+                    "label": "CHF 50'000.00, Zuwender/in: Swiss Life AG, Akteur/in: FDP.Die Liberalen, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4655,
+                    "label": "CHF 50'000.00, Zuwender/in: Swissmem, Akteur/in: FDP.Die Liberalen, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4652,
+                    "label": "CHF 50'000.00, Zuwender/in: Swissmem, Akteur/in: Schweizerische Volkspartei (SVP), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4661,
+                    "label": "CHF 40'000.00, Zuwender/in: Birkhäuser+GBC AG, Akteur/in: FDP.Die Liberalen, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4656,
+                    "label": "CHF 40'000.00, Zuwender/in: Bonny Stiftung für die Freiheit, Akteur/in: FDP.Die Liberalen, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4653,
+                    "label": "CHF 40'000.00, Zuwender/in: Zürcher Handelskammer, Akteur/in: FDP.Die Liberalen, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4654,
+                    "label": "CHF 25'000.00, Zuwender/in: Buru Holding AG, Akteur/in: FDP.Die Liberalen, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4659,
+                    "label": "CHF 25'000.00, Zuwender/in: Mosimann Philip, Akteur/in: FDP.Die Liberalen, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4639,
+                    "label": "CHF 25'000.00, Zuwender/in: Schweizerischer Gewerkschaftsbund, Akteur/in: Schweizerischer Gewerkschaftsbund (SGB), Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4657,
+                    "label": "CHF 25'000.00, Zuwender/in: Swiss Life AG, Akteur/in: FDP.Die Liberalen, Bern",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 34,
             "label": "29.11.2026 Für eine Einschränkung von Feuerwerk",
             "type": "campaign_financing",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Budgetzahlen",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 4663,
+                    "label": "CHF 210'000.00, Zuwender/in: VIER PFOTEN, Akteur/in: Verein für eine Einschränkung von Feuerwerk, Bern 8",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4662,
+                    "label": "CHF 150'000.00, Zuwender/in: Schweizer Tierschutz STS, Akteur/in: Verein für eine Einschränkung von Feuerwerk, Bern 8",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4640,
+                    "label": "CHF 25'000.00, Zuwender/in: Bugano AG, Akteur/in: Pro Feuerwerk, Neudorf",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4635,
+                    "label": "CHF 20'000.00, Zuwender/in: Schweizerische Koordinationsstelle Feuerwerk, Akteur/in: Pro Feuerwerk, Neudorf",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 35,
             "label": "29.11.2026 Ja zu fairen Bundessteuern auch für Ehepaare – Diskriminierung der Ehe endlich abschaffen!",
             "type": "campaign_financing",
-            "children": []
+            "children": [
+              {
+                "id": 1,
+                "label": "Budgetzahlen",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 4631,
+                    "label": "CHF 50'000.00, Zuwender/in: FDP.Die Liberalen, Akteur/in: JA zur Individualbesteuerung, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4630,
+                    "label": "CHF 20'000.00, Zuwender/in: alliance F, Akteur/in: JA zur Individualbesteuerung, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4629,
+                    "label": "CHF 20'000.00, Zuwender/in: Zürcher Handelskammer, Akteur/in: JA zur Individualbesteuerung, Bern",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 36,
@@ -36,8 +174,44 @@
                 "type": "budget",
                 "children": [
                   {
+                    "id": 4628,
+                    "label": "CHF 1'250'000.00, Zuwender/in: economiesuisse, Akteur/in: Allianz Sicherheit Schweiz, Zürich",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
                     "id": 4623,
                     "label": "CHF 250'000.00, Zuwender/in: Economiesuisse, Akteur/in: Swissmem, Zürich",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4627,
+                    "label": "CHF 200'000.00, Zuwender/in: Swissmem, Akteur/in: Allianz Sicherheit Schweiz, Zürich",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4632,
+                    "label": "CHF 100'000.00, Zuwender/in: Kantonale St.Gallische Winkelriedstiftung, Akteur/in: Offiziersgesellschaft des Kantons St.Gallen, St. Gallen",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4633,
+                    "label": "CHF 40'000.00, Zuwender/in: Gruppe für eine Schweiz ohne Armee, Akteur/in: Kriegsmaterial-Referendum, Zürich",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4636,
+                    "label": "CHF 20'000.00, Zuwender/in: Zürcher Handelskammer, Akteur/in: Allianz Sicherheit Schweiz, Zürich",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4634,
+                    "label": "CHF 18'000.00, Zuwender/in: Gruppe für eine Schweiz ohne Armee (GSoA), Akteur/in: Kriegsmaterial-Referendum, Zürich",
                     "type": "allowance",
                     "children": []
                   }
@@ -12794,6 +12968,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "55273414853940b8133628f679e0f15bac686b4b1ba14d8d25c5c8ceef190b7f"
+    "data_checksum_sha256": "9f183d59c9323e38fe8cce680d8a53c05aa90933b8ff1efd218b2f0debe652c2"
   }
 }
