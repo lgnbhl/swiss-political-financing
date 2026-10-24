@@ -23,7 +23,7 @@
                     "type": "donor",
                     "children": [
                       {
-                        "id": 4659,
+                        "id": 4670,
                         "label": "Zuwender/in: Mosimann Philip, Akteur/in: FDP.Die Liberalen, Bern",
                         "type": "allowance",
                         "children": []
@@ -36,25 +36,31 @@
                     "type": "donor",
                     "children": [
                       {
-                        "id": 4658,
+                        "id": 4669,
                         "label": "Zuwender/in: Aktionskomitee für Freiheit und Verantwortung, Akteur/in: FDP.Die Liberalen, Bern",
                         "type": "allowance",
                         "children": []
                       },
                       {
-                        "id": 4661,
+                        "id": 4673,
+                        "label": "Zuwender/in: auto-schweiz, Akteur/in: FDP.Die Liberalen, Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4672,
                         "label": "Zuwender/in: Birkhäuser+GBC AG, Akteur/in: FDP.Die Liberalen, Bern",
                         "type": "allowance",
                         "children": []
                       },
                       {
-                        "id": 4656,
+                        "id": 4667,
                         "label": "Zuwender/in: Bonny Stiftung für die Freiheit, Akteur/in: FDP.Die Liberalen, Bern",
                         "type": "allowance",
                         "children": []
                       },
                       {
-                        "id": 4654,
+                        "id": 4665,
                         "label": "Zuwender/in: Buru Holding AG, Akteur/in: FDP.Die Liberalen, Bern",
                         "type": "allowance",
                         "children": []
@@ -72,13 +78,13 @@
                         "children": []
                       },
                       {
-                        "id": 4657,
+                        "id": 4668,
                         "label": "Zuwender/in: Swiss Life AG, Akteur/in: FDP.Die Liberalen, Bern",
                         "type": "allowance",
                         "children": []
                       },
                       {
-                        "id": 4660,
+                        "id": 4671,
                         "label": "Zuwender/in: Swiss Life AG, Akteur/in: FDP.Die Liberalen, Bern",
                         "type": "allowance",
                         "children": []
@@ -90,13 +96,13 @@
                         "children": []
                       },
                       {
-                        "id": 4655,
+                        "id": 4666,
                         "label": "Zuwender/in: Swissmem, Akteur/in: FDP.Die Liberalen, Bern",
                         "type": "allowance",
                         "children": []
                       },
                       {
-                        "id": 4653,
+                        "id": 4664,
                         "label": "Zuwender/in: Zürcher Handelskammer, Akteur/in: FDP.Die Liberalen, Bern",
                         "type": "allowance",
                         "children": []
@@ -13591,6 +13597,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "b9f03610acc48aca60915a78ea85be264a67ddaf46d5d5d1656dfcf3d77e63ee"
+    "data_checksum_sha256": "18ac29cdb328f58307c53a082f4ab9f9053e04fdf2a8cc487d7c75207b9a5721"
   }
 }

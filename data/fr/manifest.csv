@@ -45,7 +45,7 @@ export;fr;votes;3;FALSE;https://politikfinanzierung.efk.admin.ch/api/frontend/la
 export;fr;votes;31;TRUE;https://politikfinanzierung.efk.admin.ch/api/frontend/latest/fr/downloads/financings/31?with_budget=true;71d15db69cf1f63302444162556358f91d0f049a6976e236e2aea686e2b329d0;9204;;
 export;fr;votes;31;FALSE;https://politikfinanzierung.efk.admin.ch/api/frontend/latest/fr/downloads/financings/31?with_budget=false;1f519c876298eaa0117e0622e62109dea787e88b1f8cf9977abc17ad0058b6d0;7557;;
 export;fr;votes;32;TRUE;https://politikfinanzierung.efk.admin.ch/api/frontend/latest/fr/downloads/financings/32?with_budget=true;1377989ab9ac229875d2521de2be67f040994d78c81c1e7b277f2fc1568eae5b;9561;;
-export;fr;votes;33;TRUE;https://politikfinanzierung.efk.admin.ch/api/frontend/latest/fr/downloads/financings/33?with_budget=true;4c8547de601dcba206f197183410e3ffa7461b89146f1dfe7ebe281ffa7db0ae;9560;;
+export;fr;votes;33;TRUE;https://politikfinanzierung.efk.admin.ch/api/frontend/latest/fr/downloads/financings/33?with_budget=true;73734cb44e608efe77d0d5734b521f972e78f8f711fc4d00b28ced1ecba743c1;9669;;
 export;fr;votes;34;TRUE;https://politikfinanzierung.efk.admin.ch/api/frontend/latest/fr/downloads/financings/34?with_budget=true;f0ff7e681302369ab0aa7905ee1f25b4b4bf3eec7626c5865be21ce95b125b26;8135;;
 export;fr;votes;35;TRUE;https://politikfinanzierung.efk.admin.ch/api/frontend/latest/fr/downloads/financings/35?with_budget=true;62aba5f806327d6bc5f60871aade894d34337eeba078b6fa5ffdb49ba06992ad;7981;;
 export;fr;votes;36;TRUE;https://politikfinanzierung.efk.admin.ch/api/frontend/latest/fr/downloads/financings/36?with_budget=true;68f2e55111eefd48ea98b8feed6c9822775fbaefc7ce33a81c8429b809cc73b6;8847;;

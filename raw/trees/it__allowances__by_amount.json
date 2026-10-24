@@ -18,7 +18,7 @@
                 "type": "budget",
                 "children": [
                   {
-                    "id": 4658,
+                    "id": 4669,
                     "label": "CHF 250'000.00, Donatore/trice: Aktionskomitee für Freiheit und Verantwortung, Attore/trice: PLR.I Liberali Radicali, Bern",
                     "type": "allowance",
                     "children": []
@@ -30,13 +30,13 @@
                     "children": []
                   },
                   {
-                    "id": 4660,
+                    "id": 4671,
                     "label": "CHF 50'000.00, Donatore/trice: Swiss Life AG, Attore/trice: PLR.I Liberali Radicali, Bern",
                     "type": "allowance",
                     "children": []
                   },
                   {
-                    "id": 4655,
+                    "id": 4666,
                     "label": "CHF 50'000.00, Donatore/trice: Swissmem, Attore/trice: PLR.I Liberali Radicali, Bern",
                     "type": "allowance",
                     "children": []
@@ -48,31 +48,37 @@
                     "children": []
                   },
                   {
-                    "id": 4661,
+                    "id": 4673,
+                    "label": "CHF 40'000.00, Donatore/trice: auto-schweiz, Attore/trice: PLR.I Liberali Radicali, Bern",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4672,
                     "label": "CHF 40'000.00, Donatore/trice: Birkhäuser+GBC AG, Attore/trice: PLR.I Liberali Radicali, Bern",
                     "type": "allowance",
                     "children": []
                   },
                   {
-                    "id": 4656,
+                    "id": 4667,
                     "label": "CHF 40'000.00, Donatore/trice: Bonny Stiftung für die Freiheit, Attore/trice: PLR.I Liberali Radicali, Bern",
                     "type": "allowance",
                     "children": []
                   },
                   {
-                    "id": 4653,
+                    "id": 4664,
                     "label": "CHF 40'000.00, Donatore/trice: Zürcher Handelskammer, Attore/trice: PLR.I Liberali Radicali, Bern",
                     "type": "allowance",
                     "children": []
                   },
                   {
-                    "id": 4654,
+                    "id": 4665,
                     "label": "CHF 25'000.00, Donatore/trice: Buru Holding AG, Attore/trice: PLR.I Liberali Radicali, Bern",
                     "type": "allowance",
                     "children": []
                   },
                   {
-                    "id": 4659,
+                    "id": 4670,
                     "label": "CHF 25'000.00, Donatore/trice: Mosimann Philip, Attore/trice: PLR.I Liberali Radicali, Bern",
                     "type": "allowance",
                     "children": []
@@ -84,7 +90,7 @@
                     "children": []
                   },
                   {
-                    "id": 4657,
+                    "id": 4668,
                     "label": "CHF 25'000.00, Donatore/trice: Swiss Life AG, Attore/trice: PLR.I Liberali Radicali, Bern",
                     "type": "allowance",
                     "children": []
@@ -12968,6 +12974,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "c503580cb8ba89cd9dc6be1a51e82817b3e4f1aa115a39a9db7bef6f1406697d"
+    "data_checksum_sha256": "1578606d2dec4763d28bbe96e793b47d90e93b55c6fac0baea384bbd68e38748"
   }
 }

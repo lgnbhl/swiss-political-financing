@@ -23,7 +23,7 @@
                     "type": "donor",
                     "children": [
                       {
-                        "id": 4659,
+                        "id": 4670,
                         "label": "Donateur/trice: Mosimann Philip, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
                         "type": "allowance",
                         "children": []
@@ -36,25 +36,31 @@
                     "type": "donor",
                     "children": [
                       {
-                        "id": 4658,
+                        "id": 4669,
                         "label": "Donateur/trice: Aktionskomitee für Freiheit und Verantwortung, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
                         "type": "allowance",
                         "children": []
                       },
                       {
-                        "id": 4661,
+                        "id": 4673,
+                        "label": "Donateur/trice: auto-schweiz, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                        "type": "allowance",
+                        "children": []
+                      },
+                      {
+                        "id": 4672,
                         "label": "Donateur/trice: Birkhäuser+GBC AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
                         "type": "allowance",
                         "children": []
                       },
                       {
-                        "id": 4656,
+                        "id": 4667,
                         "label": "Donateur/trice: Bonny Stiftung für die Freiheit, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
                         "type": "allowance",
                         "children": []
                       },
                       {
-                        "id": 4654,
+                        "id": 4665,
                         "label": "Donateur/trice: Buru Holding AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
                         "type": "allowance",
                         "children": []
@@ -72,13 +78,13 @@
                         "children": []
                       },
                       {
-                        "id": 4657,
+                        "id": 4668,
                         "label": "Donateur/trice: Swiss Life AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
                         "type": "allowance",
                         "children": []
                       },
                       {
-                        "id": 4660,
+                        "id": 4671,
                         "label": "Donateur/trice: Swiss Life AG, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
                         "type": "allowance",
                         "children": []
@@ -90,13 +96,13 @@
                         "children": []
                       },
                       {
-                        "id": 4655,
+                        "id": 4666,
                         "label": "Donateur/trice: Swissmem, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
                         "type": "allowance",
                         "children": []
                       },
                       {
-                        "id": 4653,
+                        "id": 4664,
                         "label": "Donateur/trice: Zürcher Handelskammer, Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
                         "type": "allowance",
                         "children": []
@@ -13591,6 +13597,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "61b124e8cb370da52797de9bfa4cf2e3cf33407c6bf8068e5d89a36f8917b928"
+    "data_checksum_sha256": "f01bf21a516e23a1c1d1aef59c175299bf4b21094e87c2234490ca460af73626"
   }
 }
