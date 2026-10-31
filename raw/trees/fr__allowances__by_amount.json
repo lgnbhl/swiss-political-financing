@@ -407,6 +407,25 @@
                     "children": []
                   }
                 ]
+              },
+              {
+                "id": 2,
+                "label": "Montants finaux",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 4675,
+                    "label": "CHF 415'000.00, Donateur/trice: Kummer Walter, Acteur/trice: Verein Sauberes Wasser für alle, Wiedlisbach",
+                    "type": "allowance",
+                    "children": []
+                  },
+                  {
+                    "id": 4678,
+                    "label": "CHF 205'000.00, Donateur/trice: Visempio Stiftung, Acteur/trice: Verein Sauberes Wasser für alle, Wiedlisbach",
+                    "type": "allowance",
+                    "children": []
+                  }
+                ]
               }
             ]
           },
@@ -12974,6 +12993,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "2d9982ea35ee636ac8764fd1645137f6c71fdb020f8e84e8dbf11f29fd89b712"
+    "data_checksum_sha256": "d7ad03e36fb836df7b6d7c96d990a3b4448d8d9e2adc4f05176c4da6fb67ada7"
   }
 }

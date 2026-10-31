@@ -90,6 +90,13 @@
             "type": "download",
             "download_path": "/api/frontend/latest/it/downloads/financings/32?with_budget=true",
             "children": []
+          },
+          {
+            "id": 3,
+            "label": "Conto finale delle entrate e liberalità",
+            "type": "download",
+            "download_path": "/api/frontend/latest/it/downloads/financings/32?with_budget=false",
+            "children": []
           }
         ]
       },
@@ -561,6 +568,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "ae1ccc8ffebb4d48ae124862ef1cb6e95d45e160ba707e35036a10fb5d104248"
+    "data_checksum_sha256": "5134920aacc9c31ce96a0f4d4abd742a6eda6db5eb6aec389579488d6c1d82c0"
   }
 }

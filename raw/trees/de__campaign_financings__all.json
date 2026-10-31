@@ -755,6 +755,22 @@
                         "campaign_id": 604,
                         "download_path": "/api/frontend/latest/de/downloads/campaigns/604/forms/114",
                         "children": []
+                      },
+                      {
+                        "id": 115,
+                        "label": "Offenlegung der Schlussrechnung über die Einnahmen",
+                        "type": "form",
+                        "campaign_id": 604,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/604/forms/115",
+                        "children": []
+                      },
+                      {
+                        "id": 116,
+                        "label": "Offenlegung von Zuwendungen über 15 000 Franken (Schlussrechnung)",
+                        "type": "form",
+                        "campaign_id": 604,
+                        "download_path": "/api/frontend/latest/de/downloads/campaigns/604/forms/116",
+                        "children": []
                       }
                     ]
                   }
@@ -18728,6 +18744,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "acbaf5039a568cb1a3c736c5d584040d8055ae4fe49ba73717e6e574f6264518"
+    "data_checksum_sha256": "12e73aa898173abf0dadc26cfec9f51267c21b2426baeea9113d59b12b149024"
   }
 }

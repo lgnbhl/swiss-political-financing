@@ -24662,6 +24662,22 @@
                                 "campaign_id": 604,
                                 "download_path": "/api/frontend/latest/fr/downloads/campaigns/604/forms/114",
                                 "children": []
+                              },
+                              {
+                                "id": 115,
+                                "label": "Déclaration du décompte final des recettes",
+                                "type": "form",
+                                "campaign_id": 604,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/604/forms/115",
+                                "children": []
+                              },
+                              {
+                                "id": 116,
+                                "label": "Déclaration de libéralités supérieures à 15 000 francs (décompte final)",
+                                "type": "form",
+                                "campaign_id": 604,
+                                "download_path": "/api/frontend/latest/fr/downloads/campaigns/604/forms/116",
+                                "children": []
                               }
                             ]
                           }
@@ -25007,6 +25023,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "a051fe2d2d0af2e9932b92b2c4fd4ffbec003ea7844c83a6f81a133236f53ca7"
+    "data_checksum_sha256": "048dc73a1bec47d06569d23e471adb03434aefd31cd9b834601d190206b64fa1"
   }
 }

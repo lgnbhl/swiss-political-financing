@@ -477,6 +477,39 @@
                     ]
                   }
                 ]
+              },
+              {
+                "id": 2,
+                "label": "Importi finali",
+                "type": "budget",
+                "children": [
+                  {
+                    "id": 0,
+                    "label": "persona fisica",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4675,
+                        "label": "Donatore/trice: Kummer Walter, Attore/trice: Verein Sauberes Wasser für alle, Wiedlisbach",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 1,
+                    "label": "persona giuridica o società di persone",
+                    "type": "donor",
+                    "children": [
+                      {
+                        "id": 4678,
+                        "label": "Donatore/trice: Visempio Stiftung, Attore/trice: Verein Sauberes Wasser für alle, Wiedlisbach",
+                        "type": "allowance",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -13597,6 +13630,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "ff353f1fdf18bd2de741ceb6c302fc672f7ab42e6a80e64ec12671ef38c64d32"
+    "data_checksum_sha256": "e88e5b1ca2f2b5b49b9a533739a28b76f8d62cfa38ed54866ef9c95adc727f6e"
   }
 }

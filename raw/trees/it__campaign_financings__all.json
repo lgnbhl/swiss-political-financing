@@ -755,6 +755,22 @@
                         "campaign_id": 604,
                         "download_path": "/api/frontend/latest/it/downloads/campaigns/604/forms/114",
                         "children": []
+                      },
+                      {
+                        "id": 115,
+                        "label": "Comunicazione del conto finale delle entrate",
+                        "type": "form",
+                        "campaign_id": 604,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/604/forms/115",
+                        "children": []
+                      },
+                      {
+                        "id": 116,
+                        "label": "Comunicazione di liberalità superiori a 15 000 franchi (conto finale)",
+                        "type": "form",
+                        "campaign_id": 604,
+                        "download_path": "/api/frontend/latest/it/downloads/campaigns/604/forms/116",
+                        "children": []
                       }
                     ]
                   }
@@ -18728,6 +18744,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "6dad0e6c86932eb5ae5e5a9fdb3a88de5a8479f8013e5139483ae09107463c6e"
+    "data_checksum_sha256": "84b6e612b1d76ea4ac6b300d1ed63143937ebbe89084740abd9666dd88cf3d22"
   }
 }

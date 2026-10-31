@@ -90,6 +90,13 @@
             "type": "download",
             "download_path": "/api/frontend/latest/fr/downloads/financings/32?with_budget=true",
             "children": []
+          },
+          {
+            "id": 3,
+            "label": "Décompte final des recettes et des libéralités",
+            "type": "download",
+            "download_path": "/api/frontend/latest/fr/downloads/financings/32?with_budget=false",
+            "children": []
           }
         ]
       },
@@ -561,6 +568,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "1d743804d180417dda5e5f168c0adcebc2a4c3078765ceb0083799dd3aa397eb"
+    "data_checksum_sha256": "0a6af40ae9af414ee62377fa4c99a6e2ff4aa44972d6d40b8774f58f81f599e7"
   }
 }
