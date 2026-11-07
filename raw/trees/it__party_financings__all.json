@@ -99,7 +99,7 @@
           },
           {
             "id": 43,
-            "label": "PLR.I Liberali Radicali, Bern",
+            "label": "PLR.I Liberali Radicali, Berna",
             "type": "actor",
             "children": [
               {
@@ -312,7 +312,7 @@
           },
           {
             "id": 43,
-            "label": "PLR.I Liberali Radicali, Bern",
+            "label": "PLR.I Liberali Radicali, Berna",
             "type": "actor",
             "children": [
               {
@@ -540,7 +540,7 @@
           },
           {
             "id": 43,
-            "label": "PLR.I Liberali Radicali, Bern",
+            "label": "PLR.I Liberali Radicali, Berna",
             "type": "actor",
             "children": [
               {
@@ -666,6 +666,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "6561e506899f17ee64d1434e5b1e29a22c3998b09b2c3ce0751f6a8985aef081"
+    "data_checksum_sha256": "ecb3d0008754ae992bd6c3621a8200e34de37dd30542d95435a17f936552a397"
   }
 }

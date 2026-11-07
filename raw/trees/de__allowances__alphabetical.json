@@ -7908,7 +7908,7 @@
                       },
                       {
                         "id": 184,
-                        "label": "Zuwender/in: FDP.Die Liberalen Schweiz, Akteur/in: FDP.Die Liberalen Frauen Schweiz, St. Gallen",
+                        "label": "Zuwender/in: FDP.Die Liberalen Schweiz, Akteur/in: FDP.Die Liberalen Frauen Schweiz, Bern",
                         "type": "allowance",
                         "children": []
                       },
@@ -13630,6 +13630,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "a9ac8bcd8a890b22bbcc90776448594028517a7451fb17953b9d066e96c50325"
+    "data_checksum_sha256": "7d89c3ca06574a6b898cd01a8034b5b4aab76e14e47832cde0c565b02c49ca31"
   }
 }

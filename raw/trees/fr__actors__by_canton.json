@@ -18773,7 +18773,7 @@
               },
               {
                 "id": 242,
-                "label": "FDP.Die Liberalen Frauen Schweiz, St. Gallen",
+                "label": "FDP.Die Liberalen Frauen Schweiz, Bern",
                 "type": "actor",
                 "children": [
                   {
@@ -21316,7 +21316,7 @@
               },
               {
                 "id": 43,
-                "label": "PLR.Les Libéraux-Radicaux, Bern",
+                "label": "PLR.Les Libéraux-Radicaux, Berne",
                 "type": "actor",
                 "children": [
                   {
@@ -25023,6 +25023,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "048dc73a1bec47d06569d23e471adb03434aefd31cd9b834601d190206b64fa1"
+    "data_checksum_sha256": "e432ea918bb17f75c5f7a04d8ef2ba0135cbe4bccbf2e2718630183824cea3e0"
   }
 }

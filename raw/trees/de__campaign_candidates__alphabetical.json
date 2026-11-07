@@ -5061,7 +5061,7 @@
                   },
                   {
                     "id": 217,
-                    "label": "FDP Frauen Schweiz Nationalratswahlen 2023 (schweizweit, FDP.Die Liberalen), Akteur/in: FDP.Die Liberalen Frauen Schweiz, St. Gallen",
+                    "label": "FDP Frauen Schweiz Nationalratswahlen 2023 (schweizweit, FDP.Die Liberalen), Akteur/in: FDP.Die Liberalen Frauen Schweiz, Bern",
                     "type": "campaign",
                     "children": [
                       {
@@ -11415,6 +11415,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "b36edb393993858e2f53c90b080432f2a63e499feb37dafb4a0f4eb21e2532c2"
+    "data_checksum_sha256": "680713053ec31b2676a5a5e9d1341edfc8f74abae87b3f732c7d9664612bbc9e"
   }
 }

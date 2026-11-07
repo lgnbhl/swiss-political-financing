@@ -15070,7 +15070,7 @@
                       },
                       {
                         "id": 88,
-                        "label": "Elections fédérales 2023 / Eidgenössische Wahlen 2023 (in tutta la Svizzera, PLR.I Liberali Radicali), Attore/trice: PLR.I Liberali Radicali, Bern",
+                        "label": "Elections fédérales 2023 / Eidgenössische Wahlen 2023 (in tutta la Svizzera, PLR.I Liberali Radicali), Attore/trice: PLR.I Liberali Radicali, Berna",
                         "type": "campaign",
                         "children": [
                           {
@@ -15108,7 +15108,7 @@
                       },
                       {
                         "id": 217,
-                        "label": "FDP Frauen Schweiz Nationalratswahlen 2023 (in tutta la Svizzera, PLR.I Liberali Radicali), Attore/trice: FDP.Die Liberalen Frauen Schweiz, St. Gallen",
+                        "label": "FDP Frauen Schweiz Nationalratswahlen 2023 (in tutta la Svizzera, PLR.I Liberali Radicali), Attore/trice: FDP.Die Liberalen Frauen Schweiz, Bern",
                         "type": "campaign",
                         "children": [
                           {
@@ -15541,7 +15541,7 @@
                       },
                       {
                         "id": 88,
-                        "label": "Elections fédérales 2023 / Eidgenössische Wahlen 2023 (in tutta la Svizzera, PLR.I Liberali Radicali), Attore/trice: PLR.I Liberali Radicali, Bern",
+                        "label": "Elections fédérales 2023 / Eidgenössische Wahlen 2023 (in tutta la Svizzera, PLR.I Liberali Radicali), Attore/trice: PLR.I Liberali Radicali, Berna",
                         "type": "campaign",
                         "children": [
                           {
@@ -15916,6 +15916,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "c969503417791260c0b0384543ed471ec3e0c530b079dcf5911803c35204b9e7"
+    "data_checksum_sha256": "ef490dee0061d87f6126828335887cee3d43080a34cb97ff0a52e44efaa692bd"
   }
 }

@@ -15070,7 +15070,7 @@
                       },
                       {
                         "id": 88,
-                        "label": "Elections fédérales 2023 / Eidgenössische Wahlen 2023 (dans toute la Suisse, PLR.Les Libéraux-Radicaux), Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                        "label": "Elections fédérales 2023 / Eidgenössische Wahlen 2023 (dans toute la Suisse, PLR.Les Libéraux-Radicaux), Acteur/trice: PLR.Les Libéraux-Radicaux, Berne",
                         "type": "campaign",
                         "children": [
                           {
@@ -15108,7 +15108,7 @@
                       },
                       {
                         "id": 217,
-                        "label": "FDP Frauen Schweiz Nationalratswahlen 2023 (dans toute la Suisse, PLR.Les Libéraux-Radicaux), Acteur/trice: FDP.Die Liberalen Frauen Schweiz, St. Gallen",
+                        "label": "FDP Frauen Schweiz Nationalratswahlen 2023 (dans toute la Suisse, PLR.Les Libéraux-Radicaux), Acteur/trice: FDP.Die Liberalen Frauen Schweiz, Bern",
                         "type": "campaign",
                         "children": [
                           {
@@ -15541,7 +15541,7 @@
                       },
                       {
                         "id": 88,
-                        "label": "Elections fédérales 2023 / Eidgenössische Wahlen 2023 (dans toute la Suisse, PLR.Les Libéraux-Radicaux), Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                        "label": "Elections fédérales 2023 / Eidgenössische Wahlen 2023 (dans toute la Suisse, PLR.Les Libéraux-Radicaux), Acteur/trice: PLR.Les Libéraux-Radicaux, Berne",
                         "type": "campaign",
                         "children": [
                           {
@@ -15916,6 +15916,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "2103cb81359e74ab3a19e1874913be6d528fe9402e50cf744785a794195155a0"
+    "data_checksum_sha256": "0ac237b6fef4d5b6d12e66072f866490a1c3f6a245ac364d772671c03bc3a2e8"
   }
 }

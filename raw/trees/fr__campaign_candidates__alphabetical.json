@@ -5023,7 +5023,7 @@
                   },
                   {
                     "id": 88,
-                    "label": "Elections fédérales 2023 / Eidgenössische Wahlen 2023 (dans toute la Suisse, PLR.Les Libéraux-Radicaux), Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "label": "Elections fédérales 2023 / Eidgenössische Wahlen 2023 (dans toute la Suisse, PLR.Les Libéraux-Radicaux), Acteur/trice: PLR.Les Libéraux-Radicaux, Berne",
                     "type": "campaign",
                     "children": [
                       {
@@ -5061,7 +5061,7 @@
                   },
                   {
                     "id": 217,
-                    "label": "FDP Frauen Schweiz Nationalratswahlen 2023 (dans toute la Suisse, PLR.Les Libéraux-Radicaux), Acteur/trice: FDP.Die Liberalen Frauen Schweiz, St. Gallen",
+                    "label": "FDP Frauen Schweiz Nationalratswahlen 2023 (dans toute la Suisse, PLR.Les Libéraux-Radicaux), Acteur/trice: FDP.Die Liberalen Frauen Schweiz, Bern",
                     "type": "campaign",
                     "children": [
                       {
@@ -10131,7 +10131,7 @@
                   },
                   {
                     "id": 88,
-                    "label": "Elections fédérales 2023 / Eidgenössische Wahlen 2023 (dans toute la Suisse, PLR.Les Libéraux-Radicaux), Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                    "label": "Elections fédérales 2023 / Eidgenössische Wahlen 2023 (dans toute la Suisse, PLR.Les Libéraux-Radicaux), Acteur/trice: PLR.Les Libéraux-Radicaux, Berne",
                     "type": "campaign",
                     "children": [
                       {
@@ -11415,6 +11415,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "17a95d278e259d6ab639413dddaaee4ad178fa2fe26ce5e5a45cce85e8a84ee7"
+    "data_checksum_sha256": "3f6089b1a79e370e7168dca8da042354be4cb20971edf036eb482abfd3221060"
   }
 }

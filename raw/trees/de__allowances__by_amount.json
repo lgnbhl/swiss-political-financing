@@ -6930,7 +6930,7 @@
                   },
                   {
                     "id": 184,
-                    "label": "CHF 50'000.00, Zuwender/in: FDP.Die Liberalen Schweiz, Akteur/in: FDP.Die Liberalen Frauen Schweiz, St. Gallen",
+                    "label": "CHF 50'000.00, Zuwender/in: FDP.Die Liberalen Schweiz, Akteur/in: FDP.Die Liberalen Frauen Schweiz, Bern",
                     "type": "allowance",
                     "children": []
                   },
@@ -12993,6 +12993,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "6e953c165ce93aeeb578229253f5a541756d93e5d83e6772c9b2f037e658e227"
+    "data_checksum_sha256": "f7f7f2cc0f7eb5b74951bab4e074787ec762b499f11366d1cddcee208a42c300"
   }
 }

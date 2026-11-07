@@ -7560,7 +7560,7 @@
                     "children": [
                       {
                         "id": 88,
-                        "label": "Elections fédérales 2023 / Eidgenössische Wahlen 2023 (in tutta la Svizzera, PLR.I Liberali Radicali), Attore/trice: PLR.I Liberali Radicali, Bern",
+                        "label": "Elections fédérales 2023 / Eidgenössische Wahlen 2023 (in tutta la Svizzera, PLR.I Liberali Radicali), Attore/trice: PLR.I Liberali Radicali, Berna",
                         "type": "campaign",
                         "children": [
                           {
@@ -7583,7 +7583,7 @@
                       },
                       {
                         "id": 217,
-                        "label": "FDP Frauen Schweiz Nationalratswahlen 2023 (in tutta la Svizzera, PLR.I Liberali Radicali), Attore/trice: FDP.Die Liberalen Frauen Schweiz, St. Gallen",
+                        "label": "FDP Frauen Schweiz Nationalratswahlen 2023 (in tutta la Svizzera, PLR.I Liberali Radicali), Attore/trice: FDP.Die Liberalen Frauen Schweiz, Bern",
                         "type": "campaign",
                         "children": [
                           {
@@ -9203,7 +9203,7 @@
                     "children": [
                       {
                         "id": 88,
-                        "label": "Elections fédérales 2023 / Eidgenössische Wahlen 2023 (in tutta la Svizzera, PLR.I Liberali Radicali), Attore/trice: PLR.I Liberali Radicali, Bern",
+                        "label": "Elections fédérales 2023 / Eidgenössische Wahlen 2023 (in tutta la Svizzera, PLR.I Liberali Radicali), Attore/trice: PLR.I Liberali Radicali, Berna",
                         "type": "campaign",
                         "children": [
                           {
@@ -13901,6 +13901,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "0eab8f57db6c8b848e4994677020155194898f844f182f5a6d593adc59473c47"
+    "data_checksum_sha256": "86623454dd3800f3a8d716786efd15242d2c044ba29bd09ec7ababbcb727d6a2"
   }
 }

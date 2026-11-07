@@ -4238,7 +4238,7 @@
           },
           {
             "id": 242,
-            "label": "FDP.Die Liberalen Frauen Schweiz, St. Gallen",
+            "label": "FDP.Die Liberalen Frauen Schweiz, Bern",
             "type": "actor",
             "children": [
               {
@@ -24589,6 +24589,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "f019a22b2889cdbe383b3356578c09e1227d4ea473206a60a2eee1ee05d63fb2"
+    "data_checksum_sha256": "5404c0865d96fe06c898295c6df81c404efd4746790aef0412ed33ae1877f863"
   }
 }

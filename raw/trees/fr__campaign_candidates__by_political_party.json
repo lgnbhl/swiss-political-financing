@@ -8746,7 +8746,7 @@
                     "children": [
                       {
                         "id": 88,
-                        "label": "Elections fédérales 2023 / Eidgenössische Wahlen 2023 (dans toute la Suisse, PLR.Les Libéraux-Radicaux), Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                        "label": "Elections fédérales 2023 / Eidgenössische Wahlen 2023 (dans toute la Suisse, PLR.Les Libéraux-Radicaux), Acteur/trice: PLR.Les Libéraux-Radicaux, Berne",
                         "type": "campaign",
                         "children": [
                           {
@@ -8769,7 +8769,7 @@
                       },
                       {
                         "id": 217,
-                        "label": "FDP Frauen Schweiz Nationalratswahlen 2023 (dans toute la Suisse, PLR.Les Libéraux-Radicaux), Acteur/trice: FDP.Die Liberalen Frauen Schweiz, St. Gallen",
+                        "label": "FDP Frauen Schweiz Nationalratswahlen 2023 (dans toute la Suisse, PLR.Les Libéraux-Radicaux), Acteur/trice: FDP.Die Liberalen Frauen Schweiz, Bern",
                         "type": "campaign",
                         "children": [
                           {
@@ -10389,7 +10389,7 @@
                     "children": [
                       {
                         "id": 88,
-                        "label": "Elections fédérales 2023 / Eidgenössische Wahlen 2023 (dans toute la Suisse, PLR.Les Libéraux-Radicaux), Acteur/trice: PLR.Les Libéraux-Radicaux, Bern",
+                        "label": "Elections fédérales 2023 / Eidgenössische Wahlen 2023 (dans toute la Suisse, PLR.Les Libéraux-Radicaux), Acteur/trice: PLR.Les Libéraux-Radicaux, Berne",
                         "type": "campaign",
                         "children": [
                           {
@@ -13901,6 +13901,6 @@
   },
   "meta": {
     "powered_by": "Sitrox",
-    "data_checksum_sha256": "31405beceec1e54326160d1e1a300604d62e17db857e58a769d8d8ba70b7ba28"
+    "data_checksum_sha256": "366f828554501fb73f9c2a5102e7443fe1caddedb2f6959d9a7c184990c1a5fb"
   }
 }
